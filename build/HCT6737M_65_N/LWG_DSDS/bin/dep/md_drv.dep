@@ -1,0 +1,11 @@
+#UPDATE#
+l1_interface.obj:	driver/md_drv/interface/l1_interface.c \
+	interface/modem/l1/gsm/external/l1_interface.h \
+	interface/service/kal/kal_general_types.h \
+	interface/service/kal/clib.h \
+	interface/service/kal/clib_list.h \
+	interface/modem/l1/gsm/external/l1_interface_reg.h \
+	driver/regbase/inc/reg_base.h \
+	driver/regbase/inc/reg_base_mt6735_md1.h \
+	interface/modem/l1/gsm/external/l1_option.h
+#ENDUPDATE#

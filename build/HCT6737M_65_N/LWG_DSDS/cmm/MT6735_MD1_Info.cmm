@@ -1,0 +1,25 @@
+;;
+;; MT6735_MD1_Info.cmm
+;;
+
+;; Modem paths and selection for MD (CR4)
+GLOBAL &OPT_MD_ELF_PATH
+&OPT_MD_ELF_PATH="../bin/HCT6737M_65_N_MDBIN_PCB01_MT6735_S00.elf"
+
+GLOBAL &OPT_MD_BIN_PATH
+&OPT_MD_BIN_PATH="../bin/HCT6737M_65_N_MDBIN_PCB01_MT6735_S00.MOLY_LR9_W1444_MD_LWTG_MP_V110_5_P1.bin"
+
+GLOBAL &OPT_MD_SRC_PATH
+&OPT_MD_SRC_PATH="../../../.."
+
+;; Modem DSP path
+GLOBAL &OPT_DSP_BIN_PATH
+&OPT_DSP_BIN_PATH="../bin/MT6735_MP_SPI_MT6735_DSPMOLY_LR9_W1444_MD_LWTG_MP_V110_5_P1.bin"
+
+
+;; For Multi-Core Debugging
+
+GLOBAL &OPT_MD_ELF_AUTO_LOAD
+&OPT_MD_ELF_AUTO_LOAD=1
+;   1: auto load elf file specified in &OPT_ELF_PATH
+;   0: manually select elf file

@@ -1,0 +1,2 @@
+build/HCT6737M_65_N/LWG_DSDS/bin/dep/codegen_dep/cgen_preflow.det: tools/CreateEmptyTrcGenFiles ./service/dhl/database/TrcGen.lst build/HCT6737M_65_N/LWG_DSDS/bin/~HCT6737M_65_N(LWG_DSDS).mak make/Option.mak make/MODEM.mak
+build/HCT6737M_65_N/LWG_DSDS/bin/dep/codegen_dep/cgen_preflow.det:

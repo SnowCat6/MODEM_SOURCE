@@ -1,0 +1,5 @@
+service/config/src/hal/ctrl_buff_pool.c
+service/config/src/hal/stack_config.c
+service/config/src/hal/syscomp_config.c
+service/config/src/hal/task_config.c
+

@@ -1,0 +1,13 @@
+driver/sys_drv/cache/src/cache.c
+driver/sys_drv/cache/src/cp15_gcc.S
+driver/sys_drv/cache/src/mpu.c
+driver/sys_drv/dormant/src/cortexr4-dormantMode_gcc.S
+driver/sys_drv/dormant/src/dormant_service.c
+driver/sys_drv/init/src/bootarm_gcc.S
+driver/sys_drv/init/src/idle_task.c
+driver/sys_drv/init/src/info.c
+driver/sys_drv/init/src/init.c
+driver/sys_drv/init/src/init_comm.c
+driver/sys_drv/init/src/init_trc.c
+driver/sys_drv/pmu/src/cr4_pmu_montr.c
+

@@ -1,0 +1,17 @@
+#ifndef _ul2_event_info_trc_GEN_H_
+#define _ul2_event_info_trc_GEN_H_
+
+// EVENT_INFO_GROUP3_ADJUST_ACTIVATION_CFN
+#define EVENT_INFO_GROUP3_ADJUST_ACTIVATION_CFN_size "cƒd"
+#define EVENT_INFO_GROUP3_ADJUST_ACTIVATION_CFN EVENT_INFO_GROUP3_ADJUST_ACTIVATION_CFN__enum,EVENT_INFO_GROUP3_ADJUST_ACTIVATION_CFN_size
+
+// EVENT_INFO_TRACE_WARNING_TX_DCH_DELAY
+#define EVENT_INFO_TRACE_WARNING_TX_DCH_DELAY_size "c‚d"
+#define EVENT_INFO_TRACE_WARNING_TX_DCH_DELAY EVENT_INFO_TRACE_WARNING_TX_DCH_DELAY__enum,EVENT_INFO_TRACE_WARNING_TX_DCH_DELAY_size
+
+// EVENT_INFO_TRACE_WARNING_Cipher_Activation_Time_Delayed
+#define EVENT_INFO_TRACE_WARNING_Cipher_Activation_Time_Delayed_size "c‚d"
+#define EVENT_INFO_TRACE_WARNING_Cipher_Activation_Time_Delayed EVENT_INFO_TRACE_WARNING_Cipher_Activation_Time_Delayed__enum,EVENT_INFO_TRACE_WARNING_Cipher_Activation_Time_Delayed_size
+
+
+#endif // ul2_event_info_trc_gen.h

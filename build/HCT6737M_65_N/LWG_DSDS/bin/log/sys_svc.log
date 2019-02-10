@@ -1,0 +1,40 @@
+make[1]: Entering directory '/media/snowcat/ANDROID/modem'
+Compiling service/sys_svc/gfh/public/br_GFH_file_info.c ...
+Compiling service/sys_svc/gfh/public/br_GFH_parser.c ...
+Compiling service/sys_svc/dspfm_lte/src/dspfm.c ...
+service/sys_svc/dspfm_lte/src/dspfm.c: In function 'dspfm_dsp_ver_check':
+service/sys_svc/dspfm_lte/src/dspfm.c:311:5: warning: pointer targets in passing argument 1 of 'snprintf' differ in signedness [-Wpointer-sign]
+/media/snowcat/ANDROID/modem/tools/GCC/4.6.2/linux/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/include/stdio.h:267:5: note: expected 'char *' but argument is of type 'kal_uint8 *'
+service/sys_svc/dspfm_lte/src/dspfm.c:362:1: warning: label '_end' defined but not used [-Wunused-label]
+service/sys_svc/dspfm_lte/src/dspfm.c: In function 'dspfm_get_gfh_file_info':
+service/sys_svc/dspfm_lte/src/dspfm.c:522:14: warning: statement with no effect [-Wunused-value]
+service/sys_svc/dspfm_lte/src/dspfm.c:531:14: warning: statement with no effect [-Wunused-value]
+service/sys_svc/dspfm_lte/src/dspfm.c:539:14: warning: statement with no effect [-Wunused-value]
+service/sys_svc/dspfm_lte/src/dspfm.c: In function 'dspfm_open':
+service/sys_svc/dspfm_lte/src/dspfm.c:588:16: warning: unused variable 'ret' [-Wunused-variable]
+service/sys_svc/dspfm_lte/src/dspfm.c: In function 'dspfm_read':
+service/sys_svc/dspfm_lte/src/dspfm.c:627:23: warning: initialization from incompatible pointer type [enabled by default]
+service/sys_svc/dspfm_lte/src/dspfm.c:639:14: warning: statement with no effect [-Wunused-value]
+service/sys_svc/dspfm_lte/src/dspfm.c:645:14: warning: statement with no effect [-Wunused-value]
+service/sys_svc/dspfm_lte/src/dspfm.c:657:14: warning: statement with no effect [-Wunused-value]
+Compiling service/sys_svc/excep_hdlr/src/excep_hdlr.c ...
+Compiling service/sys_svc/region/src/init_memory_stack.c ...
+Compiling service/sys_svc/compression/src/lzmadec.c ...
+Pre-compiling service/sys_svc/region/src/regioninit_gcc.S ...
+Compiling service/sys_svc/region/src/regioninit_gcc.S ...
+service/sys_svc/region/src/regioninit_gcc.S: Assembler messages:
+service/sys_svc/region/src/regioninit_gcc.S:1010: Warning: conditional infixes are deprecated in unified syntax
+service/sys_svc/region/src/regioninit_gcc.S:1011: Warning: conditional infixes are deprecated in unified syntax
+service/sys_svc/region/src/regioninit_gcc.S:1012: Warning: conditional infixes are deprecated in unified syntax
+Pre-compiling service/sys_svc/region/src/stack_gcc.S ...
+Compiling service/sys_svc/region/src/stack_gcc.S ...
+Module sys_svc is in DEBUG mode
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/sys_svc.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/sys_svc_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -gdwarf-3 -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/sys_svc/lzmadec.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/sys_svc/lzmadec.obj service/sys_svc/compression/src/lzmadec.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/sys_svc/lzmadec.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/sys_svc.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/sys_svc_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -gdwarf-3 -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/sys_svc/dspfm.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/sys_svc/dspfm.obj service/sys_svc/dspfm_lte/src/dspfm.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/sys_svc/dspfm.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/sys_svc.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/sys_svc_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -gdwarf-3 -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/sys_svc/excep_hdlr.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/sys_svc/excep_hdlr.obj service/sys_svc/excep_hdlr/src/excep_hdlr.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/sys_svc/excep_hdlr.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/sys_svc.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/sys_svc_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -gdwarf-3 -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/sys_svc/br_GFH_file_info.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/sys_svc/br_GFH_file_info.obj service/sys_svc/gfh/public/br_GFH_file_info.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/sys_svc/br_GFH_file_info.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/sys_svc.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/sys_svc_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -gdwarf-3 -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/sys_svc/br_GFH_parser.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/sys_svc/br_GFH_parser.obj service/sys_svc/gfh/public/br_GFH_parser.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/sys_svc/br_GFH_parser.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/sys_svc.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/sys_svc_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -gdwarf-3 -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/sys_svc/init_memory_stack.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/sys_svc/init_memory_stack.obj service/sys_svc/region/src/init_memory_stack.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/sys_svc/init_memory_stack.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-ar: creating ./build/HCT6737M_65_N/LWG_DSDS/bin/lib/libsys_svc.a
+./build/HCT6737M_65_N/LWG_DSDS/bin/lib/libsys_svc.a is updated
+make[1]: Leaving directory '/media/snowcat/ANDROID/modem'

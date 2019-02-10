@@ -1,0 +1,7 @@
+middleware/media/audio/src/aud_ilm.c
+middleware/media/audio/src/aud_main.c
+middleware/media/audio/src/aud_utility.c
+middleware/media/common/src/med_ext_smalloc.c
+middleware/media/common/src/med_main.c
+middleware/media/common/src/med_utility.c
+

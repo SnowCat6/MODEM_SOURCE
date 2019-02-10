@@ -1,0 +1,9 @@
+service/sys_svc/compression/src/lzmadec.c
+service/sys_svc/dspfm_lte/src/dspfm.c
+service/sys_svc/excep_hdlr/src/excep_hdlr.c
+service/sys_svc/gfh/public/br_GFH_file_info.c
+service/sys_svc/gfh/public/br_GFH_parser.c
+service/sys_svc/region/src/init_memory_stack.c
+service/sys_svc/region/src/regioninit_gcc.S
+service/sys_svc/region/src/stack_gcc.S
+

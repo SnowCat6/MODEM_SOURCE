@@ -1,0 +1,1 @@
+CUS_REL_SRC_COMP = nvram l4misc config custom audio ft ftc media ul1_hs_plus_ext mml1_rf_ext l1_ext md_drv asn1_common dbinfo verno sys_svc sys_drv tty devdrv ephy_ext hmu ipcore uartcore ccci cccidev cccisrv asn1_common drv mc

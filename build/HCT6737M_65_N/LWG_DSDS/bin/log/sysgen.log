@@ -1,0 +1,43 @@
+NEED BL=FALSE
+========COMMAND==========
+perl tools/sysGen1.pl ./build/HCT6737M_65_N/LWG_DSDS/custom/system
+==
+SYSGEN1: Copy custom_fota.c from custom/system/Template to build/HCT6737M_65_N/LWG_DSDS/custom/system
+SYSGEN1: Copy custom_config.c from custom/system/Template to build/HCT6737M_65_N/LWG_DSDS/custom/system
+SYSGEN1: Copy custom_demp.h.template from custom/system/Template to build/HCT6737M_65_N/LWG_DSDS/custom/system
+SYSGEN1: Copy custom_img_config.c from custom/system/Template to build/HCT6737M_65_N/LWG_DSDS/custom/system
+SYSGEN1: Copy custom_img_config.h.template from custom/system/Template to build/HCT6737M_65_N/LWG_DSDS/custom/system
+SYSGEN1: Copy custom_sds_type.h from custom/system/Template to build/HCT6737M_65_N/LWG_DSDS/custom/system
+SYSGEN1: Copy custom_scatstruct.h.template from custom/system/Template to build/HCT6737M_65_N/LWG_DSDS/custom/system
+SYSGEN1: Copy custom_demp.c from custom/system/Template to build/HCT6737M_65_N/LWG_DSDS/custom/system
+SYSGEN1: Copy custom_blconfig.c.template from custom/system/Template to build/HCT6737M_65_N/LWG_DSDS/custom/system
+SYSGEN1: Copy custom_emi_offset.h.template from custom/system/Template to build/HCT6737M_65_N/LWG_DSDS/custom/system
+SYSGEN1: Copy custom_sds_dp.h from custom/system/Template to build/HCT6737M_65_N/LWG_DSDS/custom/system
+SYSGEN1: Copy custom_secure_config.h.template from custom/system/Template to build/HCT6737M_65_N/LWG_DSDS/custom/system
+SYSGEN1: Copy custom_scatstruct.c.template from custom/system/Template to build/HCT6737M_65_N/LWG_DSDS/custom/system
+SYSGEN1: Copy custom_sds_dp.c from custom/system/Template to build/HCT6737M_65_N/LWG_DSDS/custom/system
+SYSGEN1: Copy custom_fota.h from custom/system/Template to build/HCT6737M_65_N/LWG_DSDS/custom/system
+===========0=============
+========COMMAND==========
+perl tools/scatGen.pl ./build/HCT6737M_65_N/LWG_DSDS/custom/system/ldsHCT6737M_65_N.txt ./build/HCT6737M_65_N/LWG_DSDS/custom/system/ldsBL_MT6735.txt "build/HCT6737M_65_N/LWG_DSDS/bin/~HCT6737M_65_N(LWG_DSDS).mak" ./build/HCT6737M_65_N/LWG_DSDS/custom/system FALSE 0 FALSE ./build/HCT6737M_65_N/LWG_DSDS/bin/log/infomake.log ./build/HCT6737M_65_N/LWG_DSDS/tmp/~copro_info.tmp
+==
+Chip=MT6735_MD1
+custom_MemoryDevice.h:
+NOR_BOOTING_NOR_FS_BASE_ADDRESS = 
+NOR_BOOTING_NOR_FS_SIZE = 
+NAND_BOOTING_NAND_FS_BASE_ADDRESS = 0x02900000
+NAND_BOOTING_NAND_FS_SIZE = 0x03600000
+PROJECT_EXPECTED_RAM_LIMIT = 
+PROJECT_EXPECTED_CODE_LIMIT = 
+PROJECT_EXPECTED_RAM_LIMIT_NFB = 
+
+BOARD_PARAMTERS(Processed information):
+Processed RamSize = 33554432(0x2000000)
+Processed ROMSize = (0x0)
+
+Keyword=TCM
+Keyword=TCM
+build/HCT6737M_65_N/LWG_DSDS/custom/system/ldsHCT6737M_65_N.txt is generated
+build/HCT6737M_65_N/LWG_DSDS/custom/system/ldsHCT6737M_65_N_flashtool.txt is generated
+========Run sysGen2.pl==========
+===========0=============

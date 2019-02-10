@@ -1,0 +1,8 @@
+make[1]: Entering directory '/media/snowcat/ANDROID/modem'
+Pre-compiling modem/ul1/ul1_hs_plus/ul1d_ext/wdata.c ...
+Module ul1_hs_plus_ext is in DEFALUT mode
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/ul1_hs_plus_ext.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/ul1_hs_plus_ext_inc.via -E -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/ul1_hs_plus_ext/wdata.d -o ./build_internal/HCT6737M_65_N/LWG_DSDS/auto_tcm/ul1_hs_plus_ext/wdata.c modem/ul1/ul1_hs_plus/ul1d_ext/wdata.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/ul1_hs_plus_ext/wdata.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/ul1_hs_plus_ext/wdata.obj ./build_internal/HCT6737M_65_N/LWG_DSDS/auto_tcm/ul1_hs_plus_ext/wdata.c
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-ar: creating ./build/HCT6737M_65_N/LWG_DSDS/bin/lib/libul1_hs_plus_ext.a
+./build/HCT6737M_65_N/LWG_DSDS/bin/lib/libul1_hs_plus_ext.a is updated
+make[1]: Leaving directory '/media/snowcat/ANDROID/modem'

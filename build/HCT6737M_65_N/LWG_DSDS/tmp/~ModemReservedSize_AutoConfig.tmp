@@ -1,0 +1,23 @@
+AutoConfig is enabled
+----------------------------Auto Adjust--------------------------
+Actual ROM(Load View) Size = 0x951988
+current ROM Length in LDS= 0xd00000
+current RAM Origin in LDS = 0xd00000
+current RAM Length in LDS= 0x2b00000
+current 1stER in ram = EXTSRAM, VMA=0xd00000
+current RAM Usage = 0x24be5d4
+current RAM Reserved Sizes = 0x40000
+current RAM Margin = 0x601a2c
+current at least Margin setting = 0x80000
+expected ROM Sizes = 0xa00000
+expected VRAM Base = 0xa00000
+expected RAM Sizes = 0x2600000
+expected MD Sizes to be 1MB aligned:
+expected MD_LV Sizes to be 2MB aligned:
+expected MD Sizes(ROM+RAM) = 0x3000000 = 48 MB 
+-----------------------------------------------------------------
+Modify ROM Length = 0xa00000
+Modify RAM ORIGIN = 0xa00000
+Modify RAM Length = 0x2600000
+-----------------------------------------------------------------
+RESULT = [4]AUTOCONFIG_SELF_MODIFY_SUCCESS, PASS

@@ -1,0 +1,861 @@
+#UPDATE#
+Customer_sim_voltage_support.obj:	custom/modem/ps/MT6735_SP_MP/LWG_DSDS/Customer_sim_voltage_support.c \
+	interface/driver/peripheral/drv_comm.h \
+	driver/drv_def/drv_features.h \
+	driver/drv_def/drv_features_usb.h \
+	driver/drv_def/drv_features_chip_select.h \
+	driver/drv_def/drv_features_6735.h \
+	driver/drv_def/drv_features_i2c.h \
+	driver/drv_def/drv_features_accdet.h \
+	driver/drv_def/drv_features_adc.h \
+	driver/drv_def/drv_features_pfc.h \
+	driver/drv_def/drv_features_gcu.h \
+	driver/drv_def/drv_features_gpt.h \
+	driver/drv_def/drv_features_pwm.h \
+	driver/drv_def/drv_features_rtc.h \
+	driver/drv_def/drv_features_wdt.h \
+	driver/drv_def/drv_features_uart.h \
+	driver/drv_def/drv_features_gpio.h \
+	driver/drv_def/drv_features_bmt.h \
+	driver/drv_def/drv_features_misc.h \
+	driver/drv_def/drv_features_msdc.h \
+	driver/drv_def/drv_features_sim.h \
+	driver/drv_def/drv_features_spi.h \
+	driver/drv_def/drv_features_hif.h \
+	driver/drv_def/drv_features_f32k.h \
+	interface/service/kal/kal_general_types.h \
+	interface/service/kal/clib.h \
+	interface/service/kal/clib_list.h \
+	interface/service/kal/kal_public_defs.h \
+	interface/service/config/stack_config.h \
+	interface/sap/hisr_modid.h \
+	interface/sap/module_id_range.h \
+	interface/sap/cross_core/global_modid_range.h \
+	interface/sap/module_hisrid_range.h \
+	interface/service/config/hisr_config_internal.h \
+	interface/sap/cross_core/global_modid.h \
+	interface/sap/cross_core/md1_module_config.h \
+	interface/sap/cross_core/md2_module_config.h \
+	interface/sap/cross_core/md3_module_config.h \
+	interface/sap/srv_modid.h \
+	interface/service/config/srv_task_config.h \
+	interface/sap/modem_2g3g_modid.h \
+	interface/service/config/modem_2g3g_task_config.h \
+	interface/sap/modem_4g_modid.h \
+	interface/service/config/modem_4g_task_config.h \
+	interface/sap/middleware_modid.h \
+	interface/service/config/middleWare_task_config.h \
+	interface/sap/drv_modid.h \
+	interface/service/config/drv_task_config.h \
+	interface/service/config/stack_msgs.h \
+	interface/sap/md_drv_sap.h \
+	interface/sap/sap_range.h \
+	interface/sap/cross_core/global_sap_range.h \
+	driver/regbase/inc/reg_base.h \
+	driver/regbase/inc/reg_base_mt6735_md1.h \
+	interface/service/dhl/kal_trace.h \
+	interface/service/dhl/dhl_trace.h \
+	interface/driver/peripheral/dcl.h \
+	interface/driver/peripheral/dcl_gpt.h \
+	interface/driver/peripheral/dcl_gpio.h \
+	interface/driver/peripheral/dcl_uart.h \
+	interface/modem/general/cmux_vp_num.h \
+	interface/common/global_def.h \
+	interface/driver/peripheral/dcl_wdt.h \
+	interface/driver/peripheral/dcl_adc.h \
+	interface/driver/peripheral/dcl_bmt.h \
+	interface/driver/peripheral/dcl_pfc.h \
+	interface/driver/peripheral/dcl_rtc.h \
+	interface/driver/peripheral/dcl_i2c.h \
+	interface/driver/peripheral/dcl_i2c_owner.h \
+	interface/driver/peripheral/dcl_aux.h \
+	interface/driver/peripheral/dcl_pwm.h \
+	interface/driver/peripheral/DclH_kbd.h \
+	interface/driver/peripheral/DclS_kbd.h \
+	interface/driver/peripheral/dcl_sts.h \
+	interface/driver/peripheral/dcl_msdc.h \
+	interface/driver/connectivity/usb_driver/dcl_usb_drv.h \
+	interface/driver/connectivity/usb_driver/dcl_usb_hcd.h \
+	interface/driver/connectivity/usb_driver/dcl_otg_drv.h \
+	interface/driver/peripheral/dcl_irda.h \
+	interface/driver/peripheral/dcl_sim.h \
+	interface/driver/peripheral/dcl_pmu.h \
+	interface/driver/peripheral/dcl_pw.h \
+	interface/driver/peripheral/dcl_chr_det.h \
+	interface/driver/peripheral/dcl_pxs.h \
+	interface/driver/peripheral/dcl_sim_gpio.h \
+	interface/driver/peripheral/dcl_f32k_clk.h \
+	interface/driver/peripheral/dcl_idc.h
+#ENDUPDATE#
+#UPDATE#
+MT6302_custom.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/MT6302_custom.c \
+	driver/peripheral/inc/gpio_sw.h \
+	interface/driver/storage/sim/MT6302_spi.h \
+	custom/driver/drv/misc_drv/_Default_BB/MT6735/MT6302_custom.h \
+	interface/service/kal/kal_public_api.h
+#ENDUPDATE#
+#UPDATE#
+MT6306_custom.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/MT6306_custom.c \
+	interface/driver/storage/sim/mt6306_i2c.h \
+	custom/driver/drv/misc_drv/_Default_BB/MT6735/mt6306_custom.h
+#ENDUPDATE#
+#UPDATE#
+adc_channel.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/adc_channel.c
+#ENDUPDATE#
+#UPDATE#
+adc_nvram_def.obj:	custom/driver/common/adc_nvram_def.c \
+	interface/service/nvram/nvram_enums.h \
+	interface/service/nvram/nvram_defs.h \
+	build/HCT6737M_65_N/LWG_DSDS/nvram_auto_gen/nvram_lid_statistics.h \
+	interface/service/nvram/nvram_data_items.h \
+	interface/service/config/stack_buff_pool.h \
+	interface/service/config/ctrl_buff_pool.h \
+	interface/service/config/kal_user_mem.h \
+	interface/service/config/sysconf_statistics.h \
+	interface/service/dhl/tst.h \
+	interface/modem/l1/fdd/external/ul1cal.h \
+	interface/modem/l1/fdd/external/ul1d_rf_public.h \
+	interface/modem/l1/fdd/external/ul1d_rf_cid.h \
+	custom/modem/ul1_rf/MT6735_UMTS_FDD_MT6169_CUSTOM/ul1d_custom_mipi.h \
+	interface/modem/mml1/mml1_rf_global.h \
+	interface/modem/mml1/mml1_mipi_public.h \
+	interface/modem/lte/el1_rf_public.h \
+	interface/modem/lte/el1_rf_cid.h \
+	custom/modem/el1_rf/MT6735_LTE_MT6169_CUSTOM/lte_custom_mipi.h \
+	custom/modem/mml1_rf/MT6735_MMRF_CUSTOM/mml1_custom_mipi.h \
+	custom/modem/mml1_rf/MT6735_MMRF_CUSTOM/mml1_custom_drdi.h \
+	interface/modem/lte/el1_meta_if.h \
+	interface/middleware/meta/ft_msg_common.h \
+	interface/modem/lte/el1_rf_public_mt6169.h \
+	interface/modem/lte/el1_drdi.h \
+	custom/service/nvram/custom_nvram_sec.h \
+	interface/service/sys_svc/cust_chl_interface.h \
+	interface/sap/svc/sysservice_msgid.h \
+	interface/sap/module_msg_range.h \
+	interface/sap/cross_core/global_msg_range.h \
+	interface/sap/cross_core/global_msgid.h \
+	interface/sap/cross_core/md1_msgid.h \
+	interface/sap/cross_core/md2_msgid.h \
+	interface/sap/cross_core/md3_msgid.h \
+	interface/service/hif/hmu_conf_data.h \
+	interface/middleware/hif/nmu.h \
+	interface/modem/general/ps_public_enum.h \
+	interface/sap/cross_core/ps_public_enum_public.h \
+	custom/driver/common/adc_nvram_def.h \
+	custom/driver/drv/misc_drv/_Default_BB/MT6735/adc_channel.h
+#ENDUPDATE#
+#UPDATE#
+afe.obj:	custom/driver/audio/_Default_BB/MT6735/afe.c
+#ENDUPDATE#
+#UPDATE#
+alerter_tone.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/alerter_tone.c
+#ENDUPDATE#
+#UPDATE#
+alerterdrv.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/alerterdrv.c \
+	driver/peripheral/inc/alerter_sw.h \
+	driver/peripheral/inc/gpt_sw.h \
+	custom/driver/drv/misc_drv/_Default_BB/MT6735/custom_hw_default.h
+#ENDUPDATE#
+#UPDATE#
+ast_hif_hw.obj:	custom/driver/drv/ast/ast_hif_hw.c
+#ENDUPDATE#
+#UPDATE#
+aud_I2S_config.obj:	custom/driver/common/aud_I2S_config.c
+#ENDUPDATE#
+#UPDATE#
+aud_common.obj:	custom/driver/common/aud_common.c \
+	custom/driver/common/audcoeff_default.h \
+	interface/driver/audio/l1audio.h \
+	interface/service/fs/fs_type.h \
+	interface/service/fs/fs_gprot.h \
+	interface/service/hif/ccci_fs_if.h \
+	interface/service/fs/fsal.h \
+	custom/driver/common/aud_common_config.h
+#ENDUPDATE#
+#UPDATE#
+audcoeff.obj:	custom/driver/audio/_Default_BB/MT6735/audcoeff.c \
+	custom/driver/audio/_Default_BB/MT6735/AudCoeff.h \
+	custom/middleware/common/audio_nvram_def.h \
+	interface/modem/general/device.h \
+	interface/modem/general/ps_public_struct.h \
+	interface/modem/general/sim_ps_enum.h \
+	interface/modem/general/sim_public_enum.h \
+	interface/sap/cross_core/sim_public_enum_public.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/BASIC/mcd/mcd_l4_common.h
+#ENDUPDATE#
+#UPDATE#
+audio_nvram_def.obj:	custom/middleware/common/audio_nvram_def.c \
+	custom/driver/audio/_Default_BB/MT6735/nvram_default_audio.h
+#ENDUPDATE#
+#UPDATE#
+aux_custom.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/aux_custom.c
+#ENDUPDATE#
+#UPDATE#
+chr_parameter.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/chr_parameter.c \
+	interface/driver/peripheral/adc.h \
+	interface/driver/peripheral/bmt.h \
+	interface/driver/peripheral/adc_cali.h
+#ENDUPDATE#
+#UPDATE#
+combo_flash_init.obj:	custom/driver/common/combo_flash_init.c \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_MemoryDevice.h \
+	custom/driver/common/flash_opt.h \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_FeatureConfig.h \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/flash_opt_gen.h
+#ENDUPDATE#
+#UPDATE#
+combo_flash_nor.obj:	custom/driver/common/combo_flash_nor.c \
+	custom/driver/common/combo_flash_init.h \
+	custom/driver/common/combo_flash_defs.h \
+	driver/storage/flash/fdm/inc/DrvFlash.h \
+	service/kal/common/include/kal_internal_api.h \
+	interface/sap/module_taskid_range.h \
+	interface/service/config/hisr_config.h \
+	service/kal/common/include/kal_error_code.h \
+	service/nucleus_v2/inc/nucleus.h \
+	service/nucleus_v2/inc/esal_extern.h \
+	service/nucleus_v2/inc/esal_ge_com_defs.h \
+	service/nucleus_v2/inc/esal_ge_cfg.h \
+	service/nucleus_v2/inc/esal_ar_cfg.h \
+	service/nucleus_v2/inc/esal_ts_cfg.h \
+	service/nucleus_v2/inc/esal_co_cfg.h \
+	service/nucleus_v2/inc/esal_pr_cfg.h \
+	service/nucleus_v2/inc/esal_dp_cfg.h \
+	service/nucleus_v2/inc/esal_ge_dbg_defs.h \
+	service/nucleus_v2/inc/esal_ar_dbg_defs.h \
+	service/nucleus_v2/inc/esal_ge_int_defs.h \
+	service/nucleus_v2/inc/esal_ar_int_defs.h \
+	service/nucleus_v2/inc/esal_ge_isr_defs.h \
+	service/nucleus_v2/inc/esal_ar_isr_defs.h \
+	service/nucleus_v2/inc/esal_ge_mem_defs.h \
+	service/nucleus_v2/inc/esal_ge_stk_defs.h \
+	service/nucleus_v2/inc/esal_ar_stk_defs.h \
+	service/nucleus_v2/inc/esal_ts_stk_defs.h \
+	service/nucleus_v2/inc/esal_ts_rte_defs.h \
+	service/nucleus_v2/inc/esal_ge_tmr_defs.h \
+	service/nucleus_v2/inc/esal_ar_tmr_defs.h \
+	service/nucleus_v2/inc/esal_pr_tmr_defs.h \
+	service/nucleus_v2/inc/esal_ge_rte_defs.h \
+	service/nucleus_v2/inc/plus_cfg.h \
+	service/nucleus_v2/inc/er_extr.h \
+	service/nucleus_v2/inc/cs_defs.h \
+	service/nucleus_v2/inc/tm_defs.h \
+	service/nucleus_v2/inc/tc_defs.h \
+	service/nucleus_v2/inc/mb_defs.h \
+	service/nucleus_v2/inc/qu_defs.h \
+	service/nucleus_v2/inc/pi_defs.h \
+	service/nucleus_v2/inc/sm_defs.h \
+	service/nucleus_v2/inc/ev_defs.h \
+	service/nucleus_v2/inc/pm_defs.h \
+	service/nucleus_v2/inc/dm_defs.h \
+	service/nucleus_v2/inc/tm_extr.h \
+	service/nucleus_v2/inc/zc_extr.h \
+	service/kal/nucleus/include/kal_nucleus_common_defs.h \
+	service/kal/nucleus/include/kal_nucleus.h \
+	service/kal/common/include/kal_debug_common_defs.h \
+	interface/service/stacklib/lcd_ip_cqueue.h \
+	service/kal/nucleus/include/kal_debug_nucleus.h \
+	service/kal/common/include/kal_debug.h \
+	interface/service/fs/fat_fs.h \
+	driver/storage/flash/mtd/inc/flash_mtd_sf_dal.h \
+	driver/storage/flash/mtd/inc/flash_sf.h \
+	driver/storage/flash/mtd/inc/sfi_hw.h \
+	driver/storage/flash/mtd/inc/flash_mtd_pf_dal.h \
+	interface/driver/storage/flash_mtd.h
+#ENDUPDATE#
+#UPDATE#
+custom_EMI_MT6280.obj:	custom/driver/common/custom_EMI_MT6280.c
+#ENDUPDATE#
+#UPDATE#
+custom_EMI_MT6290.obj:	custom/driver/common/custom_EMI_MT6290.c
+#ENDUPDATE#
+#UPDATE#
+custom_EMI_SP.obj:	custom/driver/common/custom_EMI_SP.c \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_EMI_release.h \
+	driver/devdrv/pll/inc/pll.h \
+	driver/devdrv/pll/inc/pll_mt6735.h
+#ENDUPDATE#
+#UPDATE#
+custom_SFI.obj:	custom/driver/common/custom_SFI.c
+#ENDUPDATE#
+#UPDATE#
+custom_atcmd_parse.obj:	custom/modem/common/ps/custom_atcmd_parse.c \
+	interface/sap/mw/gps_msgid.h \
+	interface/service/dhl/tst_sap.h \
+	interface/service/stacklib/stacklib.h \
+	interface/service/stacklib/lcd.h \
+	interface/service/stacklib/lcd_cqueue.h \
+	interface/service/stacklib/lcd_lqueue.h \
+	service/kal/common/include/stack_timer.h \
+	service/kal/common/include/event_shed.h \
+	service/kal/mlib/include/mlib_dll.h \
+	interface/service/nvram/nvram_editor_data_item.h \
+	interface/modem/general/tcm_api.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/BASIC/mcd/mcd_l3_inc_gprs_struct.h \
+	interface/sap/svc_sap.h \
+	interface/sap/cross_core/global_sap.h \
+	interface/sap/cross_core/md1_sap.h \
+	interface/sap/cross_core/md2_sap.h \
+	interface/sap/cross_core/md3_sap.h \
+	custom/modem/common/ps/ul1_nvram_def.h \
+	interface/modem/l1/fdd/external/ul1d_rf_common.h \
+	custom/modem/ul1_rf/MT6735_UMTS_FDD_MT6169_CUSTOM/ul1d_custom_rf.h \
+	custom/modem/ul1_rf/MT6735_UMTS_FDD_MT6169_CUSTOM/wcustomdata.h \
+	custom/modem/common/ps/custom_recovery_timer.h \
+	interface/driver/peripheral/uart_sw.h \
+	interface/driver/peripheral/bmd.h \
+	interface/sap/svc/tst_msgid.h \
+	interface/middleware/gps/gps_struct.h \
+	interface/middleware/gps/gps2lcsp_enum.h \
+	interface/modem/general/agps_md_interface.h \
+	interface/modem/general/nbr_public_struct.h \
+	interface/modem/general/ps2sim_struct.h \
+	interface/modem/general/sim_public_struct.h \
+	interface/modem/general/sim_ps_struct.h \
+	interface/sap/cross_core/sim_ps_struct_public.h \
+	interface/modem/general/ps2sat_struct.h \
+	interface/modem/general/sim_common_enums.h \
+	interface/modem/general/sim_public_api.h \
+	interface/modem/general/sim_ps_api.h \
+	interface/modem/general/smu_common_enums.h \
+	interface/sap/md_mmi_sap.h \
+	interface/modem/general/rmmi_struct.h \
+	modem/interface/l4misc/l3_inc_enums.h \
+	modem/interface/general/irat_common_enums.h \
+	interface/sap/cross_core/irat_common_enums_public.h \
+	interface/sap/cross_core/l3_inc_enums_public.h \
+	modem/l4/include/rmmi_common_enum.h \
+	interface/modem/general/csmss_common_enums.h \
+	modem/interface/l4misc/layer4_context.h
+#ENDUPDATE#
+#UPDATE#
+custom_blconfig.obj:	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_blconfig.c \
+	interface/driver/peripheral/kbd_table.h \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_fota.h \
+	service/sys_svc/bootloader/inc/bl_custom.h \
+	service/sys_svc/bootloader/inc/bl_common.h \
+	service/sys_svc/bootloader/inc/bl_FOTA.h \
+	service/sys_svc/bootloader/inc/bl_loader.h \
+	service/sys_svc/bootloader/inc/bl_nfi_wrapper.h \
+	service/sys_svc/bootloader/inc/bl_NFI.h \
+	service/sys_svc/bootloader/inc/bl_setting.h \
+	service/sys_svc/bootloader/inc/bl_status.h \
+	service/sys_svc/bootloader/inc/bl_features.h \
+	driver/sys_drv/init/inc/feature_def.h \
+	service/sst/include/SST_secure.h \
+	interface/service/sst/sst_interface.h
+#ENDUPDATE#
+#UPDATE#
+custom_cise_config.obj:	custom/modem/common/ps/custom_cise_config.c \
+	custom/modem/common/ps/custom_cise_config.h
+#ENDUPDATE#
+#UPDATE#
+custom_config.obj:	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_config.c \
+	service/kal/common/include/kal_internal_def.h \
+	interface/service/config/task_config.h \
+	interface/service/config/stack_types.h \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/sys_mem_size.h
+#ENDUPDATE#
+#UPDATE#
+custom_demp.obj:	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_demp.c \
+	service/sys_svc/dp/inc/page.h \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_demp.h
+#ENDUPDATE#
+#UPDATE#
+custom_drv_init.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/custom_drv_init.c
+#ENDUPDATE#
+#UPDATE#
+custom_eas_config.obj:	custom/modem/common/ps/custom_eas_config.c \
+	custom/modem/common/ps/custom_eas_config.h
+#ENDUPDATE#
+#UPDATE#
+custom_ecc.obj:	custom/modem/common/custom_ecc.c \
+	custom/modem/common/custom_ecc.h
+#ENDUPDATE#
+#UPDATE#
+custom_em.obj:	custom/modem/common/ps/custom_em.c \
+	interface/service/nvram/nvram_interface.h \
+	custom/modem/common/ps/custom_em.h \
+	interface/modem/general/ps_em_enum.h \
+	interface/modem/general/em_struct.h \
+	interface/modem/general/em_public_struct.h \
+	modem/interface/l4misc/l4c_em.h \
+	modem/interface/l4misc/l4c_common_enum.h \
+	interface/sap/cross_core/l4c_common_enum_public.h
+#ENDUPDATE#
+#UPDATE#
+custom_em_dummyDrv.obj:	custom/modem/common/ps/custom_em_dummyDrv.c
+#ENDUPDATE#
+#UPDATE#
+custom_emm_config.obj:	custom/modem/common/ps/custom_emm_config.c \
+	custom/modem/common/ps/custom_emm_config.h
+#ENDUPDATE#
+#UPDATE#
+custom_equipment.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/custom_equipment.c \
+	interface/service/config/syscomp_config.h \
+	custom/middleware/common/resource_audio.h \
+	custom/driver/drv/misc_drv/_Default_BB/MT6735/custom_equipment.h
+#ENDUPDATE#
+#UPDATE#
+custom_esm_config.obj:	custom/modem/common/ps/custom_esm_config.c \
+	custom/modem/common/ps/custom_esm_config.h \
+	interface/modem/general/ps_public_utility.h \
+	interface/driver/peripheral/keypad_sw.h \
+	interface/driver/sys_drv/intrCtrl.h \
+	driver/devdrv/cirq_v2/inc/intrCtrl_MT6735.h \
+	driver/devdrv/cirq_v2/inc/irqid.h \
+	driver/devdrv/cirq_v2/inc/irqid_MT6735.h \
+	driver/devdrv/cirq_v2/inc/drv_mdcirq.h \
+	interface/driver/sys_drv/isrentry.h \
+	driver/devdrv/cirq_v2/inc/drv_mdcirq_reg.h \
+	driver/devdrv/cirq_v1/inc/intrCtrl_SW_Handle.h \
+	driver/devdrv/cirq_v2/inc/intrCtrl_MT6735_SW_Handle.h \
+	driver/drv_def/drv_features_kbd.h \
+	interface/sap/cross_core/c2k_irat_msg_struct.h \
+	interface/sap/cross_core/tcm_context_public.h \
+	interface/sap/cross_core/mmi_sm_enums_public.h \
+	interface/sap/cross_core/mmi_l3_enums_public.h
+#ENDUPDATE#
+#UPDATE#
+custom_flash.obj:	custom/driver/common/custom_flash.c \
+	driver/storage/flash/fdm/inc/NAND_FDM.h \
+	interface/driver/storage/NAND_MTD.h \
+	interface/service/fota/fota_error.h \
+	driver/storage/flash/mtd/inc/nfi_hw_info.h \
+	driver/storage/flash/mtd/inc/NAND_MTD_internal.h \
+	driver/sys_drv/init/inc/config_hw.h \
+	driver/devdrv/pdn/inc/drvpdn.h \
+	driver/devdrv/pdn/inc/drvpdn_inline.h \
+	driver/devdrv/pdn/inc/drvpdn_inline_mt6735.h \
+	driver/devdrv/pdn/inc/pdn_hw_mt6735_series.h \
+	interface/driver/storage/flash_disk.h \
+	driver/storage/flash/mtd/inc/flash_disk_internal.h \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_flash.h \
+	driver/storage/flash/mtd/inc/flash_mtd_ut.h \
+	driver/storage/flash/fdm/inc/DrvFlash_UT.h \
+	custom/service/nvram/custom_nvram_int_config.h \
+	interface/service/nvram/nvram_config.h
+#ENDUPDATE#
+#UPDATE#
+custom_flash_norfdm5.obj:	custom/driver/common/custom_flash_norfdm5.c
+#ENDUPDATE#
+#UPDATE#
+custom_flc_config.obj:	custom/modem/common/ps/custom_flc_config.c \
+	custom/service/flc2/custom_flc_config.h
+#ENDUPDATE#
+#UPDATE#
+custom_fota.obj:	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_fota.c
+#ENDUPDATE#
+#UPDATE#
+custom_gas_config.obj:	custom/modem/common/ps/custom_gas_config.c
+#ENDUPDATE#
+#UPDATE#
+custom_gmss_config.obj:	custom/modem/common/ps/custom_gmss_config.c \
+	modem/interface/l4misc/l3_inc_local.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/BASIC/mcd/mcd_l3_inc_struct.h \
+	custom/modem/common/ps/custom_gmss_config.h \
+	custom/modem/common/ps/custom_nwsel_config.h
+#ENDUPDATE#
+#UPDATE#
+custom_gprs_pdp_config.obj:	custom/modem/common/ps/custom_gprs_pdp_config.c \
+	custom/modem/common/ps/custom_gprs_pdp_config.h \
+	modem/interface/l4/l4_ps_api.h \
+	modem/interface/l4/l4c_ratdm_struct.h
+#ENDUPDATE#
+#UPDATE#
+custom_gprs_pdp_value_check.obj:	custom/modem/common/ps/custom_gprs_pdp_value_check.c \
+	custom/modem/common/ps/custom_gprs_pdp_value_check.h \
+	custom/modem/common/ps/custom_gprs_pdp_default_qos_config.h
+#ENDUPDATE#
+#UPDATE#
+custom_hw_default.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/custom_hw_default.c
+#ENDUPDATE#
+#UPDATE#
+custom_img_config.obj:	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_img_config.c
+#ENDUPDATE#
+#UPDATE#
+custom_l4_utility.obj:	custom/modem/common/ps/custom_l4_utility.c \
+	interface/modem/l1/gsm/external/l1_interface.h \
+	modem/interface/general/mrs_eas_capability.h \
+	modem/interface/general/mrs_as_enums.h \
+	interface/modem/general/csmcc_enums.h \
+	interface/sap/md/sim_ps_msgid.h \
+	custom/modem/common/ps/custom_l4_utility.h
+#ENDUPDATE#
+#UPDATE#
+custom_led_patterns.obj:	custom/modem/common/custom_led_patterns.c \
+	custom/modem/common/custom_led_patterns.h
+#ENDUPDATE#
+#UPDATE#
+custom_mm_config.obj:	custom/modem/common/ps/custom_mm_config.c \
+	custom/modem/common/ps/custom_mm_config.h
+#ENDUPDATE#
+#UPDATE#
+custom_nvram_cat.obj:	custom/service/nvram/custom_nvram_cat.c \
+	custom/service/nvram/custom_nvram_cat.h
+#ENDUPDATE#
+#UPDATE#
+custom_nvram_config.obj:	custom/middleware/common/custom_nvram_config.c \
+	custom/middleware/common/custom_nvram_config.h
+#ENDUPDATE#
+#UPDATE#
+custom_nvram_extra.obj:	custom/modem/common/ps/custom_nvram_extra.c \
+	custom/modem/common/ps/custom_nvram_extra.h \
+	modem/l4/smu/include/smu_trc.h \
+	build/HCT6737M_65_N/LWG_DSDS/dhl/database/pstrace_db/smu_trc_gen.h \
+	modem/l4/smu/include/smu_def.h \
+	modem/interface/l4misc/l4c_utility.h \
+	interface/modem/general/l4crac_enums.h
+#ENDUPDATE#
+#UPDATE#
+custom_nvram_int_config.obj:	custom/service/nvram/custom_nvram_int_config.c \
+	interface/service/hif/ccci_if.h \
+	interface/middleware/hif/hif_ior.h \
+	interface/service/qmu_bm/qmu_bm.h \
+	interface/service/qmu_bm/qbm_features.h \
+	interface/service/qmu_bm/qmu_bm_enum.h \
+	interface/service/qmu_bm/qmu_bm_in.h \
+	interface/service/qmu_bm/qmu_bm_size.h \
+	interface/driver/sys_drv/cache_sw.h \
+	interface/service/hif/ccci_ch_cfg.h \
+	interface/service/hif/ccci_sysmsgsvc_conf.h \
+	interface/service/hif/ccci_misc_data_conf.h \
+	interface/service/hif/ccci_excep_memory_region.h
+#ENDUPDATE#
+#UPDATE#
+custom_nvram_restore.obj:	build/HCT6737M_65_N/LWG_DSDS/nvram_auto_gen/custom_nvram_restore.c
+#ENDUPDATE#
+#UPDATE#
+custom_nvram_sec.obj:	custom/service/nvram/custom_nvram_sec.c \
+	service/nvram/include/nvram_sec.h \
+	service/nvram/include/nvram_internal.h
+#ENDUPDATE#
+#UPDATE#
+custom_nvram_secro.obj:	build/HCT6737M_65_N/LWG_DSDS/nvram_auto_gen/custom_nvram_secro.c
+#ENDUPDATE#
+#UPDATE#
+custom_nvram_secro_tbl.obj:	build/HCT6737M_65_N/LWG_DSDS/nvram_auto_gen/custom_nvram_secro_tbl.c
+#ENDUPDATE#
+#UPDATE#
+custom_nwsel_config.obj:	custom/modem/common/ps/custom_nwsel_config.c
+#ENDUPDATE#
+#UPDATE#
+custom_recovery_timer.obj:	custom/modem/common/ps/custom_recovery_timer.c
+#ENDUPDATE#
+#UPDATE#
+custom_rrce_config.obj:	custom/modem/common/ps/custom_rrce_config.c \
+	custom/modem/common/ps/custom_rrce_config.h
+#ENDUPDATE#
+#UPDATE#
+custom_scatstruct.obj:	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_scatstruct.c \
+	driver/sys_drv/init/inc/init.h \
+	interface/service/sys_svc/init_public.h \
+	driver/sys_drv/cache/inc/cache_sw_int.h \
+	driver/sys_drv/cache/inc/cache_hw_int.h \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_scatstruct.h
+#ENDUPDATE#
+#UPDATE#
+custom_sdm_utility.obj:	custom/modem/common/ps/custom_sdm_utility.c
+#ENDUPDATE#
+#UPDATE#
+custom_sds_dp.obj:	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_sds_dp.c \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_sds_dp.h \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_sds_type.h
+#ENDUPDATE#
+#UPDATE#
+custom_sec_key.obj:	custom/middleware/common/custom_sec_key.c \
+	custom/middleware/common/custom_sec_key.h
+#ENDUPDATE#
+#UPDATE#
+custom_sim_driver.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/custom_sim_driver.c \
+	interface/driver/storage/sim/multi_icc_custom.h \
+	interface/driver/sys_drv/eint.h \
+	driver/devdrv/cirq_v1/inc/Eint_internal.h \
+	driver/devdrv/eint/inc/eint_sw.h \
+	driver/devdrv/eint/inc/eint_hw.h
+#ENDUPDATE#
+#UPDATE#
+custom_sms_config.obj:	custom/modem/common/ps/custom_sms_config.c
+#ENDUPDATE#
+#UPDATE#
+custom_uas_config.obj:	custom/modem/common/ps/custom_uas_config.c \
+	custom/modem/common/ps/custom_uas_config.h
+#ENDUPDATE#
+#UPDATE#
+custom_uem.obj:	custom/modem/common/ps/custom_uem.c \
+	modem/l4/uem/include/uem_trc.h \
+	build/HCT6737M_65_N/LWG_DSDS/dhl/database/pstrace_db/uem_trc_gen.h \
+	custom/modem/common/custom_uem.h
+#ENDUPDATE#
+#UPDATE#
+custom_umac.obj:	custom/modem/common/ps/custom_umac.c \
+	custom/modem/common/ps/custom_umac.h
+#ENDUPDATE#
+#UPDATE#
+custom_ups_config.obj:	custom/modem/common/ps/custom_ups_config.c \
+	custom/modem/common/ps/custom_ups_config.h
+#ENDUPDATE#
+#UPDATE#
+custom_urlc_config.obj:	custom/modem/common/ps/custom_urlc_config.c \
+	custom/modem/common/ps/custom_urlc_config.h
+#ENDUPDATE#
+#UPDATE#
+customer_at_command.obj:	custom/modem/common/ps/customer_at_command.c
+#ENDUPDATE#
+#UPDATE#
+customer_band_block_default_setting.obj:	custom/modem/common/ps/customer_band_block_default_setting.c
+#ENDUPDATE#
+#UPDATE#
+customer_cb_service_by_plmn.obj:	custom/modem/common/ps/customer_cb_service_by_plmn.c
+#ENDUPDATE#
+#UPDATE#
+customer_cm_retry_count.obj:	custom/modem/common/ps/customer_cm_retry_count.c
+#ENDUPDATE#
+#UPDATE#
+customer_cmux_setting.obj:	custom/modem/common/ps/customer_cmux_setting.c \
+	custom/modem/common/ps/customer_cmux_setting.h
+#ENDUPDATE#
+#UPDATE#
+customer_gas_command.obj:	custom/modem/common/ps/customer_gas_command.c \
+	custom/modem/common/ps/customer_gas_command.h
+#ENDUPDATE#
+#UPDATE#
+customer_l4c_msghdlr.obj:	custom/modem/common/ps/customer_l4c_msghdlr.c
+#ENDUPDATE#
+#UPDATE#
+customer_mbim_config.obj:	custom/modem/common/ps/customer_mbim_config.c \
+	custom/modem/common/ps/customer_mbim_config.h \
+	interface/modem/general/mbim_defs.h
+#ENDUPDATE#
+#UPDATE#
+customer_operator_name.obj:	custom/modem/common/ps/customer_operator_name.c
+#ENDUPDATE#
+#UPDATE#
+customer_pwr_level_report.obj:	custom/modem/common/ps/customer_pwr_level_report.c
+#ENDUPDATE#
+#UPDATE#
+customer_sms_discard_patent.obj:	custom/modem/common/ps/customer_sms_discard_patent.c
+#ENDUPDATE#
+#UPDATE#
+customer_sms_force_read_smsp.obj:	custom/modem/common/ps/customer_sms_force_read_smsp.c
+#ENDUPDATE#
+#UPDATE#
+customer_sms_msg_box_num.obj:	custom/modem/common/ps/customer_sms_msg_box_num.c \
+	modem/l4/smsal/include/smsal_structs.h \
+	modem/interface/l4misc/smsal_l4c_enum.h \
+	modem/interface/l4misc/l4c2smsal_struct.h \
+	interface/modem/general/smsal_peer_struct.h \
+	interface/modem/general/mnsms_struct.h \
+	modem/l4/smsal/include/smsal_defs.h \
+	modem/interface/general/protocol_section.h \
+	modem/l4/include/smsal_l4c_defs.h \
+	custom/modem/common/customer_ps_inc.h
+#ENDUPDATE#
+#UPDATE#
+customer_sms_prefer_order.obj:	custom/modem/common/ps/customer_sms_prefer_order.c
+#ENDUPDATE#
+#UPDATE#
+customer_sms_tl_retry.obj:	custom/modem/common/ps/customer_sms_tl_retry.c
+#ENDUPDATE#
+#UPDATE#
+customer_supc_config.obj:	custom/modem/ps/MT6735_SP_MP/LWG_DSDS/customer_supc_config.c
+#ENDUPDATE#
+#UPDATE#
+dhl_export_config.obj:	custom/service/tst/dhl_export_config.c
+#ENDUPDATE#
+#UPDATE#
+eint_def.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/eint_def.c
+#ENDUPDATE#
+#UPDATE#
+ex_nvram_def.obj:	custom/service/nvram/ex_nvram_def.c \
+	custom/service/nvram/ex_nvram_def.h \
+	custom/service/nvram/ex_nvram_editor.h \
+	service/sst/include/ex_item.h \
+	interface/service/sst/ex_public.h
+#ENDUPDATE#
+#UPDATE#
+exif_custom.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/exif_custom.c
+#ENDUPDATE#
+#UPDATE#
+fmr_config_customize.obj:	custom/driver/common/fmr_config_customize.c
+#ENDUPDATE#
+#UPDATE#
+fs_config.obj:	custom/service/fs/fs_config.c \
+	service/fs/common/include/fs_internal_def.h \
+	service/fs/common/include/fs_iprot.h
+#ENDUPDATE#
+#UPDATE#
+fs_quota.obj:	custom/middleware/common/fs_quota.c
+#ENDUPDATE#
+#UPDATE#
+ft_customize.obj:	custom/middleware/meta/MT6735_SP_MP/LWG_DSDS/ft_customize.c \
+	custom/middleware/common/ft_customize.h
+#ENDUPDATE#
+#UPDATE#
+gpio_drv.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/gpio_drv.c
+#ENDUPDATE#
+#UPDATE#
+gps_common_config.obj:	custom/driver/common/gps_common_config.c
+#ENDUPDATE#
+#UPDATE#
+l1d_custom_mipi.obj:	custom/modem/l1_rf/MT6735_2G_MT6169_CUSTOM/l1d_custom_mipi.c \
+	modem/gl1/l1_dm/l1d_ext/l1d_cid.h \
+	modem/gl1/l1_dm/l1d_ext/m12190.h \
+	interface/modem/l1/gsm/external/l1cal.h \
+	interface/modem/l1/gsm/external/l1_option.h \
+	custom/modem/l1_rf/MT6735_2G_MT6169_CUSTOM/l1d_custom_rf.h \
+	custom/modem/l1_rf/MT6735_2G_MT6169_CUSTOM/l1d_custom_mipi.h \
+	interface/modem/l1/gsm/external/l1_types_public.h \
+	interface/modem/l1/gsm/external/mph_types.h \
+	interface/modem/l1/gsm/external/l1_gemini_def.h \
+	modem/gl1/l1_dm/l1d_ext/l1d_mipi_data.h \
+	modem/gl1/l1_dm/l1d_ext/l1d_rf.h \
+	modem/gl1/l1_dm/l1d_ext/l1d_mipi.h
+#ENDUPDATE#
+#UPDATE#
+lmmi_ind.obj:	custom/modem/common/ps/lmmi_ind.c \
+	interface/modem/general/csmcc_common_enums.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/BASIC/mcd/mcd_ps2sat_peer.h \
+	modem/interface/l4misc/l4c2phb_enums.h \
+	modem/interface/l4misc/l4c_eq_cmd.h \
+	interface/middleware/media/med_struct.h \
+	interface/modem/general/l4c2uem_struct.h \
+	interface/modem/general/l4c_aux_struct.h \
+	modem/interface/lte/l4c_el1_struct.h
+#ENDUPDATE#
+#UPDATE#
+lmmi_rsp.obj:	custom/modem/common/ps/lmmi_rsp.c
+#ENDUPDATE#
+#UPDATE#
+lte_custom_drdi.obj:	custom/modem/el1_rf/MT6735_LTE_MT6169_CUSTOM/lte_custom_drdi.c \
+	custom/modem/el1_rf/MT6735_LTE_MT6169_CUSTOM/lte_custom_drdi.h \
+	custom/modem/el1_rf/MT6735_LTE_MT6169_CUSTOM/lte_custom_rf.h
+#ENDUPDATE#
+#UPDATE#
+lte_custom_mipi.obj:	custom/modem/el1_rf/MT6735_LTE_MT6169_CUSTOM/lte_custom_mipi.c
+#ENDUPDATE#
+#UPDATE#
+lte_custom_rf.obj:	custom/modem/el1_rf/MT6735_LTE_MT6169_CUSTOM/lte_custom_rf.c
+#ENDUPDATE#
+#UPDATE#
+m12193.obj:	custom/modem/l1_rf/MT6735_2G_MT6169_CUSTOM/m12193.c
+#ENDUPDATE#
+#UPDATE#
+meta_customize.obj:	custom/middleware/common/meta_customize.c \
+	interface/middleware/meta/ft_msg.h \
+	interface/middleware/meta/ft_msg_fta.h \
+	interface/middleware/meta/ft_msg_ftc.h \
+	interface/middleware/meta/ft_msg_l1rf.h \
+	interface/middleware/meta/l1tst_public.h \
+	interface/modem/l1/gsm/external/l1_kal.h \
+	interface/sap/md_sap.h \
+	interface/middleware/meta/l1tst_nsft_lm_public.h \
+	interface/middleware/meta/ft_msg_misc.h \
+	interface/middleware/meta/ft_msg_misc_ex.h \
+	interface/middleware/meta/ft_msg_ul1rf.h \
+	interface/middleware/meta/ft_msg_util.h \
+	interface/middleware/meta/ft_msg_lterf.h \
+	custom/middleware/common/meta_customize.h
+#ENDUPDATE#
+#UPDATE#
+mml1_custom_drdi.obj:	custom/modem/mml1_rf/MT6735_MMRF_CUSTOM/mml1_custom_drdi.c
+#ENDUPDATE#
+#UPDATE#
+mml1_custom_mipi.obj:	custom/modem/mml1_rf/MT6735_MMRF_CUSTOM/mml1_custom_mipi.c
+#ENDUPDATE#
+#UPDATE#
+mml1_custom_rf.obj:	custom/modem/mml1_rf/MT6735_MMRF_CUSTOM/mml1_custom_rf.c \
+	custom/modem/mml1_rf/MT6735_MMRF_CUSTOM/mml1_custom_rf.h
+#ENDUPDATE#
+#UPDATE#
+msdc_custom.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/msdc_custom.c \
+	driver/storage/mc/inc/msdc_def.h \
+	interface/driver/storage/mc/msdc_api.h \
+	driver/storage/mc/inc/msdc_reg_adap.h \
+	interface/driver/sys_drv/sync_data.h \
+	interface/driver/sys_drv/cp15.h
+#ENDUPDATE#
+#UPDATE#
+nvram_cust_pack.obj:	custom/service/nvram/nvram_cust_pack.c
+#ENDUPDATE#
+#UPDATE#
+nvram_custpack_table_lid.obj:	custom/service/nvram/nvram_custpack_table_lid.c
+#ENDUPDATE#
+#UPDATE#
+nvram_data_items.obj:	custom/service/nvram/nvram_data_items.c \
+	custom/service/nvram/custom_nvram_restore.h
+#ENDUPDATE#
+#UPDATE#
+nvram_default_audio.obj:	custom/driver/audio/_Default_BB/MT6735/nvram_default_audio.c
+#ENDUPDATE#
+#UPDATE#
+pmic_custom.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/pmic_custom.c
+#ENDUPDATE#
+#UPDATE#
+pmu_custom.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/pmu_custom.c
+#ENDUPDATE#
+#UPDATE#
+pwmdrv.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/pwmdrv.c \
+	driver/peripheral/inc/pwm_sw.h \
+	driver/peripheral/inc/rwg_sw.h
+#ENDUPDATE#
+#UPDATE#
+pxs_custom.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/pxs_custom.c
+#ENDUPDATE#
+#UPDATE#
+resource_audio.obj:	custom/middleware/common/resource_audio.c
+#ENDUPDATE#
+#UPDATE#
+rmmi_ats.obj:	custom/modem/common/atci/src/rmmi_ats.c \
+	interface/sap/drv/drv_msgid.h
+#ENDUPDATE#
+#UPDATE#
+rmmi_msgbased_at.obj:	custom/modem/common/atci/src/rmmi_msgbased_at.c \
+	interface/sap/md/ps_public_l4_msgid.h
+#ENDUPDATE#
+#UPDATE#
+rmmi_validator_custom_op01.obj:	custom/modem/common/atci/src/rmmi_validator_custom_op01.c
+#ENDUPDATE#
+#UPDATE#
+rmmi_validator_custom_tc01.obj:	custom/modem/common/atci/src/rmmi_validator_custom_tc01.c
+#ENDUPDATE#
+#UPDATE#
+tst_file_default_Catcher_filter.obj:	build/HCT6737M_65_N/LWG_DSDS/dhl/src/tst_file_default_Catcher_filter.c
+#ENDUPDATE#
+#UPDATE#
+tst_mini_log_default_Catcher_filter.obj:	build/HCT6737M_65_N/LWG_DSDS/dhl/src/tst_mini_log_default_Catcher_filter.c
+#ENDUPDATE#
+#UPDATE#
+two_mic_NR_custom_if.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/two_mic_NR_custom_if.c
+#ENDUPDATE#
+#UPDATE#
+u12193.obj:	custom/modem/ul1_rf/MT6735_UMTS_FDD_MT6169_CUSTOM/u12193.c
+#ENDUPDATE#
+#UPDATE#
+uart_def.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/uart_def.c
+#ENDUPDATE#
+#UPDATE#
+uem_gpio.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/uem_gpio.c
+#ENDUPDATE#
+#UPDATE#
+ul1_nvram_def.obj:	custom/modem/common/ps/ul1_nvram_def.c
+#ENDUPDATE#
+#UPDATE#
+ul1d_custom_mipi.obj:	custom/modem/ul1_rf/MT6735_UMTS_FDD_MT6169_CUSTOM/ul1d_custom_mipi.c
+#ENDUPDATE#
+#UPDATE#
+usb_custom.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/usb_custom.c \
+	driver/connectivity/usb_driver/inc/usb_custom.h \
+	driver/connectivity/usb_driver/inc/usb_memory_def.h \
+	custom/driver/drv/misc_drv/_Default_BB/MT6735/usb_custom_def.h
+#ENDUPDATE#
+#UPDATE#
+usb_host_ms_custom.obj:	custom/driver/drv/misc_drv/_Default_BB/MT6735/usb_host_ms_custom.c \
+	driver/connectivity/usb_driver/inc/usb_host_ms_custom.h
+#ENDUPDATE#
+#UPDATE#
+usbc_custom.obj:	custom/middleware/common/usbc_custom.c
+#ENDUPDATE#
+#UPDATE#
+wcustomdata.obj:	custom/modem/ul1_rf/MT6735_UMTS_FDD_MT6169_CUSTOM/wcustomdata.c
+#ENDUPDATE#

@@ -1,0 +1,123 @@
+#UPDATE#
+BC_drv.obj:	driver/drv/src/BC_drv.c \
+	interface/driver/peripheral/drv_comm.h \
+	driver/drv_def/drv_features.h \
+	driver/drv_def/drv_features_usb.h \
+	driver/drv_def/drv_features_chip_select.h \
+	driver/drv_def/drv_features_6735.h \
+	driver/drv_def/drv_features_i2c.h \
+	driver/drv_def/drv_features_accdet.h \
+	driver/drv_def/drv_features_adc.h \
+	driver/drv_def/drv_features_pfc.h \
+	driver/drv_def/drv_features_gcu.h \
+	driver/drv_def/drv_features_gpt.h \
+	driver/drv_def/drv_features_pwm.h \
+	driver/drv_def/drv_features_rtc.h \
+	driver/drv_def/drv_features_wdt.h \
+	driver/drv_def/drv_features_uart.h \
+	driver/drv_def/drv_features_gpio.h \
+	driver/drv_def/drv_features_bmt.h \
+	driver/drv_def/drv_features_misc.h \
+	driver/drv_def/drv_features_msdc.h \
+	driver/drv_def/drv_features_sim.h \
+	driver/drv_def/drv_features_spi.h \
+	driver/drv_def/drv_features_hif.h \
+	driver/drv_def/drv_features_f32k.h \
+	interface/service/kal/kal_general_types.h \
+	interface/service/kal/clib.h \
+	interface/service/kal/clib_list.h \
+	interface/service/kal/kal_public_defs.h \
+	interface/service/config/stack_config.h \
+	interface/sap/hisr_modid.h \
+	interface/sap/module_id_range.h \
+	interface/sap/cross_core/global_modid_range.h \
+	interface/sap/module_hisrid_range.h \
+	interface/service/config/hisr_config_internal.h \
+	interface/sap/cross_core/global_modid.h \
+	interface/sap/cross_core/md1_module_config.h \
+	interface/sap/cross_core/md2_module_config.h \
+	interface/sap/cross_core/md3_module_config.h \
+	interface/sap/srv_modid.h \
+	interface/service/config/srv_task_config.h \
+	interface/sap/modem_2g3g_modid.h \
+	interface/service/config/modem_2g3g_task_config.h \
+	interface/sap/modem_4g_modid.h \
+	interface/service/config/modem_4g_task_config.h \
+	interface/sap/middleware_modid.h \
+	interface/service/config/middleWare_task_config.h \
+	interface/sap/drv_modid.h \
+	interface/service/config/drv_task_config.h \
+	interface/service/config/stack_msgs.h \
+	interface/sap/md_drv_sap.h \
+	interface/sap/sap_range.h \
+	interface/sap/cross_core/global_sap_range.h \
+	driver/regbase/inc/reg_base.h \
+	driver/regbase/inc/reg_base_mt6735_md1.h \
+	interface/service/dhl/kal_trace.h \
+	interface/service/dhl/dhl_trace.h \
+	interface/driver/sys_drv/intrCtrl.h \
+	driver/devdrv/cirq_v2/inc/intrCtrl_MT6735.h \
+	driver/devdrv/cirq_v2/inc/irqid.h \
+	driver/devdrv/cirq_v2/inc/irqid_MT6735.h \
+	driver/devdrv/cirq_v2/inc/drv_mdcirq.h \
+	interface/service/kal/kal_public_api.h \
+	interface/driver/sys_drv/isrentry.h \
+	driver/devdrv/cirq_v2/inc/drv_mdcirq_reg.h \
+	interface/service/config/hisr_config.h \
+	driver/devdrv/cirq_v1/inc/intrCtrl_SW_Handle.h \
+	driver/devdrv/cirq_v2/inc/intrCtrl_MT6735_SW_Handle.h \
+	interface/service/config/syscomp_config.h \
+	interface/service/config/stack_types.h \
+	interface/driver/peripheral/drv_hisr.h \
+	driver/drv/include/BC_drv.h
+#ENDUPDATE#
+#UPDATE#
+bf.obj:	driver/drv/src/bf.c \
+	interface/driver/peripheral/bmd.h
+#ENDUPDATE#
+#UPDATE#
+e_compass_main.obj:	driver/drv/src/e_compass_main.c
+#ENDUPDATE#
+#UPDATE#
+e_compass_sensor.obj:	driver/drv/src/e_compass_sensor.c \
+	driver/peripheral/inc/gpio_sw.h \
+	interface/driver/peripheral/dcl.h \
+	interface/driver/peripheral/dcl_gpt.h \
+	interface/driver/peripheral/dcl_gpio.h \
+	interface/driver/peripheral/dcl_uart.h \
+	interface/modem/general/cmux_vp_num.h \
+	interface/common/global_def.h \
+	interface/driver/peripheral/dcl_wdt.h \
+	interface/driver/peripheral/dcl_adc.h \
+	interface/driver/peripheral/dcl_bmt.h \
+	interface/driver/peripheral/dcl_pfc.h \
+	interface/driver/peripheral/dcl_rtc.h \
+	interface/driver/peripheral/dcl_i2c.h \
+	interface/driver/peripheral/dcl_i2c_owner.h \
+	interface/driver/peripheral/dcl_aux.h \
+	interface/driver/peripheral/dcl_pwm.h \
+	interface/driver/peripheral/DclH_kbd.h \
+	interface/driver/peripheral/DclS_kbd.h \
+	interface/driver/peripheral/dcl_sts.h \
+	interface/driver/peripheral/dcl_msdc.h \
+	interface/driver/connectivity/usb_driver/dcl_usb_drv.h \
+	interface/driver/connectivity/usb_driver/dcl_usb_hcd.h \
+	interface/driver/connectivity/usb_driver/dcl_otg_drv.h \
+	interface/driver/peripheral/dcl_irda.h \
+	interface/driver/peripheral/dcl_sim.h \
+	interface/driver/peripheral/dcl_pmu.h \
+	interface/driver/peripheral/dcl_pw.h \
+	interface/driver/peripheral/dcl_chr_det.h \
+	interface/driver/peripheral/dcl_pxs.h \
+	interface/driver/peripheral/dcl_sim_gpio.h \
+	interface/driver/peripheral/dcl_f32k_clk.h \
+	interface/driver/peripheral/dcl_idc.h \
+	interface/sap/svc_sap.h \
+	interface/sap/cross_core/global_sap.h \
+	interface/sap/cross_core/md1_sap.h \
+	interface/sap/cross_core/md2_sap.h \
+	interface/sap/cross_core/md3_sap.h \
+	interface/sap/svc/nvram_msgid.h \
+	interface/sap/module_msg_range.h \
+	interface/sap/cross_core/global_msg_range.h
+#ENDUPDATE#

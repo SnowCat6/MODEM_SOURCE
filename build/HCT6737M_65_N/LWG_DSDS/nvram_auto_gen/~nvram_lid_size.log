@@ -1,0 +1,423 @@
+--------------------------------------------------------------------------
+   0       108                                            NVRAM_EF_SYS_LID                    
+   0       108                                            NVRAM_EF_SYS_LID                    
+   8         4                                   NVRAM_EF_IMPT_COUNTER_LID                    
+  15       262                                 NVRAM_EF_L1_AGCPATHLOSS_LID                    
+  16       674                            NVRAM_EF_L1_RAMPTABLE_GSM850_LID                    
+  17       674                            NVRAM_EF_L1_RAMPTABLE_GSM900_LID                    
+  18       674                           NVRAM_EF_L1_RAMPTABLE_DCS1800_LID                    
+  19       674                           NVRAM_EF_L1_RAMPTABLE_PCS1900_LID                    
+  20       674                       NVRAM_EF_L1_EPSK_RAMPTABLE_GSM850_LID                    
+  21       674                       NVRAM_EF_L1_EPSK_RAMPTABLE_GSM900_LID                    
+  22       674                      NVRAM_EF_L1_EPSK_RAMPTABLE_DCS1800_LID                    
+  23       674                      NVRAM_EF_L1_EPSK_RAMPTABLE_PCS1900_LID                    
+  24        66                  NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_GSM850_LID                    
+  25        66                  NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_GSM900_LID                    
+  26        66                 NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_DCS1800_LID                    
+  27        66                 NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_PCS1900_LID                    
+  28        10                                     NVRAM_EF_L1_AFCDATA_LID                    
+  29        46                                        NVRAM_EF_L1_TXIQ_LID                    
+  30       546                               NVRAM_EF_L1_RFSPECIALCOEF_LID                    
+  31        18                       NVRAM_EF_L1_INTERSLOT_RAMP_GSM850_LID                    
+  32        18                       NVRAM_EF_L1_INTERSLOT_RAMP_GSM900_LID                    
+  33        18                      NVRAM_EF_L1_INTERSLOT_RAMP_DCS1800_LID                    
+  34        18                      NVRAM_EF_L1_INTERSLOT_RAMP_PCS1900_LID                    
+  35        66                             NVRAM_EF_L1_CRYSTAL_AFCDATA_LID                    
+  36         6                             NVRAM_EF_L1_CRYSTAL_CAPDATA_LID                    
+  37        22                NVRAM_EF_L1_GMSK_TX_POWER_ROLLBACK_TABLE_LID                    
+  38        22                NVRAM_EF_L1_EPSK_TX_POWER_ROLLBACK_TABLE_LID                    
+  39       246                                   NVRAM_EF_L1_GMSK_TXPC_LID                    
+  40       246                                   NVRAM_EF_L1_EPSK_TXPC_LID                    
+  41       132                                 NVRAM_EF_L1_LNAPATHLOSS_LID                    
+  42        18                             NVRAM_EF_L1_TEMPERATURE_ADC_LID                    
+2816        18                                   NVRAM_EF_UL1_TEMP_DAC_LID                    
+2817       722                             NVRAM_EF_UL1_PATHLOSS_BAND1_LID                    
+2818       722                             NVRAM_EF_UL1_PATHLOSS_BAND2_LID                    
+2819       722                             NVRAM_EF_UL1_PATHLOSS_BAND3_LID                    
+2820       722                             NVRAM_EF_UL1_PATHLOSS_BAND4_LID                    
+2821       722                             NVRAM_EF_UL1_PATHLOSS_BAND5_LID                    
+2822       722                             NVRAM_EF_UL1_PATHLOSS_BAND6_LID                    
+2823       722                             NVRAM_EF_UL1_PATHLOSS_BAND7_LID                    
+2824       722                             NVRAM_EF_UL1_PATHLOSS_BAND8_LID                    
+2825       722                             NVRAM_EF_UL1_PATHLOSS_BAND9_LID                    
+2826       722                            NVRAM_EF_UL1_PATHLOSS_BAND10_LID                    
+2827       722                            NVRAM_EF_UL1_PATHLOSS_BAND11_LID                    
+2835       722                            NVRAM_EF_UL1_PATHLOSS_BAND19_LID                    
+2836       710                                NVRAM_EF_UL1_TXDAC_BAND1_LID                    
+2837       710                                NVRAM_EF_UL1_TXDAC_BAND2_LID                    
+2838       710                                NVRAM_EF_UL1_TXDAC_BAND3_LID                    
+2839       710                                NVRAM_EF_UL1_TXDAC_BAND4_LID                    
+2840       710                                NVRAM_EF_UL1_TXDAC_BAND5_LID                    
+2841       710                                NVRAM_EF_UL1_TXDAC_BAND6_LID                    
+2842       710                                NVRAM_EF_UL1_TXDAC_BAND7_LID                    
+2843       710                                NVRAM_EF_UL1_TXDAC_BAND8_LID                    
+2844       710                                NVRAM_EF_UL1_TXDAC_BAND9_LID                    
+2845       710                               NVRAM_EF_UL1_TXDAC_BAND10_LID                    
+2846       710                               NVRAM_EF_UL1_TXDAC_BAND11_LID                    
+2854       710                               NVRAM_EF_UL1_TXDAC_BAND19_LID                    
+2855        98                           NVRAM_EF_UL1_TXPAOCTLEV_BAND1_LID                    
+2856        98                           NVRAM_EF_UL1_TXPAOCTLEV_BAND2_LID                    
+2857        98                           NVRAM_EF_UL1_TXPAOCTLEV_BAND3_LID                    
+2858        98                           NVRAM_EF_UL1_TXPAOCTLEV_BAND4_LID                    
+2859        98                           NVRAM_EF_UL1_TXPAOCTLEV_BAND5_LID                    
+2860        98                           NVRAM_EF_UL1_TXPAOCTLEV_BAND6_LID                    
+2861        98                           NVRAM_EF_UL1_TXPAOCTLEV_BAND7_LID                    
+2862        98                           NVRAM_EF_UL1_TXPAOCTLEV_BAND8_LID                    
+2863        98                           NVRAM_EF_UL1_TXPAOCTLEV_BAND9_LID                    
+2864        98                          NVRAM_EF_UL1_TXPAOCTLEV_BAND10_LID                    
+2865        98                          NVRAM_EF_UL1_TXPAOCTLEV_BAND11_LID                    
+2873        98                          NVRAM_EF_UL1_TXPAOCTLEV_BAND19_LID                    
+2874       100                            NVRAM_EF_UL1_PATHLOSS2_BAND1_LID                    
+2875       100                            NVRAM_EF_UL1_PATHLOSS2_BAND2_LID                    
+2876       100                            NVRAM_EF_UL1_PATHLOSS2_BAND3_LID                    
+2877       100                            NVRAM_EF_UL1_PATHLOSS2_BAND4_LID                    
+2878       100                            NVRAM_EF_UL1_PATHLOSS2_BAND5_LID                    
+2879       100                            NVRAM_EF_UL1_PATHLOSS2_BAND6_LID                    
+2880       100                            NVRAM_EF_UL1_PATHLOSS2_BAND7_LID                    
+2881       100                            NVRAM_EF_UL1_PATHLOSS2_BAND8_LID                    
+2882       100                            NVRAM_EF_UL1_PATHLOSS2_BAND9_LID                    
+2883       100                           NVRAM_EF_UL1_PATHLOSS2_BAND10_LID                    
+2884       100                           NVRAM_EF_UL1_PATHLOSS2_BAND11_LID                    
+2892       100                           NVRAM_EF_UL1_PATHLOSS2_BAND19_LID                    
+2893        74                        NVRAM_EF_UL1_TXPADRIFTCOMP_BAND1_LID                    
+2894        74                        NVRAM_EF_UL1_TXPADRIFTCOMP_BAND2_LID                    
+2895        74                        NVRAM_EF_UL1_TXPADRIFTCOMP_BAND3_LID                    
+2896        74                        NVRAM_EF_UL1_TXPADRIFTCOMP_BAND4_LID                    
+2897        74                        NVRAM_EF_UL1_TXPADRIFTCOMP_BAND5_LID                    
+2898        74                        NVRAM_EF_UL1_TXPADRIFTCOMP_BAND6_LID                    
+2899        74                        NVRAM_EF_UL1_TXPADRIFTCOMP_BAND7_LID                    
+2900        74                        NVRAM_EF_UL1_TXPADRIFTCOMP_BAND8_LID                    
+2901        74                        NVRAM_EF_UL1_TXPADRIFTCOMP_BAND9_LID                    
+2902        74                       NVRAM_EF_UL1_TXPADRIFTCOMP_BAND10_LID                    
+2903        74                       NVRAM_EF_UL1_TXPADRIFTCOMP_BAND11_LID                    
+2911        74                       NVRAM_EF_UL1_TXPADRIFTCOMP_BAND19_LID                    
+2912        98                        NVRAM_EF_UL1_TXPRACHTMCOMP_BAND1_LID                    
+2913        98                        NVRAM_EF_UL1_TXPRACHTMCOMP_BAND2_LID                    
+2914        98                        NVRAM_EF_UL1_TXPRACHTMCOMP_BAND3_LID                    
+2915        98                        NVRAM_EF_UL1_TXPRACHTMCOMP_BAND4_LID                    
+2916        98                        NVRAM_EF_UL1_TXPRACHTMCOMP_BAND5_LID                    
+2917        98                        NVRAM_EF_UL1_TXPRACHTMCOMP_BAND6_LID                    
+2918        98                        NVRAM_EF_UL1_TXPRACHTMCOMP_BAND7_LID                    
+2919        98                        NVRAM_EF_UL1_TXPRACHTMCOMP_BAND8_LID                    
+2920        98                        NVRAM_EF_UL1_TXPRACHTMCOMP_BAND9_LID                    
+2921        98                       NVRAM_EF_UL1_TXPRACHTMCOMP_BAND10_LID                    
+2922        98                       NVRAM_EF_UL1_TXPRACHTMCOMP_BAND11_LID                    
+2930        98                       NVRAM_EF_UL1_TXPRACHTMCOMP_BAND19_LID                    
+2931        10                                     NVRAM_EF_UL1_AFCDAC_LID                    
+2932         6                                     NVRAM_EF_UL1_AFCCAP_LID                    
+ 107        66                                    NVRAM_EF_BARCODE_NUM_LID                    
+ 108       314                                       NVRAM_EF_CAL_FLAG_LID                    
+ 109      1354                                 NVRAM_EF_CAL_DATA_CHECK_LID                    
+ 165       120                                    NVRAM_EF_IMEI_IMEISV_LID                    
+ 166      2060                                            NVRAM_EF_SML_LID                    
+ 166      2060                                            NVRAM_EF_SML_LID                    
+ 167       728                                       NVRAM_EF_SIM_LOCK_LID                    
+ 167       728                                       NVRAM_EF_SIM_LOCK_LID                    
+   7      4730                                 NVRAM_EF_SYS_STATISTICS_LID                    
+ 121        30                                NVRAM_EF_AS_BAND_SETTING_LID                    
+ 113      1082                             NVRAM_EF_L1_2G_RF_PARAMETER_LID                    
+ 122        16                                      NVRAM_EF_BAND_INFO_LID                    
+ 422       504                          NVRAM_EF_GAS_WORKING_BAND_INFO_LID                    
+ 123      4088                                     NVRAM_EF_TST_FILTER_LID                    
+ 188      1830                            NVRAM_EF_GAS_CSG_FINGERPRINT_LID                    
+ 416      4088                                     NVRAM_EF_DHL_FILTER_LID                    
+ 124        82                                   NVRAM_EF_PORT_SETTING_LID                    
+ 158      3720                                      NVRAM_EF_SMSAL_SMS_LID                    
+ 159       144                             NVRAM_EF_SMSAL_MAILBOX_ADDR_LID            CUSTPACK
+ 160        36                             NVRAM_EF_SMSAL_COMMON_PARAM_LID            CUSTPACK
+ 161       168                                     NVRAM_EF_SMSAL_SMSP_LID                    
+ 162        80                                     NVRAM_EF_SMSAL_MWIS_LID                    
+ 163        44                                  NVRAM_EF_CB_DEFAULT_CH_LID            CUSTPACK
+ 164       564                                     NVRAM_EF_CB_CH_INFO_LID                    
+ 150       268                              NVRAM_EF_TCM_CID_0_PROFILE_LID                    
+ 151      2948                                NVRAM_EF_TCM_PDP_PROFILE_LID                    
+ 152         8                                       NVRAM_EF_CFU_FLAG_LID                    
+ 153       228                                    NVRAM_EF_MM_LOCIGPRS_LID                    
+ 155         8                                    NVRAM_EF_ALS_LINE_ID_LID            CUSTPACK
+ 156        12                                          NVRAM_EF_MSCAP_LID            CUSTPACK
+ 126        22                                NVRAM_EF_CLASSMARK_RACAP_LID                    
+ 127      1440                                     NVRAM_EF_SIM_ASSERT_LID                    
+ 128        18                                       NVRAM_EF_RTC_DATA_LID                    
+ 129      8192                                        NVRAM_EF_NET_PAR_LID                    
+ 142        24                             NVRAM_EF_UMTS_BAND_PRIORITY_LID                    
+ 420        98                              NVRAM_EF_UMTS_DMCR_SETTING_LID                    
+ 421        98                          NVRAM_EF_UMTS_SIB_SKIP_SETTING_LID                    
+ 131        52                                      NVRAM_EF_UMTS_IMSI_LID                    
+ 132        16                                 NVRAM_EF_UMTS_START_HFN_LID                    
+ 133       108                     NVRAM_EF_UMTS_USIME_RRC_DYNAMIC_CAP_LID                    
+ 138      2002                      NVRAM_EF_UMTS_FREQUENCY_REPOSITORY_LID                    
+ 139      4004                         NVRAM_EF_PREV_VISITED_CELL_INFO_LID                    
+ 140      2502                                    NVRAM_EF_UE_CSG_LIST_LID                    
+ 141      6534                          NVRAM_EF_UMTS_FINGERPRINT_INFO_LID                    
+ 134      8186                                 NVRAM_EF_L1_3G_CAL_DATA_LID                    
+ 173         3                                   NVRAM_EF_ETWS_SETTING_LID                    
+ 176         3                                       NVRAM_EF_CSM_ESSP_LID                    
+ 143       442                              NVRAM_EF_CUST_HW_LEVEL_TBL_LID                    
+ 144       302                           NVRAM_EF_UEM_MANUFACTURE_DATA_LID                    
+ 145       218                                   NVRAM_EF_UEM_RMI_DATA_LID                    
+ 146        50                               NVRAM_EF_GPS_SETTING_DATA_LID                    
+ 168        80                                    NVRAM_EF_MS_SECURITY_LID            CUSTPACK
+ 170     11112                                   NVRAM_EF_PHB_LN_ENTRY_LID                    
+ 171       124                                NVRAM_EF_PHB_LN_TYPE_SEQ_LID                    
+ 181       200                                NVRAM_EF_SYS_CACHE_OCTET_LID                    
+ 185        20                                 NVRAM_EF_RAC_PREFERENCE_LID            CUSTPACK
+ 172         6                        NVRAM_EF_PS_CONFORMANCE_TESTMODE_LID                    
+ 169       880                                            NVRAM_EF_PHB_LID                    
+ 196         7                                     NVRAM_EF_TST_CONFIG_LID                    
+ 175      1004                                       NVRAM_EF_MSQ_LIST_LID                    
+ 261       156                             NVRAM_EF_EPSLOCI_EPSNSC_TIN_LID            CUSTPACK
+ 262        52                                 NVRAM_EF_LTE_PREFERENCE_LID            CUSTPACK
+ 263       388                            NVRAM_EF_ERRC_STORED_CARRIER_LID                    
+ 264      1656                          NVRAM_EF_ERRC_PERFORMANCE_PARA_LID                    
+ 265      8208                              NVRAM_EF_ERRC_FINGER_PRINT_LID                    
+ 266      1836                               NVRAM_EF_ERRC_LEARNED_MCC_LID                    
+ 267       386                               NVRAM_EF_ERRC_STORED_CELL_LID                    
+ 268        66                               NVRAM_EF_ERRC_AFR_SETTING_LID                    
+ 269       274                                        NVRAM_EF_LTE_CAP_LID                    
+ 270       106                              NVRAM_EF_UE_EUTRA_CAP_CSFB_LID                    
+ 271       106                              NVRAM_EF_UE_EUTRA_CAP_MMDC_LID                    
+ 187      1812                                     NVRAM_EF_NWSEL_DATA_LID                    
+ 197     16258                                   NVRAM_EF_EL1_PWRONCAL_LID                    
+ 198      2050                               NVRAM_EF_EL1_DSPLOGFILTER_LID                    
+ 199        10                                 NVRAM_EF_EL1_FREQADJTBL_LID                    
+ 200      2944                        NVRAM_EF_EL1_RSSIGAINTBL_1STBAND_LID                    
+ 201      2944                        NVRAM_EF_EL1_RSSIGAINTBL_2NDBAND_LID                    
+ 202      2944                        NVRAM_EF_EL1_RSSIGAINTBL_3RDBAND_LID                    
+ 203      2944                        NVRAM_EF_EL1_RSSIGAINTBL_4THBAND_LID                    
+ 204      2944                        NVRAM_EF_EL1_RSSIGAINTBL_5THBAND_LID                    
+ 205      2944                        NVRAM_EF_EL1_RSSIGAINTBL_6THBAND_LID                    
+ 206      2944                        NVRAM_EF_EL1_RSSIGAINTBL_7THBAND_LID                    
+ 207      2944                        NVRAM_EF_EL1_RSSIGAINTBL_8THBAND_LID                    
+ 208      2944                        NVRAM_EF_EL1_RSSIGAINTBL_9THBAND_LID                    
+ 209      2944                       NVRAM_EF_EL1_RSSIGAINTBL_10THBAND_LID                    
+ 210      2944                       NVRAM_EF_EL1_RSSIGAINTBL_11THBAND_LID                    
+ 211      2944                       NVRAM_EF_EL1_RSSIGAINTBL_12THBAND_LID                    
+ 212      2944                       NVRAM_EF_EL1_RSSIGAINTBL_13THBAND_LID                    
+ 213      2944                       NVRAM_EF_EL1_RSSIGAINTBL_14THBAND_LID                    
+ 214      2106                                NVRAM_EF_EL1_CTRL_REG_RW_LID                    
+ 215      2162                              NVRAM_EF_EL1_TXDAC_1STBAND_LID                    
+ 216      2162                              NVRAM_EF_EL1_TXDAC_2NDBAND_LID                    
+ 217      2162                              NVRAM_EF_EL1_TXDAC_3RDBAND_LID                    
+ 218      2162                              NVRAM_EF_EL1_TXDAC_4THBAND_LID                    
+ 219      2162                              NVRAM_EF_EL1_TXDAC_5THBAND_LID                    
+ 220      2162                              NVRAM_EF_EL1_TXDAC_6THBAND_LID                    
+ 221      2162                              NVRAM_EF_EL1_TXDAC_7THBAND_LID                    
+ 222      2162                              NVRAM_EF_EL1_TXDAC_8THBAND_LID                    
+ 223      2162                              NVRAM_EF_EL1_TXDAC_9THBAND_LID                    
+ 224      2162                             NVRAM_EF_EL1_TXDAC_10THBAND_LID                    
+ 225      2162                             NVRAM_EF_EL1_TXDAC_11THBAND_LID                    
+ 226      2162                             NVRAM_EF_EL1_TXDAC_12THBAND_LID                    
+ 227      2162                             NVRAM_EF_EL1_TXDAC_13THBAND_LID                    
+ 228      2162                             NVRAM_EF_EL1_TXDAC_14THBAND_LID                    
+ 229       104                         NVRAM_EF_EL1_TXPAOCTLEV_1STBAND_LID                    
+ 230       104                         NVRAM_EF_EL1_TXPAOCTLEV_2NDBAND_LID                    
+ 231       104                         NVRAM_EF_EL1_TXPAOCTLEV_3RDBAND_LID                    
+ 232       104                         NVRAM_EF_EL1_TXPAOCTLEV_4THBAND_LID                    
+ 233       104                         NVRAM_EF_EL1_TXPAOCTLEV_5THBAND_LID                    
+ 234       104                         NVRAM_EF_EL1_TXPAOCTLEV_6THBAND_LID                    
+ 235       104                         NVRAM_EF_EL1_TXPAOCTLEV_7THBAND_LID                    
+ 236       104                         NVRAM_EF_EL1_TXPAOCTLEV_8THBAND_LID                    
+ 237       104                         NVRAM_EF_EL1_TXPAOCTLEV_9THBAND_LID                    
+ 238       104                        NVRAM_EF_EL1_TXPAOCTLEV_10THBAND_LID                    
+ 239       104                        NVRAM_EF_EL1_TXPAOCTLEV_11THBAND_LID                    
+ 240       104                        NVRAM_EF_EL1_TXPAOCTLEV_12THBAND_LID                    
+ 241       104                        NVRAM_EF_EL1_TXPAOCTLEV_13THBAND_LID                    
+ 242       104                        NVRAM_EF_EL1_TXPAOCTLEV_14THBAND_LID                    
+ 243      1586                       NVRAM_EF_EL1_ETVINLUTDATA_1STBAND_LID                    
+ 244      1586                       NVRAM_EF_EL1_ETVINLUTDATA_2NDBAND_LID                    
+ 245      1586                       NVRAM_EF_EL1_ETVINLUTDATA_3RDBAND_LID                    
+ 246      1586                       NVRAM_EF_EL1_ETVINLUTDATA_4THBAND_LID                    
+ 247      1586                       NVRAM_EF_EL1_ETVINLUTDATA_5THBAND_LID                    
+ 248      1586                       NVRAM_EF_EL1_ETVINLUTDATA_6THBAND_LID                    
+ 249      1586                       NVRAM_EF_EL1_ETVINLUTDATA_7THBAND_LID                    
+ 250      1586                       NVRAM_EF_EL1_ETVINLUTDATA_8THBAND_LID                    
+ 251      1586                       NVRAM_EF_EL1_ETVINLUTDATA_9THBAND_LID                    
+ 252      1586                      NVRAM_EF_EL1_ETVINLUTDATA_10THBAND_LID                    
+ 253      1586                      NVRAM_EF_EL1_ETVINLUTDATA_11THBAND_LID                    
+ 254      1586                      NVRAM_EF_EL1_ETVINLUTDATA_12THBAND_LID                    
+ 255      1586                      NVRAM_EF_EL1_ETVINLUTDATA_13THBAND_LID                    
+ 256      1586                      NVRAM_EF_EL1_ETVINLUTDATA_14THBAND_LID                    
+ 257      4654                                NVRAM_EF_EL1_ETCOMPPARAM_LID                    
+ 258        18                             NVRAM_EF_EL1_TEMPERATUREDAC_LID                    
+ 272        32                             NVRAM_EF_EL1_BAND_INDICATOR_LID                    
+ 273       366                               NVRAM_EF_EL1_RX_PDATABASE_LID                    
+ 274       254                               NVRAM_EF_EL1_TX_PDATABASE_LID                    
+ 275        86                                      NVRAM_EF_EL1_RF_IO_LID                    
+ 276         4                        NVRAM_EF_EL1_CUSTOM_DYNAMIC_INIT_LID                    
+ 277       834                  NVRAM_EF_EL1_CUSTOM_DYNAMIC_INIT_DEBUG_LID                    
+ 278         4                          NVRAM_EF_EL1_RF_RX_PATH_CONFIG_LID                    
+ 279         4                               NVRAM_EF_EL1_MIPI_FEATURE_LID                    
+ 284       302                      NVRAM_EF_EL1_MIPI_RX_EVENT_1STBAND_LID                    
+ 285       302                      NVRAM_EF_EL1_MIPI_RX_EVENT_2NDBAND_LID                    
+ 286       302                      NVRAM_EF_EL1_MIPI_RX_EVENT_3RDBAND_LID                    
+ 287       302                      NVRAM_EF_EL1_MIPI_RX_EVENT_4THBAND_LID                    
+ 288       302                      NVRAM_EF_EL1_MIPI_RX_EVENT_5THBAND_LID                    
+ 289       302                      NVRAM_EF_EL1_MIPI_RX_EVENT_6THBAND_LID                    
+ 290       302                      NVRAM_EF_EL1_MIPI_RX_EVENT_7THBAND_LID                    
+ 291       302                      NVRAM_EF_EL1_MIPI_RX_EVENT_8THBAND_LID                    
+ 292       302                      NVRAM_EF_EL1_MIPI_RX_EVENT_9THBAND_LID                    
+ 293       302                     NVRAM_EF_EL1_MIPI_RX_EVENT_10THBAND_LID                    
+ 294       302                     NVRAM_EF_EL1_MIPI_RX_EVENT_11THBAND_LID                    
+ 295       302                     NVRAM_EF_EL1_MIPI_RX_EVENT_12THBAND_LID                    
+ 296       302                     NVRAM_EF_EL1_MIPI_RX_EVENT_13THBAND_LID                    
+ 297       302                     NVRAM_EF_EL1_MIPI_RX_EVENT_14THBAND_LID                    
+ 298       302                      NVRAM_EF_EL1_MIPI_TX_EVENT_1STBAND_LID                    
+ 299       302                      NVRAM_EF_EL1_MIPI_TX_EVENT_2NDBAND_LID                    
+ 300       302                      NVRAM_EF_EL1_MIPI_TX_EVENT_3RDBAND_LID                    
+ 301       302                      NVRAM_EF_EL1_MIPI_TX_EVENT_4THBAND_LID                    
+ 302       302                      NVRAM_EF_EL1_MIPI_TX_EVENT_5THBAND_LID                    
+ 303       302                      NVRAM_EF_EL1_MIPI_TX_EVENT_6THBAND_LID                    
+ 304       302                      NVRAM_EF_EL1_MIPI_TX_EVENT_7THBAND_LID                    
+ 305       302                      NVRAM_EF_EL1_MIPI_TX_EVENT_8THBAND_LID                    
+ 306       302                      NVRAM_EF_EL1_MIPI_TX_EVENT_9THBAND_LID                    
+ 307       302                     NVRAM_EF_EL1_MIPI_TX_EVENT_10THBAND_LID                    
+ 308       302                     NVRAM_EF_EL1_MIPI_TX_EVENT_11THBAND_LID                    
+ 309       302                     NVRAM_EF_EL1_MIPI_TX_EVENT_12THBAND_LID                    
+ 310       302                     NVRAM_EF_EL1_MIPI_TX_EVENT_13THBAND_LID                    
+ 311       302                     NVRAM_EF_EL1_MIPI_TX_EVENT_14THBAND_LID                    
+ 326      1822           NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_1STBAND_LID                    
+ 327      1822           NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_2NDBAND_LID                    
+ 328      1822           NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_3RDBAND_LID                    
+ 329      1822           NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_4THBAND_LID                    
+ 330      1822           NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_5THBAND_LID                    
+ 331      1822           NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_6THBAND_LID                    
+ 332      1822           NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_7THBAND_LID                    
+ 333      1822           NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_8THBAND_LID                    
+ 334      1822           NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_9THBAND_LID                    
+ 335      1822          NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_10THBAND_LID                    
+ 336      1822          NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_11THBAND_LID                    
+ 337      1822          NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_12THBAND_LID                    
+ 338      1822          NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_13THBAND_LID                    
+ 339      1822          NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_14THBAND_LID                    
+ 259       170                                  NVRAM_EF_EL1_MPRADJTBL_LID                    
+ 260       730                                 NVRAM_EF_EL1_AMPRADJTBL_LID                    
+ 312        74                     NVRAM_EF_EL1_MIPI_TPC_EVENT_1STBAND_LID                    
+ 313        74                     NVRAM_EF_EL1_MIPI_TPC_EVENT_2NDBAND_LID                    
+ 314        74                     NVRAM_EF_EL1_MIPI_TPC_EVENT_3RDBAND_LID                    
+ 315        74                     NVRAM_EF_EL1_MIPI_TPC_EVENT_4THBAND_LID                    
+ 316        74                     NVRAM_EF_EL1_MIPI_TPC_EVENT_5THBAND_LID                    
+ 317        74                     NVRAM_EF_EL1_MIPI_TPC_EVENT_6THBAND_LID                    
+ 318        74                     NVRAM_EF_EL1_MIPI_TPC_EVENT_7THBAND_LID                    
+ 319        74                     NVRAM_EF_EL1_MIPI_TPC_EVENT_8THBAND_LID                    
+ 320        74                     NVRAM_EF_EL1_MIPI_TPC_EVENT_9THBAND_LID                    
+ 321        74                    NVRAM_EF_EL1_MIPI_TPC_EVENT_10THBAND_LID                    
+ 322        74                    NVRAM_EF_EL1_MIPI_TPC_EVENT_11THBAND_LID                    
+ 323        74                    NVRAM_EF_EL1_MIPI_TPC_EVENT_12THBAND_LID                    
+ 324        74                    NVRAM_EF_EL1_MIPI_TPC_EVENT_13THBAND_LID                    
+ 325        74                    NVRAM_EF_EL1_MIPI_TPC_EVENT_14THBAND_LID                    
+ 280        14                             NVRAM_EF_EL1_RXON_BPIOFFSET_LID                    
+ 281        18                             NVRAM_EF_EL1_TXON_BPIOFFSET_LID                    
+ 282        10                            NVRAM_EF_EL1_RXOFF_BPIOFFSET_LID                    
+ 283         6                            NVRAM_EF_EL1_TXOFF_BPIOFFSET_LID                    
+ 373         4                        NVRAM_EF_EL1_MIPI_BYPASS_FEATURE_LID                    
+ 374       302               NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_1STBAND_LID                    
+ 375       302               NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_2NDBAND_LID                    
+ 376       302               NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_3RDBAND_LID                    
+ 379        74              NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_1STBAND_LID                    
+ 380        74              NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_2NDBAND_LID                    
+ 381        74              NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_3RDBAND_LID                    
+ 384      1822    NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_1STBAND_LID                    
+ 385      1822    NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_2NDBAND_LID                    
+ 386      1822    NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_3RDBAND_LID                    
+ 340      2402                       NVRAM_EF_EL1_MIPI_RX_DATA_1STBAND_LID                    
+ 341      2402                       NVRAM_EF_EL1_MIPI_RX_DATA_2NDBAND_LID                    
+ 342      2402                       NVRAM_EF_EL1_MIPI_RX_DATA_3RDBAND_LID                    
+ 343      2402                       NVRAM_EF_EL1_MIPI_RX_DATA_4THBAND_LID                    
+ 344      2402                       NVRAM_EF_EL1_MIPI_RX_DATA_5THBAND_LID                    
+ 345      2402                       NVRAM_EF_EL1_MIPI_RX_DATA_6THBAND_LID                    
+ 346      2402                       NVRAM_EF_EL1_MIPI_RX_DATA_7THBAND_LID                    
+ 347      2402                       NVRAM_EF_EL1_MIPI_RX_DATA_8THBAND_LID                    
+ 348      2402                       NVRAM_EF_EL1_MIPI_RX_DATA_9THBAND_LID                    
+ 349      2402                      NVRAM_EF_EL1_MIPI_RX_DATA_10THBAND_LID                    
+ 350      2402                      NVRAM_EF_EL1_MIPI_RX_DATA_11THBAND_LID                    
+ 351      2402                      NVRAM_EF_EL1_MIPI_RX_DATA_12THBAND_LID                    
+ 352      2402                      NVRAM_EF_EL1_MIPI_RX_DATA_13THBAND_LID                    
+ 353      2402                      NVRAM_EF_EL1_MIPI_RX_DATA_14THBAND_LID                    
+ 354      2882                       NVRAM_EF_EL1_MIPI_TX_DATA_1STBAND_LID                    
+ 355      2882                       NVRAM_EF_EL1_MIPI_TX_DATA_2NDBAND_LID                    
+ 356      2882                       NVRAM_EF_EL1_MIPI_TX_DATA_3RDBAND_LID                    
+ 357      2882                       NVRAM_EF_EL1_MIPI_TX_DATA_4THBAND_LID                    
+ 358      2882                       NVRAM_EF_EL1_MIPI_TX_DATA_5THBAND_LID                    
+ 359      2882                       NVRAM_EF_EL1_MIPI_TX_DATA_6THBAND_LID                    
+ 360      2882                       NVRAM_EF_EL1_MIPI_TX_DATA_7THBAND_LID                    
+ 361      2882                       NVRAM_EF_EL1_MIPI_TX_DATA_8THBAND_LID                    
+ 362      2882                       NVRAM_EF_EL1_MIPI_TX_DATA_9THBAND_LID                    
+ 363      2882                      NVRAM_EF_EL1_MIPI_TX_DATA_10THBAND_LID                    
+ 364      2882                      NVRAM_EF_EL1_MIPI_TX_DATA_11THBAND_LID                    
+ 365      2882                      NVRAM_EF_EL1_MIPI_TX_DATA_12THBAND_LID                    
+ 366      2882                      NVRAM_EF_EL1_MIPI_TX_DATA_13THBAND_LID                    
+ 367      2882                      NVRAM_EF_EL1_MIPI_TX_DATA_14THBAND_LID                    
+ 368      2882                NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_1STBAND_LID                    
+ 369      2882                NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_2NDBAND_LID                    
+ 370      2882                NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_3RDBAND_LID                    
+ 377       302               NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_4THBAND_LID                    
+ 378       302               NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_5THBAND_LID                    
+ 382        74              NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_4THBAND_LID                    
+ 383        74              NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_5THBAND_LID                    
+ 387      1822    NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_4THBAND_LID                    
+ 388      1822    NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_5THBAND_LID                    
+ 371      2882                NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_4THBAND_LID                    
+ 372      2882                NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_5THBAND_LID                    
+ 404       436                              NVRAM_EF_EL1_TAS_PARAMETER_LID                    
+ 407        32                       NVRAM_EF_EL1_SVLTE_BAND_INDICATOR_LID                    
+ 406        18                            NVRAM_EF_EL1_GPS_CO_TMS_DATA_LID                    
+ 408         4                       NVRAM_EF_MML1_CUSTOM_DYNAMIC_INIT_LID                    
+ 409       202                           NVRAM_EF_MML1_MIPI_INITIAL_CW_LID                    
+ 410       102                          NVRAM_EF_MML1_MIPI_USID_CHANGE_LID                    
+ 411      1402                                     NVRAM_EF_HMU_CONFIG_LID                    
+ 412       786                                  NVRAM_EF_HMU_HD_CONFIG_LID                    
+ 413        14                                     NVRAM_EF_NMU_CONFIG_LID                    
+ 415         3                            NVRAM_EF_REGIONAL_PHONE_MODE_LID                    
+ 178      3572                                    NVRAM_EF_IMS_PROFILE_LID                    
+ 179        38                                 NVRAM_EF_LTECSR_PROFILE_LID                    
+ 180       108                                NVRAM_EF_VDM_ADS_PROFILE_LID                    
+ 116      5890                      NVRAM_EF_L1_MIPI_CTRL_TABLE_GSM850_LID                    
+ 117      5890                      NVRAM_EF_L1_MIPI_CTRL_TABLE_GSM900_LID                    
+ 118      5890                     NVRAM_EF_L1_MIPI_CTRL_TABLE_DCS1800_LID                    
+ 119      5890                     NVRAM_EF_L1_MIPI_CTRL_TABLE_PCS1900_LID                    
+ 120       202                NVRAM_EF_L1_CUSTOM_DRDI_STATUS_DEBUGINFO_LID                    
+  54         9                          NVRAM_EF_L1_TAS_CUSTOM_PARAMES_LID                    
+  55       290                            NVRAM_EF_L1_TAS_CUSTOM_PDATA_LID                    
+ 417        38                               NVRAM_EF_SBP_MODEM_CONFIG_LID                    
+ 418        22                          NVRAM_EF_SBP_MODEM_DATA_CONFIG_LID                    
+ 424       132                                     NVRAM_EF_2G_BA_INFO_LID                    
+1026       862                            NVRAM_EF_UL1_3G_RF_PARAMETER_LID                    
+1027         6                          NVRAM_EF_UL1_IOT_CUSTOMIZATION_LID            CUSTPACK
+1028         4                              NVRAM_EF_UL1_HSPA_CATEGORY_LID            CUSTPACK
+ 195       866                  NVRAM_EF_UL1_CUSTOM_DYNAMIC_INIT_DEBUG_LID                    
+1029      2818                         NVRAM_EF_UL1_MIPI_TPC_HIGHBAND1_LID                    
+1030      2818                         NVRAM_EF_UL1_MIPI_TPC_HIGHBAND2_LID                    
+1031      2818                         NVRAM_EF_UL1_MIPI_TPC_HIGHBAND3_LID                    
+1032      2818                          NVRAM_EF_UL1_MIPI_TPC_LOWBAND1_LID                    
+1033      2818                          NVRAM_EF_UL1_MIPI_TPC_LOWBAND2_LID                    
+1039       290                    NVRAM_EF_UL1_MIPI_RX_EVENT_HIGHBAND1_LID                    
+1040       290                    NVRAM_EF_UL1_MIPI_RX_EVENT_HIGHBAND2_LID                    
+1041       290                    NVRAM_EF_UL1_MIPI_RX_EVENT_HIGHBAND3_LID                    
+1042       290                     NVRAM_EF_UL1_MIPI_RX_EVENT_LOWBAND1_LID                    
+1043       290                     NVRAM_EF_UL1_MIPI_RX_EVENT_LOWBAND2_LID                    
+1044      1906                     NVRAM_EF_UL1_MIPI_RX_DATA_HIGHBAND1_LID                    
+1045      1906                     NVRAM_EF_UL1_MIPI_RX_DATA_HIGHBAND2_LID                    
+1046      1906                     NVRAM_EF_UL1_MIPI_RX_DATA_HIGHBAND3_LID                    
+1047      1906                      NVRAM_EF_UL1_MIPI_RX_DATA_LOWBAND1_LID                    
+1048      1906                      NVRAM_EF_UL1_MIPI_RX_DATA_LOWBAND2_LID                    
+1049       194                    NVRAM_EF_UL1_MIPI_TX_EVENT_HIGHBAND1_LID                    
+1050       194                    NVRAM_EF_UL1_MIPI_TX_EVENT_HIGHBAND2_LID                    
+1051       194                    NVRAM_EF_UL1_MIPI_TX_EVENT_HIGHBAND3_LID                    
+1052       194                     NVRAM_EF_UL1_MIPI_TX_EVENT_LOWBAND1_LID                    
+1053       194                     NVRAM_EF_UL1_MIPI_TX_EVENT_LOWBAND2_LID                    
+1054      1226                     NVRAM_EF_UL1_MIPI_TX_DATA_HIGHBAND1_LID                    
+1055      1226                     NVRAM_EF_UL1_MIPI_TX_DATA_HIGHBAND2_LID                    
+1056      1226                     NVRAM_EF_UL1_MIPI_TX_DATA_HIGHBAND3_LID                    
+1057      1226                      NVRAM_EF_UL1_MIPI_TX_DATA_LOWBAND1_LID                    
+1058      1226                      NVRAM_EF_UL1_MIPI_TX_DATA_LOWBAND2_LID                    
+1059        18               NVRAM_EF_UL1_MIPI_ASM_ISOLATION_HIGHBAND1_LID                    
+1060        18               NVRAM_EF_UL1_MIPI_ASM_ISOLATION_HIGHBAND2_LID                    
+1061        18               NVRAM_EF_UL1_MIPI_ASM_ISOLATION_HIGHBAND3_LID                    
+1062        18                NVRAM_EF_UL1_MIPI_ASM_ISOLATION_LOWBAND1_LID                    
+1063        18                NVRAM_EF_UL1_MIPI_ASM_ISOLATION_LOWBAND2_LID                    
+1064       482                               NVRAM_EF_UL1_MIPI_INIT_CW_LID                    
+1065       322                              NVRAM_EF_UL1_MIPI_SLEEP_CW_LID                    
+   6      5140                                  NVRAM_EF_SYS_EXCEPTION_LID                    
+2560        50                                            NVRAM_EF_ADC_LID                    
+--------------------------------------------------------------------------
+NVRAM_COMPRESS=0

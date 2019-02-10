@@ -1,0 +1,351 @@
+#UPDATE#
+phb_common.obj:	modem/l4/phb/src/phb_common.c \
+	interface/service/dhl/kal_trace.h \
+	interface/service/dhl/dhl_trace.h \
+	interface/service/kal/kal_general_types.h \
+	interface/service/kal/clib.h \
+	interface/service/kal/clib_list.h \
+	interface/service/kal/kal_public_defs.h \
+	interface/service/config/stack_config.h \
+	interface/sap/hisr_modid.h \
+	interface/sap/module_id_range.h \
+	interface/sap/cross_core/global_modid_range.h \
+	interface/sap/module_hisrid_range.h \
+	interface/service/config/hisr_config_internal.h \
+	interface/sap/cross_core/global_modid.h \
+	interface/sap/cross_core/md1_module_config.h \
+	interface/sap/cross_core/md2_module_config.h \
+	interface/sap/cross_core/md3_module_config.h \
+	interface/sap/srv_modid.h \
+	interface/service/config/srv_task_config.h \
+	interface/sap/modem_2g3g_modid.h \
+	interface/service/config/modem_2g3g_task_config.h \
+	interface/sap/modem_4g_modid.h \
+	interface/service/config/modem_4g_task_config.h \
+	interface/sap/middleware_modid.h \
+	interface/service/config/middleWare_task_config.h \
+	interface/sap/drv_modid.h \
+	interface/service/config/drv_task_config.h \
+	interface/service/config/stack_msgs.h \
+	modem/l4/phb/include/phb_trc.h \
+	build/HCT6737M_65_N/LWG_DSDS/dhl/database/pstrace_db/phb_trc_gen.h \
+	modem/interface/l4misc/l4c2phb_enums.h \
+	interface/modem/general/phb_defs.h \
+	interface/service/kal/kal_public_api.h \
+	interface/modem/general/sim_public_api.h \
+	interface/modem/general/sim_public_enum.h \
+	interface/common/global_def.h \
+	interface/sap/cross_core/sim_public_enum_public.h \
+	modem/l4/phb/include/phb_control_block.h \
+	interface/modem/general/ps_public_enum.h \
+	custom/service/nvram/custom_nvram_sec.h \
+	interface/service/sys_svc/cust_chl_interface.h \
+	driver/regbase/inc/reg_base.h \
+	driver/regbase/inc/reg_base_mt6735_md1.h \
+	interface/service/nvram/nvram_defs.h \
+	build/HCT6737M_65_N/LWG_DSDS/nvram_auto_gen/nvram_lid_statistics.h \
+	interface/service/nvram/nvram_enums.h \
+	interface/sap/cross_core/ps_public_enum_public.h \
+	modem/interface/l4misc/l4c2phb_struct.h \
+	interface/modem/general/l4c_aux_struct.h \
+	interface/modem/general/ps_public_struct.h \
+	interface/modem/general/sim_ps_enum.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/BASIC/mcd/mcd_l4_common.h \
+	interface/service/nvram/nvram_editor_data_item.h \
+	interface/modem/general/device.h \
+	interface/driver/peripheral/dcl.h \
+	interface/driver/peripheral/dcl_gpt.h \
+	interface/driver/peripheral/dcl_gpio.h \
+	driver/drv_def/drv_features_gpio.h \
+	driver/drv_def/drv_features_chip_select.h \
+	driver/drv_def/drv_features_6735.h \
+	interface/driver/peripheral/dcl_uart.h \
+	interface/modem/general/cmux_vp_num.h \
+	interface/driver/peripheral/dcl_wdt.h \
+	interface/driver/peripheral/dcl_adc.h \
+	interface/driver/peripheral/dcl_bmt.h \
+	interface/driver/peripheral/dcl_pfc.h \
+	interface/driver/peripheral/dcl_rtc.h \
+	interface/driver/peripheral/DclH_kbd.h \
+	interface/driver/peripheral/DclS_kbd.h \
+	interface/driver/peripheral/dcl_sts.h \
+	interface/driver/peripheral/dcl_msdc.h \
+	interface/driver/connectivity/usb_driver/dcl_usb_drv.h \
+	interface/driver/peripheral/dcl_sim.h \
+	interface/driver/peripheral/dcl_pmu.h \
+	interface/driver/peripheral/dcl_pw.h \
+	interface/driver/peripheral/dcl_chr_det.h \
+	interface/driver/peripheral/dcl_sim_gpio.h \
+	interface/driver/peripheral/dcl_f32k_clk.h \
+	interface/driver/peripheral/dcl_idc.h \
+	interface/modem/general/tcm_api.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/BASIC/mcd/mcd_l3_inc_gprs_struct.h \
+	interface/service/nvram/nvram_data_items.h \
+	interface/service/config/stack_buff_pool.h \
+	interface/service/config/ctrl_buff_pool.h \
+	interface/service/config/kal_user_mem.h \
+	interface/service/config/sysconf_statistics.h \
+	interface/service/dhl/tst.h \
+	interface/modem/l1/fdd/external/ul1cal.h \
+	interface/modem/l1/fdd/external/ul1d_rf_public.h \
+	interface/modem/l1/fdd/external/ul1d_rf_cid.h \
+	custom/modem/ul1_rf/MT6735_UMTS_FDD_MT6169_CUSTOM/ul1d_custom_mipi.h \
+	interface/modem/mml1/mml1_rf_global.h \
+	interface/modem/mml1/mml1_mipi_public.h \
+	interface/modem/lte/el1_rf_public.h \
+	interface/modem/lte/el1_rf_cid.h \
+	custom/modem/el1_rf/MT6735_LTE_MT6169_CUSTOM/lte_custom_mipi.h \
+	custom/modem/mml1_rf/MT6735_MMRF_CUSTOM/mml1_custom_mipi.h \
+	custom/modem/mml1_rf/MT6735_MMRF_CUSTOM/mml1_custom_drdi.h \
+	interface/modem/lte/el1_meta_if.h \
+	interface/middleware/meta/ft_msg_common.h \
+	interface/modem/lte/el1_rf_public_mt6169.h \
+	interface/modem/lte/el1_drdi.h \
+	driver/drv_def/drv_features_adc.h \
+	driver/drv_def/drv_features_rtc.h \
+	driver/drv_def/drv_features_sim.h \
+	interface/sap/svc/sysservice_msgid.h \
+	interface/sap/module_msg_range.h \
+	interface/sap/cross_core/global_msg_range.h \
+	interface/sap/cross_core/global_msgid.h \
+	interface/sap/cross_core/md1_msgid.h \
+	interface/sap/cross_core/md2_msgid.h \
+	interface/sap/cross_core/md3_msgid.h \
+	interface/service/hif/hmu_conf_data.h \
+	interface/middleware/hif/nmu.h \
+	interface/driver/peripheral/adc_cali.h \
+	interface/sap/svc_sap.h \
+	interface/sap/sap_range.h \
+	interface/sap/cross_core/global_sap_range.h \
+	interface/sap/cross_core/global_sap.h \
+	interface/sap/cross_core/md1_sap.h \
+	interface/sap/cross_core/md2_sap.h \
+	interface/sap/cross_core/md3_sap.h \
+	custom/modem/common/ps/ul1_nvram_def.h \
+	interface/modem/l1/fdd/external/ul1d_rf_common.h \
+	custom/modem/ul1_rf/MT6735_UMTS_FDD_MT6169_CUSTOM/ul1d_custom_rf.h \
+	custom/modem/ul1_rf/MT6735_UMTS_FDD_MT6169_CUSTOM/wcustomdata.h \
+	custom/modem/common/ps/custom_recovery_timer.h \
+	modem/l4/phb/include/phb_config.h \
+	modem/l4/phb/include/phb_context.h \
+	interface/modem/general/ps2sim_struct.h \
+	interface/modem/general/sim_public_struct.h \
+	interface/modem/general/sim_ps_struct.h \
+	interface/sap/cross_core/sim_ps_struct_public.h \
+	modem/l4/phb/include/phb_data_desc.h \
+	interface/modem/general/sim_common_enums.h \
+	interface/modem/general/sim_ps_api.h \
+	modem/l4/phb/include/phb_data_entry_table.h \
+	modem/l4/phb/include/phb_name_num_index.h \
+	modem/l4/phb/include/phb_pindex.h \
+	modem/l4/phb/include/phb_sim_access.h \
+	modem/l4/phb/include/phb_nvram_access.h
+#ENDUPDATE#
+#UPDATE#
+phb_config.obj:	modem/l4/phb/src/phb_config.c
+#ENDUPDATE#
+#UPDATE#
+phb_context.obj:	modem/l4/phb/src/phb_context.c
+#ENDUPDATE#
+#UPDATE#
+phb_control_block.obj:	modem/l4/phb/src/phb_control_block.c \
+	modem/interface/l4misc/phb_utils.h
+#ENDUPDATE#
+#UPDATE#
+phb_data_desc.obj:	modem/l4/phb/src/phb_data_desc.c
+#ENDUPDATE#
+#UPDATE#
+phb_data_entry_table.obj:	modem/l4/phb/src/phb_data_entry_table.c
+#ENDUPDATE#
+#UPDATE#
+phb_handler_approve.obj:	modem/l4/phb/src/phb_handler_approve.c \
+	modem/interface/l4misc/l4c_common_enum.h \
+	modem/l4/include/rmmi_common_enum.h \
+	interface/modem/general/csmss_common_enums.h \
+	interface/modem/general/smu_common_enums.h \
+	modem/interface/l4misc/layer4_context.h \
+	interface/sap/cross_core/l4c_common_enum_public.h \
+	modem/l4/phb/include/phb_se.h \
+	modem/l4/phb/include/phb_common.h \
+	modem/l4/phb/include/phb_ilm.h \
+	modem/l4/phb/include/phb_handler_search.h \
+	modem/l4/phb/include/phb_handler_approve.h \
+	modem/interface/l4misc/l3_inc_enums.h \
+	modem/interface/general/irat_common_enums.h \
+	interface/sap/cross_core/irat_common_enums_public.h \
+	interface/sap/cross_core/l3_inc_enums_public.h \
+	modem/interface/l4misc/phb_sap.h \
+	custom/modem/common/custom_ecc.h \
+	interface/sap/md/l4_msgid.h \
+	interface/modem/general/l4c_msg_hdlr_defs.h
+#ENDUPDATE#
+#UPDATE#
+phb_handler_delete.obj:	modem/l4/phb/src/phb_handler_delete.c \
+	interface/service/nvram/nvram_struct.h \
+	modem/l4/phb/include/phb_handler_read.h \
+	modem/l4/phb/include/phb_handler_delete.h \
+	interface/sap/svc/nvram_msgid.h
+#ENDUPDATE#
+#UPDATE#
+phb_handler_delete_ln.obj:	modem/l4/phb/src/phb_handler_delete_ln.c \
+	modem/l4/phb/include/phb_handler_delete_ln.h
+#ENDUPDATE#
+#UPDATE#
+phb_handler_read.obj:	modem/l4/phb/src/phb_handler_read.c
+#ENDUPDATE#
+#UPDATE#
+phb_handler_read_ln.obj:	modem/l4/phb/src/phb_handler_read_ln.c \
+	modem/l4/phb/include/phb_handler_read_ln.h
+#ENDUPDATE#
+#UPDATE#
+phb_handler_sat.obj:	modem/l4/phb/src/phb_handler_sat.c \
+	interface/sap/md/sim_ps_msgid.h \
+	interface/service/nvram/nvram_interface.h \
+	interface/modem/general/ps2sat_struct.h \
+	modem/l4/phb/include/phb_handler_startup.h \
+	modem/l4/phb/include/phb_handler_sat.h \
+	modem/interface/l4/l4_ps_api.h \
+	interface/modem/general/ps_em_enum.h \
+	modem/interface/l4/l4c_ratdm_struct.h
+#ENDUPDATE#
+#UPDATE#
+phb_handler_search.obj:	modem/l4/phb/src/phb_handler_search.c
+#ENDUPDATE#
+#UPDATE#
+phb_handler_startup.obj:	modem/l4/phb/src/phb_handler_startup.c
+#ENDUPDATE#
+#UPDATE#
+phb_handler_startup_ln.obj:	modem/l4/phb/src/phb_handler_startup_ln.c \
+	modem/interface/l4misc/l4_defs.h \
+	modem/l4/phb/include/phb_handler_startup_ln.h
+#ENDUPDATE#
+#UPDATE#
+phb_handler_write.obj:	modem/l4/phb/src/phb_handler_write.c \
+	modem/interface/l4misc/l4c_utility.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/BASIC/mcd/mcd_l3_inc_struct.h \
+	modem/interface/l4misc/l3_inc_local.h \
+	interface/modem/general/l4crac_enums.h \
+	modem/l4/phb/include/phb_handler_write.h
+#ENDUPDATE#
+#UPDATE#
+phb_handler_write_ln.obj:	modem/l4/phb/src/phb_handler_write_ln.c \
+	modem/l4/phb/include/phb_handler_write_ln.h
+#ENDUPDATE#
+#UPDATE#
+phb_ilm.obj:	modem/l4/phb/src/phb_ilm.c \
+	interface/sap/md_sap.h \
+	interface/sap/drv/drv_msgid.h \
+	interface/service/config/task_config.h \
+	interface/service/config/stack_types.h \
+	interface/service/stacklib/lcd_ip_cqueue.h
+#ENDUPDATE#
+#UPDATE#
+phb_main.obj:	modem/l4/phb/src/phb_main.c \
+	modem/l4/phb/include/phb_main.h
+#ENDUPDATE#
+#UPDATE#
+phb_name_num_index.obj:	modem/l4/phb/src/phb_name_num_index.c
+#ENDUPDATE#
+#UPDATE#
+phb_nvram_access.obj:	modem/l4/phb/src/phb_nvram_access.c
+#ENDUPDATE#
+#UPDATE#
+phb_pindex.obj:	modem/l4/phb/src/phb_pindex.c
+#ENDUPDATE#
+#UPDATE#
+phb_sap.obj:	modem/l4/phb/src/phb_sap.c
+#ENDUPDATE#
+#UPDATE#
+phb_se.obj:	modem/l4/phb/src/phb_se.c
+#ENDUPDATE#
+#UPDATE#
+phb_sim_access.obj:	modem/l4/phb/src/phb_sim_access.c
+#ENDUPDATE#
+#UPDATE#
+phb_utils.obj:	modem/l4/phb/src/phb_utils.c \
+	interface/modem/general/l4c2abm_struct.h
+#ENDUPDATE#
+#UPDATE#
+uem_at_cmd.obj:	modem/l4/uem/src/uem_at_cmd.c \
+	custom/modem/common/ps/custom_em.h \
+	modem/interface/l4misc/l4c_eq_msg.h \
+	interface/driver/peripheral/keypad_sw.h \
+	interface/driver/sys_drv/intrCtrl.h \
+	driver/devdrv/cirq_v2/inc/intrCtrl_MT6735.h \
+	driver/devdrv/cirq_v2/inc/irqid.h \
+	driver/devdrv/cirq_v2/inc/irqid_MT6735.h \
+	driver/drv_def/drv_features_gpt.h \
+	driver/devdrv/cirq_v2/inc/drv_mdcirq.h \
+	interface/driver/sys_drv/isrentry.h \
+	driver/devdrv/cirq_v2/inc/drv_mdcirq_reg.h \
+	interface/service/config/hisr_config.h \
+	driver/devdrv/cirq_v1/inc/intrCtrl_SW_Handle.h \
+	driver/devdrv/cirq_v2/inc/intrCtrl_MT6735_SW_Handle.h \
+	interface/service/config/syscomp_config.h \
+	driver/drv_def/drv_features_kbd.h \
+	interface/driver/peripheral/drv_comm.h \
+	interface/sap/md_drv_sap.h \
+	modem/l4/uem/include/uem_at_cmd.h \
+	modem/l4/uem/include/uem_context.h \
+	modem/l4/uem/include/uem_utility.h \
+	modem/l4/uem/include/uem_trc.h \
+	build/HCT6737M_65_N/LWG_DSDS/dhl/database/pstrace_db/uem_trc_gen.h
+#ENDUPDATE#
+#UPDATE#
+uem_gpio_ctrl.obj:	modem/l4/uem/src/uem_gpio_ctrl.c \
+	custom/driver/drv/misc_drv/_Default_BB/MT6735/custom_equipment.h \
+	custom/modem/common/custom_uem.h \
+	modem/l4/uem/include/uem_gpio_ctrl.h
+#ENDUPDATE#
+#UPDATE#
+uem_main.obj:	modem/l4/uem/src/uem_main.c \
+	interface/sap/mw/med_msgid.h \
+	interface/sap/md/em_msgid.h \
+	interface/service/dhl/tst_sap.h \
+	interface/middleware/media/med_struct.h \
+	custom/driver/drv/misc_drv/_Default_BB/MT6735/custom_hw_default.h \
+	modem/l4/uem/include/uem_msg_hdlr.h \
+	modem/l4/uem/include/uem_proc_cmd.h \
+	interface/modem/general/l4c2uem_struct.h \
+	interface/driver/sys_drv/ccci.h \
+	interface/service/hif/ccci_if.h \
+	interface/middleware/hif/hif_ior.h \
+	interface/service/qmu_bm/qmu_bm.h \
+	interface/service/qmu_bm/qbm_features.h \
+	interface/service/qmu_bm/qmu_bm_enum.h \
+	interface/service/qmu_bm/qmu_bm_in.h \
+	interface/service/qmu_bm/qmu_bm_size.h \
+	interface/driver/sys_drv/cache_sw.h \
+	interface/service/hif/ccci_ch_cfg.h \
+	interface/service/hif/ccci_sysmsgsvc_conf.h \
+	interface/service/hif/ccci_misc_data_conf.h \
+	interface/service/hif/ccci_excep_memory_region.h \
+	interface/service/hif/ccci_fs_if.h \
+	interface/service/fs/fs_type.h \
+	interface/service/fs/fs_gprot.h \
+	interface/driver/peripheral/drvsignals.h \
+	interface/driver/peripheral/bmt.h \
+	interface/driver/connectivity/usb_driver/usb_comm.h
+#ENDUPDATE#
+#UPDATE#
+uem_msg_hdlr.obj:	modem/l4/uem/src/uem_msg_hdlr.c \
+	modem/l4/uem/include/uem_main.h \
+	modem/l4/uem/include/uem_proc_msg.h
+#ENDUPDATE#
+#UPDATE#
+uem_proc_cmd.obj:	modem/l4/uem/src/uem_proc_cmd.c \
+	interface/driver/audio/l1audio.h \
+	interface/service/fs/fsal.h \
+	interface/service/fs/fs_func.h
+#ENDUPDATE#
+#UPDATE#
+uem_proc_msg.obj:	modem/l4/uem/src/uem_proc_msg.c \
+	interface/service/sst/ex_public.h
+#ENDUPDATE#
+#UPDATE#
+uem_utility.obj:	modem/l4/uem/src/uem_utility.c \
+	interface/sap/mw_sap.h \
+	interface/modem/general/em_struct.h \
+	interface/modem/general/em_public_struct.h \
+	custom/driver/drv/misc_drv/_Default_BB/MT6735/usb_custom_def.h
+#ENDUPDATE#

@@ -1,0 +1,3 @@
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Module ftc is in DEFALUT mode
+Generating ftc information is done.

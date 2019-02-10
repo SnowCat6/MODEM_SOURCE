@@ -1,0 +1,3 @@
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Module ephy_ext is in DEFALUT mode
+Generating ephy_ext information is done.

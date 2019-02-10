@@ -1,0 +1,14 @@
+middleware/meta/ft/src/ft_fnc.c
+middleware/meta/ft/src/ft_fnc_custom.c
+middleware/meta/ft/src/ft_fnc_fat.c
+middleware/meta/ft/src/ft_fnc_l1rf.c
+middleware/meta/ft/src/ft_fnc_lterf.c
+middleware/meta/ft/src/ft_fnc_misc.c
+middleware/meta/ft/src/ft_fnc_misc_ex.c
+middleware/meta/ft/src/ft_fnc_nvram.c
+middleware/meta/ft/src/ft_fnc_util.c
+middleware/meta/ft/src/ft_fnc_wcdma.c
+middleware/meta/ft/src/ft_main.c
+middleware/meta/ft/src/ft_mem.c
+middleware/meta/ft/src/ft_report.c
+

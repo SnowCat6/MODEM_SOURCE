@@ -1,0 +1,13 @@
+#ifndef _cc_event_info_trc_GEN_H_
+#define _cc_event_info_trc_GEN_H_
+
+// EVENT_INFO_TRACE_FUNC_CC_CCBS
+#define EVENT_INFO_TRACE_FUNC_CC_CCBS_size "c"
+#define EVENT_INFO_TRACE_FUNC_CC_CCBS EVENT_INFO_TRACE_FUNC_CC_CCBS__enum,EVENT_INFO_TRACE_FUNC_CC_CCBS_size
+
+// EVENT_INFO_TRACE_FUNC_CC_AOC
+#define EVENT_INFO_TRACE_FUNC_CC_AOC_size "c"
+#define EVENT_INFO_TRACE_FUNC_CC_AOC EVENT_INFO_TRACE_FUNC_CC_AOC__enum,EVENT_INFO_TRACE_FUNC_CC_AOC_size
+
+
+#endif // cc_event_info_trc_gen.h

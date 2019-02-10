@@ -1,0 +1,39 @@
+#UPDATE#
+asn_common.obj:	interface/service/asn1_common/asn_common.c \
+	interface/service/kal/kal_public_api.h \
+	interface/service/kal/kal_general_types.h \
+	interface/service/kal/clib.h \
+	interface/service/kal/clib_list.h \
+	interface/service/kal/kal_public_defs.h \
+	interface/service/config/stack_config.h \
+	interface/sap/hisr_modid.h \
+	interface/sap/module_id_range.h \
+	interface/sap/cross_core/global_modid_range.h \
+	interface/sap/module_hisrid_range.h \
+	interface/service/config/hisr_config_internal.h \
+	interface/sap/cross_core/global_modid.h \
+	interface/sap/cross_core/md1_module_config.h \
+	interface/sap/cross_core/md2_module_config.h \
+	interface/sap/cross_core/md3_module_config.h \
+	interface/sap/srv_modid.h \
+	interface/service/config/srv_task_config.h \
+	interface/sap/modem_2g3g_modid.h \
+	interface/service/config/modem_2g3g_task_config.h \
+	interface/sap/modem_4g_modid.h \
+	interface/service/config/modem_4g_task_config.h \
+	interface/sap/middleware_modid.h \
+	interface/service/config/middleWare_task_config.h \
+	interface/sap/drv_modid.h \
+	interface/service/config/drv_task_config.h \
+	interface/service/config/stack_msgs.h \
+	interface/service/asn1_common/asn_common.h \
+	interface/service/asn1_common/asn_memory.h \
+	interface/service/asn1_common/mtkasn_global.h
+#ENDUPDATE#
+#UPDATE#
+asn_memory.obj:	interface/service/asn1_common/asn_memory.c
+#ENDUPDATE#
+#UPDATE#
+asn_uper_common.obj:	interface/service/asn1_common/asn_uper_common.c \
+	interface/service/asn1_common/asn_uper_common.h
+#ENDUPDATE#

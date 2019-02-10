@@ -1,0 +1,13 @@
+#ifndef _cccisrv_trace_GEN_H_
+#define _cccisrv_trace_GEN_H_
+
+// CCCISRV_TR_ILM_WRONG_DEST_MOD
+#define CCCISRV_TR_ILM_WRONG_DEST_MOD_size "d"
+#define CCCISRV_TR_ILM_WRONG_DEST_MOD CCCISRV_TR_ILM_WRONG_DEST_MOD__enum,CCCISRV_TR_ILM_WRONG_DEST_MOD_size
+
+// CCCISRV_TR_UL_CCCI_CH_ERR
+#define CCCISRV_TR_UL_CCCI_CH_ERR_size "‚d"
+#define CCCISRV_TR_UL_CCCI_CH_ERR CCCISRV_TR_UL_CCCI_CH_ERR__enum,CCCISRV_TR_UL_CCCI_CH_ERR_size
+
+
+#endif // cccisrv_trace_gen.h

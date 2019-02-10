@@ -1,0 +1,3 @@
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Module md_drv is in DEFALUT mode
+Generating md_drv information is done.

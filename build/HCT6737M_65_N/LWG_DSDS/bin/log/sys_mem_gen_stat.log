@@ -1,0 +1,220 @@
+internal ram defined:1
+total created task number = 62 
+Task of index   1 consumes 2936. stack 2176 align stack 4096 ext_q  30 int_ram? 0 boot mode:NORMAL USB FACTORY mode
+Task of index   2 consumes  200. stack 1024 align stack    0 ext_q   0 int_ram? 1 boot mode:NORMAL USB FACTORY mode
+Task of index   3 consumes 3384. stack 2304 align stack 4096 ext_q  50 int_ram? 0 boot mode:NORMAL USB FACTORY mode
+Task of index   5 consumes 1224. stack 1024 align stack 4096 ext_q   0 int_ram? 0 boot mode:NORMAL USB FACTORY mode
+Task of index   7 consumes 4696. stack 4096 align stack 4096 ext_q  20 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index  13 consumes 1464. stack 1024 align stack 4096 ext_q  10 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index  14 consumes 2648. stack 2048 align stack 4096 ext_q  20 int_ram? 0 boot mode:NORMAL             mode
+Task of index  16 consumes 3128. stack 2048 align stack 4096 ext_q  50 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index  19 consumes 2808. stack 2048 align stack 4096 ext_q  30 int_ram? 0 boot mode:NORMAL             mode
+Task of index  20 consumes 1784. stack 1024 align stack 4096 ext_q  30 int_ram? 0 boot mode:NORMAL             mode
+Task of index  21 consumes 5356. stack 4096 align stack 4096 ext_q  20 int_ram? 0 boot mode:NORMAL             mode
+Task of index  22 consumes 5836. stack 4416 align stack 8192 ext_q  40 int_ram? 0 boot mode:NORMAL             mode
+Task of index  23 consumes 4732. stack 2592 align stack 4096 ext_q 100 int_ram? 0 boot mode:NORMAL             mode
+Task of index  24 consumes 3436. stack 2816 align stack 4096 ext_q  10 int_ram? 0 boot mode:NORMAL             mode
+Task of index  25 consumes 3708. stack 2528 align stack 4096 ext_q  20 int_ram? 0 boot mode:NORMAL             mode
+Task of index  26 consumes 2552. stack 1952 align stack 4096 ext_q  20 int_ram? 0 boot mode:NORMAL             mode
+Task of index  27 consumes 1656. stack 1216 align stack 4096 ext_q  10 int_ram? 0 boot mode:NORMAL             mode
+Task of index  28 consumes 1464. stack 1024 align stack 4096 ext_q  10 int_ram? 0 boot mode:NORMAL             mode
+Task of index  29 consumes 1912. stack 1152 align stack 4096 ext_q  30 int_ram? 0 boot mode:NORMAL             mode
+Task of index  30 consumes 4028. stack 3040 align stack 4096 ext_q  40 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index  31 consumes 4028. stack 3040 align stack 4096 ext_q  40 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index  32 consumes 5596. stack 4096 align stack 4096 ext_q  60 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index  33 consumes 4140. stack 2400 align stack 4096 ext_q  40 int_ram? 0 boot mode:NORMAL             mode
+Task of index  34 consumes 1816. stack 1376 align stack 4096 ext_q  10 int_ram? 0 boot mode:NORMAL             mode
+Task of index  35 consumes 2360. stack 1280 align stack 4096 ext_q  50 int_ram? 0 boot mode:NORMAL             mode
+Task of index  36 consumes 1912. stack 1472 align stack 4096 ext_q  10 int_ram? 0 boot mode:NORMAL             mode
+Task of index  37 consumes 2936. stack 1536 align stack 4096 ext_q  70 int_ram? 0 boot mode:NORMAL             mode
+Task of index  39 consumes 1976. stack 1536 align stack 4096 ext_q  10 int_ram? 0 boot mode:NORMAL             mode
+Task of index  40 consumes 1976. stack 1536 align stack 4096 ext_q  10 int_ram? 0 boot mode:NORMAL             mode
+Task of index  42 consumes 3512. stack 3072 align stack 4096 ext_q  10 int_ram? 0 boot mode:           FACTORY mode
+Task of index  43 consumes 3340. stack 2560 align stack 4096 ext_q  20 int_ram? 0 boot mode:NORMAL             mode
+Task of index  44 consumes 2332. stack 1472 align stack 4096 ext_q  20 int_ram? 0 boot mode:NORMAL             mode
+Task of index  48 consumes 4716. stack 4096 align stack 4096 ext_q  10 int_ram? 0 boot mode:           FACTORY mode
+Task of index  49 consumes 4716. stack 4096 align stack 4096 ext_q  10 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index  50 consumes 5196. stack 4096 align stack 4096 ext_q  40 int_ram? 0 boot mode:NORMAL             mode
+Task of index  51 consumes 5036. stack 4096 align stack 4096 ext_q  30 int_ram? 0 boot mode:NORMAL             mode
+Task of index  52 consumes 1944. stack 1504 align stack 4096 ext_q  10 int_ram? 0 boot mode:NORMAL             mode
+Task of index  53 consumes 7980. stack 5120 align stack 8192 ext_q  80 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index  54 consumes 5996. stack 4096 align stack 4096 ext_q  50 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index  55 consumes 4696. stack 4096 align stack 4096 ext_q  20 int_ram? 0 boot mode:NORMAL             mode
+Task of index  56 consumes 8044. stack 6144 align stack 8192 ext_q  50 int_ram? 0 boot mode:NORMAL             mode
+Task of index  57 consumes 2924. stack 1024 align stack 4096 ext_q  50 int_ram? 0 boot mode:NORMAL             mode
+Task of index  58 consumes 2924. stack 1024 align stack 4096 ext_q  50 int_ram? 0 boot mode:NORMAL             mode
+Task of index  59 consumes 4440. stack 3200 align stack 4096 ext_q  60 int_ram? 0 boot mode:NORMAL             mode
+Task of index  60 consumes 1656. stack 1056 align stack 4096 ext_q  20 int_ram? 0 boot mode:NORMAL             mode
+Task of index  61 consumes 1656. stack 1056 align stack 4096 ext_q  20 int_ram? 0 boot mode:NORMAL             mode
+Task of index  62 consumes 2488. stack 2048 align stack 4096 ext_q  10 int_ram? 0 boot mode:NORMAL             mode
+Task of index  63 consumes 4876. stack 4096 align stack 4096 ext_q  20 int_ram? 0 boot mode:NORMAL             mode
+Task of index  64 consumes 1864. stack 1664 align stack 4096 ext_q   0 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index  71 consumes 5304. stack 4224 align stack 8192 ext_q  50 int_ram? 0 boot mode:NORMAL             mode
+Task of index  72 consumes 3512. stack 3072 align stack 4096 ext_q  10 int_ram? 0 boot mode:           FACTORY mode
+Task of index  73 consumes 3512. stack 3072 align stack 4096 ext_q  10 int_ram? 0 boot mode:           FACTORY mode
+Task of index  74 consumes 8952. stack 8192 align stack 8192 ext_q  30 int_ram? 0 boot mode:NORMAL             mode
+Task of index  75 consumes 6476. stack 4096 align stack 4096 ext_q 120 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index  79 consumes 4696. stack 4096 align stack 4096 ext_q  20 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index  80 consumes 4296. stack 4096 align stack 4096 ext_q   0 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index  82 consumes 4536. stack 4096 align stack 4096 ext_q  10 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index  84 consumes 4696. stack 4096 align stack 4096 ext_q  20 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index  95 consumes 4696. stack 4096 align stack 4096 ext_q  20 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index  99 consumes 4536. stack 4096 align stack 4096 ext_q  10 int_ram? 0 boot mode:NORMAL USB FACTORY mode
+Task of index 102 consumes 2748. stack 2048 align stack 4096 ext_q  10 int_ram? 0 boot mode:NORMAL             mode
+Task of index 105 consumes 2488. stack 2048 align stack 4096 ext_q  10 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index 106 consumes 1464. stack 1024 align stack 4096 ext_q  10 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index 107 consumes 4152. stack 3072 align stack 4096 ext_q  50 int_ram? 0 boot mode:NORMAL     FACTORY mode
+Task of index 108 consumes  712. stack  512 align stack 4096 ext_q   0 int_ram? 0 boot mode:NORMAL             mode
+No consider stack isolation All task consumes 217552 in NORMAL mode
+No consider stack isolation All task consumes 12280 in USB mode
+No consider stack isolation All task consumes 108528 in FACTORY mode
+priority  0 hisr max shared size iram    0 eram    0 
+priority  1 hisr max shared size iram    0 eram    0 
+priority  2 hisr max shared size iram    0 eram    0 
+priority  3 hisr max shared size iram    0 eram 1024 
+priority  4 hisr max shared size iram    0 eram 2048 
+priority  5 hisr max shared size iram    0 eram 2048 
+priority  6 hisr max shared size iram    0 eram 2048 
+priority  7 hisr max shared size iram    0 eram 2048 
+priority  8 hisr max shared size iram    0 eram 2048 
+priority  9 hisr max shared size iram    0 eram 2048 
+priority 10 hisr max shared size iram    0 eram 2048 
+priority 11 hisr max shared size iram 4096 eram    0 
+priority 12 hisr max shared size iram    0 eram 2048 
+priority 13 hisr max shared size iram 4096 eram    0 
+priority 14 hisr max shared size iram    0 eram 2048 
+priority 15 hisr max shared size iram    0 eram 2048 
+priority 16 hisr max shared size iram    0 eram 2048 
+priority 17 hisr max shared size iram    0 eram 2048 
+priority 18 hisr max shared size iram    0 eram 2048 
+priority 19 hisr max shared size iram    0 eram 2048 
+priority 20 hisr max shared size iram    0 eram 2048 
+priority 21 hisr max shared size iram    0 eram 2048 
+priority 22 hisr max shared size iram    0 eram 2048 
+priority 23 hisr max shared size iram    0 eram 2048 
+priority 24 hisr max shared size iram    0 eram 2048 
+priority 25 hisr max shared size iram    0 eram 2048 
+priority 26 hisr max shared size iram    0 eram 2048 
+priority 27 hisr max shared size iram    0 eram 2048 
+priority 28 hisr max shared size iram    0 eram    0 
+priority 29 hisr max shared size iram    0 eram 2048 
+priority 30 hisr max shared size iram    0 eram 2048 
+priority 31 hisr max shared size iram    0 eram 2048 
+priority 32 hisr max shared size iram    0 eram    0 
+priority 33 hisr max shared size iram    0 eram    0 
+priority 34 hisr max shared size iram    0 eram 2048 
+priority 35 hisr max shared size iram    0 eram 2048 
+priority 36 hisr max shared size iram    0 eram 2048 
+priority 37 hisr max shared size iram    0 eram    0 
+priority 38 hisr max shared size iram    0 eram    0 
+priority 39 hisr max shared size iram    0 eram    0 
+priority 40 hisr max shared size iram    0 eram 2048 
+priority 41 hisr max shared size iram    0 eram    0 
+priority 42 hisr max shared size iram    0 eram    0 
+priority 43 hisr max shared size iram    0 eram 1024 
+priority 44 hisr max shared size iram    0 eram 1024 
+priority 45 hisr max shared size iram    0 eram 1024 
+priority 46 hisr max shared size iram    0 eram 1024 
+priority 47 hisr max shared size iram    0 eram    0 
+priority 48 hisr max shared size iram    0 eram    0 
+priority 49 hisr max shared size iram    0 eram    0 
+priority 50 hisr max shared size iram    0 eram    0 
+priority 51 hisr max shared size iram    0 eram    0 
+priority 52 hisr max shared size iram    0 eram    0 
+priority 53 hisr max shared size iram    0 eram    0 
+priority 54 hisr max shared size iram    0 eram    0 
+priority 55 hisr max shared size iram    0 eram    0 
+priority 56 hisr max shared size iram    0 eram    0 
+priority 57 hisr max shared size iram    0 eram    0 
+priority 58 hisr max shared size iram    0 eram    0 
+priority 59 hisr max shared size iram    0 eram    0 
+priority 60 hisr max shared size iram    0 eram 1024 
+priority 61 hisr max shared size iram    0 eram 2048 
+priority 62 hisr max shared size iram    0 eram 2048 
+priority 63 hisr max shared size iram    0 eram 2048 
+hisr shared stack total iram size  8192 
+HISR of index   1 priority  63 consumes   96. stack  608 aligned stack    0 int_ram? 0
+HISR of index   3 priority  63 consumes   96. stack  768 aligned stack    0 int_ram? 0
+HISR of index   4 priority  62 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index   5 priority  63 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  11 priority  61 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  12 priority  61 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index  13 priority  61 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  14 priority  62 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index  15 priority  62 consumes   96. stack  512 aligned stack    0 int_ram? 0
+HISR of index  18 priority  11 consumes   96. stack 4096 aligned stack    0 int_ram? 1
+HISR of index  19 priority  13 consumes   96. stack 4096 aligned stack    0 int_ram? 1
+HISR of index  27 priority  62 consumes   96. stack 1280 aligned stack    0 int_ram? 0
+HISR of index  28 priority  62 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  32 priority  61 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index  35 priority  61 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index  46 priority   3 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index  49 priority   4 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  50 priority   5 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  51 priority   6 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  52 priority   7 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  53 priority   8 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  54 priority   9 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  55 priority  10 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  56 priority  12 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  58 priority  14 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  59 priority  15 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  60 priority  16 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  61 priority  17 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  62 priority  18 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  63 priority  19 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  64 priority  20 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  65 priority  21 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  66 priority  22 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  67 priority  23 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  68 priority  24 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  69 priority  25 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  70 priority  26 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  71 priority  27 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  73 priority  29 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  74 priority  30 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  75 priority  31 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  78 priority  34 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  79 priority  36 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  82 priority  35 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  89 priority  40 consumes   96. stack 2048 aligned stack    0 int_ram? 0
+HISR of index  92 priority  63 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index  93 priority  60 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index  94 priority  60 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index  95 priority  60 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index  96 priority  60 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index  97 priority  60 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index  99 priority   3 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index 101 priority  63 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index 102 priority  43 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index 103 priority  44 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index 104 priority  45 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index 105 priority  46 consumes   96. stack 1024 aligned stack    0 int_ram? 0
+HISR of index 106 priority   3 consumes   96. stack  512 aligned stack    0 int_ram? 0
+HISR of index 107 priority   3 consumes   96. stack  512 aligned stack    0 int_ram? 0
+No consider stack isolation. All HISRs consume ext mem: 77344  int mem: 8192
+control buffer size(=    32) num(= 920)
+control buffer size(=    64) num(= 390)
+control buffer size(=   128) num(= 230)
+control buffer size(=   256) num(= 210)
+control buffer size(=   512) num(=  85)
+control buffer size(=  1024) num(=  55)
+control buffer size(=  2048) num(=  50)
+control buffer size(=  4096) num(=  15)
+control buffer size(=  8192) num(=  12)
+control buffer size(= 16384) num(=  10)
+control buffer size(= 32768) num(=   6)
+control buffer size(= 65536) num(=   5)
+control buffer size(=100000) num(=   0)
+control buffer consumes sys_mem + dbg_mem = 1228408 + 198956
+event pool consumes 2880
+95 task_info_g sys_mem 4180
+No consider stack isolation sys_mem_size = 1530364 + 72884 in NORMAL mode
+No consider stack isolation sys_mem_size = 1325092 + 8360 in USB mode
+No consider stack isolation sys_mem_size = 1421340 + 34396 in FACTORY mode
+In stack isolation sys_mem_size: 1537040
+small obj size: 105544
+align stack size: 266240
+actual stack size: 163136
+big object size: 1262888
+sys_mem:1530364	estimate sys mem:72884	debug_mem_size:201884	int ram size:9216

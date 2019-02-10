@@ -1,0 +1,15 @@
+copro_info_gen input:
+FALSE
+./build/HCT6737M_65_N/LWG_DSDS/tmp/~copro_info.tmp
+build/HCT6737M_65_N/LWG_DSDS/bin/~HCT6737M_65_N(LWG_DSDS).mak
+./build/HCT6737M_65_N/LWG_DSDS/bin/log/infomake.log
+./build/HCT6737M_65_N/LWG_DSDS/md_copro/bin/HCT6737M_65_N_MDBIN_PCB01_MT6735_S00.sym
+./build/HCT6737M_65_N/LWG_DSDS/md_copro/custom/system/ldsHCT6737M_65_N.txt
+
+[NeedToGen] FORCE=0, BuiltWithCopro=0
+=> No need to generate tmp file contents
+Set Default Value:
+--------------------------------------------------------------
+ForceToUseCoproInfo => 0(0x0)
+CoproTotalRAMUsage => 4194304(0x400000)
+CoproLoadViewSize => 1048576(0x100000)

@@ -1,0 +1,561 @@
+#ifndef _rac_trc_GEN_H_
+#define _rac_trc_GEN_H_
+
+// RAC_FN_rac_handle_class_change
+#define RAC_FN_rac_handle_class_change_size NULL
+#define RAC_FN_rac_handle_class_change RAC_FN_rac_handle_class_change__enum,RAC_FN_rac_handle_class_change_size
+
+// RAC_FN_rac_ug_ims_config_req
+#define RAC_FN_rac_ug_ims_config_req_size NULL
+#define RAC_FN_rac_ug_ims_config_req RAC_FN_rac_ug_ims_config_req__enum,RAC_FN_rac_ug_ims_config_req_size
+
+// RAC_TRC_rac_em_update_req_msg_handler
+#define RAC_TRC_rac_em_update_req_msg_handler_size NULL
+#define RAC_TRC_rac_em_update_req_msg_handler RAC_TRC_rac_em_update_req_msg_handler__enum,RAC_TRC_rac_em_update_req_msg_handler_size
+
+// RAC_TRC_rac_send_em_msg
+#define RAC_TRC_rac_send_em_msg_size NULL
+#define RAC_TRC_rac_send_em_msg RAC_TRC_rac_send_em_msg__enum,RAC_TRC_rac_send_em_msg_size
+
+// RAC_TRC_rac_send_em_abnormal_no_service_msg
+#define RAC_TRC_rac_send_em_abnormal_no_service_msg_size NULL
+#define RAC_TRC_rac_send_em_abnormal_no_service_msg RAC_TRC_rac_send_em_abnormal_no_service_msg__enum,RAC_TRC_rac_send_em_abnormal_no_service_msg_size
+
+// RAC_TRC_rac_e_reset
+#define RAC_TRC_rac_e_reset_size NULL
+#define RAC_TRC_rac_e_reset RAC_TRC_rac_e_reset__enum,RAC_TRC_rac_e_reset_size
+
+// RAC_TRC_rac_e_send_set_rat_mode_req
+#define RAC_TRC_rac_e_send_set_rat_mode_req_size NULL
+#define RAC_TRC_rac_e_send_set_rat_mode_req RAC_TRC_rac_e_send_set_rat_mode_req__enum,RAC_TRC_rac_e_send_set_rat_mode_req_size
+
+// RAC_TRC_rac_e_send_attach_req
+#define RAC_TRC_rac_e_send_attach_req_size NULL
+#define RAC_TRC_rac_e_send_attach_req RAC_TRC_rac_e_send_attach_req__enum,RAC_TRC_rac_e_send_attach_req_size
+
+// RAC_TRC_rac_e_send_detach_req
+#define RAC_TRC_rac_e_send_detach_req_size NULL
+#define RAC_TRC_rac_e_send_detach_req RAC_TRC_rac_e_send_detach_req__enum,RAC_TRC_rac_e_send_detach_req_size
+
+// RAC_TRC_rac_e_send_rfoff_req
+#define RAC_TRC_rac_e_send_rfoff_req_size NULL
+#define RAC_TRC_rac_e_send_rfoff_req RAC_TRC_rac_e_send_rfoff_req__enum,RAC_TRC_rac_e_send_rfoff_req_size
+
+// RAC_TRC_rac_e_update_emm_state
+#define RAC_TRC_rac_e_update_emm_state_size NULL
+#define RAC_TRC_rac_e_update_emm_state RAC_TRC_rac_e_update_emm_state__enum,RAC_TRC_rac_e_update_emm_state_size
+
+// RAC_TRC_rac_e_get_service_domain
+#define RAC_TRC_rac_e_get_service_domain_size NULL
+#define RAC_TRC_rac_e_get_service_domain RAC_TRC_rac_e_get_service_domain__enum,RAC_TRC_rac_e_get_service_domain_size
+
+// RAC_TRC_rac_e_is_cell_info_equal
+#define RAC_TRC_rac_e_is_cell_info_equal_size NULL
+#define RAC_TRC_rac_e_is_cell_info_equal RAC_TRC_rac_e_is_cell_info_equal__enum,RAC_TRC_rac_e_is_cell_info_equal_size
+
+// RAC_TRC_rac_e_update_ue_mode
+#define RAC_TRC_rac_e_update_ue_mode_size NULL
+#define RAC_TRC_rac_e_update_ue_mode RAC_TRC_rac_e_update_ue_mode__enum,RAC_TRC_rac_e_update_ue_mode_size
+
+// RAC_TRC_rac_e_sync_ps_state
+#define RAC_TRC_rac_e_sync_ps_state_size NULL
+#define RAC_TRC_rac_e_sync_ps_state RAC_TRC_rac_e_sync_ps_state__enum,RAC_TRC_rac_e_sync_ps_state_size
+
+// RAC_TRC_rac_e_sync_ps_cause
+#define RAC_TRC_rac_e_sync_ps_cause_size NULL
+#define RAC_TRC_rac_e_sync_ps_cause RAC_TRC_rac_e_sync_ps_cause__enum,RAC_TRC_rac_e_sync_ps_cause_size
+
+// RAC_TRC_rac_get_cs_state_in_lte
+#define RAC_TRC_rac_get_cs_state_in_lte_size NULL
+#define RAC_TRC_rac_get_cs_state_in_lte RAC_TRC_rac_get_cs_state_in_lte__enum,RAC_TRC_rac_get_cs_state_in_lte_size
+
+// RAC_TRC_rac_get_eps_state
+#define RAC_TRC_rac_get_eps_state_size NULL
+#define RAC_TRC_rac_get_eps_state RAC_TRC_rac_get_eps_state__enum,RAC_TRC_rac_get_eps_state_size
+
+// RAC_TRC_rac_get_eps_status
+#define RAC_TRC_rac_get_eps_status_size NULL
+#define RAC_TRC_rac_get_eps_status RAC_TRC_rac_get_eps_status__enum,RAC_TRC_rac_get_eps_status_size
+
+// RAC_TRC_is_rac_emm_state_null_dereg
+#define RAC_TRC_is_rac_emm_state_null_dereg_size NULL
+#define RAC_TRC_is_rac_emm_state_null_dereg RAC_TRC_is_rac_emm_state_null_dereg__enum,RAC_TRC_is_rac_emm_state_null_dereg_size
+
+// RAC_TRC_is_rac_emm_state_reg
+#define RAC_TRC_is_rac_emm_state_reg_size NULL
+#define RAC_TRC_is_rac_emm_state_reg RAC_TRC_is_rac_emm_state_reg__enum,RAC_TRC_is_rac_emm_state_reg_size
+
+// RAC_TRC_is_rac_emm_state_att_req
+#define RAC_TRC_is_rac_emm_state_att_req_size NULL
+#define RAC_TRC_is_rac_emm_state_att_req RAC_TRC_is_rac_emm_state_att_req__enum,RAC_TRC_is_rac_emm_state_att_req_size
+
+// RAC_TRC_is_cs_domain_accessible
+#define RAC_TRC_is_cs_domain_accessible_size NULL
+#define RAC_TRC_is_cs_domain_accessible RAC_TRC_is_cs_domain_accessible__enum,RAC_TRC_is_cs_domain_accessible_size
+
+// RAC_TRC_convert_vdp_from_l4_to_nas
+#define RAC_TRC_convert_vdp_from_l4_to_nas_size NULL
+#define RAC_TRC_convert_vdp_from_l4_to_nas RAC_TRC_convert_vdp_from_l4_to_nas__enum,RAC_TRC_convert_vdp_from_l4_to_nas_size
+
+// RAC_TRC_rac_e_set_ims_voice_domain_preference_req
+#define RAC_TRC_rac_e_set_ims_voice_domain_preference_req_size NULL
+#define RAC_TRC_rac_e_set_ims_voice_domain_preference_req RAC_TRC_rac_e_set_ims_voice_domain_preference_req__enum,RAC_TRC_rac_e_set_ims_voice_domain_preference_req_size
+
+// RAC_TRC_rac_e_ims_reg_status_update_req
+#define RAC_TRC_rac_e_ims_reg_status_update_req_size NULL
+#define RAC_TRC_rac_e_ims_reg_status_update_req RAC_TRC_rac_e_ims_reg_status_update_req__enum,RAC_TRC_rac_e_ims_reg_status_update_req_size
+
+// RAC_TRC_rac_e_set_ims_voice_availability_req
+#define RAC_TRC_rac_e_set_ims_voice_availability_req_size NULL
+#define RAC_TRC_rac_e_set_ims_voice_availability_req RAC_TRC_rac_e_set_ims_voice_availability_req__enum,RAC_TRC_rac_e_set_ims_voice_availability_req_size
+
+// RAC_TRC_rac_e_ims_config_req
+#define RAC_TRC_rac_e_ims_config_req_size NULL
+#define RAC_TRC_rac_e_ims_config_req RAC_TRC_rac_e_ims_config_req__enum,RAC_TRC_rac_e_ims_config_req_size
+
+// RAC_TRC_rac_e_emc_attach_ind_msg_handler
+#define RAC_TRC_rac_e_emc_attach_ind_msg_handler_size NULL
+#define RAC_TRC_rac_e_emc_attach_ind_msg_handler RAC_TRC_rac_e_emc_attach_ind_msg_handler__enum,RAC_TRC_rac_e_emc_attach_ind_msg_handler_size
+
+// RAC_TRC_rac_e_emc_attach_cnf_msg_handler
+#define RAC_TRC_rac_e_emc_attach_cnf_msg_handler_size NULL
+#define RAC_TRC_rac_e_emc_attach_cnf_msg_handler RAC_TRC_rac_e_emc_attach_cnf_msg_handler__enum,RAC_TRC_rac_e_emc_attach_cnf_msg_handler_size
+
+// RAC_TRC_rac_e_emc_detach_ind_msg_handler
+#define RAC_TRC_rac_e_emc_detach_ind_msg_handler_size NULL
+#define RAC_TRC_rac_e_emc_detach_ind_msg_handler RAC_TRC_rac_e_emc_detach_ind_msg_handler__enum,RAC_TRC_rac_e_emc_detach_ind_msg_handler_size
+
+// RAC_TRC_rac_e_nw_feature_ind_msg_handler
+#define RAC_TRC_rac_e_nw_feature_ind_msg_handler_size NULL
+#define RAC_TRC_rac_e_nw_feature_ind_msg_handler RAC_TRC_rac_e_nw_feature_ind_msg_handler__enum,RAC_TRC_rac_e_nw_feature_ind_msg_handler_size
+
+// RAC_TRC_rac_e_get_em_info
+#define RAC_TRC_rac_e_get_em_info_size NULL
+#define RAC_TRC_rac_e_get_em_info RAC_TRC_rac_e_get_em_info__enum,RAC_TRC_rac_e_get_em_info_size
+
+// RAC_TRC_rac_e_set_ue_mode_req_msg_handler
+#define RAC_TRC_rac_e_set_ue_mode_req_msg_handler_size NULL
+#define RAC_TRC_rac_e_set_ue_mode_req_msg_handler RAC_TRC_rac_e_set_ue_mode_req_msg_handler__enum,RAC_TRC_rac_e_set_ue_mode_req_msg_handler_size
+
+// RAC_TRC_rac_e_sim_ready_ind_msg_handler
+#define RAC_TRC_rac_e_sim_ready_ind_msg_handler_size NULL
+#define RAC_TRC_rac_e_sim_ready_ind_msg_handler RAC_TRC_rac_e_sim_ready_ind_msg_handler__enum,RAC_TRC_rac_e_sim_ready_ind_msg_handler_size
+
+// RAC_TRC_rac_e_sim_error_ind_msg_handler
+#define RAC_TRC_rac_e_sim_error_ind_msg_handler_size NULL
+#define RAC_TRC_rac_e_sim_error_ind_msg_handler RAC_TRC_rac_e_sim_error_ind_msg_handler__enum,RAC_TRC_rac_e_sim_error_ind_msg_handler_size
+
+// RAC_TRC_rac_e_get_sat_location_info
+#define RAC_TRC_rac_e_get_sat_location_info_size NULL
+#define RAC_TRC_rac_e_get_sat_location_info RAC_TRC_rac_e_get_sat_location_info__enum,RAC_TRC_rac_e_get_sat_location_info_size
+
+// RAC_TRC_rac_update_last_domain
+#define RAC_TRC_rac_update_last_domain_size NULL
+#define RAC_TRC_rac_update_last_domain RAC_TRC_rac_update_last_domain__enum,RAC_TRC_rac_update_last_domain_size
+
+// RAC_TRC_rac_e_get_detach_domain_by_rat_mode
+#define RAC_TRC_rac_e_get_detach_domain_by_rat_mode_size NULL
+#define RAC_TRC_rac_e_get_detach_domain_by_rat_mode RAC_TRC_rac_e_get_detach_domain_by_rat_mode__enum,RAC_TRC_rac_e_get_detach_domain_by_rat_mode_size
+
+// RAC_TRC_rac_e_change_usage_setting_by_sim
+#define RAC_TRC_rac_e_change_usage_setting_by_sim_size NULL
+#define RAC_TRC_rac_e_change_usage_setting_by_sim RAC_TRC_rac_e_change_usage_setting_by_sim__enum,RAC_TRC_rac_e_change_usage_setting_by_sim_size
+
+// RAC_INFO_BEFORE_MAIN
+#define RAC_INFO_BEFORE_MAIN_size "‚c"
+#define RAC_INFO_BEFORE_MAIN RAC_INFO_BEFORE_MAIN__enum,RAC_INFO_BEFORE_MAIN_size
+
+// RAC_INFO_BEFORE_MAIN_GMM_STATE
+#define RAC_INFO_BEFORE_MAIN_GMM_STATE_size "c"
+#define RAC_INFO_BEFORE_MAIN_GMM_STATE RAC_INFO_BEFORE_MAIN_GMM_STATE__enum,RAC_INFO_BEFORE_MAIN_GMM_STATE_size
+
+// RAC_INFO
+#define RAC_INFO_size "‚c"
+#define RAC_INFO RAC_INFO__enum,RAC_INFO_size
+
+// RAC_INFO_GMM_STATE
+#define RAC_INFO_GMM_STATE_size "c"
+#define RAC_INFO_GMM_STATE RAC_INFO_GMM_STATE__enum,RAC_INFO_GMM_STATE_size
+
+// RAC_INFO_GET_SEL_MOD
+#define RAC_INFO_GET_SEL_MOD_size "d"
+#define RAC_INFO_GET_SEL_MOD RAC_INFO_GET_SEL_MOD__enum,RAC_INFO_GET_SEL_MOD_size
+
+// RAC_INFO_TST_INJECT_CMD_STRING
+#define RAC_INFO_TST_INJECT_CMD_STRING_size "‚d"
+#define RAC_INFO_TST_INJECT_CMD_STRING RAC_INFO_TST_INJECT_CMD_STRING__enum,RAC_INFO_TST_INJECT_CMD_STRING_size
+
+// RAC_ABNORMAL_ASSERT
+#define RAC_ABNORMAL_ASSERT_size NULL
+#define RAC_ABNORMAL_ASSERT RAC_ABNORMAL_ASSERT__enum,RAC_ABNORMAL_ASSERT_size
+
+// RAC_CHANGE_MS_CLASS
+#define RAC_CHANGE_MS_CLASS_size "‚c"
+#define RAC_CHANGE_MS_CLASS RAC_CHANGE_MS_CLASS__enum,RAC_CHANGE_MS_CLASS_size
+
+// RAC_RECEIVE_DETACH_IND
+#define RAC_RECEIVE_DETACH_IND_size "„c"
+#define RAC_RECEIVE_DETACH_IND RAC_RECEIVE_DETACH_IND__enum,RAC_RECEIVE_DETACH_IND_size
+
+// RAC_ACTIVATING_IGNORE
+#define RAC_ACTIVATING_IGNORE_size NULL
+#define RAC_ACTIVATING_IGNORE RAC_ACTIVATING_IGNORE__enum,RAC_ACTIVATING_IGNORE_size
+
+// RAC_GPRS_CONN_TYPE
+#define RAC_GPRS_CONN_TYPE_size "c"
+#define RAC_GPRS_CONN_TYPE RAC_GPRS_CONN_TYPE__enum,RAC_GPRS_CONN_TYPE_size
+
+// RAC_TRC_READ_EF_RAC_PREFERENCE
+#define RAC_TRC_READ_EF_RAC_PREFERENCE_size NULL
+#define RAC_TRC_READ_EF_RAC_PREFERENCE RAC_TRC_READ_EF_RAC_PREFERENCE__enum,RAC_TRC_READ_EF_RAC_PREFERENCE_size
+
+// RAC_DEFAULT_RAT_MODE
+#define RAC_DEFAULT_RAT_MODE_size "c"
+#define RAC_DEFAULT_RAT_MODE RAC_DEFAULT_RAT_MODE__enum,RAC_DEFAULT_RAT_MODE_size
+
+// RAC_SET_RAT
+#define RAC_SET_RAT_size "c"
+#define RAC_SET_RAT RAC_SET_RAT__enum,RAC_SET_RAT_size
+
+// RAC_PLMN_SEL_MODE
+#define RAC_PLMN_SEL_MODE_size "c"
+#define RAC_PLMN_SEL_MODE RAC_PLMN_SEL_MODE__enum,RAC_PLMN_SEL_MODE_size
+
+// RAC_CURRENT_ACTIVE_RAT
+#define RAC_CURRENT_ACTIVE_RAT_size "dc"
+#define RAC_CURRENT_ACTIVE_RAT RAC_CURRENT_ACTIVE_RAT__enum,RAC_CURRENT_ACTIVE_RAT_size
+
+// RAC_MULTIMODE_ACTIVE_RAT
+#define RAC_MULTIMODE_ACTIVE_RAT_size "‚c"
+#define RAC_MULTIMODE_ACTIVE_RAT RAC_MULTIMODE_ACTIVE_RAT__enum,RAC_MULTIMODE_ACTIVE_RAT_size
+
+// RAC_TRC_UG_SYNC_PS_CAUSE
+#define RAC_TRC_UG_SYNC_PS_CAUSE_size NULL
+#define RAC_TRC_UG_SYNC_PS_CAUSE RAC_TRC_UG_SYNC_PS_CAUSE__enum,RAC_TRC_UG_SYNC_PS_CAUSE_size
+
+// RAC_GET_SERVICE_DOMAIN
+#define RAC_GET_SERVICE_DOMAIN_size "„c"
+#define RAC_GET_SERVICE_DOMAIN RAC_GET_SERVICE_DOMAIN__enum,RAC_GET_SERVICE_DOMAIN_size
+
+// RAC_TRC_BEFORE_MAIN_EMM_STATE
+#define RAC_TRC_BEFORE_MAIN_EMM_STATE_size "c"
+#define RAC_TRC_BEFORE_MAIN_EMM_STATE RAC_TRC_BEFORE_MAIN_EMM_STATE__enum,RAC_TRC_BEFORE_MAIN_EMM_STATE_size
+
+// RAC_TRC_EMM_STATE
+#define RAC_TRC_EMM_STATE_size "c"
+#define RAC_TRC_EMM_STATE RAC_TRC_EMM_STATE__enum,RAC_TRC_EMM_STATE_size
+
+// RAC_TRC_ON_A_CAUSE18_PLMN
+#define RAC_TRC_ON_A_CAUSE18_PLMN_size NULL
+#define RAC_TRC_ON_A_CAUSE18_PLMN RAC_TRC_ON_A_CAUSE18_PLMN__enum,RAC_TRC_ON_A_CAUSE18_PLMN_size
+
+// RAC_TRC_READ_EF_EPSLOCI_EPSNSC_TIN
+#define RAC_TRC_READ_EF_EPSLOCI_EPSNSC_TIN_size NULL
+#define RAC_TRC_READ_EF_EPSLOCI_EPSNSC_TIN RAC_TRC_READ_EF_EPSLOCI_EPSNSC_TIN__enum,RAC_TRC_READ_EF_EPSLOCI_EPSNSC_TIN_size
+
+// RAC_TRC_READ_EF_LTE_PREFERENCE
+#define RAC_TRC_READ_EF_LTE_PREFERENCE_size NULL
+#define RAC_TRC_READ_EF_LTE_PREFERENCE RAC_TRC_READ_EF_LTE_PREFERENCE__enum,RAC_TRC_READ_EF_LTE_PREFERENCE_size
+
+// RAC_TRC_EMM_DETACH_IND
+#define RAC_TRC_EMM_DETACH_IND_size "„c"
+#define RAC_TRC_EMM_DETACH_IND RAC_TRC_EMM_DETACH_IND__enum,RAC_TRC_EMM_DETACH_IND_size
+
+// RAC_TRC_UE_USAGE_SETTING
+#define RAC_TRC_UE_USAGE_SETTING_size "c"
+#define RAC_TRC_UE_USAGE_SETTING RAC_TRC_UE_USAGE_SETTING__enum,RAC_TRC_UE_USAGE_SETTING_size
+
+// RAC_TRC_VOICE_DOMAIN_PREFERENCE_EUTRAN
+#define RAC_TRC_VOICE_DOMAIN_PREFERENCE_EUTRAN_size "c"
+#define RAC_TRC_VOICE_DOMAIN_PREFERENCE_EUTRAN RAC_TRC_VOICE_DOMAIN_PREFERENCE_EUTRAN__enum,RAC_TRC_VOICE_DOMAIN_PREFERENCE_EUTRAN_size
+
+// RAC_TRC_SMS_OVER_IP_SGS
+#define RAC_TRC_SMS_OVER_IP_SGS_size "‚c"
+#define RAC_TRC_SMS_OVER_IP_SGS RAC_TRC_SMS_OVER_IP_SGS__enum,RAC_TRC_SMS_OVER_IP_SGS_size
+
+// RAC_TRC_TIN
+#define RAC_TRC_TIN_size "c"
+#define RAC_TRC_TIN RAC_TRC_TIN__enum,RAC_TRC_TIN_size
+
+// RAC_TRC_UE_MODE
+#define RAC_TRC_UE_MODE_size "c"
+#define RAC_TRC_UE_MODE RAC_TRC_UE_MODE__enum,RAC_TRC_UE_MODE_size
+
+// RAC_TRC_VDP_CHANGE_DUE_TO_IMS_ONOFF
+#define RAC_TRC_VDP_CHANGE_DUE_TO_IMS_ONOFF_size "c"
+#define RAC_TRC_VDP_CHANGE_DUE_TO_IMS_ONOFF RAC_TRC_VDP_CHANGE_DUE_TO_IMS_ONOFF__enum,RAC_TRC_VDP_CHANGE_DUE_TO_IMS_ONOFF_size
+
+// RAC_TRC_SET_RUNTIME_UE_MODE
+#define RAC_TRC_SET_RUNTIME_UE_MODE_size "‚c"
+#define RAC_TRC_SET_RUNTIME_UE_MODE RAC_TRC_SET_RUNTIME_UE_MODE__enum,RAC_TRC_SET_RUNTIME_UE_MODE_size
+
+// RAC_TRC_NVRAM_UE_MODE
+#define RAC_TRC_NVRAM_UE_MODE_size "c"
+#define RAC_TRC_NVRAM_UE_MODE RAC_TRC_NVRAM_UE_MODE__enum,RAC_TRC_NVRAM_UE_MODE_size
+
+// RAC_TRC_NOT_SEND_UE_MODE_UPDATE_REQ
+#define RAC_TRC_NOT_SEND_UE_MODE_UPDATE_REQ_size NULL
+#define RAC_TRC_NOT_SEND_UE_MODE_UPDATE_REQ RAC_TRC_NOT_SEND_UE_MODE_UPDATE_REQ__enum,RAC_TRC_NOT_SEND_UE_MODE_UPDATE_REQ_size
+
+// RAC_TRC_IMS_REG_STATUS_CHANGED
+#define RAC_TRC_IMS_REG_STATUS_CHANGED_size "‚c"
+#define RAC_TRC_IMS_REG_STATUS_CHANGED RAC_TRC_IMS_REG_STATUS_CHANGED__enum,RAC_TRC_IMS_REG_STATUS_CHANGED_size
+
+// RAC_TRC_SET_UE_MODE_FAIL
+#define RAC_TRC_SET_UE_MODE_FAIL_size "c"
+#define RAC_TRC_SET_UE_MODE_FAIL RAC_TRC_SET_UE_MODE_FAIL__enum,RAC_TRC_SET_UE_MODE_FAIL_size
+
+// RAC_TRC_UNHANDLED_SIM_ERROR_CAUSE
+#define RAC_TRC_UNHANDLED_SIM_ERROR_CAUSE_size "c"
+#define RAC_TRC_UNHANDLED_SIM_ERROR_CAUSE RAC_TRC_UNHANDLED_SIM_ERROR_CAUSE__enum,RAC_TRC_UNHANDLED_SIM_ERROR_CAUSE_size
+
+// RAC_TRC_CONSECUTIVE_SIM_ERROR
+#define RAC_TRC_CONSECUTIVE_SIM_ERROR_size "c"
+#define RAC_TRC_CONSECUTIVE_SIM_ERROR RAC_TRC_CONSECUTIVE_SIM_ERROR__enum,RAC_TRC_CONSECUTIVE_SIM_ERROR_size
+
+// RAC_TRC_NOT_SEND_UEMODE_UPDATE_REQ_SIM_REMOVED
+#define RAC_TRC_NOT_SEND_UEMODE_UPDATE_REQ_SIM_REMOVED_size NULL
+#define RAC_TRC_NOT_SEND_UEMODE_UPDATE_REQ_SIM_REMOVED RAC_TRC_NOT_SEND_UEMODE_UPDATE_REQ_SIM_REMOVED__enum,RAC_TRC_NOT_SEND_UEMODE_UPDATE_REQ_SIM_REMOVED_size
+
+// RAC_TRC_UE_USAGE_SETTING_UNSYNC
+#define RAC_TRC_UE_USAGE_SETTING_UNSYNC_size "‚c"
+#define RAC_TRC_UE_USAGE_SETTING_UNSYNC RAC_TRC_UE_USAGE_SETTING_UNSYNC__enum,RAC_TRC_UE_USAGE_SETTING_UNSYNC_size
+
+// RAC_TRC_REMAIN_CS_PS_DOMAIN
+#define RAC_TRC_REMAIN_CS_PS_DOMAIN_size "c"
+#define RAC_TRC_REMAIN_CS_PS_DOMAIN RAC_TRC_REMAIN_CS_PS_DOMAIN__enum,RAC_TRC_REMAIN_CS_PS_DOMAIN_size
+
+// RAC_TRC_UNHANDLED_EMM_STATE
+#define RAC_TRC_UNHANDLED_EMM_STATE_size "c"
+#define RAC_TRC_UNHANDLED_EMM_STATE RAC_TRC_UNHANDLED_EMM_STATE__enum,RAC_TRC_UNHANDLED_EMM_STATE_size
+
+// RAC_TRC_LAST_ATTACH_DOMAIN
+#define RAC_TRC_LAST_ATTACH_DOMAIN_size "c"
+#define RAC_TRC_LAST_ATTACH_DOMAIN RAC_TRC_LAST_ATTACH_DOMAIN__enum,RAC_TRC_LAST_ATTACH_DOMAIN_size
+
+// RAC_TRC_SET_LAST_ATTACH_DOMAIN
+#define RAC_TRC_SET_LAST_ATTACH_DOMAIN_size "c"
+#define RAC_TRC_SET_LAST_ATTACH_DOMAIN RAC_TRC_SET_LAST_ATTACH_DOMAIN__enum,RAC_TRC_SET_LAST_ATTACH_DOMAIN_size
+
+// RAC_TRC_UPDATE_NEW_ATTACH_DOMAIN
+#define RAC_TRC_UPDATE_NEW_ATTACH_DOMAIN_size NULL
+#define RAC_TRC_UPDATE_NEW_ATTACH_DOMAIN RAC_TRC_UPDATE_NEW_ATTACH_DOMAIN__enum,RAC_TRC_UPDATE_NEW_ATTACH_DOMAIN_size
+
+// RAC_TRC_TO_UPDATE_LAST_ATTACH_DOMAIN
+#define RAC_TRC_TO_UPDATE_LAST_ATTACH_DOMAIN_size "‚c"
+#define RAC_TRC_TO_UPDATE_LAST_ATTACH_DOMAIN RAC_TRC_TO_UPDATE_LAST_ATTACH_DOMAIN__enum,RAC_TRC_TO_UPDATE_LAST_ATTACH_DOMAIN_size
+
+// RAC_TRC_DISABLE_CS_DETACH_FOR_SET_MULTIRAT
+#define RAC_TRC_DISABLE_CS_DETACH_FOR_SET_MULTIRAT_size NULL
+#define RAC_TRC_DISABLE_CS_DETACH_FOR_SET_MULTIRAT RAC_TRC_DISABLE_CS_DETACH_FOR_SET_MULTIRAT__enum,RAC_TRC_DISABLE_CS_DETACH_FOR_SET_MULTIRAT_size
+
+// RAC_CURRENT_ACTION
+#define RAC_CURRENT_ACTION_size "c"
+#define RAC_CURRENT_ACTION RAC_CURRENT_ACTION__enum,RAC_CURRENT_ACTION_size
+
+// UNEXPECTED_MESSAGE
+#define UNEXPECTED_MESSAGE_size "d"
+#define UNEXPECTED_MESSAGE UNEXPECTED_MESSAGE__enum,UNEXPECTED_MESSAGE_size
+
+// PLMN_LIST_FLAG_ERROR
+#define PLMN_LIST_FLAG_ERROR_size "d"
+#define PLMN_LIST_FLAG_ERROR PLMN_LIST_FLAG_ERROR__enum,PLMN_LIST_FLAG_ERROR_size
+
+// RAC_RECV_PS_DETACH_WHEN_PLMN_SEL
+#define RAC_RECV_PS_DETACH_WHEN_PLMN_SEL_size "‚d"
+#define RAC_RECV_PS_DETACH_WHEN_PLMN_SEL RAC_RECV_PS_DETACH_WHEN_PLMN_SEL__enum,RAC_RECV_PS_DETACH_WHEN_PLMN_SEL_size
+
+// RAC_L4C_GET_ATTACH_STATUS
+#define RAC_L4C_GET_ATTACH_STATUS_size "„c"
+#define RAC_L4C_GET_ATTACH_STATUS RAC_L4C_GET_ATTACH_STATUS__enum,RAC_L4C_GET_ATTACH_STATUS_size
+
+// RAC_GET_STATE_STATUS_INFO
+#define RAC_GET_STATE_STATUS_INFO_size "„c"
+#define RAC_GET_STATE_STATUS_INFO RAC_GET_STATE_STATUS_INFO__enum,RAC_GET_STATE_STATUS_INFO_size
+
+// RAC_GET_LAST_STATE_STATUS_INFO
+#define RAC_GET_LAST_STATE_STATUS_INFO_size "…c"
+#define RAC_GET_LAST_STATE_STATUS_INFO RAC_GET_LAST_STATE_STATUS_INFO__enum,RAC_GET_LAST_STATE_STATUS_INFO_size
+
+// RAC_GET_CURRENT_STATE_STATUS_INFO
+#define RAC_GET_CURRENT_STATE_STATUS_INFO_size "…c"
+#define RAC_GET_CURRENT_STATE_STATUS_INFO RAC_GET_CURRENT_STATE_STATUS_INFO__enum,RAC_GET_CURRENT_STATE_STATUS_INFO_size
+
+// RAC_NVRAM_WRITE_COUNT
+#define RAC_NVRAM_WRITE_COUNT_size "‚d"
+#define RAC_NVRAM_WRITE_COUNT RAC_NVRAM_WRITE_COUNT__enum,RAC_NVRAM_WRITE_COUNT_size
+
+// RAC_PLMN_LIST_SEL_OR_BAND_X_WHEN_OTHER_ACTIONS
+#define RAC_PLMN_LIST_SEL_OR_BAND_X_WHEN_OTHER_ACTIONS_size "c"
+#define RAC_PLMN_LIST_SEL_OR_BAND_X_WHEN_OTHER_ACTIONS RAC_PLMN_LIST_SEL_OR_BAND_X_WHEN_OTHER_ACTIONS__enum,RAC_PLMN_LIST_SEL_OR_BAND_X_WHEN_OTHER_ACTIONS_size
+
+// RAC_NOT_SEND_ATTACH_REQ_WHEN_RECV_PS_REG_REQ
+#define RAC_NOT_SEND_ATTACH_REQ_WHEN_RECV_PS_REG_REQ_size "‚c"
+#define RAC_NOT_SEND_ATTACH_REQ_WHEN_RECV_PS_REG_REQ RAC_NOT_SEND_ATTACH_REQ_WHEN_RECV_PS_REG_REQ__enum,RAC_NOT_SEND_ATTACH_REQ_WHEN_RECV_PS_REG_REQ_size
+
+// RAC_SAME_SEND_REG_IND
+#define RAC_SAME_SEND_REG_IND_size NULL
+#define RAC_SAME_SEND_REG_IND RAC_SAME_SEND_REG_IND__enum,RAC_SAME_SEND_REG_IND_size
+
+// RAC_SEND_ATTACH_UNEXPECTEDLY
+#define RAC_SEND_ATTACH_UNEXPECTEDLY_size "‚c"
+#define RAC_SEND_ATTACH_UNEXPECTEDLY RAC_SEND_ATTACH_UNEXPECTEDLY__enum,RAC_SEND_ATTACH_UNEXPECTEDLY_size
+
+// SAT_LOCATION_INFO_MM_STATUS
+#define SAT_LOCATION_INFO_MM_STATUS_size "c"
+#define SAT_LOCATION_INFO_MM_STATUS SAT_LOCATION_INFO_MM_STATUS__enum,SAT_LOCATION_INFO_MM_STATUS_size
+
+// SAT_EQUAL_LAST_LOCATION_INFO
+#define SAT_EQUAL_LAST_LOCATION_INFO_size "d"
+#define SAT_EQUAL_LAST_LOCATION_INFO SAT_EQUAL_LAST_LOCATION_INFO__enum,SAT_EQUAL_LAST_LOCATION_INFO_size
+
+// RAC_RECEIVE_MM_SAME_LAI_IMSI_ATTACHING
+#define RAC_RECEIVE_MM_SAME_LAI_IMSI_ATTACHING_size NULL
+#define RAC_RECEIVE_MM_SAME_LAI_IMSI_ATTACHING RAC_RECEIVE_MM_SAME_LAI_IMSI_ATTACHING__enum,RAC_RECEIVE_MM_SAME_LAI_IMSI_ATTACHING_size
+
+// RAC_AUTO_ATTACH
+#define RAC_AUTO_ATTACH_size "‚d"
+#define RAC_AUTO_ATTACH RAC_AUTO_ATTACH__enum,RAC_AUTO_ATTACH_size
+
+// RAC_START_TIMER
+#define RAC_START_TIMER_size "c"
+#define RAC_START_TIMER RAC_START_TIMER__enum,RAC_START_TIMER_size
+
+// RAC_CANCEL_TIMER
+#define RAC_CANCEL_TIMER_size "c"
+#define RAC_CANCEL_TIMER RAC_CANCEL_TIMER__enum,RAC_CANCEL_TIMER_size
+
+// RAC_TIMEOUT
+#define RAC_TIMEOUT_size "‚c"
+#define RAC_TIMEOUT RAC_TIMEOUT__enum,RAC_TIMEOUT_size
+
+// RAC_GPRS_TRANSFER_PREFERENCE
+#define RAC_GPRS_TRANSFER_PREFERENCE_size "c"
+#define RAC_GPRS_TRANSFER_PREFERENCE RAC_GPRS_TRANSFER_PREFERENCE__enum,RAC_GPRS_TRANSFER_PREFERENCE_size
+
+// RAC_PLMN_LIST_PREFERENCE
+#define RAC_PLMN_LIST_PREFERENCE_size "c"
+#define RAC_PLMN_LIST_PREFERENCE RAC_PLMN_LIST_PREFERENCE__enum,RAC_PLMN_LIST_PREFERENCE_size
+
+// RAC_HSPA_PREFERENCE
+#define RAC_HSPA_PREFERENCE_size "c"
+#define RAC_HSPA_PREFERENCE RAC_HSPA_PREFERENCE__enum,RAC_HSPA_PREFERENCE_size
+
+// RAC_INTERNATIONAL_ROAMING_SUPPORT_SETTING
+#define RAC_INTERNATIONAL_ROAMING_SUPPORT_SETTING_size "c"
+#define RAC_INTERNATIONAL_ROAMING_SUPPORT_SETTING RAC_INTERNATIONAL_ROAMING_SUPPORT_SETTING__enum,RAC_INTERNATIONAL_ROAMING_SUPPORT_SETTING_size
+
+// RAC_NATIONAL_ROAMING_SUPPORT_SETTING
+#define RAC_NATIONAL_ROAMING_SUPPORT_SETTING_size "c"
+#define RAC_NATIONAL_ROAMING_SUPPORT_SETTING RAC_NATIONAL_ROAMING_SUPPORT_SETTING__enum,RAC_NATIONAL_ROAMING_SUPPORT_SETTING_size
+
+// RAC_DISABLE_HPPLMN_SEARCH_SETTING
+#define RAC_DISABLE_HPPLMN_SEARCH_SETTING_size "c"
+#define RAC_DISABLE_HPPLMN_SEARCH_SETTING RAC_DISABLE_HPPLMN_SEARCH_SETTING__enum,RAC_DISABLE_HPPLMN_SEARCH_SETTING_size
+
+// RAC_ROAMING_BROKER_SETTING
+#define RAC_ROAMING_BROKER_SETTING_size "c"
+#define RAC_ROAMING_BROKER_SETTING RAC_ROAMING_BROKER_SETTING__enum,RAC_ROAMING_BROKER_SETTING_size
+
+// RAC_DISABLE_INTEGRITY_CHECK_SETTING
+#define RAC_DISABLE_INTEGRITY_CHECK_SETTING_size "c"
+#define RAC_DISABLE_INTEGRITY_CHECK_SETTING RAC_DISABLE_INTEGRITY_CHECK_SETTING__enum,RAC_DISABLE_INTEGRITY_CHECK_SETTING_size
+
+// RAC_PEER_GPRS_TRANSFER_PREFERENCE
+#define RAC_PEER_GPRS_TRANSFER_PREFERENCE_size "c"
+#define RAC_PEER_GPRS_TRANSFER_PREFERENCE RAC_PEER_GPRS_TRANSFER_PREFERENCE__enum,RAC_PEER_GPRS_TRANSFER_PREFERENCE_size
+
+// RAC_IRAT_PREFERENCE
+#define RAC_IRAT_PREFERENCE_size "c"
+#define RAC_IRAT_PREFERENCE RAC_IRAT_PREFERENCE__enum,RAC_IRAT_PREFERENCE_size
+
+// RAC_SET_FOR_FLAG
+#define RAC_SET_FOR_FLAG_size "c"
+#define RAC_SET_FOR_FLAG RAC_SET_FOR_FLAG__enum,RAC_SET_FOR_FLAG_size
+
+// RAC_CSG_AUTO_SEARCH_PREFERENCE
+#define RAC_CSG_AUTO_SEARCH_PREFERENCE_size "c"
+#define RAC_CSG_AUTO_SEARCH_PREFERENCE RAC_CSG_AUTO_SEARCH_PREFERENCE__enum,RAC_CSG_AUTO_SEARCH_PREFERENCE_size
+
+// RAC_CELL_SUPPORT_R8FD
+#define RAC_CELL_SUPPORT_R8FD_size NULL
+#define RAC_CELL_SUPPORT_R8FD RAC_CELL_SUPPORT_R8FD__enum,RAC_CELL_SUPPORT_R8FD_size
+
+// RAC_RECV_INACTIVE_DETACH_IND
+#define RAC_RECV_INACTIVE_DETACH_IND_size "c"
+#define RAC_RECV_INACTIVE_DETACH_IND RAC_RECV_INACTIVE_DETACH_IND__enum,RAC_RECV_INACTIVE_DETACH_IND_size
+
+// RAC_RECV_INACTIVE_ATTACH_CNF
+#define RAC_RECV_INACTIVE_ATTACH_CNF_size "c"
+#define RAC_RECV_INACTIVE_ATTACH_CNF RAC_RECV_INACTIVE_ATTACH_CNF__enum,RAC_RECV_INACTIVE_ATTACH_CNF_size
+
+// RAC_TRC_CS_SIM_STATUS
+#define RAC_TRC_CS_SIM_STATUS_size "c"
+#define RAC_TRC_CS_SIM_STATUS RAC_TRC_CS_SIM_STATUS__enum,RAC_TRC_CS_SIM_STATUS_size
+
+// RAC_IRAT_SYNC_CS_PS
+#define RAC_IRAT_SYNC_CS_PS_size "c"
+#define RAC_IRAT_SYNC_CS_PS RAC_IRAT_SYNC_CS_PS__enum,RAC_IRAT_SYNC_CS_PS_size
+
+// RAC_SIM_REPLACED_CLEAN_EPSLOCI_NSC_TIN
+#define RAC_SIM_REPLACED_CLEAN_EPSLOCI_NSC_TIN_size "d"
+#define RAC_SIM_REPLACED_CLEAN_EPSLOCI_NSC_TIN RAC_SIM_REPLACED_CLEAN_EPSLOCI_NSC_TIN__enum,RAC_SIM_REPLACED_CLEAN_EPSLOCI_NSC_TIN_size
+
+// RAC_CHANGE_USAGE_SETTING_BY_SIM
+#define RAC_CHANGE_USAGE_SETTING_BY_SIM_size "c"
+#define RAC_CHANGE_USAGE_SETTING_BY_SIM RAC_CHANGE_USAGE_SETTING_BY_SIM__enum,RAC_CHANGE_USAGE_SETTING_BY_SIM_size
+
+// RAC_TRC_UNEXPECTED_RAT_MODE
+#define RAC_TRC_UNEXPECTED_RAT_MODE_size "d"
+#define RAC_TRC_UNEXPECTED_RAT_MODE RAC_TRC_UNEXPECTED_RAT_MODE__enum,RAC_TRC_UNEXPECTED_RAT_MODE_size
+
+// RAC_TRC_UNEXPECTED_ACTIVE_RAT_MODE
+#define RAC_TRC_UNEXPECTED_ACTIVE_RAT_MODE_size "d"
+#define RAC_TRC_UNEXPECTED_ACTIVE_RAT_MODE RAC_TRC_UNEXPECTED_ACTIVE_RAT_MODE__enum,RAC_TRC_UNEXPECTED_ACTIVE_RAT_MODE_size
+
+// RAC_TRC_UNEXPECTED_REPORTED_RAT_MODE
+#define RAC_TRC_UNEXPECTED_REPORTED_RAT_MODE_size "d"
+#define RAC_TRC_UNEXPECTED_REPORTED_RAT_MODE RAC_TRC_UNEXPECTED_REPORTED_RAT_MODE__enum,RAC_TRC_UNEXPECTED_REPORTED_RAT_MODE_size
+
+// RAC_TRC_UNEXPECTED_VOICE_DOMAIN_PREFERENCE_FOR_EUTRAN
+#define RAC_TRC_UNEXPECTED_VOICE_DOMAIN_PREFERENCE_FOR_EUTRAN_size "c"
+#define RAC_TRC_UNEXPECTED_VOICE_DOMAIN_PREFERENCE_FOR_EUTRAN RAC_TRC_UNEXPECTED_VOICE_DOMAIN_PREFERENCE_FOR_EUTRAN__enum,RAC_TRC_UNEXPECTED_VOICE_DOMAIN_PREFERENCE_FOR_EUTRAN_size
+
+// RAC_TRC_UXPECTED_EM_SOURCE
+#define RAC_TRC_UXPECTED_EM_SOURCE_size "c"
+#define RAC_TRC_UXPECTED_EM_SOURCE RAC_TRC_UXPECTED_EM_SOURCE__enum,RAC_TRC_UXPECTED_EM_SOURCE_size
+
+// RAC_TRC_MM_IVT
+#define RAC_TRC_MM_IVT_size "c"
+#define RAC_TRC_MM_IVT RAC_TRC_MM_IVT__enum,RAC_TRC_MM_IVT_size
+
+// RAC_TRC_VOICE_DOMAIN_PREFERENCE_UTRAN
+#define RAC_TRC_VOICE_DOMAIN_PREFERENCE_UTRAN_size "c"
+#define RAC_TRC_VOICE_DOMAIN_PREFERENCE_UTRAN RAC_TRC_VOICE_DOMAIN_PREFERENCE_UTRAN__enum,RAC_TRC_VOICE_DOMAIN_PREFERENCE_UTRAN_size
+
+// RAC_TRC_UNEXPECTED_VOICE_DOMAIN_PREFERENCE_FOR_UTRAN
+#define RAC_TRC_UNEXPECTED_VOICE_DOMAIN_PREFERENCE_FOR_UTRAN_size "c"
+#define RAC_TRC_UNEXPECTED_VOICE_DOMAIN_PREFERENCE_FOR_UTRAN RAC_TRC_UNEXPECTED_VOICE_DOMAIN_PREFERENCE_FOR_UTRAN__enum,RAC_TRC_UNEXPECTED_VOICE_DOMAIN_PREFERENCE_FOR_UTRAN_size
+
+// RAC_TRC_UNEXPECTED_RAT_FOR_SAT
+#define RAC_TRC_UNEXPECTED_RAT_FOR_SAT_size "c"
+#define RAC_TRC_UNEXPECTED_RAT_FOR_SAT RAC_TRC_UNEXPECTED_RAT_FOR_SAT__enum,RAC_TRC_UNEXPECTED_RAT_FOR_SAT_size
+
+// RAC_TRC_WAITING_FOR_SAT_RSP
+#define RAC_TRC_WAITING_FOR_SAT_RSP_size NULL
+#define RAC_TRC_WAITING_FOR_SAT_RSP RAC_TRC_WAITING_FOR_SAT_RSP__enum,RAC_TRC_WAITING_FOR_SAT_RSP_size
+
+// RAC_CHECK_NOT_TO_SEND
+#define RAC_CHECK_NOT_TO_SEND_size "s"
+#define RAC_CHECK_NOT_TO_SEND RAC_CHECK_NOT_TO_SEND__enum,RAC_CHECK_NOT_TO_SEND_size
+
+// RAC_TRC_ERROR_ACTION_CONFLICT
+#define RAC_TRC_ERROR_ACTION_CONFLICT_size "‚c"
+#define RAC_TRC_ERROR_ACTION_CONFLICT RAC_TRC_ERROR_ACTION_CONFLICT__enum,RAC_TRC_ERROR_ACTION_CONFLICT_size
+
+// RAC_TRC_ERROR_SEPARATE_DOMAIN
+#define RAC_TRC_ERROR_SEPARATE_DOMAIN_size NULL
+#define RAC_TRC_ERROR_SEPARATE_DOMAIN RAC_TRC_ERROR_SEPARATE_DOMAIN__enum,RAC_TRC_ERROR_SEPARATE_DOMAIN_size
+
+
+#endif // rac_trc_gen.h

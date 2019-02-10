@@ -1,0 +1,7 @@
+make[1]: Entering directory '/media/snowcat/ANDROID/modem'
+Compiling driver/md_drv/interface/l1_interface.c ...
+Module md_drv is in DEFALUT mode
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/md_drv.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/md_drv_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/md_drv/l1_interface.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/md_drv/l1_interface.obj driver/md_drv/interface/l1_interface.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/md_drv/l1_interface.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-ar: creating ./build/HCT6737M_65_N/LWG_DSDS/bin/lib/libmd_drv.a
+./build/HCT6737M_65_N/LWG_DSDS/bin/lib/libmd_drv.a is updated
+make[1]: Leaving directory '/media/snowcat/ANDROID/modem'

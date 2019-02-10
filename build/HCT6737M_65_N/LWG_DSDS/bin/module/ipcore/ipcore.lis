@@ -1,0 +1,10 @@
+middleware/hif/ipcore/src/ipc_dhcp_adp.c
+middleware/hif/ipcore/src/ipc_filter.c
+middleware/hif/ipcore/src/ipc_if.c
+middleware/hif/ipcore/src/ipc_notify.c
+middleware/hif/ipcore/src/ipc_session.c
+middleware/hif/ipcore/src/ipc_task.c
+middleware/hif/ipcore/src/ipc_utils.c
+middleware/hif/ipcore/src/pfm_garbage_filter.c
+middleware/hif/ipcore/src/pfm_if.c
+

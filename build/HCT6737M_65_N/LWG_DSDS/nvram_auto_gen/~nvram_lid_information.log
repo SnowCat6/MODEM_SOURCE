@@ -1,0 +1,422 @@
+----------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
+ LID                                      LID(String)      Filename         Verno                                 Description    Category   Attribute
+----------------------------------------------------------------------------------------------------------------------------------------------
+   0                                 NVRAM_EF_SYS_LID          MT00           000                                      (null)      0x0001      0x0006
+   8                        NVRAM_EF_IMPT_COUNTER_LID          MP0D           000                                      (null)      0x4000      0xc000
+  15                      NVRAM_EF_L1_AGCPATHLOSS_LID          MT05           002                                      (null)      0x1400      0x0000
+  16                 NVRAM_EF_L1_RAMPTABLE_GSM850_LID          MT06           002                                      (null)      0x1400      0x0000
+  17                 NVRAM_EF_L1_RAMPTABLE_GSM900_LID          MT07           002                                      (null)      0x1400      0x0000
+  18                NVRAM_EF_L1_RAMPTABLE_DCS1800_LID          MT08           002                                      (null)      0x1400      0x0000
+  19                NVRAM_EF_L1_RAMPTABLE_PCS1900_LID          MT09           002                                      (null)      0x1400      0x0000
+  20            NVRAM_EF_L1_EPSK_RAMPTABLE_GSM850_LID          MT0A           002                                      (null)      0x1400      0x0000
+  21            NVRAM_EF_L1_EPSK_RAMPTABLE_GSM900_LID          MT0B           002                                      (null)      0x1400      0x0000
+  22           NVRAM_EF_L1_EPSK_RAMPTABLE_DCS1800_LID          MT0C           002                                      (null)      0x1400      0x0000
+  23           NVRAM_EF_L1_EPSK_RAMPTABLE_PCS1900_LID          MT0D           002                                      (null)      0x1400      0x0000
+  24       NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_GSM850_LID          MT0E           002                                      (null)      0x1400      0x0000
+  25       NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_GSM900_LID          MT0F           002                                      (null)      0x1400      0x0000
+  26      NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_DCS1800_LID          MT0G           002                                      (null)      0x1400      0x0000
+  27      NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_PCS1900_LID          MT0H           002                                      (null)      0x1400      0x0000
+  28                          NVRAM_EF_L1_AFCDATA_LID          MT0I           002                                      (null)      0x1400      0x0000
+  29                             NVRAM_EF_L1_TXIQ_LID          MT0J           004                                      (null)      0x1400      0x0000
+  30                    NVRAM_EF_L1_RFSPECIALCOEF_LID          MT0K           006                                      (null)      0x1400      0x0000
+  31            NVRAM_EF_L1_INTERSLOT_RAMP_GSM850_LID          MT0L           002                                      (null)      0x1400      0x0000
+  32            NVRAM_EF_L1_INTERSLOT_RAMP_GSM900_LID          MT0M           002                                      (null)      0x1400      0x0000
+  33           NVRAM_EF_L1_INTERSLOT_RAMP_DCS1800_LID          MT0N           002                                      (null)      0x1400      0x0000
+  34           NVRAM_EF_L1_INTERSLOT_RAMP_PCS1900_LID          MT0O           002                                      (null)      0x1400      0x0000
+  35                  NVRAM_EF_L1_CRYSTAL_AFCDATA_LID          MT0P           003                                      (null)      0x1400      0x0000
+  36                  NVRAM_EF_L1_CRYSTAL_CAPDATA_LID          MT0Q           002                                      (null)      0x1400      0x0000
+  37     NVRAM_EF_L1_GMSK_TX_POWER_ROLLBACK_TABLE_LID          MT0R           000                                      (null)      0x1400      0x0000
+  38     NVRAM_EF_L1_EPSK_TX_POWER_ROLLBACK_TABLE_LID          MT0S           000                                      (null)      0x1400      0x0000
+  39                        NVRAM_EF_L1_GMSK_TXPC_LID          MT0T           000                                      (null)      0x1400      0x0000
+  40                        NVRAM_EF_L1_EPSK_TXPC_LID          MT0U           000                                      (null)      0x1400      0x0000
+  41                      NVRAM_EF_L1_LNAPATHLOSS_LID          MT0V           000                                      (null)      0x1400      0x0000
+  42                  NVRAM_EF_L1_TEMPERATURE_ADC_LID          MT1U           000                                      (null)      0x1400      0x0000
+2816                        NVRAM_EF_UL1_TEMP_DAC_LID          UL10           000                                      (null)      0x1400      0x0000
+2817                  NVRAM_EF_UL1_PATHLOSS_BAND1_LID          UL11           000                                      (null)      0x1400      0x0000
+2818                  NVRAM_EF_UL1_PATHLOSS_BAND2_LID          UL12           000                                      (null)      0x1400      0x0000
+2819                  NVRAM_EF_UL1_PATHLOSS_BAND3_LID          UL13           000                                      (null)      0x1400      0x0000
+2820                  NVRAM_EF_UL1_PATHLOSS_BAND4_LID          UL14           000                                      (null)      0x1400      0x0000
+2821                  NVRAM_EF_UL1_PATHLOSS_BAND5_LID          UL15           000                                      (null)      0x1400      0x0000
+2822                  NVRAM_EF_UL1_PATHLOSS_BAND6_LID          UL16           000                                      (null)      0x1400      0x0000
+2823                  NVRAM_EF_UL1_PATHLOSS_BAND7_LID          UL17           000                                      (null)      0x1400      0x0000
+2824                  NVRAM_EF_UL1_PATHLOSS_BAND8_LID          UL18           000                                      (null)      0x1400      0x0000
+2825                  NVRAM_EF_UL1_PATHLOSS_BAND9_LID          UL19           000                                      (null)      0x1400      0x0000
+2826                 NVRAM_EF_UL1_PATHLOSS_BAND10_LID          UL1A           000                                      (null)      0x1400      0x0000
+2827                 NVRAM_EF_UL1_PATHLOSS_BAND11_LID          ULB0           000                                      (null)      0x1400      0x0000
+2835                 NVRAM_EF_UL1_PATHLOSS_BAND19_LID          ULB1           000                                      (null)      0x1400      0x0000
+2836                     NVRAM_EF_UL1_TXDAC_BAND1_LID          UL1B           000                                      (null)      0x1400      0x0000
+2837                     NVRAM_EF_UL1_TXDAC_BAND2_LID          UL1C           000                                      (null)      0x1400      0x0000
+2838                     NVRAM_EF_UL1_TXDAC_BAND3_LID          UL1D           000                                      (null)      0x1400      0x0000
+2839                     NVRAM_EF_UL1_TXDAC_BAND4_LID          UL1E           000                                      (null)      0x1400      0x0000
+2840                     NVRAM_EF_UL1_TXDAC_BAND5_LID          UL1F           000                                      (null)      0x1400      0x0000
+2841                     NVRAM_EF_UL1_TXDAC_BAND6_LID          UL1G           000                                      (null)      0x1400      0x0000
+2842                     NVRAM_EF_UL1_TXDAC_BAND7_LID          UL1H           000                                      (null)      0x1400      0x0000
+2843                     NVRAM_EF_UL1_TXDAC_BAND8_LID          UL1I           000                                      (null)      0x1400      0x0000
+2844                     NVRAM_EF_UL1_TXDAC_BAND9_LID          UL1J           000                                      (null)      0x1400      0x0000
+2845                    NVRAM_EF_UL1_TXDAC_BAND10_LID          UL1K           000                                      (null)      0x1400      0x0000
+2846                    NVRAM_EF_UL1_TXDAC_BAND11_LID          ULB2           000                                      (null)      0x1400      0x0000
+2854                    NVRAM_EF_UL1_TXDAC_BAND19_LID          ULB3           000                                      (null)      0x1400      0x0000
+2855                NVRAM_EF_UL1_TXPAOCTLEV_BAND1_LID          UL1M           000                                      (null)      0x1400      0x0000
+2856                NVRAM_EF_UL1_TXPAOCTLEV_BAND2_LID          UL1N           000                                      (null)      0x1400      0x0000
+2857                NVRAM_EF_UL1_TXPAOCTLEV_BAND3_LID          UL1O           000                                      (null)      0x1400      0x0000
+2858                NVRAM_EF_UL1_TXPAOCTLEV_BAND4_LID          UL1P           000                                      (null)      0x1400      0x0000
+2859                NVRAM_EF_UL1_TXPAOCTLEV_BAND5_LID          UL1Q           000                                      (null)      0x1400      0x0000
+2860                NVRAM_EF_UL1_TXPAOCTLEV_BAND6_LID          UL1R           000                                      (null)      0x1400      0x0000
+2861                NVRAM_EF_UL1_TXPAOCTLEV_BAND7_LID          UL1S           000                                      (null)      0x1400      0x0000
+2862                NVRAM_EF_UL1_TXPAOCTLEV_BAND8_LID          UL1T           000                                      (null)      0x1400      0x0000
+2863                NVRAM_EF_UL1_TXPAOCTLEV_BAND9_LID          UL1U           000                                      (null)      0x1400      0x0000
+2864               NVRAM_EF_UL1_TXPAOCTLEV_BAND10_LID          UL1V           000                                      (null)      0x1400      0x0000
+2865               NVRAM_EF_UL1_TXPAOCTLEV_BAND11_LID          ULB4           000                                      (null)      0x1400      0x0000
+2873               NVRAM_EF_UL1_TXPAOCTLEV_BAND19_LID          ULB5           000                                      (null)      0x1400      0x0000
+2874                 NVRAM_EF_UL1_PATHLOSS2_BAND1_LID          HL10           000                                      (null)      0x1400      0x0000
+2875                 NVRAM_EF_UL1_PATHLOSS2_BAND2_LID          HL11           000                                      (null)      0x1400      0x0000
+2876                 NVRAM_EF_UL1_PATHLOSS2_BAND3_LID          HL12           000                                      (null)      0x1400      0x0000
+2877                 NVRAM_EF_UL1_PATHLOSS2_BAND4_LID          HL13           000                                      (null)      0x1400      0x0000
+2878                 NVRAM_EF_UL1_PATHLOSS2_BAND5_LID          HL14           000                                      (null)      0x1400      0x0000
+2879                 NVRAM_EF_UL1_PATHLOSS2_BAND6_LID          HL15           000                                      (null)      0x1400      0x0000
+2880                 NVRAM_EF_UL1_PATHLOSS2_BAND7_LID          HL16           000                                      (null)      0x1400      0x0000
+2881                 NVRAM_EF_UL1_PATHLOSS2_BAND8_LID          HL17           000                                      (null)      0x1400      0x0000
+2882                 NVRAM_EF_UL1_PATHLOSS2_BAND9_LID          HL18           000                                      (null)      0x1400      0x0000
+2883                NVRAM_EF_UL1_PATHLOSS2_BAND10_LID          HL19           000                                      (null)      0x1400      0x0000
+2884                NVRAM_EF_UL1_PATHLOSS2_BAND11_LID          ULB6           000                                      (null)      0x1400      0x0000
+2892                NVRAM_EF_UL1_PATHLOSS2_BAND19_LID          ULB7           000                                      (null)      0x1400      0x0000
+2893             NVRAM_EF_UL1_TXPADRIFTCOMP_BAND1_LID          HL1A           000                                      (null)      0x1400      0x0000
+2894             NVRAM_EF_UL1_TXPADRIFTCOMP_BAND2_LID          HL1B           000                                      (null)      0x1400      0x0000
+2895             NVRAM_EF_UL1_TXPADRIFTCOMP_BAND3_LID          HL1C           000                                      (null)      0x1400      0x0000
+2896             NVRAM_EF_UL1_TXPADRIFTCOMP_BAND4_LID          HL1D           000                                      (null)      0x1400      0x0000
+2897             NVRAM_EF_UL1_TXPADRIFTCOMP_BAND5_LID          HL1E           000                                      (null)      0x1400      0x0000
+2898             NVRAM_EF_UL1_TXPADRIFTCOMP_BAND6_LID          HL1F           000                                      (null)      0x1400      0x0000
+2899             NVRAM_EF_UL1_TXPADRIFTCOMP_BAND7_LID          HL1G           000                                      (null)      0x1400      0x0000
+2900             NVRAM_EF_UL1_TXPADRIFTCOMP_BAND8_LID          HL1H           000                                      (null)      0x1400      0x0000
+2901             NVRAM_EF_UL1_TXPADRIFTCOMP_BAND9_LID          HL1I           000                                      (null)      0x1400      0x0000
+2902            NVRAM_EF_UL1_TXPADRIFTCOMP_BAND10_LID          HL1J           000                                      (null)      0x1400      0x0000
+2903            NVRAM_EF_UL1_TXPADRIFTCOMP_BAND11_LID          ULB8           000                                      (null)      0x1400      0x0000
+2911            NVRAM_EF_UL1_TXPADRIFTCOMP_BAND19_LID          ULB9           000                                      (null)      0x1400      0x0000
+2912             NVRAM_EF_UL1_TXPRACHTMCOMP_BAND1_LID          UL1W           000                                      (null)      0x1400      0x0000
+2913             NVRAM_EF_UL1_TXPRACHTMCOMP_BAND2_LID          UL1X           000                                      (null)      0x1400      0x0000
+2914             NVRAM_EF_UL1_TXPRACHTMCOMP_BAND3_LID          UL1Y           000                                      (null)      0x1400      0x0000
+2915             NVRAM_EF_UL1_TXPRACHTMCOMP_BAND4_LID          UL1Z           000                                      (null)      0x1400      0x0000
+2916             NVRAM_EF_UL1_TXPRACHTMCOMP_BAND5_LID          UL20           000                                      (null)      0x1400      0x0000
+2917             NVRAM_EF_UL1_TXPRACHTMCOMP_BAND6_LID          UL21           000                                      (null)      0x1400      0x0000
+2918             NVRAM_EF_UL1_TXPRACHTMCOMP_BAND7_LID          UL22           000                                      (null)      0x1400      0x0000
+2919             NVRAM_EF_UL1_TXPRACHTMCOMP_BAND8_LID          UL23           000                                      (null)      0x1400      0x0000
+2920             NVRAM_EF_UL1_TXPRACHTMCOMP_BAND9_LID          UL24           000                                      (null)      0x1400      0x0000
+2921            NVRAM_EF_UL1_TXPRACHTMCOMP_BAND10_LID          UL25           000                                      (null)      0x1400      0x0000
+2922            NVRAM_EF_UL1_TXPRACHTMCOMP_BAND11_LID          ULBA           000                                      (null)      0x1400      0x0000
+2930            NVRAM_EF_UL1_TXPRACHTMCOMP_BAND19_LID          ULBB           000                                      (null)      0x1400      0x0000
+2931                          NVRAM_EF_UL1_AFCDAC_LID          ULBC           000                                      (null)      0x1400      0x0000
+2932                          NVRAM_EF_UL1_AFCCAP_LID          ULBD           000                                      (null)      0x1400      0x0000
+ 107                         NVRAM_EF_BARCODE_NUM_LID          MP09           001                                      (null)      0x1000      0x0008
+ 108                            NVRAM_EF_CAL_FLAG_LID          MPA2           000                                      (null)      0x1000      0x0000
+ 109                      NVRAM_EF_CAL_DATA_CHECK_LID          MPA8           000                                      (null)      0x1000      0x0000
+ 165                         NVRAM_EF_IMEI_IMEISV_LID          MP0B           001                                      (null)      0x2000      0xc00a
+ 166                                 NVRAM_EF_SML_LID          MP33           004                                      (null)      0x4200      0xc00c
+ 167                            NVRAM_EF_SIM_LOCK_LID          MP6T           001                                      (null)      0x4200      0xc00c
+   7                      NVRAM_EF_SYS_STATISTICS_LID          MT04           000                                      (null)      0x0000      0x0000
+ 121                     NVRAM_EF_AS_BAND_SETTING_LID          MT10           000                                      (null)      0x0000      0x0000
+ 113                  NVRAM_EF_L1_2G_RF_PARAMETER_LID          MT9W           001                                      (null)      0x0400      0x0000
+ 122                           NVRAM_EF_BAND_INFO_LID          MT0X           000                                      (null)      0x0000      0x0000
+ 422               NVRAM_EF_GAS_WORKING_BAND_INFO_LID          MT15           000                                      (null)      0x0000      0x0000
+ 123                          NVRAM_EF_TST_FILTER_LID          MT0Y           003                                      (null)      0x0000      0x0000
+ 188                 NVRAM_EF_GAS_CSG_FINGERPRINT_LID          MT0A           000                                      (null)      0x0000      0x0000
+ 416                          NVRAM_EF_DHL_FILTER_LID          MT1K           000                                      (null)      0x0000      0x0000
+ 124                        NVRAM_EF_PORT_SETTING_LID          MT0Z           004                                      (null)      0x0000      0x2000
+ 158                           NVRAM_EF_SMSAL_SMS_LID          MT40           001                                      (null)      0x0000      0x0010
+ 159                  NVRAM_EF_SMSAL_MAILBOX_ADDR_LID          MT41           001                                      (null)      0x0100      0x0000
+ 160                  NVRAM_EF_SMSAL_COMMON_PARAM_LID          MT42           002                                      (null)      0x0100      0x0080
+ 161                          NVRAM_EF_SMSAL_SMSP_LID          MT43           000                                      (null)      0x0000      0x0010
+ 162                          NVRAM_EF_SMSAL_MWIS_LID          MT44           000                                      (null)      0x0000      0x0000
+ 163                       NVRAM_EF_CB_DEFAULT_CH_LID          MT45           000                                      (null)      0x0100      0x0080
+ 164                          NVRAM_EF_CB_CH_INFO_LID          MT46           003                                      (null)      0x0000      0x0080
+ 150                   NVRAM_EF_TCM_CID_0_PROFILE_LID          MT47           003                                      (null)      0x0000      0x0000
+ 151                     NVRAM_EF_TCM_PDP_PROFILE_LID          MT48           004                                      (null)      0x0000      0x0000
+ 152                            NVRAM_EF_CFU_FLAG_LID          MT49           000                                      (null)      0x0000      0x0000
+ 153                         NVRAM_EF_MM_LOCIGPRS_LID          MT4A           001                                      (null)      0x0000      0x0000
+ 155                         NVRAM_EF_ALS_LINE_ID_LID          MT4C           002                                      (null)      0x0100      0x0000
+ 156                               NVRAM_EF_MSCAP_LID          MT4D           001                                      (null)      0x0100      0x0000
+ 126                     NVRAM_EF_CLASSMARK_RACAP_LID          MT17           005                                      (null)      0x0000      0x0000
+ 127                          NVRAM_EF_SIM_ASSERT_LID          MT18           000                                      (null)      0x0000      0x0100
+ 128                            NVRAM_EF_RTC_DATA_LID          MT19           000                                      (null)      0x0000      0x0000
+ 129                             NVRAM_EF_NET_PAR_LID          MT1A           009                                      (null)      0x0000      0x0000
+ 142                  NVRAM_EF_UMTS_BAND_PRIORITY_LID          MT12           000                                      (null)      0x0000      0x0000
+ 420                   NVRAM_EF_UMTS_DMCR_SETTING_LID          MT13           000                                      (null)      0x0000      0x0000
+ 421               NVRAM_EF_UMTS_SIB_SKIP_SETTING_LID          MT14           000                                      (null)      0x0000      0x0000
+ 131                           NVRAM_EF_UMTS_IMSI_LID          UM02           000                                      (null)      0x0000      0x0008
+ 132                      NVRAM_EF_UMTS_START_HFN_LID          UM03           000                                      (null)      0x0000      0x0000
+ 133          NVRAM_EF_UMTS_USIME_RRC_DYNAMIC_CAP_LID          UM04           019                                      (null)      0x0000      0x0000
+ 138           NVRAM_EF_UMTS_FREQUENCY_REPOSITORY_LID          UM06           003                                      (null)      0x0000      0x0000
+ 139              NVRAM_EF_PREV_VISITED_CELL_INFO_LID          MT11           000                                      (null)      0x0000      0x0000
+ 140                         NVRAM_EF_UE_CSG_LIST_LID          MR01           000                                      (null)      0x0000      0x0000
+ 141               NVRAM_EF_UMTS_FINGERPRINT_INFO_LID          UM09           000                                      (null)      0x0000      0x0000
+ 134                      NVRAM_EF_L1_3G_CAL_DATA_LID          MT1B           000                                      (null)      0x0000      0x0000
+ 173                        NVRAM_EF_ETWS_SETTING_LID          MT32           000                                      (null)      0x0000      0x0000
+ 176                            NVRAM_EF_CSM_ESSP_LID          MT35           000                                      (null)      0x0000      0x0000
+ 143                   NVRAM_EF_CUST_HW_LEVEL_TBL_LID          MT67           004                                      (null)      0x0000      0x1040
+ 144                NVRAM_EF_UEM_MANUFACTURE_DATA_LID          MT68           001                                      (null)      0x0000      0x1000
+ 145                        NVRAM_EF_UEM_RMI_DATA_LID          MT69           002                                      (null)      0x0000      0x1000
+ 146                    NVRAM_EF_GPS_SETTING_DATA_LID          MT6D           000                                      (null)      0x0000      0x0000
+ 168                         NVRAM_EF_MS_SECURITY_LID          MT6G           003                                      (null)      0x0100      0x0008
+ 170                        NVRAM_EF_PHB_LN_ENTRY_LID          MT6H           003                                      (null)      0x0000      0x0000
+ 171                     NVRAM_EF_PHB_LN_TYPE_SEQ_LID          MT6I           000                                      (null)      0x0000      0x0000
+ 181                     NVRAM_EF_SYS_CACHE_OCTET_LID          MT6K           004                                      (null)      0x0000      0x2001
+ 185                      NVRAM_EF_RAC_PREFERENCE_LID          MT6S           010                                      (null)      0x0100      0x0080
+ 172             NVRAM_EF_PS_CONFORMANCE_TESTMODE_LID          MT6U           000                                      (null)      0x0000      0x0000
+ 169                                 NVRAM_EF_PHB_LID          MT6V           003                                      (null)      0x0000      0x0010
+ 196                          NVRAM_EF_TST_CONFIG_LID          MT72           001                                      (null)      0x0000      0x2000
+ 175                            NVRAM_EF_MSQ_LIST_LID          MT74           001                                      (null)      0x0000      0x0000
+ 261                  NVRAM_EF_EPSLOCI_EPSNSC_TIN_LID          MT75           002                                      (null)      0x0100      0x0080
+ 262                      NVRAM_EF_LTE_PREFERENCE_LID          MT76           005                                      (null)      0x0100      0x0080
+ 263                 NVRAM_EF_ERRC_STORED_CARRIER_LID          ER1A           000                                      (null)      0x0000      0x0000
+ 264               NVRAM_EF_ERRC_PERFORMANCE_PARA_LID          ER1B           002                                      (null)      0x0000      0x0000
+ 265                   NVRAM_EF_ERRC_FINGER_PRINT_LID          ER1C           000                                      (null)      0x0000      0x0000
+ 266                    NVRAM_EF_ERRC_LEARNED_MCC_LID          ER1D           001                                      (null)      0x0000      0x0000
+ 267                    NVRAM_EF_ERRC_STORED_CELL_LID          ER1E           000                                      (null)      0x0000      0x0000
+ 268                    NVRAM_EF_ERRC_AFR_SETTING_LID          ER1F           000                                      (null)      0x0000      0x0000
+ 269                             NVRAM_EF_LTE_CAP_LID          LTEA           003                                      (null)      0x0000      0x0000
+ 270                   NVRAM_EF_UE_EUTRA_CAP_CSFB_LID          LTEB           001                                      (null)      0x0000      0x0000
+ 271                   NVRAM_EF_UE_EUTRA_CAP_MMDC_LID          LTEC           001                                      (null)      0x0000      0x0000
+ 187                          NVRAM_EF_NWSEL_DATA_LID          MT77           000                                      (null)      0x0000      0x0000
+ 197                        NVRAM_EF_EL1_PWRONCAL_LID          EL08           000                                      (null)      0x1000      0x0000
+ 198                    NVRAM_EF_EL1_DSPLOGFILTER_LID          EL09           000                                      (null)      0x1000      0x0000
+ 199                      NVRAM_EF_EL1_FREQADJTBL_LID          EL0A           000                                      (null)      0x1400      0x0000
+ 200             NVRAM_EF_EL1_RSSIGAINTBL_1STBAND_LID          EL0B           000                                      (null)      0x1400      0x0000
+ 201             NVRAM_EF_EL1_RSSIGAINTBL_2NDBAND_LID          EL0C           000                                      (null)      0x1400      0x0000
+ 202             NVRAM_EF_EL1_RSSIGAINTBL_3RDBAND_LID          EL0D           000                                      (null)      0x1400      0x0000
+ 203             NVRAM_EF_EL1_RSSIGAINTBL_4THBAND_LID          EL0E           000                                      (null)      0x1400      0x0000
+ 204             NVRAM_EF_EL1_RSSIGAINTBL_5THBAND_LID          EL0F           000                                      (null)      0x1400      0x0000
+ 205             NVRAM_EF_EL1_RSSIGAINTBL_6THBAND_LID          EL0G           000                                      (null)      0x1400      0x0000
+ 206             NVRAM_EF_EL1_RSSIGAINTBL_7THBAND_LID          EL0H           000                                      (null)      0x1400      0x0000
+ 207             NVRAM_EF_EL1_RSSIGAINTBL_8THBAND_LID          EL0I           000                                      (null)      0x1400      0x0000
+ 208             NVRAM_EF_EL1_RSSIGAINTBL_9THBAND_LID          EL0J           000                                      (null)      0x1400      0x0000
+ 209            NVRAM_EF_EL1_RSSIGAINTBL_10THBAND_LID          EL0K           000                                      (null)      0x1400      0x0000
+ 210            NVRAM_EF_EL1_RSSIGAINTBL_11THBAND_LID          EL0L           000                                      (null)      0x1400      0x0000
+ 211            NVRAM_EF_EL1_RSSIGAINTBL_12THBAND_LID          EL0M           000                                      (null)      0x1400      0x0000
+ 212            NVRAM_EF_EL1_RSSIGAINTBL_13THBAND_LID          EL0N           000                                      (null)      0x1400      0x0000
+ 213            NVRAM_EF_EL1_RSSIGAINTBL_14THBAND_LID          EL0O           000                                      (null)      0x1400      0x0000
+ 214                     NVRAM_EF_EL1_CTRL_REG_RW_LID          EL1A           000                                      (null)      0x0000      0x0000
+ 215                   NVRAM_EF_EL1_TXDAC_1STBAND_LID          EL1B           000                                      (null)      0x1400      0x0000
+ 216                   NVRAM_EF_EL1_TXDAC_2NDBAND_LID          EL1C           000                                      (null)      0x1400      0x0000
+ 217                   NVRAM_EF_EL1_TXDAC_3RDBAND_LID          EL1D           000                                      (null)      0x1400      0x0000
+ 218                   NVRAM_EF_EL1_TXDAC_4THBAND_LID          EL1E           000                                      (null)      0x1400      0x0000
+ 219                   NVRAM_EF_EL1_TXDAC_5THBAND_LID          EL1F           000                                      (null)      0x1400      0x0000
+ 220                   NVRAM_EF_EL1_TXDAC_6THBAND_LID          EL1G           000                                      (null)      0x1400      0x0000
+ 221                   NVRAM_EF_EL1_TXDAC_7THBAND_LID          EL1H           000                                      (null)      0x1400      0x0000
+ 222                   NVRAM_EF_EL1_TXDAC_8THBAND_LID          EL1I           000                                      (null)      0x1400      0x0000
+ 223                   NVRAM_EF_EL1_TXDAC_9THBAND_LID          EL1J           000                                      (null)      0x1400      0x0000
+ 224                  NVRAM_EF_EL1_TXDAC_10THBAND_LID          EL1K           000                                      (null)      0x1400      0x0000
+ 225                  NVRAM_EF_EL1_TXDAC_11THBAND_LID          EL1L           000                                      (null)      0x1400      0x0000
+ 226                  NVRAM_EF_EL1_TXDAC_12THBAND_LID          EL1M           000                                      (null)      0x1400      0x0000
+ 227                  NVRAM_EF_EL1_TXDAC_13THBAND_LID          EL1N           000                                      (null)      0x1400      0x0000
+ 228                  NVRAM_EF_EL1_TXDAC_14THBAND_LID          EL1O           000                                      (null)      0x1400      0x0000
+ 229              NVRAM_EF_EL1_TXPAOCTLEV_1STBAND_LID          EL1P           000                                      (null)      0x1400      0x0000
+ 230              NVRAM_EF_EL1_TXPAOCTLEV_2NDBAND_LID          EL1Q           000                                      (null)      0x1400      0x0000
+ 231              NVRAM_EF_EL1_TXPAOCTLEV_3RDBAND_LID          EL1R           000                                      (null)      0x1400      0x0000
+ 232              NVRAM_EF_EL1_TXPAOCTLEV_4THBAND_LID          EL1S           000                                      (null)      0x1400      0x0000
+ 233              NVRAM_EF_EL1_TXPAOCTLEV_5THBAND_LID          EL1T           000                                      (null)      0x1400      0x0000
+ 234              NVRAM_EF_EL1_TXPAOCTLEV_6THBAND_LID          EL1U           000                                      (null)      0x1400      0x0000
+ 235              NVRAM_EF_EL1_TXPAOCTLEV_7THBAND_LID          EL1V           000                                      (null)      0x1400      0x0000
+ 236              NVRAM_EF_EL1_TXPAOCTLEV_8THBAND_LID          EL1W           000                                      (null)      0x1400      0x0000
+ 237              NVRAM_EF_EL1_TXPAOCTLEV_9THBAND_LID          EL1X           000                                      (null)      0x1400      0x0000
+ 238             NVRAM_EF_EL1_TXPAOCTLEV_10THBAND_LID          EL1Y           000                                      (null)      0x1400      0x0000
+ 239             NVRAM_EF_EL1_TXPAOCTLEV_11THBAND_LID          EL1Z           000                                      (null)      0x1400      0x0000
+ 240             NVRAM_EF_EL1_TXPAOCTLEV_12THBAND_LID          EL2A           000                                      (null)      0x1400      0x0000
+ 241             NVRAM_EF_EL1_TXPAOCTLEV_13THBAND_LID          EL2B           000                                      (null)      0x1400      0x0000
+ 242             NVRAM_EF_EL1_TXPAOCTLEV_14THBAND_LID          EL2C           000                                      (null)      0x1400      0x0000
+ 243            NVRAM_EF_EL1_ETVINLUTDATA_1STBAND_LID          EL2D           000                                      (null)      0x1400      0x0000
+ 244            NVRAM_EF_EL1_ETVINLUTDATA_2NDBAND_LID          EL2E           000                                      (null)      0x1400      0x0000
+ 245            NVRAM_EF_EL1_ETVINLUTDATA_3RDBAND_LID          EL2F           000                                      (null)      0x1400      0x0000
+ 246            NVRAM_EF_EL1_ETVINLUTDATA_4THBAND_LID          EL2G           000                                      (null)      0x1400      0x0000
+ 247            NVRAM_EF_EL1_ETVINLUTDATA_5THBAND_LID          EL2H           000                                      (null)      0x1400      0x0000
+ 248            NVRAM_EF_EL1_ETVINLUTDATA_6THBAND_LID          EL2I           000                                      (null)      0x1400      0x0000
+ 249            NVRAM_EF_EL1_ETVINLUTDATA_7THBAND_LID          EL2J           000                                      (null)      0x1400      0x0000
+ 250            NVRAM_EF_EL1_ETVINLUTDATA_8THBAND_LID          EL2K           000                                      (null)      0x1400      0x0000
+ 251            NVRAM_EF_EL1_ETVINLUTDATA_9THBAND_LID          EL2L           000                                      (null)      0x1400      0x0000
+ 252           NVRAM_EF_EL1_ETVINLUTDATA_10THBAND_LID          EL2M           000                                      (null)      0x1400      0x0000
+ 253           NVRAM_EF_EL1_ETVINLUTDATA_11THBAND_LID          EL2N           000                                      (null)      0x1400      0x0000
+ 254           NVRAM_EF_EL1_ETVINLUTDATA_12THBAND_LID          EL2O           000                                      (null)      0x1400      0x0000
+ 255           NVRAM_EF_EL1_ETVINLUTDATA_13THBAND_LID          EL2P           000                                      (null)      0x1400      0x0000
+ 256           NVRAM_EF_EL1_ETVINLUTDATA_14THBAND_LID          EL2Q           000                                      (null)      0x1400      0x0000
+ 257                     NVRAM_EF_EL1_ETCOMPPARAM_LID          EL2R           001                                      (null)      0x1400      0x0000
+ 258                  NVRAM_EF_EL1_TEMPERATUREDAC_LID          EL2S           000                                      (null)      0x1400      0x0000
+ 272                  NVRAM_EF_EL1_BAND_INDICATOR_LID          EL2T           000                                      (null)      0x1400      0x0000
+ 273                    NVRAM_EF_EL1_RX_PDATABASE_LID          EL2U           000                                      (null)      0x1400      0x0000
+ 274                    NVRAM_EF_EL1_TX_PDATABASE_LID          EL2V           000                                      (null)      0x1400      0x0000
+ 275                           NVRAM_EF_EL1_RF_IO_LID          EL2W           000                                      (null)      0x1400      0x0000
+ 276             NVRAM_EF_EL1_CUSTOM_DYNAMIC_INIT_LID          EL2X           000                                      (null)      0x1400      0x0000
+ 277       NVRAM_EF_EL1_CUSTOM_DYNAMIC_INIT_DEBUG_LID          EL2Y           003                                      (null)      0x1000      0x0000
+ 278               NVRAM_EF_EL1_RF_RX_PATH_CONFIG_LID          EL2Z           000                                      (null)      0x1400      0x0000
+ 279                    NVRAM_EF_EL1_MIPI_FEATURE_LID          EL30           000                                      (null)      0x1400      0x0000
+ 284           NVRAM_EF_EL1_MIPI_RX_EVENT_1STBAND_LID          EL31           000                                      (null)      0x1400      0x0000
+ 285           NVRAM_EF_EL1_MIPI_RX_EVENT_2NDBAND_LID          EL32           000                                      (null)      0x1400      0x0000
+ 286           NVRAM_EF_EL1_MIPI_RX_EVENT_3RDBAND_LID          EL33           000                                      (null)      0x1400      0x0000
+ 287           NVRAM_EF_EL1_MIPI_RX_EVENT_4THBAND_LID          EL34           000                                      (null)      0x1400      0x0000
+ 288           NVRAM_EF_EL1_MIPI_RX_EVENT_5THBAND_LID          EL35           000                                      (null)      0x1400      0x0000
+ 289           NVRAM_EF_EL1_MIPI_RX_EVENT_6THBAND_LID          EL36           000                                      (null)      0x1400      0x0000
+ 290           NVRAM_EF_EL1_MIPI_RX_EVENT_7THBAND_LID          EL37           000                                      (null)      0x1400      0x0000
+ 291           NVRAM_EF_EL1_MIPI_RX_EVENT_8THBAND_LID          EL38           000                                      (null)      0x1400      0x0000
+ 292           NVRAM_EF_EL1_MIPI_RX_EVENT_9THBAND_LID          EL39           000                                      (null)      0x1400      0x0000
+ 293          NVRAM_EF_EL1_MIPI_RX_EVENT_10THBAND_LID          EL3A           000                                      (null)      0x1400      0x0000
+ 294          NVRAM_EF_EL1_MIPI_RX_EVENT_11THBAND_LID          EL3B           000                                      (null)      0x1400      0x0000
+ 295          NVRAM_EF_EL1_MIPI_RX_EVENT_12THBAND_LID          EL3C           000                                      (null)      0x1400      0x0000
+ 296          NVRAM_EF_EL1_MIPI_RX_EVENT_13THBAND_LID          EL3D           000                                      (null)      0x1400      0x0000
+ 297          NVRAM_EF_EL1_MIPI_RX_EVENT_14THBAND_LID          EL3E           000                                      (null)      0x1400      0x0000
+ 298           NVRAM_EF_EL1_MIPI_TX_EVENT_1STBAND_LID          EL3F           000                                      (null)      0x1400      0x0000
+ 299           NVRAM_EF_EL1_MIPI_TX_EVENT_2NDBAND_LID          EL3G           000                                      (null)      0x1400      0x0000
+ 300           NVRAM_EF_EL1_MIPI_TX_EVENT_3RDBAND_LID          EL3H           000                                      (null)      0x1400      0x0000
+ 301           NVRAM_EF_EL1_MIPI_TX_EVENT_4THBAND_LID          EL3I           000                                      (null)      0x1400      0x0000
+ 302           NVRAM_EF_EL1_MIPI_TX_EVENT_5THBAND_LID          EL3J           000                                      (null)      0x1400      0x0000
+ 303           NVRAM_EF_EL1_MIPI_TX_EVENT_6THBAND_LID          EL3K           000                                      (null)      0x1400      0x0000
+ 304           NVRAM_EF_EL1_MIPI_TX_EVENT_7THBAND_LID          EL3L           000                                      (null)      0x1400      0x0000
+ 305           NVRAM_EF_EL1_MIPI_TX_EVENT_8THBAND_LID          EL3M           000                                      (null)      0x1400      0x0000
+ 306           NVRAM_EF_EL1_MIPI_TX_EVENT_9THBAND_LID          EL3N           000                                      (null)      0x1400      0x0000
+ 307          NVRAM_EF_EL1_MIPI_TX_EVENT_10THBAND_LID          EL3O           000                                      (null)      0x1400      0x0000
+ 308          NVRAM_EF_EL1_MIPI_TX_EVENT_11THBAND_LID          EL3P           000                                      (null)      0x1400      0x0000
+ 309          NVRAM_EF_EL1_MIPI_TX_EVENT_12THBAND_LID          EL3Q           000                                      (null)      0x1400      0x0000
+ 310          NVRAM_EF_EL1_MIPI_TX_EVENT_13THBAND_LID          EL3R           000                                      (null)      0x1400      0x0000
+ 311          NVRAM_EF_EL1_MIPI_TX_EVENT_14THBAND_LID          EL3S           000                                      (null)      0x1400      0x0000
+ 326    NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_1STBAND_LID          EL3T           002                                      (null)      0x1400      0x0000
+ 327    NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_2NDBAND_LID          EL3U           002                                      (null)      0x1400      0x0000
+ 328    NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_3RDBAND_LID          EL3V           002                                      (null)      0x1400      0x0000
+ 329    NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_4THBAND_LID          EL3W           002                                      (null)      0x1400      0x0000
+ 330    NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_5THBAND_LID          EL3X           002                                      (null)      0x1400      0x0000
+ 331    NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_6THBAND_LID          EL3Y           002                                      (null)      0x1400      0x0000
+ 332    NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_7THBAND_LID          EL3Z           002                                      (null)      0x1400      0x0000
+ 333    NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_8THBAND_LID          EL40           002                                      (null)      0x1400      0x0000
+ 334    NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_9THBAND_LID          EL41           002                                      (null)      0x1400      0x0000
+ 335    NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_10THBAND_LID          EL42           002                                      (null)      0x1400      0x0000
+ 336    NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_11THBAND_LID          EL43           002                                      (null)      0x1400      0x0000
+ 337    NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_12THBAND_LID          EL44           002                                      (null)      0x1400      0x0000
+ 338    NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_13THBAND_LID          EL45           002                                      (null)      0x1400      0x0000
+ 339    NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_14THBAND_LID          EL46           002                                      (null)      0x1400      0x0000
+ 259                       NVRAM_EF_EL1_MPRADJTBL_LID          EL47           000                                      (null)      0x1400      0x0000
+ 260                      NVRAM_EF_EL1_AMPRADJTBL_LID          EL48           000                                      (null)      0x1400      0x0000
+ 312          NVRAM_EF_EL1_MIPI_TPC_EVENT_1STBAND_LID          EL49           000                                      (null)      0x1400      0x0000
+ 313          NVRAM_EF_EL1_MIPI_TPC_EVENT_2NDBAND_LID          EL4A           000                                      (null)      0x1400      0x0000
+ 314          NVRAM_EF_EL1_MIPI_TPC_EVENT_3RDBAND_LID          EL4B           000                                      (null)      0x1400      0x0000
+ 315          NVRAM_EF_EL1_MIPI_TPC_EVENT_4THBAND_LID          EL4C           000                                      (null)      0x1400      0x0000
+ 316          NVRAM_EF_EL1_MIPI_TPC_EVENT_5THBAND_LID          EL4D           000                                      (null)      0x1400      0x0000
+ 317          NVRAM_EF_EL1_MIPI_TPC_EVENT_6THBAND_LID          EL4E           000                                      (null)      0x1400      0x0000
+ 318          NVRAM_EF_EL1_MIPI_TPC_EVENT_7THBAND_LID          EL4F           000                                      (null)      0x1400      0x0000
+ 319          NVRAM_EF_EL1_MIPI_TPC_EVENT_8THBAND_LID          EL4G           000                                      (null)      0x1400      0x0000
+ 320          NVRAM_EF_EL1_MIPI_TPC_EVENT_9THBAND_LID          EL4H           000                                      (null)      0x1400      0x0000
+ 321         NVRAM_EF_EL1_MIPI_TPC_EVENT_10THBAND_LID          EL4I           000                                      (null)      0x1400      0x0000
+ 322         NVRAM_EF_EL1_MIPI_TPC_EVENT_11THBAND_LID          EL4J           000                                      (null)      0x1400      0x0000
+ 323         NVRAM_EF_EL1_MIPI_TPC_EVENT_12THBAND_LID          EL4K           000                                      (null)      0x1400      0x0000
+ 324         NVRAM_EF_EL1_MIPI_TPC_EVENT_13THBAND_LID          EL4L           000                                      (null)      0x1400      0x0000
+ 325         NVRAM_EF_EL1_MIPI_TPC_EVENT_14THBAND_LID          EL4M           000                                      (null)      0x1400      0x0000
+ 280                  NVRAM_EF_EL1_RXON_BPIOFFSET_LID          EL4N           001                                      (null)      0x1400      0x0000
+ 281                  NVRAM_EF_EL1_TXON_BPIOFFSET_LID          EL4O           001                                      (null)      0x1400      0x0000
+ 282                 NVRAM_EF_EL1_RXOFF_BPIOFFSET_LID          EL4P           001                                      (null)      0x1400      0x0000
+ 283                 NVRAM_EF_EL1_TXOFF_BPIOFFSET_LID          EL4Q           001                                      (null)      0x1400      0x0000
+ 373             NVRAM_EF_EL1_MIPI_BYPASS_FEATURE_LID          EL4R           000                                      (null)      0x1400      0x0000
+ 374    NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_1STBAND_LID          EL4S           000                                      (null)      0x1400      0x0000
+ 375    NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_2NDBAND_LID          EL4T           000                                      (null)      0x1400      0x0000
+ 376    NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_3RDBAND_LID          EL4U           000                                      (null)      0x1400      0x0000
+ 379    NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_1STBAND_LID          EL4V           000                                      (null)      0x1400      0x0000
+ 380    NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_2NDBAND_LID          EL4X           000                                      (null)      0x1400      0x0000
+ 381    NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_3RDBAND_LID          EL4Y           000                                      (null)      0x1400      0x0000
+ 384    NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_1STBAND_LID          EL4Z           000                                      (null)      0x1400      0x0000
+ 385    NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_2NDBAND_LID          EL50           000                                      (null)      0x1400      0x0000
+ 386    NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_3RDBAND_LID          EL51           000                                      (null)      0x1400      0x0000
+ 340            NVRAM_EF_EL1_MIPI_RX_DATA_1STBAND_LID          EL52           001                                      (null)      0x1400      0x0000
+ 341            NVRAM_EF_EL1_MIPI_RX_DATA_2NDBAND_LID          EL53           001                                      (null)      0x1400      0x0000
+ 342            NVRAM_EF_EL1_MIPI_RX_DATA_3RDBAND_LID          EL54           001                                      (null)      0x1400      0x0000
+ 343            NVRAM_EF_EL1_MIPI_RX_DATA_4THBAND_LID          EL55           001                                      (null)      0x1400      0x0000
+ 344            NVRAM_EF_EL1_MIPI_RX_DATA_5THBAND_LID          EL56           001                                      (null)      0x1400      0x0000
+ 345            NVRAM_EF_EL1_MIPI_RX_DATA_6THBAND_LID          EL57           001                                      (null)      0x1400      0x0000
+ 346            NVRAM_EF_EL1_MIPI_RX_DATA_7THBAND_LID          EL58           001                                      (null)      0x1400      0x0000
+ 347            NVRAM_EF_EL1_MIPI_RX_DATA_8THBAND_LID          EL59           001                                      (null)      0x1400      0x0000
+ 348            NVRAM_EF_EL1_MIPI_RX_DATA_9THBAND_LID          EL5A           001                                      (null)      0x1400      0x0000
+ 349           NVRAM_EF_EL1_MIPI_RX_DATA_10THBAND_LID          EL5B           001                                      (null)      0x1400      0x0000
+ 350           NVRAM_EF_EL1_MIPI_RX_DATA_11THBAND_LID          EL5C           001                                      (null)      0x1400      0x0000
+ 351           NVRAM_EF_EL1_MIPI_RX_DATA_12THBAND_LID          EL5D           001                                      (null)      0x1400      0x0000
+ 352           NVRAM_EF_EL1_MIPI_RX_DATA_13THBAND_LID          EL5E           001                                      (null)      0x1400      0x0000
+ 353           NVRAM_EF_EL1_MIPI_RX_DATA_14THBAND_LID          EL5F           001                                      (null)      0x1400      0x0000
+ 354            NVRAM_EF_EL1_MIPI_TX_DATA_1STBAND_LID          EL5G           001                                      (null)      0x1400      0x0000
+ 355            NVRAM_EF_EL1_MIPI_TX_DATA_2NDBAND_LID          EL5H           001                                      (null)      0x1400      0x0000
+ 356            NVRAM_EF_EL1_MIPI_TX_DATA_3RDBAND_LID          EL5I           001                                      (null)      0x1400      0x0000
+ 357            NVRAM_EF_EL1_MIPI_TX_DATA_4THBAND_LID          EL5J           001                                      (null)      0x1400      0x0000
+ 358            NVRAM_EF_EL1_MIPI_TX_DATA_5THBAND_LID          EL5K           001                                      (null)      0x1400      0x0000
+ 359            NVRAM_EF_EL1_MIPI_TX_DATA_6THBAND_LID          EL5L           001                                      (null)      0x1400      0x0000
+ 360            NVRAM_EF_EL1_MIPI_TX_DATA_7THBAND_LID          EL5M           001                                      (null)      0x1400      0x0000
+ 361            NVRAM_EF_EL1_MIPI_TX_DATA_8THBAND_LID          EL5N           001                                      (null)      0x1400      0x0000
+ 362            NVRAM_EF_EL1_MIPI_TX_DATA_9THBAND_LID          EL5O           001                                      (null)      0x1400      0x0000
+ 363           NVRAM_EF_EL1_MIPI_TX_DATA_10THBAND_LID          EL5P           001                                      (null)      0x1400      0x0000
+ 364           NVRAM_EF_EL1_MIPI_TX_DATA_11THBAND_LID          EL5Q           001                                      (null)      0x1400      0x0000
+ 365           NVRAM_EF_EL1_MIPI_TX_DATA_12THBAND_LID          EL5R           001                                      (null)      0x1400      0x0000
+ 366           NVRAM_EF_EL1_MIPI_TX_DATA_13THBAND_LID          EL5S           001                                      (null)      0x1400      0x0000
+ 367           NVRAM_EF_EL1_MIPI_TX_DATA_14THBAND_LID          EL5T           001                                      (null)      0x1400      0x0000
+ 368     NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_1STBAND_LID          EL5U           001                                      (null)      0x1400      0x0000
+ 369     NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_2NDBAND_LID          EL5V           001                                      (null)      0x1400      0x0000
+ 370     NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_3RDBAND_LID          EL5W           001                                      (null)      0x1400      0x0000
+ 377    NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_4THBAND_LID          EL6C           000                                      (null)      0x1400      0x0000
+ 378    NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_5THBAND_LID          EL6D           000                                      (null)      0x1400      0x0000
+ 382    NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_4THBAND_LID          EL6E           000                                      (null)      0x1400      0x0000
+ 383    NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_5THBAND_LID          EL6F           000                                      (null)      0x1400      0x0000
+ 387    NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_4THBAND_LID          EL6G           000                                      (null)      0x1400      0x0000
+ 388    NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_5THBAND_LID          EL6H           000                                      (null)      0x1400      0x0000
+ 371     NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_4THBAND_LID          EL6I           000                                      (null)      0x1400      0x0000
+ 372     NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_5THBAND_LID          EL6J           000                                      (null)      0x1400      0x0000
+ 404                   NVRAM_EF_EL1_TAS_PARAMETER_LID          EL6K           001                                      (null)      0x1400      0x0000
+ 407            NVRAM_EF_EL1_SVLTE_BAND_INDICATOR_LID          EL6M           000                                      (null)      0x1400      0x0000
+ 406                 NVRAM_EF_EL1_GPS_CO_TMS_DATA_LID          EL6N           000                                      (null)      0x1400      0x0000
+ 408            NVRAM_EF_MML1_CUSTOM_DYNAMIC_INIT_LID          ML0A           001                                      (null)      0x1400      0x0000
+ 409                NVRAM_EF_MML1_MIPI_INITIAL_CW_LID          ML0B           000                                      (null)      0x1400      0x0000
+ 410               NVRAM_EF_MML1_MIPI_USID_CHANGE_LID          ML0C           000                                      (null)      0x1400      0x0000
+ 411                          NVRAM_EF_HMU_CONFIG_LID          MT7A           001                                      (null)      0x0000      0x0000
+ 412                       NVRAM_EF_HMU_HD_CONFIG_LID          MT7B           001                                      (null)      0x0000      0x0000
+ 413                          NVRAM_EF_NMU_CONFIG_LID          MT7C           000                                      (null)      0x0000      0x0000
+ 415                 NVRAM_EF_REGIONAL_PHONE_MODE_LID          MT78           000                                      (null)      0x0000      0x0080
+ 178                         NVRAM_EF_IMS_PROFILE_LID          MT79           009                                      (null)      0x0000      0x0000
+ 179                      NVRAM_EF_LTECSR_PROFILE_LID          MT82           000                                      (null)      0x0000      0x0000
+ 180                     NVRAM_EF_VDM_ADS_PROFILE_LID          MT83           004                                      (null)      0x0000      0x0000
+ 116           NVRAM_EF_L1_MIPI_CTRL_TABLE_GSM850_LID          MT3K           000                                      (null)      0x0400      0x0000
+ 117           NVRAM_EF_L1_MIPI_CTRL_TABLE_GSM900_LID          MT3M           000                                      (null)      0x0400      0x0000
+ 118          NVRAM_EF_L1_MIPI_CTRL_TABLE_DCS1800_LID          MT3O           000                                      (null)      0x0400      0x0000
+ 119          NVRAM_EF_L1_MIPI_CTRL_TABLE_PCS1900_LID          MT3Q           000                                      (null)      0x0400      0x0000
+ 120     NVRAM_EF_L1_CUSTOM_DRDI_STATUS_DEBUGINFO_LID          MT3S           001                                      (null)      0x0400      0x0000
+  54               NVRAM_EF_L1_TAS_CUSTOM_PARAMES_LID          MT9X           001                                      (null)      0x0400      0x0000
+  55                 NVRAM_EF_L1_TAS_CUSTOM_PDATA_LID          MT9Z           000                                      (null)      0x0400      0x0000
+ 417                    NVRAM_EF_SBP_MODEM_CONFIG_LID          MT80           057                                      (null)      0x0000      0x0008
+ 418               NVRAM_EF_SBP_MODEM_DATA_CONFIG_LID          MT81           001                                      (null)      0x0000      0x0008
+ 424                          NVRAM_EF_2G_BA_INFO_LID          MT84           001                                      (null)      0x0000      0x0000
+1026                 NVRAM_EF_UL1_3G_RF_PARAMETER_LID          MT2S           000                                      (null)      0x0400      0x0001
+1027               NVRAM_EF_UL1_IOT_CUSTOMIZATION_LID          MT2T           000                                      (null)      0x0100      0x0001
+1028                   NVRAM_EF_UL1_HSPA_CATEGORY_LID          MT2U           000                                      (null)      0x0100      0x0001
+ 195       NVRAM_EF_UL1_CUSTOM_DYNAMIC_INIT_DEBUG_LID          MT2V           000                                      (null)      0x0000      0x0000
+1029              NVRAM_EF_UL1_MIPI_TPC_HIGHBAND1_LID          ULM1           000                                      (null)      0x0400      0x0001
+1030              NVRAM_EF_UL1_MIPI_TPC_HIGHBAND2_LID          ULM2           000                                      (null)      0x0400      0x0001
+1031              NVRAM_EF_UL1_MIPI_TPC_HIGHBAND3_LID          ULM3           000                                      (null)      0x0400      0x0001
+1032               NVRAM_EF_UL1_MIPI_TPC_LOWBAND1_LID          ULM4           000                                      (null)      0x0400      0x0001
+1033               NVRAM_EF_UL1_MIPI_TPC_LOWBAND2_LID          ULM5           000                                      (null)      0x0400      0x0001
+1039         NVRAM_EF_UL1_MIPI_RX_EVENT_HIGHBAND1_LID          ULMB           000                                      (null)      0x0400      0x0001
+1040         NVRAM_EF_UL1_MIPI_RX_EVENT_HIGHBAND2_LID          ULMC           000                                      (null)      0x0400      0x0001
+1041         NVRAM_EF_UL1_MIPI_RX_EVENT_HIGHBAND3_LID          ULMD           000                                      (null)      0x0400      0x0001
+1042          NVRAM_EF_UL1_MIPI_RX_EVENT_LOWBAND1_LID          ULME           000                                      (null)      0x0400      0x0001
+1043          NVRAM_EF_UL1_MIPI_RX_EVENT_LOWBAND2_LID          ULMF           000                                      (null)      0x0400      0x0001
+1044          NVRAM_EF_UL1_MIPI_RX_DATA_HIGHBAND1_LID          ULMG           000                                      (null)      0x0400      0x0001
+1045          NVRAM_EF_UL1_MIPI_RX_DATA_HIGHBAND2_LID          ULMH           000                                      (null)      0x0400      0x0001
+1046          NVRAM_EF_UL1_MIPI_RX_DATA_HIGHBAND3_LID          ULMI           000                                      (null)      0x0400      0x0001
+1047           NVRAM_EF_UL1_MIPI_RX_DATA_LOWBAND1_LID          ULMJ           000                                      (null)      0x0400      0x0001
+1048           NVRAM_EF_UL1_MIPI_RX_DATA_LOWBAND2_LID          ULMK           000                                      (null)      0x0400      0x0001
+1049         NVRAM_EF_UL1_MIPI_TX_EVENT_HIGHBAND1_LID          ULML           000                                      (null)      0x0400      0x0001
+1050         NVRAM_EF_UL1_MIPI_TX_EVENT_HIGHBAND2_LID          ULMM           000                                      (null)      0x0400      0x0001
+1051         NVRAM_EF_UL1_MIPI_TX_EVENT_HIGHBAND3_LID          ULMN           000                                      (null)      0x0400      0x0001
+1052          NVRAM_EF_UL1_MIPI_TX_EVENT_LOWBAND1_LID          ULMO           000                                      (null)      0x0400      0x0001
+1053          NVRAM_EF_UL1_MIPI_TX_EVENT_LOWBAND2_LID          ULMP           000                                      (null)      0x0400      0x0001
+1054          NVRAM_EF_UL1_MIPI_TX_DATA_HIGHBAND1_LID          ULMQ           000                                      (null)      0x0400      0x0001
+1055          NVRAM_EF_UL1_MIPI_TX_DATA_HIGHBAND2_LID          ULMR           000                                      (null)      0x0400      0x0001
+1056          NVRAM_EF_UL1_MIPI_TX_DATA_HIGHBAND3_LID          ULMS           000                                      (null)      0x0400      0x0001
+1057           NVRAM_EF_UL1_MIPI_TX_DATA_LOWBAND1_LID          ULMT           000                                      (null)      0x0400      0x0001
+1058           NVRAM_EF_UL1_MIPI_TX_DATA_LOWBAND2_LID          ULMU           000                                      (null)      0x0400      0x0001
+1059    NVRAM_EF_UL1_MIPI_ASM_ISOLATION_HIGHBAND1_LID          ULMV           000                                      (null)      0x0400      0x0001
+1060    NVRAM_EF_UL1_MIPI_ASM_ISOLATION_HIGHBAND2_LID          ULMW           000                                      (null)      0x0400      0x0001
+1061    NVRAM_EF_UL1_MIPI_ASM_ISOLATION_HIGHBAND3_LID          ULMX           000                                      (null)      0x0400      0x0001
+1062     NVRAM_EF_UL1_MIPI_ASM_ISOLATION_LOWBAND1_LID          ULMY           000                                      (null)      0x0400      0x0001
+1063     NVRAM_EF_UL1_MIPI_ASM_ISOLATION_LOWBAND2_LID          ULMZ           000                                      (null)      0x0400      0x0001
+1064                    NVRAM_EF_UL1_MIPI_INIT_CW_LID          ULN1           000                                      (null)      0x0400      0x0001
+1065                   NVRAM_EF_UL1_MIPI_SLEEP_CW_LID          ULN2           000                                      (null)      0x0400      0x0001
+   6                       NVRAM_EF_SYS_EXCEPTION_LID          MT03           000                                      (null)      0x0000      0x0000
+2560                                 NVRAM_EF_ADC_LID          MT1F           000                                      (null)      0x1000      0x0000
+--------------------------------------------------------------------------------------------

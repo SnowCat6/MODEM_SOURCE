@@ -1,0 +1,5 @@
+modem/ephy/ephy_ext/ephy_rf_ET_custom_data.c
+modem/ephy/ephy_ext/ephy_rf_custom_data.c
+modem/ephy/ephy_ext/ephy_rf_custom_error_check.c
+modem/ephy/ephy_ext/ephy_rf_custom_func.c
+

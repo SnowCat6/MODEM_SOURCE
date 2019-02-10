@@ -1,0 +1,19 @@
+ACTION: 0,
+CMMFILE: ./build/HCT6737M_65_N/LWG_DSDS/cmm/HCT6737M_65_N_MDBIN_PCB01_MT6735_S00_nocode.cmm,
+CMMDIR:  ./build/HCT6737M_65_N/LWG_DSDS/cmm,
+
+ELFFILE: ../bin/HCT6737M_65_N_MDBIN_PCB01_MT6735_S00.elf, 
+MAKEFILE: build/HCT6737M_65_N/LWG_DSDS/bin/~HCT6737M_65_N(LWG_DSDS).mak,
+
+MAUI_BIN: HCT6737M_65_N_MDBIN_PCB01_MT6735_S00.MOLY_LR9_W1444_MD_LWTG_MP_V110_5_P1.bin, 
+LISFILE: ./build/HCT6737M_65_N/LWG_DSDS/bin/HCT6737M_65_N_MDBIN_PCB01_MT6735_S00.sym, 
+
+CC_CMD: tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc  -mthumb       , 
+VIA_CMD: @, 
+OPTION_TMP: ./build/HCT6737M_65_N/LWG_DSDS/tmp/~customIncDef.tmp
+
+TMP_FOLDER: ./build/HCT6737M_65_N/LWG_DSDS/tmp
+INFOMAKE_PATH: ./build/HCT6737M_65_N/LWG_DSDS/bin/log/infomake.log
+
+TMPFILE_PATH: ./build/HCT6737M_65_N/LWG_DSDS/tmp/cp_dsp_info.tmp
+Generate ./build/HCT6737M_65_N/LWG_DSDS/cmm/MT6735_MD1_Info.cmm from ./tools/DebuggingSuite/Misc/MT6735_MD1_Info.cmm

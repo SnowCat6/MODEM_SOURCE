@@ -1,0 +1,6 @@
+make[1]: Entering directory '/media/snowcat/ANDROID/modem'
+./build/HCT6737M_65_N/LWG_DSDS/nvram_auto_gen/nvram_editor.h
+OS_VERSION = linux
+def_h = adc_nvram_def.h audio_nvram_def.h ul1_nvram_def.h
+editor_h = adc_nvram_editor.h audio_nvram_editor.h ul1_nvram_editor.h
+make[1]: Leaving directory '/media/snowcat/ANDROID/modem'

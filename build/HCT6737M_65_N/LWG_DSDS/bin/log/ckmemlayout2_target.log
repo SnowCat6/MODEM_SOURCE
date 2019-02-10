@@ -1,0 +1,3 @@
+cmd=perl tools/ckLDS.pl 2 TRUE ./build/HCT6737M_65_N/LWG_DSDS/custom/system/ldsHCT6737M_65_N.txt ./build/HCT6737M_65_N/LWG_DSDS/bin/HCT6737M_65_N_MDBIN_PCB01_MT6735_S00.map ./build/HCT6737M_65_N/LWG_DSDS/tmp/~flash_cfg_tmp.c "build/HCT6737M_65_N/LWG_DSDS/bin/~HCT6737M_65_N(LWG_DSDS).mak" ./build/HCT6737M_65_N/LWG_DSDS/custom/system 0 ./build/HCT6737M_65_N/LWG_DSDS/bin/log/infomake.log
+======================================================================
+==============================0=====================================

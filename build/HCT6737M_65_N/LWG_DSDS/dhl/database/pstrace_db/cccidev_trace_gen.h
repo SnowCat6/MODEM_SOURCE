@@ -1,0 +1,13 @@
+#ifndef _cccidev_trace_GEN_H_
+#define _cccidev_trace_GEN_H_
+
+// CCCIDEV_TR_ILM_WRONG_DEST_MOD
+#define CCCIDEV_TR_ILM_WRONG_DEST_MOD_size "d"
+#define CCCIDEV_TR_ILM_WRONG_DEST_MOD CCCIDEV_TR_ILM_WRONG_DEST_MOD__enum,CCCIDEV_TR_ILM_WRONG_DEST_MOD_size
+
+// CCCIDEV_TR_UL_CCCI_CH_ERR
+#define CCCIDEV_TR_UL_CCCI_CH_ERR_size "‚d"
+#define CCCIDEV_TR_UL_CCCI_CH_ERR CCCIDEV_TR_UL_CCCI_CH_ERR__enum,CCCIDEV_TR_UL_CCCI_CH_ERR_size
+
+
+#endif // cccidev_trace_gen.h

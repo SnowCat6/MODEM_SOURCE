@@ -1,0 +1,314 @@
+#UPDATE#
+nvram_drval_fat.obj:	service/nvram/src/nvram_drval_fat.c \
+	interface/service/kal/kal_general_types.h \
+	interface/service/kal/clib.h \
+	interface/service/kal/clib_list.h \
+	interface/service/kal/kal_public_api.h \
+	interface/service/kal/kal_public_defs.h \
+	interface/service/config/stack_config.h \
+	interface/sap/hisr_modid.h \
+	interface/sap/module_id_range.h \
+	interface/sap/cross_core/global_modid_range.h \
+	interface/sap/module_hisrid_range.h \
+	interface/service/config/hisr_config_internal.h \
+	interface/sap/cross_core/global_modid.h \
+	interface/sap/cross_core/md1_module_config.h \
+	interface/sap/cross_core/md2_module_config.h \
+	interface/sap/cross_core/md3_module_config.h \
+	interface/sap/srv_modid.h \
+	interface/service/config/srv_task_config.h \
+	interface/sap/modem_2g3g_modid.h \
+	interface/service/config/modem_2g3g_task_config.h \
+	interface/sap/modem_4g_modid.h \
+	interface/service/config/modem_4g_task_config.h \
+	interface/sap/middleware_modid.h \
+	interface/service/config/middleWare_task_config.h \
+	interface/sap/drv_modid.h \
+	interface/service/config/drv_task_config.h \
+	interface/service/config/stack_msgs.h \
+	interface/service/fs/fs_type.h \
+	interface/service/fs/fs_gprot.h \
+	interface/service/hif/ccci_fs_if.h \
+	interface/service/nvram/nvram_defs.h \
+	build/HCT6737M_65_N/LWG_DSDS/nvram_auto_gen/nvram_lid_statistics.h \
+	interface/service/nvram/nvram_enums.h \
+	interface/service/fs/fs_func.h \
+	interface/service/fs/fs_errcode.h \
+	service/nvram/include/nvram_main.h \
+	interface/service/nvram/nvram_config.h \
+	service/nvram/include/nvram_ltable.h \
+	service/nvram/include/nvram_internal.h \
+	custom/service/nvram/custom_nvram_sec.h \
+	interface/service/sys_svc/cust_chl_interface.h \
+	driver/regbase/inc/reg_base.h \
+	driver/regbase/inc/reg_base_mt6735_md1.h \
+	service/nvram/include/nvram_sec.h \
+	service/nvram/include/nvram_util.h \
+	interface/service/dhl/kal_trace.h \
+	interface/service/dhl/dhl_trace.h \
+	service/nvram/include/nvram_drval_fat.h \
+	interface/service/nvram/nvram_data_items.h \
+	interface/service/config/stack_buff_pool.h \
+	interface/service/config/ctrl_buff_pool.h \
+	interface/service/config/kal_user_mem.h \
+	interface/service/config/sysconf_statistics.h \
+	interface/service/dhl/tst.h \
+	interface/modem/l1/fdd/external/ul1cal.h \
+	interface/modem/l1/fdd/external/ul1d_rf_public.h \
+	interface/modem/l1/fdd/external/ul1d_rf_cid.h \
+	custom/modem/ul1_rf/MT6735_UMTS_FDD_MT6169_CUSTOM/ul1d_custom_mipi.h \
+	interface/driver/peripheral/dcl.h \
+	interface/driver/peripheral/dcl_gpt.h \
+	interface/driver/peripheral/dcl_gpio.h \
+	driver/drv_def/drv_features_gpio.h \
+	driver/drv_def/drv_features_chip_select.h \
+	driver/drv_def/drv_features_6735.h \
+	interface/driver/peripheral/dcl_uart.h \
+	interface/modem/general/cmux_vp_num.h \
+	interface/common/global_def.h \
+	interface/driver/peripheral/dcl_wdt.h \
+	interface/driver/peripheral/dcl_adc.h \
+	interface/driver/peripheral/dcl_bmt.h \
+	interface/driver/peripheral/dcl_pfc.h \
+	interface/driver/peripheral/dcl_rtc.h \
+	interface/driver/peripheral/dcl_i2c.h \
+	interface/driver/peripheral/dcl_i2c_owner.h \
+	interface/driver/peripheral/dcl_aux.h \
+	interface/driver/peripheral/dcl_pwm.h \
+	interface/driver/peripheral/DclH_kbd.h \
+	interface/driver/peripheral/DclS_kbd.h \
+	interface/driver/peripheral/dcl_sts.h \
+	interface/driver/peripheral/dcl_msdc.h \
+	interface/driver/connectivity/usb_driver/dcl_usb_drv.h \
+	interface/driver/connectivity/usb_driver/dcl_usb_hcd.h \
+	interface/driver/connectivity/usb_driver/dcl_otg_drv.h \
+	interface/driver/peripheral/dcl_irda.h \
+	interface/driver/peripheral/dcl_sim.h \
+	interface/driver/peripheral/dcl_pmu.h \
+	interface/driver/peripheral/dcl_pw.h \
+	interface/driver/peripheral/dcl_chr_det.h \
+	interface/driver/peripheral/dcl_pxs.h \
+	interface/driver/peripheral/dcl_sim_gpio.h \
+	interface/driver/peripheral/dcl_f32k_clk.h \
+	interface/driver/peripheral/dcl_idc.h \
+	interface/modem/mml1/mml1_rf_global.h \
+	interface/modem/mml1/mml1_mipi_public.h \
+	interface/modem/lte/el1_rf_public.h \
+	interface/modem/lte/el1_rf_cid.h \
+	custom/modem/el1_rf/MT6735_LTE_MT6169_CUSTOM/lte_custom_mipi.h \
+	custom/modem/mml1_rf/MT6735_MMRF_CUSTOM/mml1_custom_mipi.h \
+	custom/modem/mml1_rf/MT6735_MMRF_CUSTOM/mml1_custom_drdi.h \
+	interface/modem/lte/el1_meta_if.h \
+	interface/middleware/meta/ft_msg_common.h \
+	interface/modem/lte/el1_rf_public_mt6169.h \
+	interface/modem/lte/el1_drdi.h \
+	driver/drv_def/drv_features_adc.h \
+	driver/drv_def/drv_features_rtc.h \
+	driver/drv_def/drv_features_sim.h \
+	interface/sap/svc/sysservice_msgid.h \
+	interface/sap/module_msg_range.h \
+	interface/sap/cross_core/global_msg_range.h \
+	interface/sap/cross_core/global_msgid.h \
+	interface/sap/cross_core/md1_msgid.h \
+	interface/sap/cross_core/md2_msgid.h \
+	interface/sap/cross_core/md3_msgid.h \
+	interface/service/hif/hmu_conf_data.h \
+	interface/middleware/hif/nmu.h \
+	interface/modem/general/ps_public_enum.h \
+	interface/sap/cross_core/ps_public_enum_public.h \
+	service/nvram/include/nvram_multi_folder.h \
+	service/nvram/include/nvram_trc.h \
+	build/HCT6737M_65_N/LWG_DSDS/nvram_auto_gen/nvram_gen_trc.h \
+	build/HCT6737M_65_N/LWG_DSDS/dhl/database/pstrace_db/nvram_trc_gen.h \
+	service/nvram/include/nvram_io.h \
+	service/nvram/include/nvram_errcode.h \
+	interface/service/nvram/nvram_interface.h \
+	service/nvram/include/nvram_handler_startup.h \
+	service/nvram/include/nvram_handler_reset.h \
+	service/nvram/include/nvram_handler_read.h \
+	interface/service/nvram/nvram_struct.h \
+	service/nvram/include/nvram_handler_write.h \
+	service/nvram/include/nvram_handler_tst.h \
+	service/nvram/include/nvram_msg_handler.h \
+	service/nvram/include/nvram_ilm.h \
+	service/sst/include/SST_secure.h \
+	interface/service/sst/sst_interface.h
+#ENDUPDATE#
+#UPDATE#
+nvram_el1def.obj:	service/nvram/src/nvram_el1def.c
+#ENDUPDATE#
+#UPDATE#
+nvram_ex_io.obj:	service/nvram/src/nvram_ex_io.c \
+	service/fs/common/include/fs_iprot.h
+#ENDUPDATE#
+#UPDATE#
+nvram_factory_config.obj:	service/nvram/src/nvram_factory_config.c \
+	interface/service/nvram/nvram_editor_data_item.h \
+	interface/modem/general/device.h \
+	interface/modem/general/ps_public_struct.h \
+	interface/modem/general/sim_ps_enum.h \
+	interface/modem/general/sim_public_enum.h \
+	interface/sap/cross_core/sim_public_enum_public.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/BASIC/mcd/mcd_l4_common.h \
+	interface/modem/general/tcm_api.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/BASIC/mcd/mcd_l3_inc_gprs_struct.h \
+	interface/driver/peripheral/adc_cali.h \
+	interface/sap/svc_sap.h \
+	interface/sap/sap_range.h \
+	interface/sap/cross_core/global_sap_range.h \
+	interface/sap/cross_core/global_sap.h \
+	interface/sap/cross_core/md1_sap.h \
+	interface/sap/cross_core/md2_sap.h \
+	interface/sap/cross_core/md3_sap.h \
+	custom/modem/common/ps/ul1_nvram_def.h \
+	interface/modem/l1/fdd/external/ul1d_rf_common.h \
+	custom/modem/ul1_rf/MT6735_UMTS_FDD_MT6169_CUSTOM/ul1d_custom_rf.h \
+	custom/modem/ul1_rf/MT6735_UMTS_FDD_MT6169_CUSTOM/wcustomdata.h \
+	custom/modem/common/ps/custom_recovery_timer.h \
+	custom/middleware/common/custom_nvram_config.h \
+	custom/service/nvram/custom_nvram_restore.h \
+	interface/modem/l1/gsm/external/l1cal.h \
+	interface/modem/l1/gsm/external/l1_option.h \
+	custom/modem/l1_rf/MT6735_2G_MT6169_CUSTOM/l1d_custom_rf.h \
+	interface/modem/l1/gsm/external/l1_types_public.h \
+	interface/modem/l1/gsm/external/mph_types.h \
+	interface/modem/l1/gsm/external/l1_gemini_def.h \
+	modem/gl1/l1_dm/l1d_ext/l1d_mipi_data.h \
+	modem/gl1/l1_dm/l1d_ext/l1d_cid.h \
+	modem/gl1/l1_dm/l1d_ext/l1d_rf.h \
+	custom/driver/drv/misc_drv/_Default_BB/MT6735/adc_channel.h
+#ENDUPDATE#
+#UPDATE#
+nvram_handler_read.obj:	service/nvram/src/nvram_handler_read.c \
+	interface/sap/svc/nvram_msgid.h
+#ENDUPDATE#
+#UPDATE#
+nvram_handler_reset.obj:	service/nvram/src/nvram_handler_reset.c
+#ENDUPDATE#
+#UPDATE#
+nvram_handler_startup.obj:	service/nvram/src/nvram_handler_startup.c
+#ENDUPDATE#
+#UPDATE#
+nvram_handler_write.obj:	service/nvram/src/nvram_handler_write.c
+#ENDUPDATE#
+#UPDATE#
+nvram_ilm.obj:	service/nvram/src/nvram_ilm.c
+#ENDUPDATE#
+#UPDATE#
+nvram_interface.obj:	service/nvram/src/nvram_interface.c \
+	service/sst/include/ex_item.h \
+	interface/driver/sys_drv/intrCtrl.h \
+	driver/devdrv/cirq_v2/inc/intrCtrl_MT6735.h \
+	driver/devdrv/cirq_v2/inc/irqid.h \
+	driver/devdrv/cirq_v2/inc/irqid_MT6735.h \
+	driver/drv_def/drv_features_gpt.h \
+	driver/devdrv/cirq_v2/inc/drv_mdcirq.h \
+	interface/driver/sys_drv/isrentry.h \
+	driver/devdrv/cirq_v2/inc/drv_mdcirq_reg.h \
+	interface/service/config/hisr_config.h \
+	driver/devdrv/cirq_v1/inc/intrCtrl_SW_Handle.h \
+	driver/devdrv/cirq_v2/inc/intrCtrl_MT6735_SW_Handle.h \
+	interface/service/config/syscomp_config.h \
+	interface/service/config/stack_types.h \
+	interface/service/sst/ex_public.h \
+	custom/middleware/common/audio_nvram_def.h \
+	custom/service/nvram/ex_nvram_def.h
+#ENDUPDATE#
+#UPDATE#
+nvram_io.obj:	service/nvram/src/nvram_io.c
+#ENDUPDATE#
+#UPDATE#
+nvram_l1def.obj:	service/nvram/src/nvram_l1def.c \
+	service/nvram/include/nvram_l1def.h
+#ENDUPDATE#
+#UPDATE#
+nvram_ltable.obj:	service/nvram/src/nvram_ltable.c \
+	custom/service/nvram/custom_nvram_cat.h
+#ENDUPDATE#
+#UPDATE#
+nvram_main.obj:	service/nvram/src/nvram_main.c \
+	interface/service/config/task_config.h \
+	interface/service/stacklib/lcd_ip_cqueue.h \
+	custom/modem/common/ps/custom_em.h \
+	interface/modem/general/ps_em_enum.h \
+	interface/service/config/multiboot_config.h \
+	interface/driver/sys_drv/ccci.h \
+	interface/service/hif/ccci_if.h \
+	interface/middleware/hif/hif_ior.h \
+	interface/service/qmu_bm/qmu_bm.h \
+	interface/service/qmu_bm/qbm_features.h \
+	interface/service/qmu_bm/qmu_bm_enum.h \
+	interface/service/qmu_bm/qmu_bm_in.h \
+	interface/service/qmu_bm/qmu_bm_size.h \
+	interface/driver/sys_drv/cache_sw.h \
+	interface/service/hif/ccci_ch_cfg.h \
+	interface/service/hif/ccci_sysmsgsvc_conf.h \
+	interface/service/hif/ccci_misc_data_conf.h \
+	interface/service/hif/ccci_excep_memory_region.h \
+	interface/sap/svc/tst_msgid.h
+#ENDUPDATE#
+#UPDATE#
+nvram_mml1def.obj:	service/nvram/src/nvram_mml1def.c
+#ENDUPDATE#
+#UPDATE#
+nvram_msg_handler.obj:	service/nvram/src/nvram_msg_handler.c
+#ENDUPDATE#
+#UPDATE#
+nvram_multi_folder.obj:	service/nvram/src/nvram_multi_folder.c
+#ENDUPDATE#
+#UPDATE#
+nvram_pseudo_merge.obj:	service/nvram/src/nvram_pseudo_merge.c
+#ENDUPDATE#
+#UPDATE#
+nvram_ul1def.obj:	service/nvram/src/nvram_ul1def.c \
+	interface/modem/l1/fdd/external/hal_ul1_def.h
+#ENDUPDATE#
+#UPDATE#
+nvram_util.obj:	service/nvram/src/nvram_util.c \
+	service/kal/common/include/kal_internal_api.h \
+	interface/sap/module_taskid_range.h \
+	service/kal/common/include/kal_error_code.h \
+	service/nucleus_v2/inc/nucleus.h \
+	service/nucleus_v2/inc/esal_extern.h \
+	service/nucleus_v2/inc/esal_ge_com_defs.h \
+	service/nucleus_v2/inc/esal_ge_cfg.h \
+	service/nucleus_v2/inc/esal_ar_cfg.h \
+	service/nucleus_v2/inc/esal_ts_cfg.h \
+	service/nucleus_v2/inc/esal_co_cfg.h \
+	service/nucleus_v2/inc/esal_pr_cfg.h \
+	service/nucleus_v2/inc/esal_dp_cfg.h \
+	service/nucleus_v2/inc/esal_ge_dbg_defs.h \
+	service/nucleus_v2/inc/esal_ar_dbg_defs.h \
+	service/nucleus_v2/inc/esal_ge_int_defs.h \
+	service/nucleus_v2/inc/esal_ar_int_defs.h \
+	service/nucleus_v2/inc/esal_ge_isr_defs.h \
+	service/nucleus_v2/inc/esal_ar_isr_defs.h \
+	service/nucleus_v2/inc/esal_ge_mem_defs.h \
+	service/nucleus_v2/inc/esal_ge_stk_defs.h \
+	service/nucleus_v2/inc/esal_ar_stk_defs.h \
+	service/nucleus_v2/inc/esal_ts_stk_defs.h \
+	service/nucleus_v2/inc/esal_ts_rte_defs.h \
+	service/nucleus_v2/inc/esal_ge_tmr_defs.h \
+	service/nucleus_v2/inc/esal_ar_tmr_defs.h \
+	service/nucleus_v2/inc/esal_pr_tmr_defs.h \
+	service/nucleus_v2/inc/esal_ge_rte_defs.h \
+	service/nucleus_v2/inc/plus_cfg.h \
+	service/nucleus_v2/inc/er_extr.h \
+	service/nucleus_v2/inc/cs_defs.h \
+	service/nucleus_v2/inc/tm_defs.h \
+	service/nucleus_v2/inc/tc_defs.h \
+	service/nucleus_v2/inc/mb_defs.h \
+	service/nucleus_v2/inc/qu_defs.h \
+	service/nucleus_v2/inc/pi_defs.h \
+	service/nucleus_v2/inc/sm_defs.h \
+	service/nucleus_v2/inc/ev_defs.h \
+	service/nucleus_v2/inc/pm_defs.h \
+	service/nucleus_v2/inc/dm_defs.h \
+	service/nucleus_v2/inc/tm_extr.h \
+	service/nucleus_v2/inc/zc_extr.h \
+	service/kal/nucleus/include/kal_nucleus_common_defs.h \
+	service/kal/nucleus/include/kal_nucleus.h \
+	service/kal/common/include/kal_debug_common_defs.h \
+	service/kal/nucleus/include/kal_debug_nucleus.h \
+	service/kal/common/include/kal_debug.h
+#ENDUPDATE#

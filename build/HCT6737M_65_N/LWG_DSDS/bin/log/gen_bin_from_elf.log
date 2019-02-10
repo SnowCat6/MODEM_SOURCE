@@ -1,0 +1,26 @@
+[Dependency] /media/snowcat/ANDROID/modem/tools/gen_bin_from_elf.pl
+[Dependency] /usr/lib/x86_64-linux-gnu/perl/5.22.1/Cwd.pm
+[Dependency] /usr/share/perl/5.22.1/warnings/register.pm
+[Dependency] /media/snowcat/ANDROID/modem/tools/sysGen2.pl
+[Dependency] /media/snowcat/ANDROID/modem/tools/CommonUtility.pm
+[Dependency] /media/snowcat/ANDROID/modem/tools/scatInfo.pm
+[Dependency] /usr/lib/x86_64-linux-gnu/perl/5.22.1/File/Spec.pm
+[Dependency] /usr/share/perl/5.22.1/warnings.pm
+[Dependency] /usr/share/perl/5.22.1/File/Path.pm
+[Dependency] /usr/share/perl/5.22.1/vars.pm
+[Dependency] /media/snowcat/ANDROID/modem/tools/pack_dep_gen.pm
+[Dependency] /usr/share/perl/5.22.1/XSLoader.pm
+[Dependency] /media/snowcat/ANDROID/modem/tools/ldsInfo.pm
+[Dependency] /usr/share/perl/5.22.1/constant.pm
+[Dependency] /media/snowcat/ANDROID/modem/tools/ldsInfoWrap.pm
+[Dependency] /media/snowcat/ANDROID/modem/tools/config_MemSegment.pm
+[Dependency] /usr/share/perl/5.22.1/strict.pm
+[Dependency] /usr/share/perl/5.22.1/Exporter.pm
+[Dependency] /media/snowcat/ANDROID/modem/tools/FileInfoParser.pm
+[Dependency] /media/snowcat/ANDROID/modem/tools/sysGenUtility.pm
+[Dependency] /usr/lib/x86_64-linux-gnu/perl/5.22.1/File/Spec/Unix.pm
+[Dependency] /usr/share/perl/5.22.1/File/Basename.pm
+Input: tools/GCC/4.6.2/linux/bin/arm-none-eabi-objcopy ./build/HCT6737M_65_N/LWG_DSDS/custom/system/ldsHCT6737M_65_N.txt ./build/HCT6737M_65_N/LWG_DSDS/bin/HCT6737M_65_N_MDBIN_PCB01_MT6735_S00.elf ./build/HCT6737M_65_N/LWG_DSDS/bin/HCT6737M_65_N_MDBIN_PCB01_MT6735_S00.MOLY_LR9_W1444_MD_LWTG_MP_V110_5_P1.bin
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-objcopy -O binary ./build/HCT6737M_65_N/LWG_DSDS/bin/HCT6737M_65_N_MDBIN_PCB01_MT6735_S00.elf ./build/HCT6737M_65_N/LWG_DSDS/bin/HCT6737M_65_N_MDBIN_PCB01_MT6735_S00.MOLY_LR9_W1444_MD_LWTG_MP_V110_5_P1.bin
+Done!
+The process of generating bin file is finished!

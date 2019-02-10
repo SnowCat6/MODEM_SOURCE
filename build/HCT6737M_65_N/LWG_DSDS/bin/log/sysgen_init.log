@@ -1,0 +1,7 @@
+Original System Folder Path: custom/system/MT6735_SP_MP/LWG_DSDS
+Output System Folder Path: ./build/HCT6737M_65_N/LWG_DSDS/custom/system
+===== Copy process =====
+[custom_MemoryDevice.h] Need to Copy
+Copy from custom/system/MT6735_SP_MP/LWG_DSDS/custom_MemoryDevice.h.conf to ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_MemoryDevice.h
+[custom_FeatureConfig.h] Need to Copy
+Copy from custom/system/MT6735_SP_MP/LWG_DSDS/custom_FeatureConfig.h.conf to ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_FeatureConfig.h

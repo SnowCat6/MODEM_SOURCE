@@ -1,0 +1,279 @@
+#UPDATE#
+cccidev_task.obj:	middleware/hif/cccidev/cccidev_task/src/cccidev_task.c \
+	interface/service/config/syscomp_config.h \
+	interface/service/kal/kal_general_types.h \
+	interface/service/kal/clib.h \
+	interface/service/kal/clib_list.h \
+	interface/service/kal/kal_public_defs.h \
+	interface/service/config/stack_config.h \
+	interface/sap/hisr_modid.h \
+	interface/sap/module_id_range.h \
+	interface/sap/cross_core/global_modid_range.h \
+	interface/sap/module_hisrid_range.h \
+	interface/service/config/hisr_config_internal.h \
+	interface/sap/cross_core/global_modid.h \
+	interface/sap/cross_core/md1_module_config.h \
+	interface/sap/cross_core/md2_module_config.h \
+	interface/sap/cross_core/md3_module_config.h \
+	interface/sap/srv_modid.h \
+	interface/service/config/srv_task_config.h \
+	interface/sap/modem_2g3g_modid.h \
+	interface/service/config/modem_2g3g_task_config.h \
+	interface/sap/modem_4g_modid.h \
+	interface/service/config/modem_4g_task_config.h \
+	interface/sap/middleware_modid.h \
+	interface/service/config/middleWare_task_config.h \
+	interface/sap/drv_modid.h \
+	interface/service/config/drv_task_config.h \
+	interface/service/config/stack_msgs.h \
+	interface/service/config/stack_types.h \
+	interface/service/config/hisr_config.h \
+	interface/service/kal/kal_public_api.h \
+	middleware/hif/cccidev/cccidev_task/include/cccidev_debug.h \
+	interface/service/hif/hif_trace.h \
+	middleware/hif/cccidev/cccidev_task/include/cccidev_trace.h \
+	interface/service/dhl/dhl_trace.h \
+	interface/service/dhl/dhl_def.h \
+	interface/sap/svc_sap.h \
+	interface/sap/sap_range.h \
+	interface/sap/cross_core/global_sap_range.h \
+	interface/sap/cross_core/global_sap.h \
+	interface/sap/cross_core/md1_sap.h \
+	interface/sap/cross_core/md2_sap.h \
+	interface/sap/cross_core/md3_sap.h \
+	interface/modem/general/em_struct.h \
+	interface/modem/general/ps_public_struct.h \
+	interface/modem/general/ps_public_enum.h \
+	custom/service/nvram/custom_nvram_sec.h \
+	interface/service/sys_svc/cust_chl_interface.h \
+	driver/regbase/inc/reg_base.h \
+	driver/regbase/inc/reg_base_mt6735_md1.h \
+	interface/service/nvram/nvram_defs.h \
+	build/HCT6737M_65_N/LWG_DSDS/nvram_auto_gen/nvram_lid_statistics.h \
+	interface/service/nvram/nvram_enums.h \
+	interface/sap/cross_core/ps_public_enum_public.h \
+	interface/modem/general/sim_ps_enum.h \
+	interface/modem/general/sim_public_enum.h \
+	interface/common/global_def.h \
+	interface/sap/cross_core/sim_public_enum_public.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/BASIC/mcd/mcd_l4_common.h \
+	interface/modem/general/em_public_struct.h \
+	interface/modem/general/ps_em_enum.h \
+	interface/driver/peripheral/dcl.h \
+	interface/driver/peripheral/dcl_gpt.h \
+	interface/driver/peripheral/dcl_gpio.h \
+	driver/drv_def/drv_features_gpio.h \
+	driver/drv_def/drv_features_chip_select.h \
+	driver/drv_def/drv_features_6735.h \
+	interface/driver/peripheral/dcl_uart.h \
+	interface/modem/general/cmux_vp_num.h \
+	interface/driver/peripheral/dcl_wdt.h \
+	interface/driver/peripheral/dcl_adc.h \
+	interface/driver/peripheral/dcl_bmt.h \
+	interface/driver/peripheral/dcl_pfc.h \
+	interface/driver/peripheral/dcl_rtc.h \
+	interface/driver/peripheral/dcl_i2c.h \
+	interface/driver/peripheral/dcl_i2c_owner.h \
+	interface/driver/peripheral/dcl_aux.h \
+	interface/driver/peripheral/dcl_pwm.h \
+	interface/driver/peripheral/DclH_kbd.h \
+	interface/driver/peripheral/DclS_kbd.h \
+	interface/driver/peripheral/dcl_sts.h \
+	interface/driver/peripheral/dcl_msdc.h \
+	interface/driver/connectivity/usb_driver/dcl_usb_drv.h \
+	interface/driver/connectivity/usb_driver/dcl_usb_hcd.h \
+	interface/driver/connectivity/usb_driver/dcl_otg_drv.h \
+	interface/driver/peripheral/dcl_irda.h \
+	interface/driver/peripheral/dcl_sim.h \
+	interface/driver/peripheral/dcl_pmu.h \
+	interface/driver/peripheral/dcl_pw.h \
+	interface/driver/peripheral/dcl_chr_det.h \
+	interface/driver/peripheral/dcl_pxs.h \
+	interface/driver/peripheral/dcl_sim_gpio.h \
+	interface/driver/peripheral/dcl_f32k_clk.h \
+	interface/driver/peripheral/dcl_idc.h \
+	interface/service/config/sysconf_statistics.h \
+	interface/service/config/ctrl_buff_pool.h \
+	interface/service/config/kal_user_mem.h \
+	interface/service/config/stack_buff_pool.h \
+	interface/service/nvram/nvram_interface.h \
+	interface/service/nvram/nvram_struct.h \
+	interface/service/dhl/tst.h \
+	interface/service/dhl/adt.h \
+	build/HCT6737M_65_N/LWG_DSDS/dhl/database/pstrace_db/cccidev_trace_gen.h \
+	middleware/hif/cccidev/cccidev_task/include/cccidev_config.h
+#ENDUPDATE#
+#UPDATE#
+cccitty_data.obj:	middleware/hif/cccidev/ccci_tty/src/cccitty_data.c \
+	middleware/hif/cccidev/ccci_tty/include/cccitty_common.h \
+	middleware/hif/cccidev/ccci_tty/include/cccitty_debug.h \
+	middleware/hif/cccidev/ccci_tty/include/cccitty_trace.h \
+	build/HCT6737M_65_N/LWG_DSDS/dhl/database/pstrace_db/cccitty_trace_gen.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/TrcMod.h \
+	interface/service/dhl/L1Trc.h \
+	interface/driver/sys_drv/intrCtrl.h \
+	driver/devdrv/cirq_v2/inc/intrCtrl_MT6735.h \
+	driver/devdrv/cirq_v2/inc/irqid.h \
+	driver/devdrv/cirq_v2/inc/irqid_MT6735.h \
+	driver/drv_def/drv_features_gpt.h \
+	driver/devdrv/cirq_v2/inc/drv_mdcirq.h \
+	interface/driver/sys_drv/isrentry.h \
+	driver/devdrv/cirq_v2/inc/drv_mdcirq_reg.h \
+	driver/devdrv/cirq_v1/inc/intrCtrl_SW_Handle.h \
+	driver/devdrv/cirq_v2/inc/intrCtrl_MT6735_SW_Handle.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/dhl_l1_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/el1_phs_1_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/el1_phs_2_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/el1_phs_rtb_1_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/el1_drv_1_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/el1_drv_2_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/el1_irt_1_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/el1tx_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/el1_main_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/erlcul_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/erlcul_detail_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/erlcdl_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/erlcdl_detail_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/emac_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/emac_detail_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/epdcp_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/epdcp_detail_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/edata_path_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/edata_path_detail_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/data_path.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/data_path_detail.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/qmu_bm_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/rohc_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/rohc_detail_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/ral_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/ral_detail_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/hif_mw_data_path_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/hif_srv_data_path_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/hif_drv_data_path_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/l1c_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/l1c2_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/l1i_cs_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/l1i_ps_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/l1sc_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/l1c_csd_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/L1D_Trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/L1D2_Trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/L1D_EDGE_Trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/l1i_egprs_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/l1c_egprs_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/l1i_amr_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/l1t_amr_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/l1dm_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1D_MLT_Trace1.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1D_MLT_Trace2.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1D_Trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1D_Trace1.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1D_Trace2.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1D_Trace3.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1D_Trace4.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1D_Trace5.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1D_Trace6.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1D_HSPA_Trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1D_HSPA_Trace1.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1D_HSPA_Trace2.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1D_PLUS_Trace1.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1C_Trace1.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1C_Trace2.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1C_Trace3.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1C_Trace4.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1TST_Trace1.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/UL1SM_Trace1.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/urlc_lisr_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/umac_lisr_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/l1audio_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/lte_l2_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/ephy_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/mml1_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/DCXO_DIV_Trace1.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/OSTD_Trace1.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/SleepDrv_Trace1.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/MD_TOPSM_Trace1.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/MODEM_TOPSM_Trace1.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/L1D3_Trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/L1_AFC_Trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/l1c3_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/l1c4_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/l1c5_trace.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/L1SM_Trace1.h \
+	mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/include/EL1SM_Trace1.h \
+	interface/service/qmu_bm/qmu_bm.h \
+	interface/service/qmu_bm/qbm_features.h \
+	interface/service/qmu_bm/qmu_bm_enum.h \
+	interface/service/qmu_bm/qmu_bm_in.h \
+	interface/service/qmu_bm/qmu_bm_size.h \
+	interface/driver/sys_drv/cache_sw.h \
+	interface/sap/mw/hif_mw_msgid.h \
+	interface/sap/module_msg_range.h \
+	interface/sap/cross_core/global_msg_range.h \
+	middleware/hif/cccidev/ccci_tty/include/cccitty_data.h \
+	middleware/hif/cccidev/ccci_tty/include/cccitty_sm.h \
+	interface/service/hif/ccci_if.h \
+	interface/middleware/hif/hif_ior.h \
+	interface/service/hif/ccci_ch_cfg.h \
+	interface/service/hif/ccci_sysmsgsvc_conf.h \
+	interface/service/hif/ccci_misc_data_conf.h \
+	interface/service/hif/ccci_excep_memory_region.h \
+	middleware/hif/cccidev/ccci_tty/include/cccitty_if.h \
+	middleware/hif/cccidev/ccci_tty/include/cccitty_qbm.h \
+	interface/service/hif/cccidev_qbm.h \
+	interface/service/qmu_bm/qmu_bm_util.h
+#ENDUPDATE#
+#UPDATE#
+cccitty_except.obj:	middleware/hif/cccidev/ccci_tty/src/cccitty_except.c \
+	middleware/hif/cccidev/ccci_tty/include/cccitty_hdr.h
+#ENDUPDATE#
+#UPDATE#
+cccitty_hdr.obj:	middleware/hif/cccidev/ccci_tty/src/cccitty_hdr.c
+#ENDUPDATE#
+#UPDATE#
+cccitty_hmu.obj:	middleware/hif/cccidev/ccci_tty/src/cccitty_hmu.c
+#ENDUPDATE#
+#UPDATE#
+cccitty_it.obj:	middleware/hif/cccidev/ccci_tty/src/cccitty_it.c
+#ENDUPDATE#
+#UPDATE#
+cccitty_sm.obj:	middleware/hif/cccidev/ccci_tty/src/cccitty_sm.c
+#ENDUPDATE#
+#UPDATE#
+cccitty_ut.obj:	middleware/hif/cccidev/ccci_tty/src/cccitty_ut.c
+#ENDUPDATE#
+#UPDATE#
+ccmni_data.obj:	middleware/hif/cccidev/ccci_ccmni/src/ccmni_data.c \
+	middleware/hif/cccidev/ccci_ccmni/include/ccmni_common.h \
+	middleware/hif/cccidev/ccci_ccmni/include/ccmni_debug.h \
+	middleware/hif/cccidev/ccci_ccmni/include/ccmni_trace.h \
+	build/HCT6737M_65_N/LWG_DSDS/dhl/database/pstrace_db/ccmni_trace_gen.h \
+	middleware/hif/cccidev/ccci_ccmni/include/ccmni_qbm.h \
+	middleware/hif/cccidev/ccci_ccmni/include/ccmni_data.h \
+	interface/middleware/hif/ipc_api.h \
+	interface/middleware/hif/ipc_defs_public.h \
+	interface/middleware/hif/ipc_enums.h \
+	interface/middleware/hif/ipc_struct.h \
+	interface/middleware/hif/ipc_filter_priority.h \
+	interface/service/qmu_bm/qbm_config_num.h \
+	interface/service/qmu_bm/qbm_config_num_normal.h \
+	middleware/hif/cccidev/ccci_ccmni/include/ccmni_if.h \
+	middleware/hif/cccidev/ccci_ccmni/include/ccmni_sm.h \
+	interface/service/hif/ccci_it_ctrl_if.h \
+	interface/service/hif/hif_swla.h
+#ENDUPDATE#
+#UPDATE#
+ccmni_hmu.obj:	middleware/hif/cccidev/ccci_ccmni/src/ccmni_hmu.c
+#ENDUPDATE#
+#UPDATE#
+ccmni_it.obj:	middleware/hif/cccidev/ccci_ccmni/src/ccmni_it.c
+#ENDUPDATE#
+#UPDATE#
+ccmni_pfp.obj:	middleware/hif/cccidev/ccci_ccmni/src/ccmni_pfp.c
+#ENDUPDATE#
+#UPDATE#
+ccmni_sm.obj:	middleware/hif/cccidev/ccci_ccmni/src/ccmni_sm.c
+#ENDUPDATE#
+#UPDATE#
+ccmni_ut.obj:	middleware/hif/cccidev/ccci_ccmni/src/ccmni_ut.c
+#ENDUPDATE#

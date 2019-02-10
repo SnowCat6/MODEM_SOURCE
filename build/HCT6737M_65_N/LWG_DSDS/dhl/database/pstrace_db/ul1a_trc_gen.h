@@ -1,0 +1,713 @@
+#ifndef _ul1a_trc_GEN_H_
+#define _ul1a_trc_GEN_H_
+
+// UL1A_MM_STATE_STR
+#define UL1A_MM_STATE_STR_size "c"
+#define UL1A_MM_STATE_STR UL1A_MM_STATE_STR__enum,UL1A_MM_STATE_STR_size
+
+// UL1A_MM_MSG_STR
+#define UL1A_MM_MSG_STR_size "c"
+#define UL1A_MM_MSG_STR UL1A_MM_MSG_STR__enum,UL1A_MM_MSG_STR_size
+
+// UL1A_MM_STTD_INFO
+#define UL1A_MM_STTD_INFO_size "ƒd"
+#define UL1A_MM_STTD_INFO UL1A_MM_STTD_INFO__enum,UL1A_MM_STTD_INFO_size
+
+// UL1A_FS_STATE_STR
+#define UL1A_FS_STATE_STR_size "c"
+#define UL1A_FS_STATE_STR UL1A_FS_STATE_STR__enum,UL1A_FS_STATE_STR_size
+
+// UL1A_FS_MSG_MSG_STR
+#define UL1A_FS_MSG_MSG_STR_size "‚c"
+#define UL1A_FS_MSG_MSG_STR UL1A_FS_MSG_MSG_STR__enum,UL1A_FS_MSG_MSG_STR_size
+
+// UL1A_SCS_STATE_STR
+#define UL1A_SCS_STATE_STR_size "c"
+#define UL1A_SCS_STATE_STR UL1A_SCS_STATE_STR__enum,UL1A_SCS_STATE_STR_size
+
+// UL1A_SCS_MSG_STR
+#define UL1A_SCS_MSG_STR_size "‚c"
+#define UL1A_SCS_MSG_STR UL1A_SCS_MSG_STR__enum,UL1A_SCS_MSG_STR_size
+
+// UL1A_SIB_STATE_STR
+#define UL1A_SIB_STATE_STR_size "c"
+#define UL1A_SIB_STATE_STR UL1A_SIB_STATE_STR__enum,UL1A_SIB_STATE_STR_size
+
+// UL1A_SIB_MSG_STR
+#define UL1A_SIB_MSG_STR_size "c"
+#define UL1A_SIB_MSG_STR UL1A_SIB_MSG_STR__enum,UL1A_SIB_MSG_STR_size
+
+// UL1A_SIB_FORGERY_SFN_RESULT
+#define UL1A_SIB_FORGERY_SFN_RESULT_size "d"
+#define UL1A_SIB_FORGERY_SFN_RESULT UL1A_SIB_FORGERY_SFN_RESULT__enum,UL1A_SIB_FORGERY_SFN_RESULT_size
+
+// UL1A_TXP_STATE_STR
+#define UL1A_TXP_STATE_STR_size "c"
+#define UL1A_TXP_STATE_STR UL1A_TXP_STATE_STR__enum,UL1A_TXP_STATE_STR_size
+
+// UL1A_TXP_MSG_STR
+#define UL1A_TXP_MSG_STR_size "c"
+#define UL1A_TXP_MSG_STR UL1A_TXP_MSG_STR__enum,UL1A_TXP_MSG_STR_size
+
+// UL1A_CM_STATE_STR
+#define UL1A_CM_STATE_STR_size "c"
+#define UL1A_CM_STATE_STR UL1A_CM_STATE_STR__enum,UL1A_CM_STATE_STR_size
+
+// UL1A_CM_MSG_STR
+#define UL1A_CM_MSG_STR_size "c"
+#define UL1A_CM_MSG_STR UL1A_CM_MSG_STR__enum,UL1A_CM_MSG_STR_size
+
+// UL1A_PCH_STATE_STR
+#define UL1A_PCH_STATE_STR_size "c"
+#define UL1A_PCH_STATE_STR UL1A_PCH_STATE_STR__enum,UL1A_PCH_STATE_STR_size
+
+// UL1A_PCH_MSG_STR
+#define UL1A_PCH_MSG_STR_size "c"
+#define UL1A_PCH_MSG_STR UL1A_PCH_MSG_STR__enum,UL1A_PCH_MSG_STR_size
+
+// UL1A_CTCH_STATE_STR
+#define UL1A_CTCH_STATE_STR_size "c"
+#define UL1A_CTCH_STATE_STR UL1A_CTCH_STATE_STR__enum,UL1A_CTCH_STATE_STR_size
+
+// UL1A_CTCH_MSG_STR
+#define UL1A_CTCH_MSG_STR_size "c"
+#define UL1A_CTCH_MSG_STR UL1A_CTCH_MSG_STR__enum,UL1A_CTCH_MSG_STR_size
+
+// UL1A_FACH_STATE_STR
+#define UL1A_FACH_STATE_STR_size "c"
+#define UL1A_FACH_STATE_STR UL1A_FACH_STATE_STR__enum,UL1A_FACH_STATE_STR_size
+
+// UL1A_FACH_MSG_STR
+#define UL1A_FACH_MSG_STR_size "c"
+#define UL1A_FACH_MSG_STR UL1A_FACH_MSG_STR__enum,UL1A_FACH_MSG_STR_size
+
+// UL1A_RACH_STATE_STR
+#define UL1A_RACH_STATE_STR_size "c"
+#define UL1A_RACH_STATE_STR UL1A_RACH_STATE_STR__enum,UL1A_RACH_STATE_STR_size
+
+// UL1A_RACH_MSG_STR
+#define UL1A_RACH_MSG_STR_size "c"
+#define UL1A_RACH_MSG_STR UL1A_RACH_MSG_STR__enum,UL1A_RACH_MSG_STR_size
+
+// UL1A_DLDCH_STATE_STR
+#define UL1A_DLDCH_STATE_STR_size "c"
+#define UL1A_DLDCH_STATE_STR UL1A_DLDCH_STATE_STR__enum,UL1A_DLDCH_STATE_STR_size
+
+// UL1A_DLDCH_MSG_STR
+#define UL1A_DLDCH_MSG_STR_size "c"
+#define UL1A_DLDCH_MSG_STR UL1A_DLDCH_MSG_STR__enum,UL1A_DLDCH_MSG_STR_size
+
+// UL1A_DLDCH_DATA_MSG_STR
+#define UL1A_DLDCH_DATA_MSG_STR_size "d"
+#define UL1A_DLDCH_DATA_MSG_STR UL1A_DLDCH_DATA_MSG_STR__enum,UL1A_DLDCH_DATA_MSG_STR_size
+
+// UL1A_DLDCH_TRIGGER_INITSYNC_STR
+#define UL1A_DLDCH_TRIGGER_INITSYNC_STR_size "‚d"
+#define UL1A_DLDCH_TRIGGER_INITSYNC_STR UL1A_DLDCH_TRIGGER_INITSYNC_STR__enum,UL1A_DLDCH_TRIGGER_INITSYNC_STR_size
+
+// UL1A_ULDCH_STATE_STR
+#define UL1A_ULDCH_STATE_STR_size "c"
+#define UL1A_ULDCH_STATE_STR UL1A_ULDCH_STATE_STR__enum,UL1A_ULDCH_STATE_STR_size
+
+// UL1A_ULDCH_MSG_STR
+#define UL1A_ULDCH_MSG_STR_size "c"
+#define UL1A_ULDCH_MSG_STR UL1A_ULDCH_MSG_STR__enum,UL1A_ULDCH_MSG_STR_size
+
+// UL1A_ULDCH_DATA_MSG_STR
+#define UL1A_ULDCH_DATA_MSG_STR_size "d"
+#define UL1A_ULDCH_DATA_MSG_STR UL1A_ULDCH_DATA_MSG_STR__enum,UL1A_ULDCH_DATA_MSG_STR_size
+
+// UL1A_HSDSCH_STATE_STR
+#define UL1A_HSDSCH_STATE_STR_size "c"
+#define UL1A_HSDSCH_STATE_STR UL1A_HSDSCH_STATE_STR__enum,UL1A_HSDSCH_STATE_STR_size
+
+// UL1A_HSDSCH_MSG_STR
+#define UL1A_HSDSCH_MSG_STR_size "c"
+#define UL1A_HSDSCH_MSG_STR UL1A_HSDSCH_MSG_STR__enum,UL1A_HSDSCH_MSG_STR_size
+
+// UL1A_EDCH_STATE_STR
+#define UL1A_EDCH_STATE_STR_size "c"
+#define UL1A_EDCH_STATE_STR UL1A_EDCH_STATE_STR__enum,UL1A_EDCH_STATE_STR_size
+
+// UL1A_EDCH_MSG_STR
+#define UL1A_EDCH_MSG_STR_size "c"
+#define UL1A_EDCH_MSG_STR UL1A_EDCH_MSG_STR__enum,UL1A_EDCH_MSG_STR_size
+
+// UL1A_TGPS_DUMP_CURRENT_STR
+#define UL1A_TGPS_DUMP_CURRENT_STR_size "†d"
+#define UL1A_TGPS_DUMP_CURRENT_STR UL1A_TGPS_DUMP_CURRENT_STR__enum,UL1A_TGPS_DUMP_CURRENT_STR_size
+
+// UL1A_TGPS_DUMP_SUSPEND_STR
+#define UL1A_TGPS_DUMP_SUSPEND_STR_size "†d"
+#define UL1A_TGPS_DUMP_SUSPEND_STR UL1A_TGPS_DUMP_SUSPEND_STR__enum,UL1A_TGPS_DUMP_SUSPEND_STR_size
+
+// UL1A_TGPSH_STATE_STR
+#define UL1A_TGPSH_STATE_STR_size "d"
+#define UL1A_TGPSH_STATE_STR UL1A_TGPSH_STATE_STR__enum,UL1A_TGPSH_STATE_STR_size
+
+// UL1A_TGPSH_MSG_STR
+#define UL1A_TGPSH_MSG_STR_size "c"
+#define UL1A_TGPSH_MSG_STR UL1A_TGPSH_MSG_STR__enum,UL1A_TGPSH_MSG_STR_size
+
+// UL1A_DMA_STATE_STR
+#define UL1A_DMA_STATE_STR_size "c"
+#define UL1A_DMA_STATE_STR UL1A_DMA_STATE_STR__enum,UL1A_DMA_STATE_STR_size
+
+// UL1A_DMA_MSG_STR
+#define UL1A_DMA_MSG_STR_size "c"
+#define UL1A_DMA_MSG_STR UL1A_DMA_MSG_STR__enum,UL1A_DMA_MSG_STR_size
+
+// UL1A_DMS_STATE_STR
+#define UL1A_DMS_STATE_STR_size "c"
+#define UL1A_DMS_STATE_STR UL1A_DMS_STATE_STR__enum,UL1A_DMS_STATE_STR_size
+
+// UL1A_DMS_MSG_STR
+#define UL1A_DMS_MSG_STR_size "c"
+#define UL1A_DMS_MSG_STR UL1A_DMS_MSG_STR__enum,UL1A_DMS_MSG_STR_size
+
+// UL1A_TIMESYN_STATE_STR
+#define UL1A_TIMESYN_STATE_STR_size "c"
+#define UL1A_TIMESYN_STATE_STR UL1A_TIMESYN_STATE_STR__enum,UL1A_TIMESYN_STATE_STR_size
+
+// UL1A_TIMESYN_MSG_STR
+#define UL1A_TIMESYN_MSG_STR_size "c"
+#define UL1A_TIMESYN_MSG_STR UL1A_TIMESYN_MSG_STR__enum,UL1A_TIMESYN_MSG_STR_size
+
+// UL1A_DMAAUTO_STATE_STR
+#define UL1A_DMAAUTO_STATE_STR_size "c"
+#define UL1A_DMAAUTO_STATE_STR UL1A_DMAAUTO_STATE_STR__enum,UL1A_DMAAUTO_STATE_STR_size
+
+// UL1A_DMAAUTO_MSG_STR
+#define UL1A_DMAAUTO_MSG_STR_size "c"
+#define UL1A_DMAAUTO_MSG_STR UL1A_DMAAUTO_MSG_STR__enum,UL1A_DMAAUTO_MSG_STR_size
+
+// UL1A_DMSAUTO_STATE_STR
+#define UL1A_DMSAUTO_STATE_STR_size "c"
+#define UL1A_DMSAUTO_STATE_STR UL1A_DMSAUTO_STATE_STR__enum,UL1A_DMSAUTO_STATE_STR_size
+
+// UL1A_DMSAUTO_MSG_STR
+#define UL1A_DMSAUTO_MSG_STR_size "c"
+#define UL1A_DMSAUTO_MSG_STR UL1A_DMSAUTO_MSG_STR__enum,UL1A_DMSAUTO_MSG_STR_size
+
+// UL1A_GPS_TIMESYNC_STATE_STR
+#define UL1A_GPS_TIMESYNC_STATE_STR_size "c"
+#define UL1A_GPS_TIMESYNC_STATE_STR UL1A_GPS_TIMESYNC_STATE_STR__enum,UL1A_GPS_TIMESYNC_STATE_STR_size
+
+// UL1A_GPS_TIMESYNC_MSG_STR
+#define UL1A_GPS_TIMESYNC_MSG_STR_size "c"
+#define UL1A_GPS_TIMESYNC_MSG_STR UL1A_GPS_TIMESYNC_MSG_STR__enum,UL1A_GPS_TIMESYNC_MSG_STR_size
+
+// UL1A_GPS_TIMESYNC_FAIL_STR
+#define UL1A_GPS_TIMESYNC_FAIL_STR_size "c"
+#define UL1A_GPS_TIMESYNC_FAIL_STR UL1A_GPS_TIMESYNC_FAIL_STR__enum,UL1A_GPS_TIMESYNC_FAIL_STR_size
+
+// UL1A_GPS_TIMESYNC_INFO_STR
+#define UL1A_GPS_TIMESYNC_INFO_STR_size "cƒd"
+#define UL1A_GPS_TIMESYNC_INFO_STR UL1A_GPS_TIMESYNC_INFO_STR__enum,UL1A_GPS_TIMESYNC_INFO_STR_size
+
+// UL1A_Dispatch_MSG_STR
+#define UL1A_Dispatch_MSG_STR_size "d"
+#define UL1A_Dispatch_MSG_STR UL1A_Dispatch_MSG_STR__enum,UL1A_Dispatch_MSG_STR_size
+
+// UL1A_Msg_Error_STR
+#define UL1A_Msg_Error_STR_size NULL
+#define UL1A_Msg_Error_STR UL1A_Msg_Error_STR__enum,UL1A_Msg_Error_STR_size
+
+// UL1A_Main_Msg_STR
+#define UL1A_Main_Msg_STR_size "d"
+#define UL1A_Main_Msg_STR UL1A_Main_Msg_STR__enum,UL1A_Main_Msg_STR_size
+
+// UL1A_Main_MsgEnd_STR
+#define UL1A_Main_MsgEnd_STR_size "d"
+#define UL1A_Main_MsgEnd_STR UL1A_Main_MsgEnd_STR__enum,UL1A_Main_MsgEnd_STR_size
+
+// LL1_DELTA_TIMING_FUNC
+#define LL1_DELTA_TIMING_FUNC_size NULL
+#define LL1_DELTA_TIMING_FUNC LL1_DELTA_TIMING_FUNC__enum,LL1_DELTA_TIMING_FUNC_size
+
+// FUNC_ll1_init_main
+#define FUNC_ll1_init_main_size NULL
+#define FUNC_ll1_init_main FUNC_ll1_init_main__enum,FUNC_ll1_init_main_size
+
+// FUNC_ll1_reset
+#define FUNC_ll1_reset_size NULL
+#define FUNC_ll1_reset FUNC_ll1_reset__enum,FUNC_ll1_reset_size
+
+// FUNC_ll1_gsm_meas_pattern_first
+#define FUNC_ll1_gsm_meas_pattern_first_size NULL
+#define FUNC_ll1_gsm_meas_pattern_first FUNC_ll1_gsm_meas_pattern_first__enum,FUNC_ll1_gsm_meas_pattern_first_size
+
+// FUNC_ll1_gsm_meas_pattern
+#define FUNC_ll1_gsm_meas_pattern_size NULL
+#define FUNC_ll1_gsm_meas_pattern FUNC_ll1_gsm_meas_pattern__enum,FUNC_ll1_gsm_meas_pattern_size
+
+// FUNC_ll1_start_gsm_gap_service
+#define FUNC_ll1_start_gsm_gap_service_size NULL
+#define FUNC_ll1_start_gsm_gap_service FUNC_ll1_start_gsm_gap_service__enum,FUNC_ll1_start_gsm_gap_service_size
+
+// FUNC_ll1_stop_gsm_gap_service
+#define FUNC_ll1_stop_gsm_gap_service_size NULL
+#define FUNC_ll1_stop_gsm_gap_service FUNC_ll1_stop_gsm_gap_service__enum,FUNC_ll1_stop_gsm_gap_service_size
+
+// FUNC_ll1_stop_umts_gap_confirm
+#define FUNC_ll1_stop_umts_gap_confirm_size NULL
+#define FUNC_ll1_stop_umts_gap_confirm FUNC_ll1_stop_umts_gap_confirm__enum,FUNC_ll1_stop_umts_gap_confirm_size
+
+// FUNC_ll1_send_umts_gap_service_req
+#define FUNC_ll1_send_umts_gap_service_req_size NULL
+#define FUNC_ll1_send_umts_gap_service_req FUNC_ll1_send_umts_gap_service_req__enum,FUNC_ll1_send_umts_gap_service_req_size
+
+// FUNC_ll1_get_afc_for_gsm_act
+#define FUNC_ll1_get_afc_for_gsm_act_size NULL
+#define FUNC_ll1_get_afc_for_gsm_act FUNC_ll1_get_afc_for_gsm_act__enum,FUNC_ll1_get_afc_for_gsm_act_size
+
+// FUNC_ll1_gsm_gap_cancel_req
+#define FUNC_ll1_gsm_gap_cancel_req_size NULL
+#define FUNC_ll1_gsm_gap_cancel_req FUNC_ll1_gsm_gap_cancel_req__enum,FUNC_ll1_gsm_gap_cancel_req_size
+
+// FUNC_init_for_timing_sync
+#define FUNC_init_for_timing_sync_size NULL
+#define FUNC_init_for_timing_sync FUNC_init_for_timing_sync__enum,FUNC_init_for_timing_sync_size
+
+// FUNC_ll1_dual_mode_umts_sync_start_func
+#define FUNC_ll1_dual_mode_umts_sync_start_func_size NULL
+#define FUNC_ll1_dual_mode_umts_sync_start_func FUNC_ll1_dual_mode_umts_sync_start_func__enum,FUNC_ll1_dual_mode_umts_sync_start_func_size
+
+// FUNC_ll1_dual_mode_sync_ready_func
+#define FUNC_ll1_dual_mode_sync_ready_func_size NULL
+#define FUNC_ll1_dual_mode_sync_ready_func FUNC_ll1_dual_mode_sync_ready_func__enum,FUNC_ll1_dual_mode_sync_ready_func_size
+
+// FUNC_ll1_dual_mode_umts_wake_up_func
+#define FUNC_ll1_dual_mode_umts_wake_up_func_size NULL
+#define FUNC_ll1_dual_mode_umts_wake_up_func FUNC_ll1_dual_mode_umts_wake_up_func__enum,FUNC_ll1_dual_mode_umts_wake_up_func_size
+
+// FUNC_ll1_dual_mode_sync_rpt_func
+#define FUNC_ll1_dual_mode_sync_rpt_func_size NULL
+#define FUNC_ll1_dual_mode_sync_rpt_func FUNC_ll1_dual_mode_sync_rpt_func__enum,FUNC_ll1_dual_mode_sync_rpt_func_size
+
+// FUNC_ll1_l1a_set_gap_func_dch
+#define FUNC_ll1_l1a_set_gap_func_dch_size NULL
+#define FUNC_ll1_l1a_set_gap_func_dch FUNC_ll1_l1a_set_gap_func_dch__enum,FUNC_ll1_l1a_set_gap_func_dch_size
+
+// FUNC_ll1_l1a_stop_gap_func_dch
+#define FUNC_ll1_l1a_stop_gap_func_dch_size NULL
+#define FUNC_ll1_l1a_stop_gap_func_dch FUNC_ll1_l1a_stop_gap_func_dch__enum,FUNC_ll1_l1a_stop_gap_func_dch_size
+
+// FUNC_ll1_start_set_gap_func_dch
+#define FUNC_ll1_start_set_gap_func_dch_size NULL
+#define FUNC_ll1_start_set_gap_func_dch FUNC_ll1_start_set_gap_func_dch__enum,FUNC_ll1_start_set_gap_func_dch_size
+
+// FUNC_ll1_send_dch_gap_pattern
+#define FUNC_ll1_send_dch_gap_pattern_size NULL
+#define FUNC_ll1_send_dch_gap_pattern FUNC_ll1_send_dch_gap_pattern__enum,FUNC_ll1_send_dch_gap_pattern_size
+
+// FUNC_ll1_send_dch_gap_config
+#define FUNC_ll1_send_dch_gap_config_size NULL
+#define FUNC_ll1_send_dch_gap_config FUNC_ll1_send_dch_gap_config__enum,FUNC_ll1_send_dch_gap_config_size
+
+// FUNC_ll1_send_fach_gap_pattern
+#define FUNC_ll1_send_fach_gap_pattern_size NULL
+#define FUNC_ll1_send_fach_gap_pattern FUNC_ll1_send_fach_gap_pattern__enum,FUNC_ll1_send_fach_gap_pattern_size
+
+// FUNC_ll1_stop_dch_gap_pattern
+#define FUNC_ll1_stop_dch_gap_pattern_size NULL
+#define FUNC_ll1_stop_dch_gap_pattern FUNC_ll1_stop_dch_gap_pattern__enum,FUNC_ll1_stop_dch_gap_pattern_size
+
+// FUNC_ll1_stop_fach_gap_pattern
+#define FUNC_ll1_stop_fach_gap_pattern_size NULL
+#define FUNC_ll1_stop_fach_gap_pattern FUNC_ll1_stop_fach_gap_pattern__enum,FUNC_ll1_stop_fach_gap_pattern_size
+
+// FUNC_ll1_set_gap_dch_deactive
+#define FUNC_ll1_set_gap_dch_deactive_size NULL
+#define FUNC_ll1_set_gap_dch_deactive FUNC_ll1_set_gap_dch_deactive__enum,FUNC_ll1_set_gap_dch_deactive_size
+
+// FUNC_ll1_set_gap_dch_ready
+#define FUNC_ll1_set_gap_dch_ready_size NULL
+#define FUNC_ll1_set_gap_dch_ready FUNC_ll1_set_gap_dch_ready__enum,FUNC_ll1_set_gap_dch_ready_size
+
+// FUNC_ll1_set_gap_dch_expand
+#define FUNC_ll1_set_gap_dch_expand_size NULL
+#define FUNC_ll1_set_gap_dch_expand FUNC_ll1_set_gap_dch_expand__enum,FUNC_ll1_set_gap_dch_expand_size
+
+// FUNC_ll1_set_gap_dch_stop
+#define FUNC_ll1_set_gap_dch_stop_size NULL
+#define FUNC_ll1_set_gap_dch_stop FUNC_ll1_set_gap_dch_stop__enum,FUNC_ll1_set_gap_dch_stop_size
+
+// FUNC_ll1_expand_gap_dch_deactive
+#define FUNC_ll1_expand_gap_dch_deactive_size NULL
+#define FUNC_ll1_expand_gap_dch_deactive FUNC_ll1_expand_gap_dch_deactive__enum,FUNC_ll1_expand_gap_dch_deactive_size
+
+// FUNC_ll1_expand_gap_dch_ready
+#define FUNC_ll1_expand_gap_dch_ready_size NULL
+#define FUNC_ll1_expand_gap_dch_ready FUNC_ll1_expand_gap_dch_ready__enum,FUNC_ll1_expand_gap_dch_ready_size
+
+// FUNC_ll1_expand_gap_dch_expand
+#define FUNC_ll1_expand_gap_dch_expand_size NULL
+#define FUNC_ll1_expand_gap_dch_expand FUNC_ll1_expand_gap_dch_expand__enum,FUNC_ll1_expand_gap_dch_expand_size
+
+// FUNC_ll1_expand_gap_dch_stop
+#define FUNC_ll1_expand_gap_dch_stop_size NULL
+#define FUNC_ll1_expand_gap_dch_stop FUNC_ll1_expand_gap_dch_stop__enum,FUNC_ll1_expand_gap_dch_stop_size
+
+// FUNC_dch_gap_expand_func
+#define FUNC_dch_gap_expand_func_size NULL
+#define FUNC_dch_gap_expand_func FUNC_dch_gap_expand_func__enum,FUNC_dch_gap_expand_func_size
+
+// FUNC_dch_tg_assign
+#define FUNC_dch_tg_assign_size NULL
+#define FUNC_dch_tg_assign FUNC_dch_tg_assign__enum,FUNC_dch_tg_assign_size
+
+// FUNC_dch_pattern_update
+#define FUNC_dch_pattern_update_size NULL
+#define FUNC_dch_pattern_update FUNC_dch_pattern_update__enum,FUNC_dch_pattern_update_size
+
+// FUNC_before_dest_time
+#define FUNC_before_dest_time_size NULL
+#define FUNC_before_dest_time FUNC_before_dest_time__enum,FUNC_before_dest_time_size
+
+// FUNC_ll1_inform_gsm_sc_mode
+#define FUNC_ll1_inform_gsm_sc_mode_size NULL
+#define FUNC_ll1_inform_gsm_sc_mode FUNC_ll1_inform_gsm_sc_mode__enum,FUNC_ll1_inform_gsm_sc_mode_size
+
+// FUNC_ll1_expand_fach_pattern
+#define FUNC_ll1_expand_fach_pattern_size NULL
+#define FUNC_ll1_expand_fach_pattern FUNC_ll1_expand_fach_pattern__enum,FUNC_ll1_expand_fach_pattern_size
+
+// LL1_EXPAND_DCH_STATE
+#define LL1_EXPAND_DCH_STATE_size "d"
+#define LL1_EXPAND_DCH_STATE LL1_EXPAND_DCH_STATE__enum,LL1_EXPAND_DCH_STATE_size
+
+// LL1_SET_DCH_STATE
+#define LL1_SET_DCH_STATE_size "d"
+#define LL1_SET_DCH_STATE LL1_SET_DCH_STATE__enum,LL1_SET_DCH_STATE_size
+
+// LL1_EXPAND_FACH_STATE
+#define LL1_EXPAND_FACH_STATE_size "d"
+#define LL1_EXPAND_FACH_STATE LL1_EXPAND_FACH_STATE__enum,LL1_EXPAND_FACH_STATE_size
+
+// LL1_SET_FACH_STATE
+#define LL1_SET_FACH_STATE_size "d"
+#define LL1_SET_FACH_STATE LL1_SET_FACH_STATE__enum,LL1_SET_FACH_STATE_size
+
+// LL1_GAP_STOP_CNF
+#define LL1_GAP_STOP_CNF_size "d"
+#define LL1_GAP_STOP_CNF LL1_GAP_STOP_CNF__enum,LL1_GAP_STOP_CNF_size
+
+// LL1_PEND_UMTS_GAP_SERVICE_REQ
+#define LL1_PEND_UMTS_GAP_SERVICE_REQ_size "ƒd"
+#define LL1_PEND_UMTS_GAP_SERVICE_REQ LL1_PEND_UMTS_GAP_SERVICE_REQ__enum,LL1_PEND_UMTS_GAP_SERVICE_REQ_size
+
+// LL1_NEXT_GAP_START
+#define LL1_NEXT_GAP_START_size "‚d"
+#define LL1_NEXT_GAP_START LL1_NEXT_GAP_START__enum,LL1_NEXT_GAP_START_size
+
+// LL1_LENGTH_SFN
+#define LL1_LENGTH_SFN_size "d"
+#define LL1_LENGTH_SFN LL1_LENGTH_SFN__enum,LL1_LENGTH_SFN_size
+
+// LL1_GAP_PATTERN_ID
+#define LL1_GAP_PATTERN_ID_size "d"
+#define LL1_GAP_PATTERN_ID LL1_GAP_PATTERN_ID__enum,LL1_GAP_PATTERN_ID_size
+
+// LL1_GAP_EXPAND_NUM
+#define LL1_GAP_EXPAND_NUM_size "d"
+#define LL1_GAP_EXPAND_NUM LL1_GAP_EXPAND_NUM__enum,LL1_GAP_EXPAND_NUM_size
+
+// LL1_GAP_INFO
+#define LL1_GAP_INFO_size "‚d"
+#define LL1_GAP_INFO LL1_GAP_INFO__enum,LL1_GAP_INFO_size
+
+// LL1_SET_TGPS
+#define LL1_SET_TGPS_size "…d"
+#define LL1_SET_TGPS LL1_SET_TGPS__enum,LL1_SET_TGPS_size
+
+// LL1_STOP_TGPS
+#define LL1_STOP_TGPS_size "‚d"
+#define LL1_STOP_TGPS LL1_STOP_TGPS__enum,LL1_STOP_TGPS_size
+
+// LL1_DCH_GAP_STATE_TRANS
+#define LL1_DCH_GAP_STATE_TRANS_size "ƒd"
+#define LL1_DCH_GAP_STATE_TRANS LL1_DCH_GAP_STATE_TRANS__enum,LL1_DCH_GAP_STATE_TRANS_size
+
+// LL1_DCH_GAP_STATUS_TRANS
+#define LL1_DCH_GAP_STATUS_TRANS_size "ƒd"
+#define LL1_DCH_GAP_STATUS_TRANS LL1_DCH_GAP_STATUS_TRANS__enum,LL1_DCH_GAP_STATUS_TRANS_size
+
+// LL1_SET_FMO
+#define LL1_SET_FMO_size "…d"
+#define LL1_SET_FMO LL1_SET_FMO__enum,LL1_SET_FMO_size
+
+// LL1_FACH_GAP_STATE_TRANS
+#define LL1_FACH_GAP_STATE_TRANS_size "‚d"
+#define LL1_FACH_GAP_STATE_TRANS LL1_FACH_GAP_STATE_TRANS__enum,LL1_FACH_GAP_STATE_TRANS_size
+
+// CACULATE_TIMING_SYNC_FN_QBIT
+#define CACULATE_TIMING_SYNC_FN_QBIT_size "‚d"
+#define CACULATE_TIMING_SYNC_FN_QBIT CACULATE_TIMING_SYNC_FN_QBIT__enum,CACULATE_TIMING_SYNC_FN_QBIT_size
+
+// CACULATE_TIMING_SYNC_SFN_CHIP
+#define CACULATE_TIMING_SYNC_SFN_CHIP_size "‚d"
+#define CACULATE_TIMING_SYNC_SFN_CHIP CACULATE_TIMING_SYNC_SFN_CHIP__enum,CACULATE_TIMING_SYNC_SFN_CHIP_size
+
+// TIME_3G_to_2G
+#define TIME_3G_to_2G_size "„d"
+#define TIME_3G_to_2G TIME_3G_to_2G__enum,TIME_3G_to_2G_size
+
+// TIME_2G_to_3G
+#define TIME_2G_to_3G_size "„d"
+#define TIME_2G_to_3G TIME_2G_to_3G__enum,TIME_2G_to_3G_size
+
+// TIME_COMPARE
+#define TIME_COMPARE_size "‚d"
+#define TIME_COMPARE TIME_COMPARE__enum,TIME_COMPARE_size
+
+// UL1A_TIMER_TIMEOUT
+#define UL1A_TIMER_TIMEOUT_size "d"
+#define UL1A_TIMER_TIMEOUT UL1A_TIMER_TIMEOUT__enum,UL1A_TIMER_TIMEOUT_size
+
+// LL1_GAP_WIDTH
+#define LL1_GAP_WIDTH_size "d"
+#define LL1_GAP_WIDTH LL1_GAP_WIDTH__enum,LL1_GAP_WIDTH_size
+
+// LL1_GAP_WAIT_SYNC
+#define LL1_GAP_WAIT_SYNC_size "d"
+#define LL1_GAP_WAIT_SYNC LL1_GAP_WAIT_SYNC__enum,LL1_GAP_WAIT_SYNC_size
+
+// LL1_DCH_GAP_INFO_UMTS
+#define LL1_DCH_GAP_INFO_UMTS_size "…d"
+#define LL1_DCH_GAP_INFO_UMTS LL1_DCH_GAP_INFO_UMTS__enum,LL1_DCH_GAP_INFO_UMTS_size
+
+// LL1_FACH_GAP_INFO
+#define LL1_FACH_GAP_INFO_size "…d"
+#define LL1_FACH_GAP_INFO LL1_FACH_GAP_INFO__enum,LL1_FACH_GAP_INFO_size
+
+// LL1_PCH_GAP_INFO
+#define LL1_PCH_GAP_INFO_size "…d"
+#define LL1_PCH_GAP_INFO LL1_PCH_GAP_INFO__enum,LL1_PCH_GAP_INFO_size
+
+// LL1_GAP_INFO_GSM
+#define LL1_GAP_INFO_GSM_size "ƒd"
+#define LL1_GAP_INFO_GSM LL1_GAP_INFO_GSM__enum,LL1_GAP_INFO_GSM_size
+
+// LL1_GAP_TICK_TIME
+#define LL1_GAP_TICK_TIME_size "‚d"
+#define LL1_GAP_TICK_TIME LL1_GAP_TICK_TIME__enum,LL1_GAP_TICK_TIME_size
+
+// LL1_GAP_INFO_UMTS
+#define LL1_GAP_INFO_UMTS_size "ƒd"
+#define LL1_GAP_INFO_UMTS LL1_GAP_INFO_UMTS__enum,LL1_GAP_INFO_UMTS_size
+
+// LL1_GAP_EXPANSION_PERIOD
+#define LL1_GAP_EXPANSION_PERIOD_size "ƒd"
+#define LL1_GAP_EXPANSION_PERIOD LL1_GAP_EXPANSION_PERIOD__enum,LL1_GAP_EXPANSION_PERIOD_size
+
+// LL1_GAP_OVERLAP
+#define LL1_GAP_OVERLAP_size "ƒd"
+#define LL1_GAP_OVERLAP LL1_GAP_OVERLAP__enum,LL1_GAP_OVERLAP_size
+
+// LL1_SET_DCH_GAP
+#define LL1_SET_DCH_GAP_size "„d"
+#define LL1_SET_DCH_GAP LL1_SET_DCH_GAP__enum,LL1_SET_DCH_GAP_size
+
+// LL1_GAP_EXCEED_SLOT_12
+#define LL1_GAP_EXCEED_SLOT_12_size "‚d"
+#define LL1_GAP_EXCEED_SLOT_12 LL1_GAP_EXCEED_SLOT_12__enum,LL1_GAP_EXCEED_SLOT_12_size
+
+// LL1_GAP_OVERLAP_DETECTED
+#define LL1_GAP_OVERLAP_DETECTED_size "‚d"
+#define LL1_GAP_OVERLAP_DETECTED LL1_GAP_OVERLAP_DETECTED__enum,LL1_GAP_OVERLAP_DETECTED_size
+
+// UL1A_QUEUE_INDEX
+#define UL1A_QUEUE_INDEX_size "‰d"
+#define UL1A_QUEUE_INDEX UL1A_QUEUE_INDEX__enum,UL1A_QUEUE_INDEX_size
+
+// FUNC_ll1_set_gap_func
+#define FUNC_ll1_set_gap_func_size NULL
+#define FUNC_ll1_set_gap_func FUNC_ll1_set_gap_func__enum,FUNC_ll1_set_gap_func_size
+
+// FUNC_ll1_stop_gap_func
+#define FUNC_ll1_stop_gap_func_size NULL
+#define FUNC_ll1_stop_gap_func FUNC_ll1_stop_gap_func__enum,FUNC_ll1_stop_gap_func_size
+
+// FUNC_ll1_dual_mode_sync_timing_func
+#define FUNC_ll1_dual_mode_sync_timing_func_size NULL
+#define FUNC_ll1_dual_mode_sync_timing_func FUNC_ll1_dual_mode_sync_timing_func__enum,FUNC_ll1_dual_mode_sync_timing_func_size
+
+// FUNC_ll1_send_umts_gap_unavailable_ind
+#define FUNC_ll1_send_umts_gap_unavailable_ind_size NULL
+#define FUNC_ll1_send_umts_gap_unavailable_ind FUNC_ll1_send_umts_gap_unavailable_ind__enum,FUNC_ll1_send_umts_gap_unavailable_ind_size
+
+// FUNC_ll1_send_umts_gap_available_ind
+#define FUNC_ll1_send_umts_gap_available_ind_size NULL
+#define FUNC_ll1_send_umts_gap_available_ind FUNC_ll1_send_umts_gap_available_ind__enum,FUNC_ll1_send_umts_gap_available_ind_size
+
+// FUNC_ll1_l1a_stop_gap_confirm
+#define FUNC_ll1_l1a_stop_gap_confirm_size NULL
+#define FUNC_ll1_l1a_stop_gap_confirm FUNC_ll1_l1a_stop_gap_confirm__enum,FUNC_ll1_l1a_stop_gap_confirm_size
+
+// FUNC_ll1_dual_mode_gsm_sync_start_func
+#define FUNC_ll1_dual_mode_gsm_sync_start_func_size NULL
+#define FUNC_ll1_dual_mode_gsm_sync_start_func FUNC_ll1_dual_mode_gsm_sync_start_func__enum,FUNC_ll1_dual_mode_gsm_sync_start_func_size
+
+// FUNC_ll1_inform_umts_mode
+#define FUNC_ll1_inform_umts_mode_size NULL
+#define FUNC_ll1_inform_umts_mode FUNC_ll1_inform_umts_mode__enum,FUNC_ll1_inform_umts_mode_size
+
+// FUNC_ll1_gsm_pm_done
+#define FUNC_ll1_gsm_pm_done_size NULL
+#define FUNC_ll1_gsm_pm_done FUNC_ll1_gsm_pm_done__enum,FUNC_ll1_gsm_pm_done_size
+
+// UL1A_UPDATE_SFNRPT
+#define UL1A_UPDATE_SFNRPT_size "ƒd"
+#define UL1A_UPDATE_SFNRPT UL1A_UPDATE_SFNRPT__enum,UL1A_UPDATE_SFNRPT_size
+
+// UL1A_REPORT_SFN_READ_FAIL
+#define UL1A_REPORT_SFN_READ_FAIL_size "ƒd"
+#define UL1A_REPORT_SFN_READ_FAIL UL1A_REPORT_SFN_READ_FAIL__enum,UL1A_REPORT_SFN_READ_FAIL_size
+
+// UL1A_DEBUG_CellCnt
+#define UL1A_DEBUG_CellCnt_size "ƒd"
+#define UL1A_DEBUG_CellCnt UL1A_DEBUG_CellCnt__enum,UL1A_DEBUG_CellCnt_size
+
+// UL1A_DEBUG_SORT_RESULT
+#define UL1A_DEBUG_SORT_RESULT_size "ˆd"
+#define UL1A_DEBUG_SORT_RESULT UL1A_DEBUG_SORT_RESULT__enum,UL1A_DEBUG_SORT_RESULT_size
+
+// UL1A_DEBUG_SORT_RESULT_RXD
+#define UL1A_DEBUG_SORT_RESULT_RXD_size "†d"
+#define UL1A_DEBUG_SORT_RESULT_RXD UL1A_DEBUG_SORT_RESULT_RXD__enum,UL1A_DEBUG_SORT_RESULT_RXD_size
+
+// UL1A_DEBUG_SFN_NOT_READ
+#define UL1A_DEBUG_SFN_NOT_READ_size "‡d"
+#define UL1A_DEBUG_SFN_NOT_READ UL1A_DEBUG_SFN_NOT_READ__enum,UL1A_DEBUG_SFN_NOT_READ_size
+
+// UL1A_DEBUG_SFN_READ_ON_PSC
+#define UL1A_DEBUG_SFN_READ_ON_PSC_size "ƒd"
+#define UL1A_DEBUG_SFN_READ_ON_PSC UL1A_DEBUG_SFN_READ_ON_PSC__enum,UL1A_DEBUG_SFN_READ_ON_PSC_size
+
+// UL1A_DEBUG_TXP_CAL_PWR
+#define UL1A_DEBUG_TXP_CAL_PWR_size "†d"
+#define UL1A_DEBUG_TXP_CAL_PWR UL1A_DEBUG_TXP_CAL_PWR__enum,UL1A_DEBUG_TXP_CAL_PWR_size
+
+// UL1A_DEBUG_SFNMEAS_RACE
+#define UL1A_DEBUG_SFNMEAS_RACE_size NULL
+#define UL1A_DEBUG_SFNMEAS_RACE UL1A_DEBUG_SFNMEAS_RACE__enum,UL1A_DEBUG_SFNMEAS_RACE_size
+
+// UL1A_DEBUG_CONFIG_CELL
+#define UL1A_DEBUG_CONFIG_CELL_size "†d"
+#define UL1A_DEBUG_CONFIG_CELL UL1A_DEBUG_CONFIG_CELL__enum,UL1A_DEBUG_CONFIG_CELL_size
+
+// UL1A_DEBUG_STRONGEST_INTRA_CELL
+#define UL1A_DEBUG_STRONGEST_INTRA_CELL_size "„d"
+#define UL1A_DEBUG_STRONGEST_INTRA_CELL UL1A_DEBUG_STRONGEST_INTRA_CELL__enum,UL1A_DEBUG_STRONGEST_INTRA_CELL_size
+
+// UL1A_DEBUG_CPHY_MEASUREMENT_CONFIG_CELL_REQ
+#define UL1A_DEBUG_CPHY_MEASUREMENT_CONFIG_CELL_REQ_size NULL
+#define UL1A_DEBUG_CPHY_MEASUREMENT_CONFIG_CELL_REQ UL1A_DEBUG_CPHY_MEASUREMENT_CONFIG_CELL_REQ__enum,UL1A_DEBUG_CPHY_MEASUREMENT_CONFIG_CELL_REQ_size
+
+// UL1A_DEBUG_CPHY_MEASUREMENT_STOP_CONFIG_CELL_REQ
+#define UL1A_DEBUG_CPHY_MEASUREMENT_STOP_CONFIG_CELL_REQ_size NULL
+#define UL1A_DEBUG_CPHY_MEASUREMENT_STOP_CONFIG_CELL_REQ UL1A_DEBUG_CPHY_MEASUREMENT_STOP_CONFIG_CELL_REQ__enum,UL1A_DEBUG_CPHY_MEASUREMENT_STOP_CONFIG_CELL_REQ_size
+
+// UL1A_DEBUG_CPHY_BCH_SETUP_REQ
+#define UL1A_DEBUG_CPHY_BCH_SETUP_REQ_size NULL
+#define UL1A_DEBUG_CPHY_BCH_SETUP_REQ UL1A_DEBUG_CPHY_BCH_SETUP_REQ__enum,UL1A_DEBUG_CPHY_BCH_SETUP_REQ_size
+
+// UL1A_DEBUG_CPHY_BCH_SETUP_CGI_REQ
+#define UL1A_DEBUG_CPHY_BCH_SETUP_CGI_REQ_size NULL
+#define UL1A_DEBUG_CPHY_BCH_SETUP_CGI_REQ UL1A_DEBUG_CPHY_BCH_SETUP_CGI_REQ__enum,UL1A_DEBUG_CPHY_BCH_SETUP_CGI_REQ_size
+
+// UL1A_DEBUG_CPHY_BCH_RELEASE_REQ
+#define UL1A_DEBUG_CPHY_BCH_RELEASE_REQ_size NULL
+#define UL1A_DEBUG_CPHY_BCH_RELEASE_REQ UL1A_DEBUG_CPHY_BCH_RELEASE_REQ__enum,UL1A_DEBUG_CPHY_BCH_RELEASE_REQ_size
+
+// UL1A_DEBUG_CPHY_AUTO_GAP_ON_REQ
+#define UL1A_DEBUG_CPHY_AUTO_GAP_ON_REQ_size NULL
+#define UL1A_DEBUG_CPHY_AUTO_GAP_ON_REQ UL1A_DEBUG_CPHY_AUTO_GAP_ON_REQ__enum,UL1A_DEBUG_CPHY_AUTO_GAP_ON_REQ_size
+
+// UL1A_DEBUG_CPHY_AUTO_GAP_OFF_REQ
+#define UL1A_DEBUG_CPHY_AUTO_GAP_OFF_REQ_size NULL
+#define UL1A_DEBUG_CPHY_AUTO_GAP_OFF_REQ UL1A_DEBUG_CPHY_AUTO_GAP_OFF_REQ__enum,UL1A_DEBUG_CPHY_AUTO_GAP_OFF_REQ_size
+
+// UL1A_DEBUG_FORCE_LTE_MEAS
+#define UL1A_DEBUG_FORCE_LTE_MEAS_size NULL
+#define UL1A_DEBUG_FORCE_LTE_MEAS UL1A_DEBUG_FORCE_LTE_MEAS__enum,UL1A_DEBUG_FORCE_LTE_MEAS_size
+
+// UL1A_DEBUG_CPHY_FREQUENCY_SCAN_REQ
+#define UL1A_DEBUG_CPHY_FREQUENCY_SCAN_REQ_size NULL
+#define UL1A_DEBUG_CPHY_FREQUENCY_SCAN_REQ UL1A_DEBUG_CPHY_FREQUENCY_SCAN_REQ__enum,UL1A_DEBUG_CPHY_FREQUENCY_SCAN_REQ_size
+
+// UL1A_DEBUG_CPHY_FREQUENCY_SCAN_SUSPEND_REQ
+#define UL1A_DEBUG_CPHY_FREQUENCY_SCAN_SUSPEND_REQ_size NULL
+#define UL1A_DEBUG_CPHY_FREQUENCY_SCAN_SUSPEND_REQ UL1A_DEBUG_CPHY_FREQUENCY_SCAN_SUSPEND_REQ__enum,UL1A_DEBUG_CPHY_FREQUENCY_SCAN_SUSPEND_REQ_size
+
+// UL1A_DMA_QUEUE_EVENT
+#define UL1A_DMA_QUEUE_EVENT_size "c"
+#define UL1A_DMA_QUEUE_EVENT UL1A_DMA_QUEUE_EVENT__enum,UL1A_DMA_QUEUE_EVENT_size
+
+// UL1A_DMA_DEQUEUE_FUNC
+#define UL1A_DMA_DEQUEUE_FUNC_size NULL
+#define UL1A_DMA_DEQUEUE_FUNC UL1A_DMA_DEQUEUE_FUNC__enum,UL1A_DMA_DEQUEUE_FUNC_size
+
+// UL1A_DMA_DEQUEUE_EVENT
+#define UL1A_DMA_DEQUEUE_EVENT_size "c"
+#define UL1A_DMA_DEQUEUE_EVENT UL1A_DMA_DEQUEUE_EVENT__enum,UL1A_DMA_DEQUEUE_EVENT_size
+
+// UL1A_DMA_DEQUEUE_STATE
+#define UL1A_DMA_DEQUEUE_STATE_size "‚c"
+#define UL1A_DMA_DEQUEUE_STATE UL1A_DMA_DEQUEUE_STATE__enum,UL1A_DMA_DEQUEUE_STATE_size
+
+// UL1A_DMA_VARIABLE
+#define UL1A_DMA_VARIABLE_size "‚d"
+#define UL1A_DMA_VARIABLE UL1A_DMA_VARIABLE__enum,UL1A_DMA_VARIABLE_size
+
+// UL1A_DMA_STORE_EVENT_Q_BY_MODE
+#define UL1A_DMA_STORE_EVENT_Q_BY_MODE_size "‚d"
+#define UL1A_DMA_STORE_EVENT_Q_BY_MODE UL1A_DMA_STORE_EVENT_Q_BY_MODE__enum,UL1A_DMA_STORE_EVENT_Q_BY_MODE_size
+
+// UL1A_DMA_EXECUTE_EVENT_Q_BY_MODE
+#define UL1A_DMA_EXECUTE_EVENT_Q_BY_MODE_size "‚d"
+#define UL1A_DMA_EXECUTE_EVENT_Q_BY_MODE UL1A_DMA_EXECUTE_EVENT_Q_BY_MODE__enum,UL1A_DMA_EXECUTE_EVENT_Q_BY_MODE_size
+
+// UL1A_DMA_CANCEL_EVENT_Q_BY_MODE
+#define UL1A_DMA_CANCEL_EVENT_Q_BY_MODE_size "‚d"
+#define UL1A_DMA_CANCEL_EVENT_Q_BY_MODE UL1A_DMA_CANCEL_EVENT_Q_BY_MODE__enum,UL1A_DMA_CANCEL_EVENT_Q_BY_MODE_size
+
+// UL1A_TGPSH_RECONSTRUCT
+#define UL1A_TGPSH_RECONSTRUCT_size "†d"
+#define UL1A_TGPSH_RECONSTRUCT UL1A_TGPSH_RECONSTRUCT__enum,UL1A_TGPSH_RECONSTRUCT_size
+
+// UL1A_TGPSH_RECONSTRUCT_2
+#define UL1A_TGPSH_RECONSTRUCT_2_size "ƒd"
+#define UL1A_TGPSH_RECONSTRUCT_2 UL1A_TGPSH_RECONSTRUCT_2__enum,UL1A_TGPSH_RECONSTRUCT_2_size
+
+// UL1A_TGPSH_RECONSTRUCT_3
+#define UL1A_TGPSH_RECONSTRUCT_3_size "„d"
+#define UL1A_TGPSH_RECONSTRUCT_3 UL1A_TGPSH_RECONSTRUCT_3__enum,UL1A_TGPSH_RECONSTRUCT_3_size
+
+// UL1A_TGPSH_P_CONFIG_TGPSI
+#define UL1A_TGPSH_P_CONFIG_TGPSI_size "‚d"
+#define UL1A_TGPSH_P_CONFIG_TGPSI UL1A_TGPSH_P_CONFIG_TGPSI__enum,UL1A_TGPSH_P_CONFIG_TGPSI_size
+
+// UL1A_TGPSH_COMPARE_CFN_SFN
+#define UL1A_TGPSH_COMPARE_CFN_SFN_size "ƒd"
+#define UL1A_TGPSH_COMPARE_CFN_SFN UL1A_TGPSH_COMPARE_CFN_SFN__enum,UL1A_TGPSH_COMPARE_CFN_SFN_size
+
+// UL1A_TGPSH_C_P_STATUS_TGMP
+#define UL1A_TGPSH_C_P_STATUS_TGMP_size "‚d"
+#define UL1A_TGPSH_C_P_STATUS_TGMP UL1A_TGPSH_C_P_STATUS_TGMP__enum,UL1A_TGPSH_C_P_STATUS_TGMP_size
+
+// UL1A_TGPSH_C_P_STATUS_TGMP_2
+#define UL1A_TGPSH_C_P_STATUS_TGMP_2_size "‚d"
+#define UL1A_TGPSH_C_P_STATUS_TGMP_2 UL1A_TGPSH_C_P_STATUS_TGMP_2__enum,UL1A_TGPSH_C_P_STATUS_TGMP_2_size
+
+// UL1A_TGPSH_C_P_CONFIG
+#define UL1A_TGPSH_C_P_CONFIG_size "†d"
+#define UL1A_TGPSH_C_P_CONFIG UL1A_TGPSH_C_P_CONFIG__enum,UL1A_TGPSH_C_P_CONFIG_size
+
+// UL1A_TGPSH_RECONSTRUCT_FAIL
+#define UL1A_TGPSH_RECONSTRUCT_FAIL_size NULL
+#define UL1A_TGPSH_RECONSTRUCT_FAIL UL1A_TGPSH_RECONSTRUCT_FAIL__enum,UL1A_TGPSH_RECONSTRUCT_FAIL_size
+
+
+#endif // ul1a_trc_gen.h

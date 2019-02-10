@@ -1,0 +1,15 @@
+middleware/hif/cccidev/ccci_ccmni/src/ccmni_data.c
+middleware/hif/cccidev/ccci_ccmni/src/ccmni_hmu.c
+middleware/hif/cccidev/ccci_ccmni/src/ccmni_it.c
+middleware/hif/cccidev/ccci_ccmni/src/ccmni_pfp.c
+middleware/hif/cccidev/ccci_ccmni/src/ccmni_sm.c
+middleware/hif/cccidev/ccci_ccmni/src/ccmni_ut.c
+middleware/hif/cccidev/ccci_tty/src/cccitty_data.c
+middleware/hif/cccidev/ccci_tty/src/cccitty_except.c
+middleware/hif/cccidev/ccci_tty/src/cccitty_hdr.c
+middleware/hif/cccidev/ccci_tty/src/cccitty_hmu.c
+middleware/hif/cccidev/ccci_tty/src/cccitty_it.c
+middleware/hif/cccidev/ccci_tty/src/cccitty_sm.c
+middleware/hif/cccidev/ccci_tty/src/cccitty_ut.c
+middleware/hif/cccidev/cccidev_task/src/cccidev_task.c
+

@@ -1,0 +1,38 @@
+os environment : linux
+Load path:./build/HCT6737M_65_N/LWG_DSDS/tmp
+custom memory device:./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_MemoryDevice.h
+makefile: build/HCT6737M_65_N/LWG_DSDS/bin/~HCT6737M_65_N(LWG_DSDS).mak
+inside_mtk : 0
+OutputFile: ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_EMI.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_EMI_INFO.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_EMI_release.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_EMI.c, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_SFI.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_flash.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/flash_opt_gen.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_flash_norfdm5.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/combo_flash_config.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/combo_flash_id.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/combo_sfi_config.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/combo_sfi_defs.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/combo_nfi_config.h
+os environment : linux
+Load path:./build/HCT6737M_65_N/LWG_DSDS/tmp
+custom memory device:./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_MemoryDevice.h
+makefile: build/HCT6737M_65_N/LWG_DSDS/bin/~HCT6737M_65_N(LWG_DSDS).mak
+inside_mtk : 0
+OutputFile: ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_EMI.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_EMI_INFO.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_EMI_release.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_EMI.c, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_SFI.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_flash.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/flash_opt_gen.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_flash_norfdm5.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/combo_flash_config.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/combo_flash_id.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/combo_sfi_config.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/combo_sfi_defs.h, ./build/HCT6737M_65_N/LWG_DSDS/custom/system/combo_nfi_config.h
+LPSDRAM_CHIP_SELECT:255, cs:0
+LPSDRAM_CHIP_SELECT:0, cs:1
+BAKCUP_MDL_PATH match with /build/ PREMATCH:./, MATCH:build, POSTMATCH:/HCT6737M_65_N/LWG_DSDS/tmp
+file is tools/MemoryDeviceList/MemoryDeviceList_NONE_SinceW1506.xls
+1:,2:/MemoryDeviceList/,3:NONE_SinceW1506
+cp -f tools/MemoryDeviceList/MemoryDeviceList_NONE_SinceW1506.xls build/HCT6737M_65_N/LWG_DSDS/tmp/MemoryDeviceList_NONE_SinceW1506_RAM_2016_11_02_18_09_21101468.xls
+[sheetname]: RAM, row:{0, 3}, col:{0, 2}
+$href->{0}->{Density (Mb)} = 256
+$href->{0}->{Part Number} = NA
+$href->{0}->{Vendor} = NA
+$MDL_INFO_LIST[1]->{0}->{Density (Mb)} = 256
+$MDL_INFO_LIST[1]->{0}->{Vendor} = NA
+$MDL_INFO_LIST[1]->{0}->{Part Number} = NA
+FAT SPACE is: 0, BlockSize is: 0, SectorSize is 512
+
+./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_EMI_release.h is generated
+
+./build/HCT6737M_65_N/LWG_DSDS/custom/system/flash_opt_gen.h is generated
+custom_flash.h ./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_MemoryDevice.h
+
+./build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_flash.h is generated
+
+./build/HCT6737M_65_N/LWG_DSDS/custom/system/combo_flash_config.h is generated
+No flash support!
+
+./build/HCT6737M_65_N/LWG_DSDS/custom/system/combo_flash_id.h is generated

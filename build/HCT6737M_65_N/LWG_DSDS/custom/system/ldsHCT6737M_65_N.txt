@@ -1,0 +1,451 @@
+/*****************************************************************************
+*  Copyright Statement:
+*  --------------------
+*  This software is protected by Copyright and the information contained
+*  herein is confidential. The software may not be copied and the information
+*  contained herein may not be used or disclosed except with the written
+*  permission of MediaTek Inc. (C) 2006
+*
+*  BY OPENING THIS FILE, BUYER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+*  THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+*  RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO BUYER ON
+*  AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+*  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+*  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+*  NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+*  SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+*  SUPPLIED WITH THE MEDIATEK SOFTWARE, AND BUYER AGREES TO LOOK ONLY TO SUCH
+*  THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. MEDIATEK SHALL ALSO
+*  NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE RELEASES MADE TO BUYER'S
+*  SPECIFICATION OR TO CONFORM TO A PARTICULAR STANDARD OR OPEN FORUM.
+*
+*  BUYER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND CUMULATIVE
+*  LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+*  AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+*  OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY BUYER TO
+*  MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+*
+*  THE TRANSACTION CONTEMPLATED HEREUNDER SHALL BE CONSTRUED IN ACCORDANCE
+*  WITH THE LAWS OF THE STATE OF CALIFORNIA, USA, EXCLUDING ITS CONFLICT OF
+*  LAWS PRINCIPLES.  ANY DISPUTES, CONTROVERSIES OR CLAIMS ARISING THEREOF AND
+*  RELATED THERETO SHALL BE SETTLED BY ARBITRATION IN SAN FRANCISCO, CA, UNDER
+*  THE RULES OF THE INTERNATIONAL CHAMBER OF COMMERCE (ICC).
+*
+*****************************************************************************/
+
+/*****************************************************************************
+ *
+ * Filename:
+ * ---------
+ *   ldsHCT6737M_65_N.txt
+ *
+ * Project:
+ * --------
+ *   Maui_Software
+ *
+ * Description:
+ * ------------
+ *   defines the memory map for the validation board
+
+ *
+ * Author:
+ * -------
+ *   system auto generator  m0.57_MP7 + ldsFrame.pm  m0.28 + scatGen m0.05 + sysGenUtility m0.39 from MOLY
+ *
+ * Auto Generated Date:
+ * -------
+ *   2016/11/2
+ *
+
+ *============================================================================
+ *             HISTORY
+ * Below this line, this part is controlled by PVCS VM. DO NOT MODIFY!!
+ *------------------------------------------------------------------------------
+ * $Revision$
+ * $Modtime$
+ * $Log$
+ *
+ *------------------------------------------------------------------------------
+ * Upper this line, this part is controlled by PVCS VM. DO NOT MODIFY!!
+ *============================================================================
+ * This file is auto-generated and please DO NOT change the content at will
+ *=========================================================================
+ *--------------------
+ * SCHEME   : external NAND flash and 32MB LPSDRAM
+ * DUMMY SETTING : No
+ * PLATFORM : MT6735_MD1
+ * FEATURES : [SmartPhone]ANDROID_MODEM 
+ *--------------------
+
+ ****************************************************************************/
+
+OUTPUT_FORMAT("elf32-littlearm", "elf32-littlearm", "elf32-littlearm")
+OUTPUT_ARCH(arm)
+ENTRY(INT_Vectors)
+MEMORY
+{
+    ROM : ORIGIN = 0x0, LENGTH = 0xa00000
+    RAM : ORIGIN = 0xa00000, LENGTH = 0x2600000
+    VRAM : ORIGIN = 0xf0000000 | 0xa00000, LENGTH = 0x2600000 - 0x40000
+    TCM : ORIGIN = 0x70000000, LENGTH = 0x80000
+    DTCM : ORIGIN = 0x70040000, LENGTH = 0x40000
+    SECURE_RO : ORIGIN = 0xa00000, LENGTH = 0xffffffff - 0xa00000
+}
+
+CACHELINESIZE = 32;
+
+SECTIONS
+{
+    ROM .  :  ALIGN(4)
+    {
+        Image$$ROM$$Base = . ;
+        *bootarm_gcc.obj (INT_VECTOR_CODE)
+
+        * (DRAM_EX_ROCODE)  /*CODE_PROTECT*/
+        * (SNORCODE*)
+        * (SECOND_PART*)
+        * (.text*)
+        * (.rodata*)
+        * (i.*)
+        * (.ARM.extab*)
+        KEEP(* (Keep_CODE))
+
+        . = ALIGN(64);
+        PHY_EXTSRAM_RO$$Base = .;
+        * (PHY_EXTSRAM_RO)
+        . = ALIGN(4);
+        PHY_EXTSRAM_RO$$Limit = .;
+        PHY_EXTSRAM_RO$$Length = ABSOLUTE(PHY_EXTSRAM_RO$$Limit - PHY_EXTSRAM_RO$$Base);
+
+        . = ALIGN(4);
+
+    }  > ROM  AT> ROM
+    .ARM.exidx .  :  ALIGN(4)
+    {
+
+        __exidx_start = .;
+        *(.ARM.exidx*)
+        __exidx_end = .;
+        . = ALIGN(4);
+        Image$$ROM$$Limit = . ;
+        Image$$ROM$$ZI$$Base = . ;
+        Image$$ROM$$ZI$$Limit = . ;
+    }  > ROM  AT> ROM
+    OVERLAY 0x70000000  :  
+    {
+        EMIINIT_CODE
+        {
+            Image$$EMIINIT_CODE$$Base = ADDR(EMIINIT_CODE);
+             * (EMIINITCODE EMIINITCONST EMIINITRW)
+            . = ALIGN(4);
+            Image$$EMIINIT_CODE$$Limit = .;
+            Image$$EMIINIT_CODE$$ZI$$Base = .;
+             * (EMIINITZI)
+            . = ALIGN(4);
+            Image$$EMIINIT_CODE$$ZI$$Limit = .;
+        }
+        INTSRAM_CODE
+        {
+            Image$$INTSRAM_CODE$$Base = ADDR(INTSRAM_CODE);
+            * (INTSRAM_ROCODE*)
+            * (INTERNBLOCK2_RO)
+
+            . = ALIGN(4);
+            Image$$INTSRAM_CODE$$Limit = .;
+            Image$$INTSRAM_CODE$$ZI$$Base = .;
+
+            . = ALIGN(4);
+            Image$$INTSRAM_CODE$$ZI$$Limit = .;
+        }
+
+    }  > TCM  AT> ROM
+    INTSRAM_DATA .  :  ALIGN(4)
+    {
+        Image$$INTSRAM_DATA$$Base = . ;
+        * (INTSRAM_RODATA* INTSRAM_RW*)
+        
+        *libnucleus_v2_critical_data.a: (.data*)
+        *libnucleus_v2_ctrl_code.a: (.data*)
+        *libnucleus_critical_data.a: (.data*)
+        *libnucleus_ctrl_code.a: (.data*)
+
+        * (INTERNBLOCK2_RW)
+
+        . = ALIGN(4);
+        Image$$INTSRAM_DATA$$Limit = . ;
+    }  > TCM  AT> ROM
+    INTSRAM_DATA_ZI . (NOLOAD) :  ALIGN(4)
+    {
+        Image$$INTSRAM_DATA$$ZI$$Base = . ;
+        * (INTSRAM_ZI*)
+        *libnucleus_v2_critical_data.a: (.bss*)
+        *libnucleus_v2_ctrl_code.a: (.bss*)
+        *libnucleus_critical_data.a: (.bss*)
+        *libnucleus_ctrl_code.a: (.bss*)
+
+        * (INTERNBLOCK2_ZI)
+
+        . = ALIGN(4);
+        Image$$INTSRAM_DATA$$ZI$$Limit = . ;
+    }  > TCM  AT> ROM
+    Load$$INTSRAM_PHYSICAL_BOUNDARY$$Base = 0x70040000;
+    Image$$INTSRAM_PHYSICAL_BOUNDARY$$Base = 0x70040000;
+    Image$$INTSRAM_PHYSICAL_BOUNDARY$$Length = 0x40000;
+    . = ORIGIN(RAM);
+    EXTSRAM ALIGN(0x100000)  :  ALIGN(4)
+    {
+        Image$$EXTSRAM$$Base = . ;
+        * (NONCACHEDRW)
+        * (PROTECTED_RES_RW_HEAD)
+        * (PROTECTED_RES_RW)
+        * (PROTECTED_RES_RW_TAIL)
+        
+        /* continuous physical region - should be continuous with PHY_EXTSRAM_ZI! */
+        /* Caution: PHY_EXTSRAM_RW should be in the bottom of this region and kept 64 bytes aligned */
+        . = ALIGN(64);
+        PHY_EXTSRAM_RW$$Base = .;
+        * (PHY_EXTSRAM_RW)
+        . = ALIGN(4);
+        PHY_EXTSRAM_RW$$Limit = .;
+        PHY_EXTSRAM_RW$$Length = ABSOLUTE(PHY_EXTSRAM_RW$$Limit - PHY_EXTSRAM_RW$$Base);
+
+        . = ALIGN(4);
+        Image$$EXTSRAM$$Limit = . ;
+        Image$$EXTSRAM$$ZI$$Base = . ;
+        Image$$EXTSRAM$$ZI$$Limit = . ;
+    }  > RAM  AT> ROM
+    EXTSRAM_ZI ALIGN(0x10000) (NOLOAD) :  ALIGN(4)
+    {
+        Image$$EXTSRAM_ZI$$Base = . ;
+        Image$$EXTSRAM_ZI$$Limit = . ;
+        Image$$EXTSRAM_ZI$$ZI$$Base = . ;
+        /* Caution: PHY_EXTSRAM_ZI_HEAD_NO_INIT should be in the head of this region and kept 64KB aligned (by EXTSRAM_ZI attribute) without zero init*/
+        . = ALIGN(4);
+        PHY_EXTSRAM_ZI_HEAD_NO_INIT$$Base = .;
+        * (PHY_EXTSRAM_ZI_HEAD_NO_INIT)
+        . = ALIGN(4);
+        PHY_EXTSRAM_ZI_HEAD_NO_INIT$$Limit = .;
+        PHY_EXTSRAM_ZI_HEAD_NO_INIT$$Length = ABSOLUTE(PHY_EXTSRAM_ZI_HEAD_NO_INIT$$Limit - PHY_EXTSRAM_ZI_HEAD_NO_INIT$$Base);
+
+        . = ALIGN(4);
+        PHY_EXTSRAM_ZI$$Base = .;
+        * (PHY_EXTSRAM_ZI)
+        . = ALIGN(4);
+        PHY_EXTSRAM_ZI$$Limit = .;
+        PHY_EXTSRAM_ZI$$Length = ABSOLUTE(PHY_EXTSRAM_ZI$$Limit - PHY_EXTSRAM_ZI$$Base);
+
+        * (NONCACHEDZI)
+
+        . = ALIGN(4);
+        Image$$EXTSRAM_ZI$$ZI$$Limit = . ;
+    }  > RAM  AT> ROM
+    DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_ZI . (NOLOAD) :  ALIGN(4)
+    {
+        Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_ZI$$Base = . ;
+        Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_ZI$$Limit = . ;
+        Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_ZI$$ZI$$Base = . ;
+        * (DYNAMICCACHEABLEZI_NC*)
+        . = ALIGN(4);
+        Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_ZI$$ZI$$Limit = . ;
+    }  > RAM  AT> ROM
+    DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_RW .  :  ALIGN(4)
+    {
+        Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_RW$$Base = . ;
+        * (DYNAMICCACHEABLERW_NC)
+        . = ALIGN(4);
+        Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_RW$$Limit = . ;
+        Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_RW$$ZI$$Base = . ;
+        Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_RW$$ZI$$Limit = . ;
+    }  > RAM  AT> ROM
+    . += 0xF0000000;
+    CACHED_EXTSRAM ALIGN(0x1000)  :  ALIGN(4)
+    {
+        Image$$CACHED_EXTSRAM$$Base = . ;
+         * (.data*)
+         KEEP(* (Keep_DATA))
+         * (CACHED_EXTSRAM_RW)
+         
+         __preinit_array_start = .;
+         KEEP (*(.preinit_array))
+         __preinit_array_end = .;
+
+         . = ALIGN(4);
+         __init_array_start = .;
+         KEEP (*(SORT(.init_array.*)))
+         KEEP (*(.init_array))
+         __init_array_end = .;
+
+         . = ALIGN(4);
+         KEEP(*(.fini))
+
+         . = ALIGN(4);
+         __fini_array_start = .;
+         KEEP (*(.fini_array))
+         KEEP (*(SORT(.fini_array.*)))
+         __fini_array_end = .;
+
+         . = ALIGN(4);
+         __CTOR_LIST__ = .;
+         KEEP (*(SORT(.ctors.*)))
+         KEEP (*(.ctors))
+         __CTOR_END__ = .;
+        
+         RELEASE_VERNO_RW$$Base = .;
+         * (RELEASE_VERNO_RW)
+         RELEASE_VERNO_RW$$Limit = .;
+         RELEASE_VERNO_RW$$Length = ABSOLUTE(RELEASE_VERNO_RW$$Limit - RELEASE_VERNO_RW$$Base);
+         RELEASE_BRANCH_RW$$Base = .;
+         * (RELEASE_BRANCH_RW)
+         RELEASE_BRANCH_RW$$Limit = .;
+         RELEASE_BRANCH_RW$$Length = ABSOLUTE(RELEASE_BRANCH_RW$$Limit - RELEASE_BRANCH_RW$$Base);
+         BUILD_TIME_RW$$Base = .;
+         * (BUILD_TIME_RW)
+         BUILD_TIME_RW$$Limit = .;
+         BUILD_TIME_RW$$Length = ABSOLUTE(BUILD_TIME_RW$$Limit - BUILD_TIME_RW$$Base);
+        . = ALIGN(4);
+        Image$$CACHED_EXTSRAM$$Limit = . ;
+    }  > VRAM  AT> ROM
+    CACHED_EXTSRAM_ZI . (NOLOAD) :  ALIGN(4)
+    {
+        Image$$CACHED_EXTSRAM$$ZI$$Base = . ;
+        * (CACHED_EXTSRAM_ZI)
+        . = ALIGN(4);
+
+    }  > VRAM  AT> ROM
+    .bss . (NOLOAD) :  ALIGN(4)
+    {
+
+        * (.bss*)
+        KEEP(* (Keep_ZI))
+        * (COMMON)
+        . = ALIGN(4);
+        Image$$CACHED_EXTSRAM$$ZI$$Limit = . ;
+    }  > VRAM  AT> ROM
+    CACHED_EXTSRAM_PREINIT_ZI . (NOLOAD) :  ALIGN(4)
+    {
+        Image$$CACHED_EXTSRAM_PREINIT_ZI$$Base = . ;
+        Image$$CACHED_EXTSRAM_PREINIT_ZI$$Limit = . ;
+        Image$$CACHED_EXTSRAM_PREINIT_ZI$$ZI$$Base = . ;
+        * (CACHED_EXTSRAM_PREINIT_ZI)
+        . = ALIGN(4);
+        Image$$CACHED_EXTSRAM_PREINIT_ZI$$ZI$$Limit = . ;
+    }  > VRAM  AT> ROM
+    CACHED_EXTSRAM_NVRAM_LTABLE .  :  ALIGN(4)
+    {
+        Image$$CACHED_EXTSRAM_NVRAM_LTABLE$$Base = . ;
+        _nvram_ltable$$Base = .;
+         * (_nvram_ltable)
+         /* KEEP(* (_nvram_ltable)) */
+        _nvram_ltable$$Limit = .;
+        _nvram_ltable$$Length = ABSOLUTE(_nvram_ltable$$Limit - _nvram_ltable$$Base);
+        _indirect_init$$Base = .;
+         * (_indirect_init)
+         /* KEEP(* (_indirect_init)) */
+        _indirect_init$$Limit = .;
+        _indirect_init$$Length = ABSOLUTE(_indirect_init$$Limit - _indirect_init$$Base);
+        _fs_filetable$$Base = .;
+         * (_fs_filetable)
+         /* KEEP(* (_fs_filetable)) */
+        _fs_filetable$$Limit = .;
+        _fs_filetable$$Length = ABSOLUTE(_fs_filetable$$Limit - _fs_filetable$$Base);
+        _nvram_callback_tbl$$Base = .;
+         * (_nvram_callback_tbl)
+        _nvram_callback_tbl$$Limit = .;
+        _nvram_callback_tbl$$Length = ABSOLUTE(_nvram_callback_tbl$$Limit - _nvram_callback_tbl$$Base);
+        . = ALIGN(4);
+        Image$$CACHED_EXTSRAM_NVRAM_LTABLE$$Limit = . ;
+        Image$$CACHED_EXTSRAM_NVRAM_LTABLE$$ZI$$Base = . ;
+        Image$$CACHED_EXTSRAM_NVRAM_LTABLE$$ZI$$Limit = . ;
+    }  > VRAM  AT> ROM
+    DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_RW ALIGN(CACHELINESIZE)  :  ALIGN(4)
+    {
+        Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_RW$$Base = . ;
+        * (DYNAMICCACHEABLERW_C)
+        . = ALIGN(4);
+        Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_RW$$Limit = . ;
+        Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_RW$$ZI$$Base = . ;
+        Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_RW$$ZI$$Limit = . ;
+    }  > VRAM  AT> ROM
+    DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_ZI . (NOLOAD) :  ALIGN(4)
+    {
+        Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_ZI$$Base = . ;
+        Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_ZI$$Limit = . ;
+        Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_ZI$$ZI$$Base = . ;
+        * (DYNAMICCACHEABLEZI_C*)
+        . = ALIGN(4);
+        Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_ZI$$ZI$$Limit = . ;
+    }  > VRAM  AT> ROM
+    Image$$CACHED_DUMMY_END$$Base = 0xf2fc0000;
+    EXTSRAM_DSP_TX 0x2fc0000 (NOLOAD) :  ALIGN(4)
+    {
+        Image$$EXTSRAM_DSP_TX$$Base = . ;
+        Image$$EXTSRAM_DSP_TX$$Limit = . ;
+        Image$$EXTSRAM_DSP_TX$$ZI$$Base = . ;
+         * (EXTRAM_TXDATA)
+        . = ALIGN(4);
+        Image$$EXTSRAM_DSP_TX$$ZI$$Limit = . ;
+    }  > RAM  AT> ROM
+    EXTSRAM_DSP_RX 0x2fe0000 (NOLOAD) :  ALIGN(4)
+    {
+        Image$$EXTSRAM_DSP_RX$$Base = . ;
+        Image$$EXTSRAM_DSP_RX$$Limit = . ;
+        Image$$EXTSRAM_DSP_RX$$ZI$$Base = . ;
+         * (EXTRAM_RXDATA)
+        . = ALIGN(4);
+        Image$$EXTSRAM_DSP_RX$$ZI$$Limit = . ;
+    }  > RAM  AT> ROM
+    Image$$KTEST$$Base = ORIGIN(RAM)+LENGTH(RAM)-12;
+    Load$$ROM$$Base = LOADADDR(ROM);
+    Load$$EMIINIT_CODE$$Base = LOADADDR(EMIINIT_CODE);
+    Load$$INTSRAM_CODE$$Base = LOADADDR(INTSRAM_CODE);
+    Load$$INTSRAM_DATA$$Base = LOADADDR(INTSRAM_DATA);
+    Load$$EXTSRAM$$Base = LOADADDR(EXTSRAM);
+    Load$$EXTSRAM_ZI$$Base = LOADADDR(EXTSRAM_ZI);
+    Load$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_ZI$$Base = LOADADDR(DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_ZI);
+    Load$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_RW$$Base = LOADADDR(DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_RW);
+    Load$$CACHED_EXTSRAM$$Base = LOADADDR(CACHED_EXTSRAM);
+    Load$$CACHED_EXTSRAM_PREINIT_ZI$$Base = LOADADDR(CACHED_EXTSRAM_PREINIT_ZI);
+    Load$$CACHED_EXTSRAM_NVRAM_LTABLE$$Base = LOADADDR(CACHED_EXTSRAM_NVRAM_LTABLE);
+    Load$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_RW$$Base = LOADADDR(DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_RW);
+    Load$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_ZI$$Base = LOADADDR(DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_ZI);
+    Load$$EXTSRAM_DSP_TX$$Base = LOADADDR(EXTSRAM_DSP_TX);
+    Load$$EXTSRAM_DSP_RX$$Base = LOADADDR(EXTSRAM_DSP_RX);
+    Image$$ROM$$Length = Image$$ROM$$Limit - Image$$ROM$$Base;
+    Image$$ROM$$ZI$$Length = Image$$ROM$$ZI$$Limit - Image$$ROM$$ZI$$Base;
+    Image$$EMIINIT_CODE$$Length = Image$$EMIINIT_CODE$$Limit - Image$$EMIINIT_CODE$$Base;
+    Image$$EMIINIT_CODE$$ZI$$Length = Image$$EMIINIT_CODE$$ZI$$Limit - Image$$EMIINIT_CODE$$ZI$$Base;
+    Image$$INTSRAM_CODE$$Length = Image$$INTSRAM_CODE$$Limit - Image$$INTSRAM_CODE$$Base;
+    Image$$INTSRAM_CODE$$ZI$$Length = Image$$INTSRAM_CODE$$ZI$$Limit - Image$$INTSRAM_CODE$$ZI$$Base;
+    Image$$INTSRAM_DATA$$Length = Image$$INTSRAM_DATA$$Limit - Image$$INTSRAM_DATA$$Base;
+    Image$$INTSRAM_DATA$$ZI$$Length = Image$$INTSRAM_DATA$$ZI$$Limit - Image$$INTSRAM_DATA$$ZI$$Base;
+    Image$$EXTSRAM$$Length = Image$$EXTSRAM$$Limit - Image$$EXTSRAM$$Base;
+    Image$$EXTSRAM$$ZI$$Length = Image$$EXTSRAM$$ZI$$Limit - Image$$EXTSRAM$$ZI$$Base;
+    Image$$EXTSRAM_ZI$$Length = Image$$EXTSRAM_ZI$$Limit - Image$$EXTSRAM_ZI$$Base;
+    Image$$EXTSRAM_ZI$$ZI$$Length = Image$$EXTSRAM_ZI$$ZI$$Limit - Image$$EXTSRAM_ZI$$ZI$$Base;
+    Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_ZI$$Length = Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_ZI$$Limit - Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_ZI$$Base;
+    Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_ZI$$ZI$$Length = Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_ZI$$ZI$$Limit - Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_ZI$$ZI$$Base;
+    Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_RW$$Length = Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_RW$$Limit - Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_RW$$Base;
+    Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_RW$$ZI$$Length = Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_RW$$ZI$$Limit - Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_NONCACHEABLE_RW$$ZI$$Base;
+    Image$$CACHED_EXTSRAM$$Length = Image$$CACHED_EXTSRAM$$Limit - Image$$CACHED_EXTSRAM$$Base;
+    Image$$CACHED_EXTSRAM$$ZI$$Length = Image$$CACHED_EXTSRAM$$ZI$$Limit - Image$$CACHED_EXTSRAM$$ZI$$Base;
+    Image$$CACHED_EXTSRAM_PREINIT_ZI$$Length = Image$$CACHED_EXTSRAM_PREINIT_ZI$$Limit - Image$$CACHED_EXTSRAM_PREINIT_ZI$$Base;
+    Image$$CACHED_EXTSRAM_PREINIT_ZI$$ZI$$Length = Image$$CACHED_EXTSRAM_PREINIT_ZI$$ZI$$Limit - Image$$CACHED_EXTSRAM_PREINIT_ZI$$ZI$$Base;
+    Image$$CACHED_EXTSRAM_NVRAM_LTABLE$$Length = Image$$CACHED_EXTSRAM_NVRAM_LTABLE$$Limit - Image$$CACHED_EXTSRAM_NVRAM_LTABLE$$Base;
+    Image$$CACHED_EXTSRAM_NVRAM_LTABLE$$ZI$$Length = Image$$CACHED_EXTSRAM_NVRAM_LTABLE$$ZI$$Limit - Image$$CACHED_EXTSRAM_NVRAM_LTABLE$$ZI$$Base;
+    Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_RW$$Length = Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_RW$$Limit - Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_RW$$Base;
+    Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_RW$$ZI$$Length = Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_RW$$ZI$$Limit - Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_RW$$ZI$$Base;
+    Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_ZI$$Length = Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_ZI$$Limit - Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_ZI$$Base;
+    Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_ZI$$ZI$$Length = Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_ZI$$ZI$$Limit - Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_ZI$$ZI$$Base;
+    Image$$EXTSRAM_DSP_TX$$Length = Image$$EXTSRAM_DSP_TX$$Limit - Image$$EXTSRAM_DSP_TX$$Base;
+    Image$$EXTSRAM_DSP_TX$$ZI$$Length = Image$$EXTSRAM_DSP_TX$$ZI$$Limit - Image$$EXTSRAM_DSP_TX$$ZI$$Base;
+    Image$$EXTSRAM_DSP_RX$$Length = Image$$EXTSRAM_DSP_RX$$Limit - Image$$EXTSRAM_DSP_RX$$Base;
+    Image$$EXTSRAM_DSP_RX$$ZI$$Length = Image$$EXTSRAM_DSP_RX$$ZI$$Limit - Image$$EXTSRAM_DSP_RX$$ZI$$Base;
+    ASSERT( (Image$$EXTSRAM_DSP_TX$$Length + Image$$EXTSRAM_DSP_TX$$ZI$$Length ) <= 0x20000 , "SYSGEN ERROR: [1.2][Memory Expired]Sizes of EXTSRAM_DSP_TX exceed 0x20000")
+    ASSERT( (Image$$EXTSRAM_DSP_RX$$Length + Image$$EXTSRAM_DSP_RX$$ZI$$Length ) <= 0x20000 , "SYSGEN ERROR: [1.2][Memory Expired]Sizes of EXTSRAM_DSP_RX exceed 0x20000")
+    /DISCARD/ : 
+    {
+        * (SHOULD_NOT_USED_RODATA)
+        * (SHOULD_NOT_USED_FUNCTION)
+    }
+    PROVIDE (end = .);
+}

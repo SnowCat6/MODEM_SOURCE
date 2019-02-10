@@ -1,0 +1,14 @@
+service/hif/ccci/src/ccci_apis.c
+service/hif/ccci/src/ccci_ccif.c
+service/hif/ccci/src/ccci_ch_cfg.c
+service/hif/ccci/src/ccci_cldma.c
+service/hif/ccci/src/ccci_debug.c
+service/hif/ccci/src/ccci_except.c
+service/hif/ccci/src/ccci_hif_cfg.c
+service/hif/ccci/src/ccci_hmu.c
+service/hif/ccci/src/ccci_it.c
+service/hif/ccci/src/ccci_lb_it.c
+service/hif/ccci/src/ccci_misc_data.c
+service/hif/ccci/src/ccci_sdio.c
+service/hif/ccci/src/ccci_ut.c
+

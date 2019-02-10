@@ -1,0 +1,556 @@
+make[1]: Entering directory '/media/snowcat/ANDROID/modem'
+Compiling driver/audio/src/v1/DTMF_drv.c ...
+driver/audio/src/v1/DTMF_drv.c:154:0: warning: ignoring #pragma arm section [-Wunknown-pragmas]
+driver/audio/src/v1/DTMF_drv.c: In function 'dtmf_mcu_CheckDuration':
+driver/audio/src/v1/DTMF_drv.c:203:7: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+driver/audio/src/v1/DTMF_drv.c: In function 'dtmf_mcu_Process_Internal':
+driver/audio/src/v1/DTMF_drv.c:473:4: warning: implicit declaration of function 'rbGetWriteBuffer' [-Wimplicit-function-declaration]
+driver/audio/src/v1/DTMF_drv.c:496:7: warning: implicit declaration of function 'rbGetDataCount' [-Wimplicit-function-declaration]
+driver/audio/src/v1/DTMF_drv.c:501:10: warning: implicit declaration of function 'rbWriteDataDone' [-Wimplicit-function-declaration]
+driver/audio/src/v1/DTMF_drv.c:508:10: warning: implicit declaration of function 'L1Audio_InProcCall' [-Wimplicit-function-declaration]
+driver/audio/src/v1/DTMF_drv.c: In function 'DTMF_MCU_ReadDataDone':
+driver/audio/src/v1/DTMF_drv.c:625:7: warning: implicit declaration of function 'rbReadDataDone' [-Wimplicit-function-declaration]
+driver/audio/src/v1/DTMF_drv.c: In function 'DTMF_MCU_GetReadBuffer':
+driver/audio/src/v1/DTMF_drv.c:637:7: warning: implicit declaration of function 'rbGetReadBuffer' [-Wimplicit-function-declaration]
+driver/audio/src/v1/DTMF_drv.c: In function 'DTMF_MCU_StopAndWait':
+driver/audio/src/v1/DTMF_drv.c:681:13: warning: passing argument 1 of 'dtmf_mcu_Destroy' makes integer from pointer without a cast [enabled by default]
+driver/audio/src/v1/DTMF_drv.c:414:13: note: expected 'kal_uint32' but argument is of type 'void *'
+driver/audio/src/v1/DTMF_drv.c: In function 'DTMF_MCU_Play':
+driver/audio/src/v1/DTMF_drv.c:718:18: warning: variable 'uChannelNumber' set but not used [-Wunused-but-set-variable]
+driver/audio/src/v1/DTMF_drv.c: At top level:
+driver/audio/src/v1/DTMF_drv.c:771:0: warning: ignoring #pragma arm section [-Wunknown-pragmas]
+driver/audio/src/v1/DTMF_drv.c:161:19: warning: 'uMuteLength' defined but not used [-Wunused-variable]
+Compiling driver/audio/src/v1/ExtBgSnd.c ...
+driver/audio/src/v1/ExtBgSnd.c: In function 'DSP_BGSND_Start':
+driver/audio/src/v1/ExtBgSnd.c:322:2: warning: passing argument 3 of 'L1Audio_HookHisrHandler' makes pointer from integer without a cast [enabled by default]
+interface/driver/audio/l1audio.h:364:13: note: expected 'void *' but argument is of type 'int'
+driver/audio/src/v1/ExtBgSnd.c: In function 'EXT_BGSND_DLHisr':
+driver/audio/src/v1/ExtBgSnd.c:479:4: warning: implicit declaration of function 'EXT_BGSND_Hisr' [-Wimplicit-function-declaration]
+driver/audio/src/v1/ExtBgSnd.c: At top level:
+driver/audio/src/v1/ExtBgSnd.c:524:6: warning: conflicting types for 'EXT_BGSND_Hisr' [enabled by default]
+driver/audio/src/v1/ExtBgSnd.c:479:4: note: previous implicit declaration of 'EXT_BGSND_Hisr' was here
+driver/audio/src/v1/ExtBgSnd.c: In function 'EXT_BGSND_Hisr':
+driver/audio/src/v1/ExtBgSnd.c:526:35: warning: unused variable 'src_buf' [-Wunused-variable]
+driver/audio/src/v1/ExtBgSnd.c:526:25: warning: unused variable 'dst_buf' [-Wunused-variable]
+driver/audio/src/v1/ExtBgSnd.c:526:11: warning: unused variable 'dst_buf_len' [-Wunused-variable]
+driver/audio/src/v1/ExtBgSnd.c: In function 'EXT_BGSND_WriteExtBuffer':
+driver/audio/src/v1/ExtBgSnd.c:742:16: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/ExtBgSnd.c:782:16: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/ExtBgSnd.c: In function 'EXT_BGSND_GetFreeSpace':
+driver/audio/src/v1/ExtBgSnd.c:872:8: warning: unused variable 'count' [-Wunused-variable]
+driver/audio/src/v1/ExtBgSnd.c: In function 'EXT_BGSND_init':
+driver/audio/src/v1/ExtBgSnd.c:361:1: warning: control reaches end of non-void function [-Wreturn-type]
+driver/audio/src/v1/ExtBgSnd.c: In function 'DSP_BGSND_Hisr':
+driver/audio/src/v1/ExtBgSnd.c:278:9: warning: 'isWb' may be used uninitialized in this function [-Wuninitialized]
+driver/audio/src/v1/ExtBgSnd.c:277:15: warning: 'dst_buf' may be used uninitialized in this function [-Wuninitialized]
+driver/audio/src/v1/ExtBgSnd.c:276:14: warning: 'dst_buf_len' may be used uninitialized in this function [-Wuninitialized]
+Compiling driver/audio/src/v1/VoLTETone.c ...
+driver/audio/src/v1/VoLTETone.c: In function 'SP4G_PSR_DL_Tone_Play':
+driver/audio/src/v1/VoLTETone.c:61:26: warning: assignment discards 'const' qualifier from pointer target type [enabled by default]
+driver/audio/src/v1/VoLTETone.c: In function 'SP4G_PSR_UL_Tone_Play':
+driver/audio/src/v1/VoLTETone.c:115:26: warning: assignment discards 'const' qualifier from pointer target type [enabled by default]
+driver/audio/src/v1/VoLTETone.c: In function 'volte_BGSND_ULHdr':
+driver/audio/src/v1/VoLTETone.c:221:4: warning: implicit declaration of function 'DTMF_MCU_IsPlaying' [-Wimplicit-function-declaration]
+driver/audio/src/v1/VoLTETone.c:226:10: warning: implicit declaration of function 'DTMF_MCU_GetReadBuffer' [-Wimplicit-function-declaration]
+driver/audio/src/v1/VoLTETone.c:237:13: warning: passing argument 2 of 'EXT_BGSND_WriteSrcBuffer' from incompatible pointer type [enabled by default]
+driver/audio/src/v1/inc/bgSnd.h:36:6: note: expected 'kal_uint8 *' but argument is of type 'kal_int16 *'
+driver/audio/src/v1/VoLTETone.c:241:10: warning: implicit declaration of function 'DTMF_MCU_ReadDataDone' [-Wimplicit-function-declaration]
+driver/audio/src/v1/VoLTETone.c:270:4: warning: implicit declaration of function 'DTMF_MCU_DataRequestCallback' [-Wimplicit-function-declaration]
+driver/audio/src/v1/VoLTETone.c:209:23: warning: unused variable 'I' [-Wunused-variable]
+Compiling driver/audio/src/v1/afes/afe_6735.c ...
+Compiling driver/audio/src/v1/afe_common.c ...
+Compiling driver/audio/src/v1/am.c ...
+driver/audio/src/v1/am.c: In function 'AM_AudioManager':
+driver/audio/src/v1/am.c:1201:13: warning: implicit declaration of function 'l1sp_NetworkStatusNotification' [-Wimplicit-function-declaration]
+driver/audio/src/v1/am.c:1202:13: warning: implicit declaration of function 'l1sp_CodecStatusNotification' [-Wimplicit-function-declaration]
+driver/audio/src/v1/am.c:1142:11: warning: unused variable 'orgCodec' [-Wunused-variable]
+driver/audio/src/v1/am.c: In function 'AM_DSP_SpeechOn':
+driver/audio/src/v1/am.c:1620:5: warning: implicit declaration of function 'spc_isAcLoopback' [-Wimplicit-function-declaration]
+driver/audio/src/v1/am.c:1670:13: warning: implicit declaration of function 'SAL_4G_Call_Open' [-Wimplicit-function-declaration]
+driver/audio/src/v1/am.c:1670:13: warning: implicit declaration of function 'SP4G_GetCodecMode' [-Wimplicit-function-declaration]
+driver/audio/src/v1/am.c: In function 'AM_DSP_SpeechOff':
+driver/audio/src/v1/am.c:1736:7: warning: implicit declaration of function 'SAL_4G_Call_Close' [-Wimplicit-function-declaration]
+driver/audio/src/v1/am.c: In function 'AM_DSP_RAT_sub_4G':
+driver/audio/src/v1/am.c:1945:26: warning: unused variable 'u16DelayW' [-Wunused-variable]
+driver/audio/src/v1/am.c:1945:15: warning: unused variable 'u16DelayR' [-Wunused-variable]
+driver/audio/src/v1/am.c: At top level:
+driver/audio/src/v1/am.c:2015:6: warning: conflicting types for 'SAL_4G_Call_Open' [enabled by default]
+driver/audio/src/v1/am.c:1670:13: note: previous implicit declaration of 'SAL_4G_Call_Open' was here
+driver/audio/src/v1/am.c:2032:6: warning: conflicting types for 'SAL_4G_Call_Close' [enabled by default]
+driver/audio/src/v1/am.c:1736:7: note: previous implicit declaration of 'SAL_4G_Call_Close' was here
+driver/audio/src/v1/am.c: In function 'SAL_4G_GSeriesCall_Open':
+driver/audio/src/v1/am.c:2083:7: warning: implicit declaration of function 'SAL_4G_G_Codec_Call_Open' [-Wimplicit-function-declaration]
+driver/audio/src/v1/am.c: In function 'AM_GetNetworkRate':
+driver/audio/src/v1/am.c:1690:1: warning: control reaches end of non-void function [-Wreturn-type]
+Compiling driver/audio/src/v1/amr_table.c ...
+Compiling driver/audio/src/audio_create.c ...
+Compiling driver/audio/src/v1/audio_idma.c ...
+Compiling driver/audio/src/v1/audio_service.c ...
+driver/audio/src/v1/audio_service.c: In function 'L1Audio_SetFlag':
+driver/audio/src/v1/audio_service.c:673:8: warning: implicit declaration of function 'SleepDrv_SleepDisable' [-Wimplicit-function-declaration]
+driver/audio/src/v1/audio_service.c: In function 'L1Audio_ClearFlag':
+driver/audio/src/v1/audio_service.c:708:7: warning: implicit declaration of function 'SleepDrv_SleepEnable' [-Wimplicit-function-declaration]
+driver/audio/src/v1/audio_service.c: In function 'L1Audio_Task':
+driver/audio/src/v1/audio_service.c:1171:4: warning: implicit declaration of function 'SleepDrv_GetHandle' [-Wimplicit-function-declaration]
+driver/audio/src/v1/audio_service.c: In function 'l1audio_console_handler':
+driver/audio/src/v1/audio_service.c:1410:4: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+Compiling driver/audio/src/v1/bt_sco_drv.c ...
+driver/audio/src/v1/bt_sco_drv.c: In function 'btsco_GetMemorySize_4ByteAlign':
+driver/audio/src/v1/bt_sco_drv.c:538:4: warning: implicit declaration of function 'MSBC_ENC_GetBufferSize' [-Wimplicit-function-declaration]
+driver/audio/src/v1/bt_sco_drv.c:541:4: warning: implicit declaration of function 'MSBC_DEC_GetBufferSize' [-Wimplicit-function-declaration]
+driver/audio/src/v1/bt_sco_drv.c: In function 'btsco_InitialModule':
+driver/audio/src/v1/bt_sco_drv.c:558:10: warning: pointer targets in passing argument 1 of 'CVSD_ENC_Init' differ in signedness [-Wpointer-sign]
+driver/audio/lib/MTKINC/cvsd_codec_exp.h:54:7: note: expected 'char *' but argument is of type 'kal_int8 *'
+driver/audio/src/v1/bt_sco_drv.c:561:10: warning: pointer targets in passing argument 1 of 'CVSD_DEC_Init' differ in signedness [-Wpointer-sign]
+driver/audio/lib/MTKINC/cvsd_codec_exp.h:53:7: note: expected 'char *' but argument is of type 'kal_int8 *'
+driver/audio/src/v1/bt_sco_drv.c:568:10: warning: pointer targets in passing argument 1 of 'CVSD_UpSample_Init' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/inc/bt_sco_drv.h:134:14: note: expected 'char *' but argument is of type 'kal_int8 *'
+driver/audio/src/v1/bt_sco_drv.c:571:10: warning: pointer targets in passing argument 1 of 'CVSD_DownSample_Init' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/inc/bt_sco_drv.h:131:14: note: expected 'char *' but argument is of type 'kal_int8 *'
+driver/audio/src/v1/bt_sco_drv.c:583:10: warning: implicit declaration of function 'MSBC_ENC_Init' [-Wimplicit-function-declaration]
+driver/audio/src/v1/bt_sco_drv.c:583:32: warning: assignment makes pointer from integer without a cast [enabled by default]
+driver/audio/src/v1/bt_sco_drv.c:586:10: warning: implicit declaration of function 'MSBC_DEC_Init' [-Wimplicit-function-declaration]
+driver/audio/src/v1/bt_sco_drv.c:586:32: warning: assignment makes pointer from integer without a cast [enabled by default]
+driver/audio/src/v1/bt_sco_drv.c: In function 'btsco_process_TX_MSBC':
+driver/audio/src/v1/bt_sco_drv.c:832:7: warning: pointer targets in passing argument 2 of 'btsco_GetReadBuffer_TX' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/bt_sco_drv.c:240:13: note: expected 'kal_uint32 *' but argument is of type 'kal_int32 *'
+driver/audio/src/v1/bt_sco_drv.c:842:10: warning: pointer targets in passing argument 2 of 'btsco_GetReadBuffer_TX' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/bt_sco_drv.c:240:13: note: expected 'kal_uint32 *' but argument is of type 'kal_int32 *'
+driver/audio/src/v1/bt_sco_drv.c:849:7: warning: implicit declaration of function 'MSBC_ENC_Process' [-Wimplicit-function-declaration]
+driver/audio/src/v1/bt_sco_drv.c:820:48: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+driver/audio/src/v1/bt_sco_drv.c: In function 'btsco_process_RX_MSBC':
+driver/audio/src/v1/bt_sco_drv.c:881:10: warning: implicit declaration of function 'MSBC_DEC_Process' [-Wimplicit-function-declaration]
+driver/audio/src/v1/bt_sco_drv.c:913:7: warning: pointer targets in passing argument 2 of 'btsco_GetWriteBuffer_RX' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/bt_sco_drv.c:264:13: note: expected 'kal_uint32 *' but argument is of type 'kal_int32 *'
+driver/audio/src/v1/bt_sco_drv.c:923:10: warning: pointer targets in passing argument 2 of 'btsco_GetWriteBuffer_RX' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/bt_sco_drv.c:264:13: note: expected 'kal_uint32 *' but argument is of type 'kal_int32 *'
+driver/audio/src/v1/bt_sco_drv.c:859:44: warning: unused variable 'match' [-Wunused-variable]
+driver/audio/src/v1/bt_sco_drv.c:859:14: warning: unused variable 'iCount' [-Wunused-variable]
+Compiling driver/audio/src/v1/ctm_drv.c ...
+driver/audio/src/v1/ctm_drv.c: In function 'L1Ctm_Open':
+driver/audio/src/v1/ctm_drv.c:1924:4: warning: implicit declaration of function 'L1SP_EnableSpeechEnhancement' [-Wimplicit-function-declaration]
+Compiling driver/audio/src/v1/l1audio_sph_srv.c ...
+Compiling mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/l1trace/l1audio_trace.c ...
+Compiling driver/audio/src/v1/media.c ...
+Compiling driver/audio/src/v1/pcm4way.c ...
+driver/audio/src/v1/pcm4way.c: In function 'pcmEx_getDataFromDsp':
+driver/audio/src/v1/pcm4way.c:209:2: warning: implicit declaration of function 'kal_prompt_trace' [-Wimplicit-function-declaration]
+driver/audio/src/v1/pcm4way.c:210:4: warning: implicit declaration of function 'SP_IsMicMute' [-Wimplicit-function-declaration]
+driver/audio/src/v1/pcm4way.c: In function 'Idle_PcmEx_Start':
+driver/audio/src/v1/pcm4way.c:397:3: warning: implicit declaration of function 'SetSpeechEnhancement' [-Wimplicit-function-declaration]
+driver/audio/src/v1/pcm4way.c:301:13: warning: unused variable 'flag' [-Wunused-variable]
+driver/audio/src/v1/pcm4way.c: In function 'Del_PcmEx_Start':
+driver/audio/src/v1/pcm4way.c:409:13: warning: unused variable 'flag' [-Wunused-variable]
+Compiling driver/audio/src/v1/pcmRouter.c ...
+driver/audio/src/v1/pcmRouter.c: In function 'PcmRouterStart':
+driver/audio/src/v1/pcmRouter.c:77:7: warning: implicit declaration of function 'AFE_GetVoice8KMode' [-Wimplicit-function-declaration]
+Compiling driver/audio/src/v1/pcmrb.c ...
+Compiling driver/audio/src/v1/pcmrec_drv.c ...
+Compiling driver/audio/src/v1/rawpcmrec_drv.c ...
+driver/audio/src/v1/rawpcmrec_drv.c: In function 'RAWPCMREC_Start':
+driver/audio/src/v1/rawpcmrec_drv.c:315:26: warning: unused variable 'samplingRateIdx' [-Wunused-variable]
+driver/audio/src/v1/rawpcmrec_drv.c:314:8: warning: unused variable 'channelNum' [-Wunused-variable]
+Compiling driver/audio/src/v1/sal_dsp.c ...
+Compiling driver/audio/src/v1/sal_exp.c ...
+driver/audio/src/v1/sal_exp.c:303:5: warning: "/*" within comment [-Wcomment]
+driver/audio/src/v1/sal_exp.c: In function 'SAL_ENH_Dynamic_State_Check':
+driver/audio/src/v1/sal_exp.c:537:1: warning: control reaches end of non-void function [-Wreturn-type]
+Compiling driver/audio/src/v1/sal_impl.c ...
+driver/audio/src/v1/sal_impl.c: In function 'SALI_ENH_Dynamic_State_Check':
+driver/audio/src/v1/sal_impl.c:988:1: warning: control reaches end of non-void function [-Wreturn-type]
+Compiling driver/audio/src/v1/sidetone.c ...
+Compiling driver/audio/src/v1/sp_3g.c ...
+driver/audio/src/v1/sp_3g.c: In function 'SP3G_Rab_Deest':
+driver/audio/src/v1/sp_3g.c:718:7: warning: implicit declaration of function 'SP4G_GetCodecMode' [-Wimplicit-function-declaration]
+driver/audio/src/v1/sp_3g.c: In function 'SP3G_DL_PutSpeechFrame':
+driver/audio/src/v1/sp_3g.c:2319:10: warning: passing argument 1 of 'sp3g_hisr_dl' makes pointer from integer without a cast [enabled by default]
+driver/audio/src/v1/sp_3g.c:1403:6: note: expected 'void *' but argument is of type 'int'
+Compiling driver/audio/src/v1/sp_4g.c ...
+driver/audio/src/v1/sp_4g.c: In function 'PSR_SP4G_Callback':
+driver/audio/src/v1/sp_4g.c:390:4: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+driver/audio/src/v1/sp_4g.c: At top level:
+driver/audio/src/v1/sp_4g.c:543:0: warning: "DL_MAX_DATA_SIZE" redefined [enabled by default]
+driver/audio/src/v1/sp_4g.c:438:0: note: this is the location of the previous definition
+driver/audio/src/v1/sp_4g.c:544:0: warning: "MAX_DSP_FRAME_LEN" redefined [enabled by default]
+driver/audio/src/v1/sp_4g.c:439:0: note: this is the location of the previous definition
+driver/audio/src/v1/sp_4g.c: In function 'sub_SP4G_emac_timing_update':
+driver/audio/src/v1/sp_4g.c:653:10: warning: implicit declaration of function 'el1_phs_volte_on' [-Wimplicit-function-declaration]
+driver/audio/src/v1/sp_4g.c: In function 'SP4G_PSR_Link_Est':
+driver/audio/src/v1/sp_4g.c:992:4: warning: implicit declaration of function 'SP4G_Rab_Est' [-Wimplicit-function-declaration]
+driver/audio/src/v1/sp_4g.c: At top level:
+driver/audio/src/v1/sp_4g.c:998:6: warning: conflicting types for 'SP4G_Rab_Est' [enabled by default]
+driver/audio/src/v1/sp_4g.c:992:4: note: previous implicit declaration of 'SP4G_Rab_Est' was here
+driver/audio/src/v1/sp_4g.c: In function 'SP4GHSPA_UL_GetSpeechFrame_Loop':
+driver/audio/src/v1/sp_4g.c:1120:4: warning: implicit declaration of function 'SP4G_UL_GetSpeechFrame' [-Wimplicit-function-declaration]
+driver/audio/src/v1/sp_4g.c: In function 'SP4GHSPA_DL_PutSpeechFrame_Loop':
+driver/audio/src/v1/sp_4g.c:1186:10: warning: implicit declaration of function 'SP4G_DL_PutSpeechFrame' [-Wimplicit-function-declaration]
+driver/audio/src/v1/sp_4g.c: In function 'PSR_GetFrame':
+driver/audio/src/v1/sp_4g.c:1917:10: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+driver/audio/src/v1/sp_4g.c:1920:7: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+driver/audio/src/v1/sp_4g.c:1947:10: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+driver/audio/src/v1/sp_4g.c: In function 'UL_Event':
+driver/audio/src/v1/sp_4g.c:2039:13: warning: pointer targets in passing argument 2 of 'PCMRB_Read' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/inc/pcmrb.h:146:6: note: expected 'int16 *' but argument is of type 'uint16 *'
+driver/audio/src/v1/sp_4g.c: In function 'sp4g_hisr_ul_g':
+driver/audio/src/v1/sp_4g.c:2193:8: warning: unused variable 'len' [-Wunused-variable]
+driver/audio/src/v1/sp_4g.c: In function 'DL_Event':
+driver/audio/src/v1/sp_4g.c:2769:10: warning: implicit declaration of function 'sp4g_reset_internal' [-Wimplicit-function-declaration]
+driver/audio/src/v1/sp_4g.c:2830:10: warning: pointer targets in passing argument 2 of 'PCMRB_Write' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/inc/pcmrb.h:143:6: note: expected 'int16 *' but argument is of type 'uint16 *'
+driver/audio/src/v1/sp_4g.c: In function 'sp4g_hisr_dl_g':
+driver/audio/src/v1/sp_4g.c:2843:8: warning: unused variable 'len' [-Wunused-variable]
+driver/audio/src/v1/sp_4g.c: In function 'SP4G_PSR_SetDTX':
+driver/audio/src/v1/sp_4g.c:2961:4: warning: implicit declaration of function 'SP4G_SetDTX' [-Wimplicit-function-declaration]
+driver/audio/src/v1/sp_4g.c: At top level:
+driver/audio/src/v1/sp_4g.c:2964:6: warning: conflicting types for 'SP4G_SetDTX' [enabled by default]
+driver/audio/src/v1/sp_4g.c:2961:4: note: previous implicit declaration of 'SP4G_SetDTX' was here
+driver/audio/src/v1/sp_4g.c:2983:6: warning: conflicting types for 'sp4g_reset_internal' [enabled by default]
+driver/audio/src/v1/sp_4g.c:2769:10: note: previous implicit declaration of 'sp4g_reset_internal' was here
+driver/audio/src/v1/sp_4g.c: In function 'sp4g_reset_internal':
+driver/audio/src/v1/sp_4g.c:2989:13: warning: unused variable 'len' [-Wunused-variable]
+driver/audio/src/v1/sp_4g.c: In function 'sp4g_speech_init':
+driver/audio/src/v1/sp_4g.c:3146:19: warning: unused variable 'buffer' [-Wunused-variable]
+driver/audio/src/v1/sp_4g.c: In function 'GSeries_Encode_Init':
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_AMR_4_75' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_AMR_5_15' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_AMR_5_9' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_AMR_6_7' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_AMR_7_4' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_AMR_7_95' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_AMR_10_2' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_AMR_12_2' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_AMR_SID' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_AMR_NO_DATA' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_WBAMR_6_6' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_WBAMR_8_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_WBAMR_12_65' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_WBAMR_14_25' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_WBAMR_15_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_WBAMR_18_25' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_WBAMR_19_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_WBAMR_23_05' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_WBAMR_23_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_WBAMR_SID' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3189:4: warning: enumeration value 'SP4G_CODEC_LOST_FRAME' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_AMR_4_75' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_AMR_5_15' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_AMR_5_9' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_AMR_6_7' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_AMR_7_4' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_AMR_7_95' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_AMR_10_2' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_AMR_12_2' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_AMR_SID' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_AMR_NO_DATA' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_WBAMR_6_6' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_WBAMR_8_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_WBAMR_12_65' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_WBAMR_14_25' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_WBAMR_15_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_WBAMR_18_25' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_WBAMR_19_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_WBAMR_23_05' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_WBAMR_23_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_WBAMR_SID' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3215:9: warning: enumeration value 'SP4G_CODEC_LOST_FRAME' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3235:12: warning: pointer targets in passing argument 1 of 'p_handle->GetBufferSize' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/sp_4g.c:3235:12: note: expected 'unsigned int *' but argument is of type 'int *'
+driver/audio/src/v1/sp_4g.c:3235:12: warning: pointer targets in passing argument 2 of 'p_handle->GetBufferSize' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/sp_4g.c:3235:12: note: expected 'unsigned int *' but argument is of type 'int *'
+driver/audio/src/v1/sp_4g.c:3235:12: warning: pointer targets in passing argument 3 of 'p_handle->GetBufferSize' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/sp_4g.c:3235:12: note: expected 'unsigned int *' but argument is of type 'int *'
+driver/audio/src/v1/sp_4g.c:3235:12: warning: pointer targets in passing argument 4 of 'p_handle->GetBufferSize' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/sp_4g.c:3235:12: note: expected 'unsigned int *' but argument is of type 'int *'
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_AMR_4_75' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_AMR_5_15' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_AMR_5_9' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_AMR_6_7' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_AMR_7_4' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_AMR_7_95' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_AMR_10_2' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_AMR_12_2' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_AMR_SID' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_AMR_NO_DATA' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_WBAMR_6_6' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_WBAMR_8_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_WBAMR_12_65' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_WBAMR_14_25' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_WBAMR_15_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_WBAMR_18_25' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_WBAMR_19_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_WBAMR_23_05' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_WBAMR_23_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_WBAMR_SID' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_LOST_FRAME' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3245:13: warning: enumeration value 'SP4G_CODEC_G722' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c: In function 'GSeries_Encode_Process':
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_AMR_4_75' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_AMR_5_15' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_AMR_5_9' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_AMR_6_7' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_AMR_7_4' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_AMR_7_95' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_AMR_10_2' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_AMR_12_2' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_AMR_SID' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_AMR_NO_DATA' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_WBAMR_6_6' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_WBAMR_8_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_WBAMR_12_65' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_WBAMR_14_25' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_WBAMR_15_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_WBAMR_18_25' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_WBAMR_19_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_WBAMR_23_05' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_WBAMR_23_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_WBAMR_SID' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_LOST_FRAME' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_G711' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_G722' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3280:4: warning: enumeration value 'SP4G_CODEC_G729' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3289:4: warning: pointer targets in passing argument 3 of 'p_handle->Process' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/sp_4g.c:3289:4: note: expected 'short int *' but argument is of type 'uint16 *'
+driver/audio/src/v1/sp_4g.c: In function 'GSeries_Decode_Init':
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_AMR_4_75' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_AMR_5_15' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_AMR_5_9' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_AMR_6_7' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_AMR_7_4' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_AMR_7_95' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_AMR_10_2' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_AMR_12_2' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_AMR_SID' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_AMR_NO_DATA' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_WBAMR_6_6' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_WBAMR_8_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_WBAMR_12_65' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_WBAMR_14_25' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_WBAMR_15_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_WBAMR_18_25' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_WBAMR_19_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_WBAMR_23_05' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_WBAMR_23_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_WBAMR_SID' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3303:4: warning: enumeration value 'SP4G_CODEC_LOST_FRAME' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_AMR_4_75' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_AMR_5_15' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_AMR_5_9' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_AMR_6_7' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_AMR_7_4' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_AMR_7_95' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_AMR_10_2' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_AMR_12_2' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_AMR_SID' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_AMR_NO_DATA' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_WBAMR_6_6' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_WBAMR_8_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_WBAMR_12_65' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_WBAMR_14_25' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_WBAMR_15_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_WBAMR_18_25' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_WBAMR_19_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_WBAMR_23_05' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_WBAMR_23_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_WBAMR_SID' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3329:9: warning: enumeration value 'SP4G_CODEC_LOST_FRAME' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3349:12: warning: pointer targets in passing argument 1 of 'p_handle->GetBufferSize' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/sp_4g.c:3349:12: note: expected 'unsigned int *' but argument is of type 'int *'
+driver/audio/src/v1/sp_4g.c:3349:12: warning: pointer targets in passing argument 2 of 'p_handle->GetBufferSize' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/sp_4g.c:3349:12: note: expected 'unsigned int *' but argument is of type 'int *'
+driver/audio/src/v1/sp_4g.c:3349:12: warning: pointer targets in passing argument 3 of 'p_handle->GetBufferSize' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/sp_4g.c:3349:12: note: expected 'unsigned int *' but argument is of type 'int *'
+driver/audio/src/v1/sp_4g.c:3349:12: warning: pointer targets in passing argument 4 of 'p_handle->GetBufferSize' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/sp_4g.c:3349:12: note: expected 'unsigned int *' but argument is of type 'int *'
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_AMR_4_75' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_AMR_5_15' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_AMR_5_9' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_AMR_6_7' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_AMR_7_4' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_AMR_7_95' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_AMR_10_2' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_AMR_12_2' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_AMR_SID' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_AMR_NO_DATA' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_WBAMR_6_6' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_WBAMR_8_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_WBAMR_12_65' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_WBAMR_14_25' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_WBAMR_15_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_WBAMR_18_25' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_WBAMR_19_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_WBAMR_23_05' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_WBAMR_23_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_WBAMR_SID' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_LOST_FRAME' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_G723_1' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3359:12: warning: enumeration value 'SP4G_CODEC_G729' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c: In function 'GSeries_Decode_Process':
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_AMR_4_75' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_AMR_5_15' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_AMR_5_9' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_AMR_6_7' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_AMR_7_4' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_AMR_7_95' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_AMR_10_2' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_AMR_12_2' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_AMR_SID' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_AMR_NO_DATA' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_WBAMR_6_6' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_WBAMR_8_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_WBAMR_12_65' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_WBAMR_14_25' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_WBAMR_15_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_WBAMR_18_25' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_WBAMR_19_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_WBAMR_23_05' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_WBAMR_23_85' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_WBAMR_SID' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_LOST_FRAME' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_G723_1' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_G726' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3388:4: warning: enumeration value 'SP4G_CODEC_G729' not handled in switch [-Wswitch]
+driver/audio/src/v1/sp_4g.c:3400:4: warning: pointer targets in passing argument 3 of 'p_handle->Process' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/sp_4g.c:3400:4: note: expected 'short int *' but argument is of type 'uint16 *'
+driver/audio/src/v1/sp_4g.c: In function 'SP4G_PSR_UL_SetFrameType':
+driver/audio/src/v1/sp_4g.c:3503:7: warning: implicit declaration of function 'SP4G_UL_SetFrameType' [-Wimplicit-function-declaration]
+driver/audio/src/v1/sp_4g.c: At top level:
+driver/audio/src/v1/sp_4g.c:3507:6: warning: conflicting types for 'SP4G_UL_SetFrameType' [enabled by default]
+driver/audio/src/v1/sp_4g.c:3503:7: note: previous implicit declaration of 'SP4G_UL_SetFrameType' was here
+driver/audio/src/v1/sp_4g.c:3543:6: warning: conflicting types for 'SP4G_UL_GetSpeechFrame' [enabled by default]
+driver/audio/src/v1/sp_4g.c:1120:4: note: previous implicit declaration of 'SP4G_UL_GetSpeechFrame' was here
+driver/audio/src/v1/sp_4g.c: In function 'SP4G_UL_GetSpeechFrame':
+driver/audio/src/v1/sp_4g.c:3548:11: warning: variable 'sc_mode' set but not used [-Wunused-but-set-variable]
+driver/audio/src/v1/sp_4g.c: At top level:
+driver/audio/src/v1/sp_4g.c:3656:6: warning: conflicting types for 'SP4G_DL_PutSpeechFrame' [enabled by default]
+driver/audio/src/v1/sp_4g.c:1186:10: note: previous implicit declaration of 'SP4G_DL_PutSpeechFrame' was here
+driver/audio/src/v1/sp_4g.c: In function 'SP4G_PSR_UL_AMR_GetSpeechFrame':
+driver/audio/src/v1/sp_4g.c:3915:6: warning: implicit declaration of function 'SP4GHSPA_UL_GetSpeechFrame' [-Wimplicit-function-declaration]
+driver/audio/src/v1/sp_4g.c: At top level:
+driver/audio/src/v1/sp_4g.c:3921:6: warning: conflicting types for 'SP4GHSPA_UL_GetSpeechFrame' [enabled by default]
+driver/audio/src/v1/sp_4g.c:3915:6: note: previous implicit declaration of 'SP4GHSPA_UL_GetSpeechFrame' was here
+driver/audio/src/v1/sp_4g.c: In function 'SP4G_PSR_DL_AMR_PutSpeechFrame':
+driver/audio/src/v1/sp_4g.c:4007:8: warning: implicit declaration of function 'SP4GHSPA_DL_PutSpeechFrame' [-Wimplicit-function-declaration]
+driver/audio/src/v1/sp_4g.c: At top level:
+driver/audio/src/v1/sp_4g.c:4015:6: warning: conflicting types for 'SP4GHSPA_DL_PutSpeechFrame' [enabled by default]
+driver/audio/src/v1/sp_4g.c:4007:8: note: previous implicit declaration of 'SP4GHSPA_DL_PutSpeechFrame' was here
+driver/audio/src/v1/sp_4g.c: In function 'SP4GHSPA_DL_SetMaxCsDelay':
+driver/audio/src/v1/sp_4g.c:4052:11: warning: unused variable 'savedMask' [-Wunused-variable]
+driver/audio/src/v1/sp_4g.c: In function 'SP4G_PSR_GetCodecBitLength':
+driver/audio/src/v1/sp_4g.c:3474:4: warning: 'len' may be used uninitialized in this function [-Wuninitialized]
+driver/audio/src/v1/sp_4g.c: In function 'SP4G_PSR_UL_GetSpeechFrameType':
+driver/audio/src/v1/sp_4g.c:3910:4: warning: 'codec' may be used uninitialized in this function [-Wuninitialized]
+Compiling driver/audio/src/v1/sp_daca.c ...
+driver/audio/src/v1/sp_daca.c: In function 'DACA_GetFromSD':
+driver/audio/src/v1/sp_daca.c:142:29: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/sp_daca.c:143:24: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+Compiling driver/audio/src/v1/sp_drv.c ...
+driver/audio/src/v1/sp_drv.c: In function 'L1SP_Speech_On':
+driver/audio/src/v1/sp_drv.c:1276:10: warning: implicit declaration of function 'PSR_SP4G_Callback' [-Wimplicit-function-declaration]
+driver/audio/src/v1/sp_drv.c: In function 'l1sp_CodecStatusNotification':
+driver/audio/src/v1/sp_drv.c:1581:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+driver/audio/src/v1/sp_drv.c:1583:48: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+driver/audio/src/v1/sp_drv.c: In function 'l1sp_send_codec_status_notify':
+driver/audio/src/v1/sp_drv.c:1601:18: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+driver/audio/src/v1/sp_drv.c: In function 'SpeechDVT':
+driver/audio/src/v1/sp_drv.c:2035:7: warning: overflow in implicit constant conversion [-Woverflow]
+driver/audio/src/v1/sp_drv.c: In function 'SP_M2M_Handler':
+driver/audio/src/v1/sp_drv.c:2087:10: warning: passing argument 1 of 'sub_SP4G_emac_timing_update' from incompatible pointer type [enabled by default]
+driver/audio/src/v1/inc/sp_drv.h:389:6: note: expected 'struct ilm_resync_info_t *' but argument is of type 'struct local_para_struct *'
+driver/audio/src/v1/sp_drv.c:2124:13: warning: implicit declaration of function 'EXT_BGSND_Start' [-Wimplicit-function-declaration]
+driver/audio/src/v1/sp_drv.c:2135:13: warning: implicit declaration of function 'EXT_BGSND_Flush' [-Wimplicit-function-declaration]
+Compiling driver/audio/src/v1/sp_enhance.c ...
+Compiling driver/audio/src/v1/spc_drv.c ...
+driver/audio/src/v1/spc_drv.c: In function 'spc_notify_rf_info':
+driver/audio/src/v1/spc_drv.c:1088:4: warning: implicit declaration of function 'L1D_GetRF' [-Wimplicit-function-declaration]
+driver/audio/src/v1/spc_drv.c: In function 'Spc_AcousticLoopback':
+driver/audio/src/v1/spc_drv.c:1450:3: warning: implicit declaration of function 'Del_PcmEx_Start' [-Wimplicit-function-declaration]
+driver/audio/src/v1/spc_drv.c:1485:3: warning: implicit declaration of function 'PcmEx_Stop' [-Wimplicit-function-declaration]
+driver/audio/src/v1/spc_drv.c: In function 'spc_PcmNWayStart':
+driver/audio/src/v1/spc_drv.c:2937:4: warning: implicit declaration of function 'Idle_PcmEx_Start' [-Wimplicit-function-declaration]
+Compiling driver/audio/src/v1/spc_io.c ...
+driver/audio/src/v1/spc_io.c: In function 'SpcIO_Msg_Handler_inAudL':
+driver/audio/src/v1/spc_io.c:1312:6: warning: implicit declaration of function 'spc_notify_network_status' [-Wimplicit-function-declaration]
+driver/audio/src/v1/spc_io.c:1316:6: warning: implicit declaration of function 'spc_record_sendRawPcmData' [-Wimplicit-function-declaration]
+Compiling driver/audio/src/v1/streamrb.c ...
+Compiling driver/audio/src/v1/tone_drv.c ...
+driver/audio/src/v1/tone_drv.c:197:0: warning: ignoring #pragma arm section [-Wunknown-pragmas]
+driver/audio/src/v1/tone_drv.c: In function 'dtmf_dsp_end':
+driver/audio/src/v1/tone_drv.c:395:33: warning: variable 'TONE_CTRL2' set but not used [-Wunused-but-set-variable]
+driver/audio/src/v1/tone_drv.c:395:21: warning: variable 'TONE_CTRL1' set but not used [-Wunused-but-set-variable]
+driver/audio/src/v1/tone_drv.c:403:7: warning: passing argument 1 of 'dtmf_dsp_TurnOffDSP' makes integer from pointer without a cast [enabled by default]
+driver/audio/src/v1/tone_drv.c:320:13: note: expected 'kal_uint32' but argument is of type 'void *'
+driver/audio/src/v1/tone_drv.c:407:7: warning: passing argument 2 of 'L1Audio_InProcCall' makes integer from pointer without a cast [enabled by default]
+driver/audio/src/v1/inc/media.h:424:6: note: expected 'kal_uint32' but argument is of type 'void *'
+driver/audio/src/v1/tone_drv.c: In function 'TONE_DspPlayable':
+driver/audio/src/v1/tone_drv.c:700:4: warning: implicit declaration of function 'AM_IsAudioPlaybackOn' [-Wimplicit-function-declaration]
+driver/audio/src/v1/tone_drv.c:710:4: warning: pointer targets in passing argument 2 of 'AFE_DigitalOnly_GetOutputVolume' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/inc/afe_def.h:295:6: note: expected 'kal_uint8 *' but argument is of type 'kal_int8 *'
+driver/audio/src/v1/tone_drv.c:697:14: warning: unused variable 'uVolume' [-Wunused-variable]
+driver/audio/src/v1/tone_drv.c: In function 'TONE_Play':
+driver/audio/src/v1/tone_drv.c:766:7: warning: implicit declaration of function 'DTMF_MCU_Play' [-Wimplicit-function-declaration]
+driver/audio/src/v1/tone_drv.c: In function 'TONE_Stop':
+driver/audio/src/v1/tone_drv.c:841:10: warning: implicit declaration of function 'DTMF_MCU_Stop' [-Wimplicit-function-declaration]
+driver/audio/src/v1/tone_drv.c: In function 'KT_DspPlayable':
+driver/audio/src/v1/tone_drv.c:913:4: warning: pointer targets in passing argument 2 of 'AFE_DigitalOnly_GetOutputVolume' differ in signedness [-Wpointer-sign]
+driver/audio/src/v1/inc/afe_def.h:295:6: note: expected 'kal_uint8 *' but argument is of type 'kal_int8 *'
+driver/audio/src/v1/tone_drv.c:900:14: warning: unused variable 'uVolume' [-Wunused-variable]
+driver/audio/src/v1/tone_drv.c: In function 'KT_SetOutputDevice':
+driver/audio/src/v1/tone_drv.c:931:4: warning: implicit declaration of function 'DTMF_MCU_IsKeytonePlaying' [-Wimplicit-function-declaration]
+driver/audio/src/v1/tone_drv.c:933:7: warning: implicit declaration of function 'DTMF_MCU_StopAndWait' [-Wimplicit-function-declaration]
+driver/audio/src/v1/tone_drv.c: In function 'KT_Play':
+driver/audio/src/v1/tone_drv.c:1006:7: warning: implicit declaration of function 'DTMF_MCU_IsTonePlaying' [-Wimplicit-function-declaration]
+driver/audio/src/v1/tone_drv.c: In function 'KT_StopAndWait':
+driver/audio/src/v1/tone_drv.c:1116:14: warning: unused variable 'I' [-Wunused-variable]
+driver/audio/src/v1/tone_drv.c: In function 'KT_IsPlayable':
+driver/audio/src/v1/tone_drv.c:1168:7: warning: implicit declaration of function 'AFE_GetOutputVolume' [-Wimplicit-function-declaration]
+driver/audio/src/v1/tone_drv.c: At top level:
+driver/audio/src/v1/tone_drv.c:1204:0: warning: ignoring #pragma arm section [-Wunknown-pragmas]
+driver/audio/src/v1/tone_drv.c: In function 'KT_IsPlayable':
+driver/audio/src/v1/tone_drv.c:1202:1: warning: control reaches end of non-void function [-Wreturn-type]
+Compiling driver/audio/src/v1/vm.c ...
+driver/audio/src/v1/vm.c: In function 'vmRecordHisr':
+driver/audio/src/v1/vm.c:1131:7: warning: implicit declaration of function 'SP4G_IsGCodecMode' [-Wimplicit-function-declaration]
+driver/audio/src/v1/vm.c: In function 'vmTchRecordHisr':
+driver/audio/src/v1/vm.c:1767:11: warning: variable 'is3G' set but not used [-Wunused-but-set-variable]
+driver/audio/src/v1/vm.c: In function 'vmRecordHisr':
+driver/audio/src/v1/vm.c:1142:43: warning: 'I' may be used uninitialized in this function [-Wuninitialized]
+Compiling driver/audio/src/v1/wm8904_config.c ...
+Module audio is in DEFALUT mode
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/l1audio_trace.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/l1audio_trace.obj mtk_rel/HCT6737M_65_N/LWG_DSDS/dhl/l1trace/l1audio_trace.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/l1audio_trace.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/audio_create.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/audio_create.obj driver/audio/src/audio_create.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/audio_create.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/ExtBgSnd.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/ExtBgSnd.obj driver/audio/src/v1/ExtBgSnd.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/ExtBgSnd.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/DTMF_drv.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/DTMF_drv.obj driver/audio/src/v1/DTMF_drv.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/DTMF_drv.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/VoLTETone.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/VoLTETone.obj driver/audio/src/v1/VoLTETone.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/VoLTETone.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/afe_common.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/afe_common.obj driver/audio/src/v1/afe_common.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/afe_common.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/afe_6735.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/afe_6735.obj driver/audio/src/v1/afes/afe_6735.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/afe_6735.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/am.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/am.obj driver/audio/src/v1/am.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/am.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/amr_table.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/amr_table.obj driver/audio/src/v1/amr_table.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/amr_table.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/audio_idma.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/audio_idma.obj driver/audio/src/v1/audio_idma.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/audio_idma.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/audio_service.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/audio_service.obj driver/audio/src/v1/audio_service.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/audio_service.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/bt_sco_drv.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/bt_sco_drv.obj driver/audio/src/v1/bt_sco_drv.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/bt_sco_drv.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/ctm_drv.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/ctm_drv.obj driver/audio/src/v1/ctm_drv.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/ctm_drv.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/l1audio_sph_srv.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/l1audio_sph_srv.obj driver/audio/src/v1/l1audio_sph_srv.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/l1audio_sph_srv.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/media.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/media.obj driver/audio/src/v1/media.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/media.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/pcm4way.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/pcm4way.obj driver/audio/src/v1/pcm4way.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/pcm4way.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/pcmRouter.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/pcmRouter.obj driver/audio/src/v1/pcmRouter.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/pcmRouter.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/pcmrb.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/pcmrb.obj driver/audio/src/v1/pcmrb.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/pcmrb.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/pcmrec_drv.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/pcmrec_drv.obj driver/audio/src/v1/pcmrec_drv.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/pcmrec_drv.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/rawpcmrec_drv.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/rawpcmrec_drv.obj driver/audio/src/v1/rawpcmrec_drv.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/rawpcmrec_drv.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/sal_dsp.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/sal_dsp.obj driver/audio/src/v1/sal_dsp.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/sal_dsp.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/sal_exp.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/sal_exp.obj driver/audio/src/v1/sal_exp.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/sal_exp.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/sal_impl.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/sal_impl.obj driver/audio/src/v1/sal_impl.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/sal_impl.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/sidetone.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/sidetone.obj driver/audio/src/v1/sidetone.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/sidetone.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/sp_3g.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/sp_3g.obj driver/audio/src/v1/sp_3g.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/sp_3g.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/sp_4g.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/sp_4g.obj driver/audio/src/v1/sp_4g.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/sp_4g.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/sp_daca.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/sp_daca.obj driver/audio/src/v1/sp_daca.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/sp_daca.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/sp_drv.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/sp_drv.obj driver/audio/src/v1/sp_drv.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/sp_drv.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/sp_enhance.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/sp_enhance.obj driver/audio/src/v1/sp_enhance.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/sp_enhance.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/spc_drv.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/spc_drv.obj driver/audio/src/v1/spc_drv.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/spc_drv.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/spc_io.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/spc_io.obj driver/audio/src/v1/spc_io.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/spc_io.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/streamrb.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/streamrb.obj driver/audio/src/v1/streamrb.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/streamrb.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/tone_drv.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/tone_drv.obj driver/audio/src/v1/tone_drv.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/tone_drv.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/vm.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/vm.obj driver/audio/src/v1/vm.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/vm.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio.via @./build/HCT6737M_65_N/LWG_DSDS/bin/via/audio_inc.via -c -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -fno-delete-null-pointer-checks -Wall -c -mno-unaligned-access -fshort-wchar -MMD -MF ./build/HCT6737M_65_N/LWG_DSDS/bin/dep/audio/wm8904_config.d -o ./build/HCT6737M_65_N/LWG_DSDS/bin/obj/audio/wm8904_config.obj driver/audio/src/v1/wm8904_config.c 2>>./build/HCT6737M_65_N/LWG_DSDS/bin/log/audio/wm8904_config.log
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-ar: creating ./build/HCT6737M_65_N/LWG_DSDS/bin/lib/libaudio.a
+./build/HCT6737M_65_N/LWG_DSDS/bin/lib/libaudio.a is updated
+make[1]: Leaving directory '/media/snowcat/ANDROID/modem'

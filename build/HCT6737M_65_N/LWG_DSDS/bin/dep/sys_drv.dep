@@ -1,0 +1,304 @@
+#UPDATE#
+bootarm_gcc.obj:	driver/sys_drv/init/src/bootarm_gcc.S \
+	interface/driver/sys_drv/asm_def.h \
+	driver/regbase/inc/reg_base.h \
+	driver/regbase/inc/reg_base_mt6735_md1.h \
+	driver/sys_drv/init/inc/bootarm.h \
+	driver/sys_drv/init/inc/bootarm_var_gcc.inc \
+	driver/sys_drv/init/inc/bootarm_gcc.inc
+#ENDUPDATE#
+#UPDATE#
+cache.obj:	driver/sys_drv/cache/src/cache.c \
+	driver/sys_drv/cache/inc/cache_drv_region.h \
+	driver/sys_drv/cache/inc/cache_hw_int.h \
+	driver/sys_drv/cache/inc/cache_sw_int.h \
+	interface/service/kal/kal_general_types.h \
+	interface/service/kal/clib.h \
+	interface/service/kal/clib_list.h \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_scatstruct.h \
+	driver/sys_drv/init/inc/init.h \
+	interface/service/dhl/kal_trace.h \
+	interface/service/dhl/dhl_trace.h \
+	interface/service/kal/kal_public_defs.h \
+	interface/service/config/stack_config.h \
+	interface/sap/hisr_modid.h \
+	interface/sap/module_id_range.h \
+	interface/sap/cross_core/global_modid_range.h \
+	interface/sap/module_hisrid_range.h \
+	interface/service/config/hisr_config_internal.h \
+	interface/sap/cross_core/global_modid.h \
+	interface/sap/cross_core/md1_module_config.h \
+	interface/sap/cross_core/md2_module_config.h \
+	interface/sap/cross_core/md3_module_config.h \
+	interface/sap/srv_modid.h \
+	interface/service/config/srv_task_config.h \
+	interface/sap/modem_2g3g_modid.h \
+	interface/service/config/modem_2g3g_task_config.h \
+	interface/sap/modem_4g_modid.h \
+	interface/service/config/modem_4g_task_config.h \
+	interface/sap/middleware_modid.h \
+	interface/service/config/middleWare_task_config.h \
+	interface/sap/drv_modid.h \
+	interface/service/config/drv_task_config.h \
+	interface/service/config/stack_msgs.h \
+	interface/service/sys_svc/init_public.h \
+	interface/driver/peripheral/drv_comm.h \
+	driver/drv_def/drv_features.h \
+	driver/drv_def/drv_features_usb.h \
+	driver/drv_def/drv_features_chip_select.h \
+	driver/drv_def/drv_features_6735.h \
+	driver/drv_def/drv_features_i2c.h \
+	driver/drv_def/drv_features_accdet.h \
+	driver/drv_def/drv_features_adc.h \
+	driver/drv_def/drv_features_pfc.h \
+	driver/drv_def/drv_features_gcu.h \
+	driver/drv_def/drv_features_gpt.h \
+	driver/drv_def/drv_features_pwm.h \
+	driver/drv_def/drv_features_rtc.h \
+	driver/drv_def/drv_features_wdt.h \
+	driver/drv_def/drv_features_uart.h \
+	driver/drv_def/drv_features_gpio.h \
+	driver/drv_def/drv_features_bmt.h \
+	driver/drv_def/drv_features_misc.h \
+	driver/drv_def/drv_features_msdc.h \
+	driver/drv_def/drv_features_sim.h \
+	driver/drv_def/drv_features_spi.h \
+	driver/drv_def/drv_features_hif.h \
+	driver/drv_def/drv_features_f32k.h \
+	interface/sap/md_drv_sap.h \
+	interface/sap/sap_range.h \
+	interface/sap/cross_core/global_sap_range.h \
+	interface/driver/sys_drv/cache_sw.h \
+	interface/driver/sys_drv/cp15.h \
+	interface/driver/sys_drv/mmu.h \
+	driver/sys_drv/cache/inc/mmu_int.h \
+	driver/sys_drv/init/inc/system_trc.h \
+	build/HCT6737M_65_N/LWG_DSDS/dhl/database/pstrace_db/system_trc_gen.h \
+	driver/sys_drv/init/inc/init_trc_api.h \
+	driver/sys_drv/pmu/inc/mcu_pmu_montr.h \
+	driver/sys_drv/pmu/inc/cr4_pmu_montr.h \
+	driver/sys_drv/init/inc/init_trc_id.h \
+	interface/driver/sys_drv/ccci.h \
+	interface/service/hif/ccci_if.h \
+	interface/service/kal/kal_public_api.h \
+	interface/middleware/hif/hif_ior.h \
+	interface/service/qmu_bm/qmu_bm.h \
+	interface/service/qmu_bm/qbm_features.h \
+	interface/service/qmu_bm/qmu_bm_enum.h \
+	interface/service/qmu_bm/qmu_bm_in.h \
+	interface/service/qmu_bm/qmu_bm_size.h \
+	interface/service/hif/ccci_ch_cfg.h \
+	interface/service/hif/ccci_sysmsgsvc_conf.h \
+	interface/service/hif/ccci_misc_data_conf.h \
+	interface/service/hif/ccci_excep_memory_region.h \
+	interface/service/hif/ccci_fs_if.h \
+	interface/service/fs/fs_type.h \
+	interface/service/fs/fs_gprot.h \
+	interface/service/nvram/nvram_defs.h \
+	build/HCT6737M_65_N/LWG_DSDS/nvram_auto_gen/nvram_lid_statistics.h \
+	interface/service/nvram/nvram_enums.h \
+	interface/service/sst/ex_mem_manager_public.h \
+	driver/sys_drv/init/inc/config_hw.h \
+	driver/sys_drv/cache/inc/mpu.h \
+	driver/sys_drv/cache/inc/cache_dbg.h
+#ENDUPDATE#
+#UPDATE#
+cortexr4-dormantMode_gcc.obj:	driver/sys_drv/dormant/src/cortexr4-dormantMode_gcc.S \
+	driver/sys_drv/dormant/src/cortexr4_dorm_macros_gcc.hs \
+	driver/sys_drv/dormant/src/cortexr4_dorm_arch_macros_gcc.hs
+#ENDUPDATE#
+#UPDATE#
+cp15_gcc.obj:	driver/sys_drv/cache/src/cp15_gcc.S \
+	driver/sys_drv/cache/inc/cp15_drv_region_gcc.inc \
+	driver/sys_drv/cache/src/cr4_cp15_gcc.inc
+#ENDUPDATE#
+#UPDATE#
+cr4_pmu_montr.obj:	driver/sys_drv/pmu/src/cr4_pmu_montr.c
+#ENDUPDATE#
+#UPDATE#
+dormant_service.obj:	driver/sys_drv/dormant/src/dormant_service.c \
+	driver/sys_drv/dormant/inc/dormant_mode.h \
+	service/sst/include/SST_sla.h \
+	driver/devdrv/us_counter/inc/us_timer.h \
+	driver/devdrv/us_counter/inc/us_timer_v2.h \
+	interface/driver/devdrv/cpu/cpu.h \
+	interface/modem/l1/gsm/external/l1_interface.h \
+	service/sst/include/SST_Concurrent_utility.h \
+	interface/service/sst/swla_public.h \
+	driver/devdrv/bus/inc/bus_drv.h \
+	driver/devdrv/bus/inc/bus_drv_v2.h \
+	driver/devdrv/bus_err/inc/drv_bus_err.h
+#ENDUPDATE#
+#UPDATE#
+idle_task.obj:	driver/sys_drv/init/src/idle_task.c \
+	interface/service/config/syscomp_config.h \
+	interface/service/config/stack_types.h \
+	interface/service/config/hisr_config.h \
+	interface/service/config/task_config.h \
+	interface/service/stacklib/lcd_ip_cqueue.h \
+	service/kal/common/include/kal_internal_api.h \
+	interface/sap/module_taskid_range.h \
+	service/kal/common/include/kal_error_code.h \
+	service/nucleus_v2/inc/nucleus.h \
+	service/nucleus_v2/inc/esal_extern.h \
+	service/nucleus_v2/inc/esal_ge_com_defs.h \
+	service/nucleus_v2/inc/esal_ge_cfg.h \
+	service/nucleus_v2/inc/esal_ar_cfg.h \
+	service/nucleus_v2/inc/esal_ts_cfg.h \
+	service/nucleus_v2/inc/esal_co_cfg.h \
+	service/nucleus_v2/inc/esal_pr_cfg.h \
+	service/nucleus_v2/inc/esal_dp_cfg.h \
+	service/nucleus_v2/inc/esal_ge_dbg_defs.h \
+	service/nucleus_v2/inc/esal_ar_dbg_defs.h \
+	service/nucleus_v2/inc/esal_ge_int_defs.h \
+	service/nucleus_v2/inc/esal_ar_int_defs.h \
+	service/nucleus_v2/inc/esal_ge_isr_defs.h \
+	service/nucleus_v2/inc/esal_ar_isr_defs.h \
+	service/nucleus_v2/inc/esal_ge_mem_defs.h \
+	service/nucleus_v2/inc/esal_ge_stk_defs.h \
+	service/nucleus_v2/inc/esal_ar_stk_defs.h \
+	service/nucleus_v2/inc/esal_ts_stk_defs.h \
+	service/nucleus_v2/inc/esal_ts_rte_defs.h \
+	service/nucleus_v2/inc/esal_ge_tmr_defs.h \
+	service/nucleus_v2/inc/esal_ar_tmr_defs.h \
+	service/nucleus_v2/inc/esal_pr_tmr_defs.h \
+	service/nucleus_v2/inc/esal_ge_rte_defs.h \
+	service/nucleus_v2/inc/plus_cfg.h \
+	service/nucleus_v2/inc/er_extr.h \
+	service/nucleus_v2/inc/cs_defs.h \
+	service/nucleus_v2/inc/tm_defs.h \
+	service/nucleus_v2/inc/tc_defs.h \
+	service/nucleus_v2/inc/mb_defs.h \
+	service/nucleus_v2/inc/qu_defs.h \
+	service/nucleus_v2/inc/pi_defs.h \
+	service/nucleus_v2/inc/sm_defs.h \
+	service/nucleus_v2/inc/ev_defs.h \
+	service/nucleus_v2/inc/pm_defs.h \
+	service/nucleus_v2/inc/dm_defs.h \
+	service/nucleus_v2/inc/tm_extr.h \
+	service/nucleus_v2/inc/zc_extr.h \
+	service/kal/nucleus/include/kal_nucleus_common_defs.h \
+	service/kal/nucleus/include/kal_nucleus.h \
+	service/kal/common/include/kal_debug_common_defs.h \
+	service/kal/nucleus/include/kal_debug_nucleus.h \
+	service/kal/common/include/kal_debug.h
+#ENDUPDATE#
+#UPDATE#
+info.obj:	driver/sys_drv/init/src/info.c \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_MemoryDevice.h \
+	custom/driver/common/flash_opt.h \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_FeatureConfig.h \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/flash_opt_gen.h \
+	interface/driver/sys_drv/emi_sw.h \
+	interface/driver/sys_drv/emi_hw.h \
+	driver/devdrv/emi/inc/emi_hw_internal.h \
+	interface/driver/sys_drv/sync_data.h \
+	driver/devdrv/emi/inc/emi_sw_internal.h \
+	interface/driver/sys_drv/info.h \
+	interface/driver/storage/flash_cfi.h
+#ENDUPDATE#
+#UPDATE#
+init.obj:	driver/sys_drv/init/src/init.c \
+	driver/devdrv/pll/inc/pll.h \
+	driver/devdrv/pll/inc/pll_mt6735.h \
+	interface/driver/sys_drv/intrCtrl.h \
+	driver/devdrv/cirq_v2/inc/intrCtrl_MT6735.h \
+	driver/devdrv/cirq_v2/inc/irqid.h \
+	driver/devdrv/cirq_v2/inc/irqid_MT6735.h \
+	driver/devdrv/cirq_v2/inc/drv_mdcirq.h \
+	interface/driver/sys_drv/isrentry.h \
+	driver/devdrv/cirq_v2/inc/drv_mdcirq_reg.h \
+	driver/devdrv/cirq_v1/inc/intrCtrl_SW_Handle.h \
+	driver/devdrv/cirq_v2/inc/intrCtrl_MT6735_SW_Handle.h \
+	interface/service/config/stack_buff_pool.h \
+	interface/service/fs/fat_fs.h \
+	interface/driver/peripheral/bmt.h \
+	interface/driver/peripheral/dcl.h \
+	interface/driver/peripheral/dcl_gpt.h \
+	interface/driver/peripheral/dcl_gpio.h \
+	interface/driver/peripheral/dcl_uart.h \
+	interface/modem/general/cmux_vp_num.h \
+	interface/common/global_def.h \
+	interface/driver/peripheral/dcl_wdt.h \
+	interface/driver/peripheral/dcl_adc.h \
+	interface/driver/peripheral/dcl_bmt.h \
+	interface/driver/peripheral/dcl_pfc.h \
+	interface/driver/peripheral/dcl_rtc.h \
+	interface/driver/peripheral/dcl_i2c.h \
+	interface/driver/peripheral/dcl_i2c_owner.h \
+	interface/driver/peripheral/dcl_aux.h \
+	interface/driver/peripheral/dcl_pwm.h \
+	interface/driver/peripheral/DclH_kbd.h \
+	interface/driver/peripheral/DclS_kbd.h \
+	interface/driver/peripheral/dcl_sts.h \
+	interface/driver/peripheral/dcl_msdc.h \
+	interface/driver/connectivity/usb_driver/dcl_usb_drv.h \
+	interface/driver/connectivity/usb_driver/dcl_usb_hcd.h \
+	interface/driver/connectivity/usb_driver/dcl_otg_drv.h \
+	interface/driver/peripheral/dcl_irda.h \
+	interface/driver/peripheral/dcl_sim.h \
+	interface/driver/peripheral/dcl_pmu.h \
+	interface/driver/peripheral/dcl_pw.h \
+	interface/driver/peripheral/dcl_chr_det.h \
+	interface/driver/peripheral/dcl_pxs.h \
+	interface/driver/peripheral/dcl_sim_gpio.h \
+	interface/driver/peripheral/dcl_f32k_clk.h \
+	interface/driver/peripheral/dcl_idc.h \
+	interface/driver/peripheral/adc_cali.h \
+	interface/driver/peripheral/wdt_hw_public.h \
+	driver/peripheral/inc/wdt_sw.h \
+	driver/peripheral/inc/wdt_hw.h \
+	driver/devdrv/pdn/inc/drvpdn.h \
+	driver/devdrv/pdn/inc/drvpdn_inline.h \
+	driver/devdrv/pdn/inc/drvpdn_inline_mt6735.h \
+	driver/devdrv/pdn/inc/pdn_hw_mt6735_series.h \
+	service/sys_svc/bootloader/inc/br_header_block.h \
+	service/sss/interface/inc/br_sw_types.h \
+	service/sss/interface/inc/sw_types.h \
+	service/sys_svc/gfh/public/br_GFH.h \
+	service/sys_svc/gfh/public/br_GFH_file_info.h \
+	service/sys_svc/gfh/public/br_GFH_epp_param.h \
+	service/sys_svc/dp/inc/page.h \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_demp.h \
+	service/sys_svc/bootloader/inc/bl_features.h \
+	driver/sys_drv/init/inc/feature_def.h \
+	service/sys_svc/bootloader/inc/bl_common.h \
+	service/sys_svc/bootloader/inc/bl_FOTA.h \
+	service/sys_svc/bootloader/inc/bl_loader.h \
+	service/sys_svc/bootloader/inc/bl_nfi_wrapper.h \
+	service/sys_svc/bootloader/inc/bl_NFI.h \
+	service/sys_svc/bootloader/inc/bl_setting.h \
+	service/sys_svc/bootloader/inc/bl_status.h \
+	service/sys_svc/bootloader/inc/bl_custom.h \
+	interface/driver/peripheral/kbd_table.h \
+	service/sst/include/ex_item.h \
+	interface/service/sst/ex_public.h \
+	service/sys_svc/profile/inc/br_time_stamp.h \
+	service/sys_svc/profile/inc/br_time_stamp_cb.h \
+	service/sys_svc/profile/inc/maui_time_stamp_id.h \
+	service/sys_svc/profile/inc/maui_time_stamp_util.h \
+	driver/sleep_drv/public/inc/RM_public.h \
+	interface/service/config/multiboot_config.h \
+	interface/service/hif/hmu.h \
+	interface/service/hif/hmu_conf_data.h \
+	interface/driver/sleep_drv/ostd_public.h \
+	service/sys_svc/dspfm_lte/inc/dspfm.h \
+	driver/devdrv/cfgctl/inc/drv_cfgctl.h \
+	interface/driver/devdrv/pcmon/drv_pcmon.h \
+	interface/driver/devdrv/mdipc/cc_irq_public.h \
+	interface/driver/devdrv/busmon/drv_busmon.h \
+	interface/driver/devdrv/busmon/busmon_reg.h
+#ENDUPDATE#
+#UPDATE#
+init_comm.obj:	driver/sys_drv/init/src/init_comm.c \
+	service/sst/include/SST_init.h
+#ENDUPDATE#
+#UPDATE#
+init_trc.obj:	driver/sys_drv/init/src/init_trc.c
+#ENDUPDATE#
+#UPDATE#
+mpu.obj:	driver/sys_drv/cache/src/mpu.c \
+	build/HCT6737M_65_N/LWG_DSDS/custom/system/custom_EMI_release.h \
+	driver/sys_drv/cache/inc/mpu_custom_region.h \
+	driver/sys_drv/cache/inc/mpu_custom_region_MT6735.h
+#ENDUPDATE#

@@ -1,0 +1,43 @@
+Input:
+./build/HCT6737M_65_N/LWG_DSDS/bin/HCT6737M_65_N_MDBIN_PCB01_MT6735_S00.map
+./build/HCT6737M_65_N/LWG_DSDS/bin/HCT6737M_65_N_MDBIN_PCB01_MT6735_S00.sym
+./build/HCT6737M_65_N/LWG_DSDS/custom/system/ldsHCT6737M_65_N.txt
+./build/HCT6737M_65_N/LWG_DSDS/custom/system
+build/HCT6737M_65_N/LWG_DSDS/bin/~HCT6737M_65_N(LWG_DSDS).mak
+./build/HCT6737M_65_N/LWG_DSDS/tmp/~ModemReservedSize_AutoConfig.tmp
+./build/HCT6737M_65_N/LWG_DSDS/tmp/AAPMC.log
+./build/HCT6737M_65_N/LWG_DSDS/bin/log/infomake.log
+./build/HCT6737M_65_N/LWG_DSDS/tmp/~copro_info.tmp
+-----------------------------------------------------------------
+Check if it's able to adjust(1):
+bEnableAutoConfig      = 1
+bHasHistory            = 0
+SupportedMDAutoConfig  = (LoadView=1 or RamSize=1)
+bSupportedCompiler     = 1
+bTCMOnlyLoad           = 0
+AutoConfig is enabled
+----------------------------Auto Adjust--------------------------
+Actual ROM(Load View) Size = 0x951988
+current ROM Length in LDS= 0xd00000
+current RAM Origin in LDS = 0xd00000
+current RAM Length in LDS= 0x2b00000
+current 1stER in ram = EXTSRAM, VMA=0xd00000
+current RAM Usage = 0x24be5d4
+current RAM Reserved Sizes = 0x40000
+current RAM Margin = 0x601a2c
+current at least Margin setting = 0x80000
+expected ROM Sizes = 0xa00000
+expected VRAM Base = 0xa00000
+expected RAM Sizes = 0x2600000
+expected MD Sizes to be 1MB aligned:
+expected MD_LV Sizes to be 2MB aligned:
+expected MD Sizes(ROM+RAM) = 0x3000000 = 48 MB 
+-----------------------------------------------------------------
+[PrepareFileToModify]copy ./custom/system/Template/lds_config/ldsTemplate/MEMORY/MT6735_MD1.txt 
+to ./build/HCT6737M_65_N/LWG_DSDS/custom/system/Template/lds_config/ldsTemplate/MEMORY/MT6735_MD1.txt
+Modify ROM Length = 0xa00000
+Modify RAM ORIGIN = 0xa00000
+Modify RAM Length = 0x2600000
+Generate ./build/HCT6737M_65_N/LWG_DSDS/custom/system/Template/lds_config/ldsTemplate/MEMORY/MT6735_MD1.txt successfully!
+-----------------------------------------------------------------
+RESULT = [4]AUTOCONFIG_SELF_MODIFY_SUCCESS, PASS
